@@ -1,0 +1,10 @@
+{
+  "typeName": "normal",
+  "playMode": "biga",
+  "tableConf": {
+      "maxSeatN": 5,
+      "showBigATime": 8,
+      "sendCardsInterval": 1,
+      "voteDissolutionTime": 60
+  }
+}

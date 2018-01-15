@@ -1,0 +1,5 @@
+{
+	"log_path" : "/home/zhoux/log",
+	"log_level" : 0,
+    "log_server" : ["http://127.0.0.1:10001"]
+}

@@ -1,0 +1,69 @@
+{
+    "templates": [
+        {
+        	"name": "youle",
+            "inviteRewardItem": {
+                "itemId": "item:4346",
+                "count": 6
+            },
+            "gotoTitle": "体验游戏送房卡啦",
+            "gotoDesc": "要至少体验一把游戏才有房卡送哦，快和我一起来游戏吧。",
+            "gotoUrl": "http://www.shediao.com/youle/gamelist.html",
+            "inviteTitle": "可以和亲友一起游戏的麻将",
+            "inviteDesc": "玩自建桌本地麻将，报我ID(\\${rewardContent})就领取6张房卡",
+            "inviteUrl": "http://www.shediao.com/youle/gamelist.html"
+        },
+        {
+        	"name": "youle_nanchang",
+            "inviteRewardItem": {
+                "itemId": "item:6001",
+                "count": 6
+            },
+            "gotoTitle": "体验游戏送房卡啦",
+            "gotoDesc": "要至少体验一把游戏才有房卡送哦，快和我一起来游戏吧。",
+            "gotoUrl": "http://www.shediao.com/landing/nanchang.html",
+            "inviteTitle": "可以和亲友一起游戏的麻将",
+            "inviteDesc": "玩自建桌本地麻将，报我ID(\\${rewardContent})就领取6张房卡",
+            "inviteUrl": "http://www.shediao.com/landing/nanchang.html"
+        },
+        {
+        	"name": "youle_fuzhou",
+            "inviteRewardItem": {
+                "itemId": "item:6001",
+                "count": 6
+            },
+            "gotoTitle": "体验游戏送房卡啦",
+            "gotoDesc": "要至少体验一把游戏才有房卡送哦，快和我一起来游戏吧。",
+            "gotoUrl": "http://www.shediao.com/landing/fuzhou.html",
+            "inviteTitle": "可以和亲友一起游戏的麻将",
+            "inviteDesc": "玩自建桌本地麻将，报我ID(\\${rewardContent})就领取6张房卡",
+            "inviteUrl": "http://www.shediao.com/landing/fuzhou.html"
+        },
+        {
+            "name": "wanyiba_hunan",
+            "inviteRewardItem": {
+                "itemId": "item:6108",
+                "count": 6
+            },
+            "gotoTitle": "体验游戏送房卡啦",
+            "gotoDesc": "要至少体验一把游戏才有房卡送哦，快和我一起来游戏吧。",
+            "gotoUrl": "http://www.shediao.com/landing/hn_wyb.html",
+            "inviteTitle": "可以和亲友一起玩牌的棋牌合集",
+            "inviteDesc": "玩自建桌本地麻将，报我ID(\\${rewardContent})就领取6张房卡",
+            "inviteUrl": "http://www.shediao.com/landing/hn_wyb.html"
+        },
+        {
+        	"name": "youle_poyang",
+            "inviteRewardItem": {
+                "itemId": "item:6001",
+                "count": 6
+            },
+            "gotoTitle": "体验游戏送房卡啦",
+            "gotoDesc": "要至少体验一把游戏才有房卡送哦，快和我一起来游戏吧。",
+            "gotoUrl": "http://www.shediao.com/landing/poyang.html",
+            "inviteTitle": "可以和亲友一起游戏的麻将",
+            "inviteDesc": "玩自建桌本地麻将，报我ID(\\${rewardContent})就领取6张房卡",
+            "inviteUrl": "http://www.shediao.com/landing/poyang.html"
+        }
+    ]
+}

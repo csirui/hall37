@@ -1,0 +1,143 @@
+{
+ "templates"   : [
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 716010701,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 716010703,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 716010702,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 716011802,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    }
+   ],
+   "name"        : "mdjmj_v3.90_AI_mdjmj"
+  }
+ ],
+ "promotions"  : [
+  {
+   "promotionId" : 716010701,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "todotask.showInfo",
+     "info"        : "买卡加微信: mdjmj01  \n诚招代理微信:mdjmj01 \n"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "牡丹江麻将商城",
+   "url"         : "http://df.dl.shediao.com/cdn37/majiang/difang/icon/maifangka_90_90.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 716010702,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "subTextExt"  : "好友",
+     "subText"     : "朋友圈",
+     "subCmd"      : {
+      "shareId"     : 71699,
+      "typeId"      : "todotask.sharegift.with.shareId"
+     },
+     "subCmdExt"   : {
+      "shareId"     : 71698,
+      "typeId"      : "todotask.sharegift.with.shareId"
+     },
+     "allowClose"  : true,
+     "typeId"      : "todotask.showInfo",
+     "info"        : "最地道的牡丹江麻将\n快找人来整几圈"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "牡丹江麻将分享",
+   "url"         : "${http_download}/majiang/difang/icon/fenxiang_hrb.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 716010703,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "gameType"    : 11,
+       "tasks"       : [
+        {
+         "action"      : "pop_create_room_jianyi",
+         "params"      : { }
+        }
+       ]
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 716,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "建议收集",
+   "url"         : "${http_download}/majiang/difang/icon/tiyijian_90_90.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 716011801,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "todotask.simple.invite"
+    }
+   ],
+   "redPoint"    : [
+    {
+     "typeId"      : "user.cond.HasFreeMark"
+    }
+   ],
+   "displayName" : "牡丹江麻将邀请有礼",
+   "url"         : "http://df.dl.shediao.com/cdn37/majiang/difang/icon/hrb-free-coin.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 716011802,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "subStore"    : "coin",
+     "typeId"      : "hall.goto.shop"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "牡丹江商城",
+   "url"         : "http://df.dl.shediao.com/cdn37/majiang/difang/icon/hrb-coin-mall.png",
+   "defaultRes"  : ""
+  }
+ ]
+}

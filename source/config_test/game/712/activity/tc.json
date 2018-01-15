@@ -1,0 +1,63 @@
+{
+ "templates"                  : {
+  "zhaotongmj_v3.901_AI_tishen": {
+   "desc"                       : "昭通提审模板",
+   "activities"                 : [
+    "ztmj_jk"
+   ]
+  }
+ },
+ "activities"                 : {
+  "ztmj_jk"                    : {
+   "id"                         : "ztmj_jk",
+   "des"                        : "适度娱乐休闲，远离非法赌博！",
+   "moduleId"                   : "general_btn",
+   "typeid"                     : 1,
+   "name"                       : "健康游戏公告",
+   "server_config"              : {
+    "start"                      : "2017-01-23 20:05:02",
+    "end"                        : "2017-05-01 00:00:00"
+   },
+   "config"                     : {
+    "button"                     : {
+     "visible"                    : "true",
+     "todoTask"                   : "",
+     "URL"                        : ""
+    },
+    "bgURL"                      : "${http_download}/paohuzi/act/complete/notice_img/phzzjz_jkd.jpg"
+   }
+  },
+  "qilezhaotong_jk"            : {
+   "id"                         : "qilezhaotong_jk",
+   "des"                        : "适度娱乐休闲，远离非法赌博！",
+   "moduleId"                   : "notice_img",
+   "typeid"                     : 1,
+   "name"                       : "健康游戏公告",
+   "server_config"              : {
+    "start"                      : "2016-12-13 00:00:00",
+    "end"                        : "2016-12-20 00:00:00"
+   },
+   "config"                     : {
+    "firstButton"                : {
+     "visible"                    : 0,
+     "action"                     : "",
+     "params"                     : {
+      "duration"                   : 2,
+      "text"                       : "确定"
+     }
+    },
+    "secondButton"               : {
+     "visible"                    : 0,
+     "action"                     : "",
+     "params"                     : {
+      "duration"                   : 2,
+      "text"                       : "确定"
+     }
+    },
+    "bgURL"                      : "${http_download}/paohuzi/act/complete/notice_img/phzzjz_jkd.jpg"
+   },
+   "url"                        : ""
+  }
+ },
+ "modules"                    : { }
+}

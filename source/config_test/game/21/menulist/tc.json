@@ -1,0 +1,16 @@
+{
+ "templates"                  : {
+  "phz_v3.783_AI_difang_tishen": [
+   "activity",
+   "message",
+   "bag",
+   "settings"
+  ],
+  "phz_v3.783_AI_zijianzhuo"   : [
+   "activity",
+   "message",
+   "bag",
+   "settings"
+  ]
+ }
+}

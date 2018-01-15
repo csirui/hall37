@@ -1,0 +1,173 @@
+{
+ "templates"                        : {
+  "gdy_v3.901_AI_diandiangdy"        : {
+   "desc"                             : "干瞪眼活动模板（健康游戏公告）",
+   "activities"                       : [
+    "diandian_gdy_hongbaojianqun170210",
+    "diandian_gdy_naoyuanxiao170210",
+    "diandian_gdy_zmdljm",
+    "diandian_gdy_xinjkyxgg"
+   ]
+  },
+  "gdy_v3.902_AI_diandiangdy"        : {
+   "desc"                             : "干瞪眼提审模板",
+   "activities"                       : [
+    "diandian_gdy_xinjkyxgg"
+   ]
+  },
+  "gdy_v3.901_AI_gdy"                : {
+   "desc"                             : "干瞪眼1",
+   "activities"                       : [
+    "sqy_gdy_jk"
+   ]
+  }
+ },
+ "activities"                       : {
+  "diandian_gdy_jkyxgg"              : {
+   "id"                               : "diandian_gdy_jkyxgg",
+   "des"                              : "健康游戏公告",
+   "moduleId"                         : "general_btn",
+   "typeid"                           : 1,
+   "name"                             : "健康游戏公告",
+   "server_config"                    : {
+    "start"                            : "2016-12-30 00:00:00",
+    "end"                              : "2018-02-01 00:00:00"
+   },
+   "config"                           : {
+    "button"                           : {
+     "visible"                          : "true",
+     "todoTask"                         : "",
+     "URL"                              : ""
+    },
+    "bgURL"                            : "${http_download}/majiang/images/ads/mjdf_jkd.jpg"
+   }
+  },
+  "diandian_gdy_yxndlsfk"            : {
+   "id"                               : "diandian_gdy_yxndlsfk",
+   "des"                              : "2017.1.25-2017.1.30号，每日登陆游戏都可领取2张免费房卡，机不可失失不再来！",
+   "moduleId"                         : "general_btn",
+   "typeid"                           : 1,
+   "name"                             : "免费送房卡",
+   "server_config"                    : {
+    "start"                            : "2017-01-24 00:00:00",
+    "end"                              : "2017-01-31 00:00:00"
+   },
+   "config"                           : {
+    "button"                           : {
+     "visible"                          : "true",
+     "todoTask"                         : "",
+     "URL"                              : ""
+    },
+    "bgURL"                            : "${http_download}/majiang/difang/ads/yxndlsfkduan.jpg"
+   }
+  },
+  "sqy_gdy_jk"                       : {
+   "id"                               : "sqy_gdy_jk",
+   "des"                              : "适度休闲娱乐，远离非法赌博。",
+   "moduleId"                         : "notice_img",
+   "typeid"                           : 1,
+   "name"                             : "健康游戏公告",
+   "server_config"                    : {
+    "start"                            : "2016-12-16 00:00:00",
+    "end"                              : "2019-12-31 00:00:00"
+   },
+   "config"                           : {
+    "firstButton"                      : {
+     "visible"                          : 0,
+     "action"                           : "",
+     "params"                           : {
+      "duration"                         : 2,
+      "text"                             : "确定"
+     }
+    },
+    "secondButton"                     : {
+     "visible"                          : 0,
+     "action"                           : "",
+     "params"                           : {
+      "duration"                         : 2,
+      "text"                             : "确定"
+     }
+    },
+    "bgURL"                            : "${http_download}/majiang/images/ads/mjdf_jkd.jpg"
+   },
+   "url"                              : ""
+  },
+  "diandian_gdy_hongbaojianqun170210": {
+   "id"                               : "diandian_gdy_hongbaojianqun170210",
+   "des"                              : "建群免费和亲友对战，稳赚200元现金红包！",
+   "moduleId"                         : "general_btn",
+   "typeid"                           : 1,
+   "name"                             : "建群领红包",
+   "server_config"                    : {
+    "start"                            : "2017-02-10 00:00:00",
+    "end"                              : "2017-02-17 00:00:00"
+   },
+   "config"                           : {
+    "button"                           : {
+     "visible"                          : "true",
+     "todoTask"                         : "",
+     "URL"                              : ""
+    },
+    "bgURL"                            : "${http_download}/majiang/difang/ads/hongbaoduizhanduan.jpg"
+   }
+  },
+  "diandian_gdy_zmdljm"              : {
+   "id"                               : "diandian_gdy_zmdljm",
+   "des"                              : "诚招代理加盟",
+   "moduleId"                         : "general_btn",
+   "typeid"                           : 1,
+   "name"                             : "诚招代理加盟",
+   "server_config"                    : {
+    "start"                            : "2017-01-13 00:00:00",
+    "end"                              : "2018-01-18 00:00:00"
+   },
+   "config"                           : {
+    "button"                           : {
+     "visible"                          : "true",
+     "todoTask"                         : "",
+     "URL"                              : ""
+    },
+    "bgURL"                            : "${http_download}/majiang/difang/ads/czdlduan-2.jpg"
+   }
+  },
+  "diandian_gdy_xinjkyxgg"           : {
+   "id"                               : "diandian_gdy_xinjkyxgg",
+   "des"                              : "健康游戏公告",
+   "moduleId"                         : "general_btn",
+   "typeid"                           : 1,
+   "name"                             : "健康游戏公告",
+   "server_config"                    : {
+    "start"                            : "2017-01-12 00:00:00",
+    "end"                              : "2018-01-24 00:00:00"
+   },
+   "config"                           : {
+    "button"                           : {
+     "visible"                          : "true",
+     "todoTask"                         : "",
+     "URL"                              : ""
+    },
+    "bgURL"                            : "${http_download}/majiang/difang/ads/lvjkyxggduan.jpg"
+   }
+  },
+  "diandian_gdy_naoyuanxiao170210"   : {
+   "id"                               : "diandian_gdy_naoyuanxiao170210",
+   "des"                              : "2月11日-2月17日元宵节期间一起免费闹元宵，跑的快、麻将免费畅玩，快叫上伙伴们来玩吧！",
+   "moduleId"                         : "general_btn",
+   "typeid"                           : 1,
+   "name"                             : "闹元宵免费玩",
+   "server_config"                    : {
+    "start"                            : "2017-02-10 00:00:00",
+    "end"                              : "2018-02-23 00:00:00"
+   },
+   "config"                           : {
+    "button"                           : {
+     "visible"                          : "true",
+     "todoTask"                         : "",
+     "URL"                              : ""
+    },
+    "bgURL"                            : "${http_download}/majiang/difang/ads/naoyuanxiaoduan.jpg"
+   }
+  }
+ },
+ "modules"                          : { }
+}

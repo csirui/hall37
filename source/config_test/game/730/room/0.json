@@ -1,0 +1,74 @@
+{
+  "730801" : {
+    "controlServerCount" : 1,
+    "controlTableCount" : 0,
+    "gameServerCount" : 4,
+    "gameTableCount" : 500
+  },
+  "730803" : {
+    "controlServerCount" : 1,
+    "controlTableCount" : 0,
+    "gameServerCount" : 2,
+    "gameTableCount" : 500
+  },
+  "730901" : {
+    "controlServerCount" : 1,
+    "controlTableCount" : 0,
+    "gameServerCount" : 1,
+    "gameTableCount" : 500
+  },
+  "730903" : {
+    "controlServerCount" : 1,
+    "controlTableCount" : 0,
+    "gameServerCount" : 1,
+    "gameTableCount" : 500
+  },
+  "730104" : {
+    "controlServerCount" : 1,
+    "controlTableCount" : 0,
+    "gameServerCount" : 4,
+    "gameTableCount" : 500
+  },
+  "730103" : {
+    "controlServerCount" : 1,
+    "controlTableCount" : 0,
+    "gameServerCount" : 2,
+    "gameTableCount" : 500
+  },
+  "730114" : {
+    "controlServerCount" : 1,
+    "controlTableCount" : 0,
+    "gameServerCount" : 1,
+    "gameTableCount" : 500
+  },
+  "730113" : {
+    "controlServerCount" : 1,
+    "controlTableCount" : 0,
+    "gameServerCount" : 1,
+    "gameTableCount" : 500
+  },
+  "730124" : {
+    "controlServerCount" : 1,
+    "controlTableCount" : 0,
+    "gameServerCount" : 4,
+    "gameTableCount" : 500
+  },
+  "730123" : {
+    "controlServerCount" : 1,
+    "controlTableCount" : 0,
+    "gameServerCount" : 2,
+    "gameTableCount" : 500
+  },
+  "730134" : {
+    "controlServerCount" : 1,
+    "controlTableCount" : 0,
+    "gameServerCount" : 1,
+    "gameTableCount" : 500
+  },
+  "730133" : {
+    "controlServerCount" : 1,
+    "controlTableCount" : 0,
+    "gameServerCount" : 1,
+    "gameTableCount" : 500
+  }
+}

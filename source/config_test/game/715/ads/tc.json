@@ -1,0 +1,46 @@
+{
+ "templates"                         : {
+  "kawuxing_v3.901_AI_kawuxingmajiang": {
+   "interval"                          : 5,
+   "name"                              : "kawuxing_v3.901_AI_kawuxingmajiang",
+   "ads"                               : [
+    715021501
+   ]
+  },
+  "kawuxing_v3.902_AI_hbmj"           : {
+   "interval"                          : 5,
+   "name"                              : "kawuxing_v3.902_AI_hbmj",
+   "ads"                               : [
+    715122901
+   ]
+  }
+ },
+ "ads"                               : [
+  {
+   "startTime"                         : "2016-12-29 00:00:00",
+   "id"                                : 715122901,
+   "todotasks"                         : [
+    {
+     "actId"                             : "lailai_kwx_xinjkyxgg",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/majiang/difang/ads/lvjkyxggchang.jpg",
+   "endTime"                           : "2018-01-25 00:00:00"
+  },
+  {
+   "startTime"                         : "2017-02-15 00:00:00",
+   "id"                                : 715021501,
+   "todotasks"                         : [
+    {
+     "actId"                             : "lailai_kwx_dlhuodongtu",
+     "typeId"                            : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                         : 1,
+   "pic"                               : "${http_download}/majiang/difang/ads/lailaichang.png",
+   "endTime"                           : "2018-02-28 00:00:00"
+  }
+ ]
+}

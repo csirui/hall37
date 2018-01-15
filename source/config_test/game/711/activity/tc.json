@@ -1,0 +1,108 @@
+{
+ "templates"                  : {
+  "qujingmj_v3.90_AI_qujing"   : {
+   "desc"                       : "曲靖飞小鸡",
+   "activities"                 : [
+    "act_qujing_df_qingrenjie",
+    "activity_majiang_shanximj_jiankang"
+   ]
+  },
+  "qujingmj_v3.9001_AI_qujing" : {
+   "desc"                       : "曲靖3.9001IOS提审模板",
+   "activities"                 : [
+    "activity_majiang_shanximj_jiankang"
+   ]
+  }
+ },
+ "activities"                 : {
+  "act_qujing_df_qingrenjie"   : {
+   "id"                         : "act_qujing_df_qingrenjie",
+   "des"                        : "情人节免费畅玩 2月14日0时至2月15日24时",
+   "moduleId"                   : "general_btn",
+   "typeid"                     : 1,
+   "name"                       : "情人节免费畅玩",
+   "server_config"              : {
+    "start"                      : "2017-02-14 00:00:00",
+    "end"                        : "2017-02-16 00:00:00"
+   },
+   "config"                     : {
+    "button"                     : {
+     "visible"                    : "true",
+     "todoTask"                   : "",
+     "URL"                        : ""
+    },
+    "bgURL"                      : "${http_download}/majiang/difang/act/qujing_qingrenjie_20170213.jpg"
+   }
+  },
+  "act_qujing_df_fankui"       : {
+   "id"                         : "act_qujing_df_fankui",
+   "des"                        : "反馈bug有奖",
+   "moduleId"                   : "general_btn",
+   "typeid"                     : 1,
+   "name"                       : "反馈有奖",
+   "server_config"              : {
+    "start"                      : "2017-01-06 00:00:00",
+    "end"                        : "2017-01-14 00:00:00"
+   },
+   "config"                     : {
+    "button"                     : {
+     "visible"                    : "true",
+     "todoTask"                   : "",
+     "URL"                        : ""
+    },
+    "bgURL"                      : "${http_download}/majiang/difang/act/qujing_fankui_20170106.jpg"
+   }
+  },
+  "activity_qujing_df_jiankang": {
+   "id"                         : "activity_qujing_df_jiankang",
+   "des"                        : "合理休闲娱乐，远离非法赌博",
+   "moduleId"                   : "notice_img",
+   "typeid"                     : 1,
+   "name"                       : "健康游戏提示",
+   "server_config"              : {
+    "start"                      : "2016-07-16 00:00:00",
+    "end"                        : "2019-07-25 00:00:00"
+   },
+   "config"                     : {
+    "firstButton"                : {
+     "visible"                    : 0,
+     "action"                     : "",
+     "params"                     : {
+      "duration"                   : 2,
+      "text"                       : "确定"
+     }
+    },
+    "secondButton"               : {
+     "visible"                    : 0,
+     "action"                     : "",
+     "params"                     : {
+      "duration"                   : 2,
+      "text"                       : "确定"
+     }
+    },
+    "bgURL"                      : "${http_download}/majiang/images/ads/mjdf_jkd.jpg"
+   },
+   "url"                        : ""
+  },
+  "act_qujing_df_tuijian"      : {
+   "id"                         : "act_qujing_df_tuijian",
+   "des"                        : "推荐代理有奖",
+   "moduleId"                   : "general_btn",
+   "typeid"                     : 1,
+   "name"                       : "推荐代理有奖",
+   "server_config"              : {
+    "start"                      : "2017-01-06 00:00:00",
+    "end"                        : "2017-01-27 00:00:00"
+   },
+   "config"                     : {
+    "button"                     : {
+     "visible"                    : "true",
+     "todoTask"                   : "",
+     "URL"                        : ""
+    },
+    "bgURL"                      : "${http_download}/majiang/difang/act/qujing_tuijian_20170106.jpg"
+   }
+  }
+ },
+ "modules"                    : { }
+}

@@ -1,0 +1,66 @@
+{
+ "templates"                 : {
+  "qujingmj_v3.9001_AI_qujing": {
+   "interval"                  : 5,
+   "name"                      : "qujingmj_v3.9001_AI_qujing",
+   "ads"                       : [
+    711120101,
+    711021401
+   ]
+  }
+ },
+ "ads"                       : [
+  {
+   "startTime"                 : "2016-12-01 00:00:00",
+   "id"                        : 711120101,
+   "todotasks"                 : [
+    {
+     "actId"                     : "activity_qujing_df_jiankang",
+     "typeId"                    : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                 : 1,
+   "pic"                       : "${http_download}/paohuzi/ads/imgs/phzzjz_jkx.jpg",
+   "endTime"                   : "2019-12-31 00:00:00"
+  },
+  {
+   "startTime"                 : "2017-01-06 00:00:00",
+   "id"                        : 711010601,
+   "todotasks"                 : [
+    {
+     "actId"                     : "act_qujing_df_fankui",
+     "typeId"                    : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                 : 1,
+   "pic"                       : "${http_download}/majiang/difang/ads/ad_qujing_fankui_20170106.jpg",
+   "endTime"                   : "2017-01-14 00:00:00"
+  },
+  {
+   "startTime"                 : "2017-01-06 00:00:00",
+   "id"                        : 711010602,
+   "todotasks"                 : [
+    {
+     "actId"                     : "act_qujing_df_tuijian",
+     "typeId"                    : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                 : 1,
+   "pic"                       : "${http_download}/majiang/difang/ads/ad_qujing_tuijian_20170106.jpg",
+   "endTime"                   : "2017-01-27 00:00:00"
+  },
+  {
+   "startTime"                 : "2017-02-14 00:00:00",
+   "id"                        : 711021401,
+   "todotasks"                 : [
+    {
+     "actId"                     : "act_qujing_df_qingrenjie",
+     "typeId"                    : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                 : 1,
+   "pic"                       : "${http_download}/majiang/difang/ads/ad_qujing_qingrenjie_20170213.jpg",
+   "endTime"                   : "2017-02-16 00:00:00"
+  }
+ ]
+}

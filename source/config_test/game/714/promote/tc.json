@@ -1,0 +1,143 @@
+{
+ "templates"   : [
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 714010303,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 714010302,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 714011901,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 714011801,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    }
+   ],
+   "name"        : "jixi_v3.901_AI_jiximajiang"
+  }
+ ],
+ "promotions"  : [
+  {
+   "promotionId" : 714010301,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "subTextExt"  : "好友",
+     "subText"     : "朋友圈",
+     "subCmd"      : {
+      "shareId"     : 71499,
+      "typeId"      : "todotask.sharegift.with.shareId"
+     },
+     "subCmdExt"   : {
+      "shareId"     : 71498,
+      "typeId"      : "todotask.sharegift.with.shareId"
+     },
+     "allowClose"  : true,
+     "typeId"      : "todotask.showInfo",
+     "info"        : "最地道的鸡西麻将\n快找人来整几把"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "鸡西麻将分享推广位",
+   "url"         : "${http_download}/majiang/difang/icon/fenxiang_hrb.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 714010302,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "gameType"    : 11,
+       "tasks"       : [
+        {
+         "action"      : "pop_create_room_jianyi",
+         "params"      : { }
+        }
+       ]
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 714,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "鸡西麻将建议收集",
+   "url"         : "${http_download}/majiang/difang/icon/tiyijian_90_90.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 714010303,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "todotask.showInfo",
+     "info"        : "买卡加微信: ddjxmj01 \n诚招代理微信:ddjxmj01"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "鸡西麻将商城",
+   "url"         : "http://df.dl.shediao.com/cdn37/majiang/difang/icon/maifangka_90_90.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 714011801,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "subStore"    : "coin",
+     "typeId"      : "hall.goto.shop"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "鸡西麻将金币商城",
+   "url"         : "http://df.dl.shediao.com/cdn37/majiang/difang/icon/hrb-coin-mall.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 714011901,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "todotask.simple.invite"
+    }
+   ],
+   "redPoint"    : [
+    {
+     "typeId"      : "user.cond.HasFreeMark"
+    }
+   ],
+   "displayName" : "鸡西麻将邀请有利",
+   "url"         : "http://df.dl.shediao.com/cdn37/majiang/difang/icon/hrb-free-coin.png",
+   "defaultRes"  : ""
+  }
+ ]
+}

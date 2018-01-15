@@ -1,0 +1,44 @@
+{
+    "templates": {
+        "biga_tishen": {
+            "desc": "健康游戏提示-提审模板",
+            "activities": [
+                "biga_3.7_tishen"
+            ]
+        }
+    },
+    "activities": {
+        "biga_3.7_tishen": {
+            "id": "biga_3.7_tishen",
+            "des": "如果您对我们的游戏有什么问题或者建议，欢迎联系我们的客服，客服电话：4008098000",
+            "moduleId": "notice_img",
+            "typeid": 1,
+            "name": "健康游戏",
+            "server_config": {
+                "start": "2016-01-30 00:00:00",
+                "end": "2017-02-10 00:00:00"
+            },
+            "config": {
+                "firstButton": {
+                    "visible": 0,
+                    "action": "",
+                    "params": {
+                        "duration": 2,
+                        "text": "确定"
+                    }
+                },
+                "secondButton": {
+                    "visible": 0,
+                    "action": "",
+                    "params": {
+                        "duration": 2,
+                        "text": "确定"
+                    }
+                },
+                "bgURL": "${http_download}/biga/images/act/biga_tishen_659x453.png"
+            },
+            "url": ""
+        }
+    },
+    "modules": {}
+}

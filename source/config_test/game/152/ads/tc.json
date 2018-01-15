@@ -1,0 +1,26 @@
+{
+    "templates": {
+        "biga_ads_tishen": {
+            "interval": 5,
+            "name": "biga_ads_tishen",
+            "ads": [
+                152102001
+            ]
+        }
+    },
+    "ads": [
+        {
+            "startTime": "2016-10-20 00:00:00",
+            "id": 152102001,
+            "todotasks": [
+                {
+                    "actId": "biga_3.7_tishen",
+                    "typeId": "hall.goto.activity.byid"
+                }
+            ],
+            "clickable": 1,
+            "pic": "${http_download}/biga/images/ads/1027xjdl.jpg",
+            "endTime": "2017-11-03 00:00:00"
+        }
+    ]
+}

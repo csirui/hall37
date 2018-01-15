@@ -1,0 +1,4187 @@
+{
+ "games"            : [
+  {
+   "versions"         : [
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、线上用非江西3.7798~"
+     ],
+     "md5"              : "239c37a02f75f9ede830ca17e0c53a80",
+     "ver"              : "3.7798",
+     "url"              : "http://ddz.dl.tuyoo.com/cdn37/majiang/difang/plugin/1119hnmj3.7798.zip",
+     "size"             : "11M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、江西麻将3.7799版本~"
+     ],
+     "md5"              : "2b44a457cf6fea5586d38c75d5799b86",
+     "ver"              : "3.7799",
+     "url"              : "${http_download}/majiang/difang/plugin/1119ncmj3.7799.zip",
+     "size"             : "8.0M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、江西麻将3.7795版本~"
+     ],
+     "md5"              : "1b4e4fa22e6dba205283e28f5ac863fc",
+     "ver"              : "3.9001",
+     "url"              : "${http_download}/majiang/difang/plugin/mj_3.9001jiangximaj.zip",
+     "size"             : "6.7M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、江西麻将3.9002版本~"
+     ],
+     "md5"              : "9fac766bf39f6c072bda16dc286acaa1",
+     "ver"              : "3.9002",
+     "url"              : "${http_download}/majiang/difang/plugin/ncmj_3.9002_1210.zip",
+     "size"             : "6.4M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、江西麻将3.9004版本~"
+     ],
+     "md5"              : "29af0bcfc9aef3c45f80eac2fd9c0935",
+     "ver"              : "3.9004",
+     "url"              : "${http_download}/majiang/difang/plugin/3.90042majiangjiangxi.zip",
+     "size"             : "6.9M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、江西麻将3.9007版本~"
+     ],
+     "md5"              : "6b7d5cfac817e2786a052cad17676ffc",
+     "ver"              : "3.9007",
+     "url"              : "${http_download}/majiang/difang/plugin/jiangxi_3.9007_majiang2.zip",
+     "size"             : "8.24M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、江西麻将3.9009版本~"
+     ],
+     "md5"              : "596db88ec86ce899f246f29365fd7607",
+     "ver"              : "3.9009",
+     "url"              : "${http_download}/majiang/difang/plugin/jiangxi_3.9009_majiang.zip",
+     "size"             : "8.12M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、江西麻将3.901版本~"
+     ],
+     "md5"              : "5cab6491c4d166b451302dc869735eca",
+     "ver"              : "3.901",
+     "url"              : "${http_download}/majiang/difang/plugin/ncmj3.901majiang.zip",
+     "size"             : "6.12M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、江西麻将3.9010版本~"
+     ],
+     "md5"              : "73835f502a80cfb521b6fc14c8fe6af8",
+     "ver"              : "3.9010",
+     "url"              : "${http_download}/majiang/difang/plugin/jiangxi_majiang2.zip",
+     "size"             : "8.3M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、江西麻将3.9011版本~"
+     ],
+     "md5"              : "a027a0d5c29deda8684d224d5f3b27bf",
+     "ver"              : "3.9011",
+     "url"              : "${http_download}/majiang/difang/plugin/jxmajiang_3.9011.zip",
+     "size"             : "8.3M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、麻将全集~"
+     ],
+     "md5"              : "8358e730ad823d47402513b892c1ecbe",
+     "ver"              : "3.9012",
+     "url"              : "${http_download}/majiang/difang/plugin/majiang3.9012_214.zip",
+     "size"             : "8.12M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、江西麻将3.9013版本~"
+     ],
+     "md5"              : "9404c9910c05ac392e7decc2740c92a7",
+     "ver"              : "3.9013",
+     "url"              : "${http_download}/majiang/difang/plugin/jxmajiang_3.9013.zip",
+     "size"             : "8.4M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、点点干瞪眼麻将"
+     ],
+     "md5"              : "81113930097b25afbc637b17a0b2bd75",
+     "ver"              : "3.9014",
+     "url"              : "${http_download}/majiang/difang/plugin/diandianmajiang_02_16_3.9014.zip",
+     "size"             : "8.4M"
+    }
+   ],
+   "description"      : [
+    "1、玩法最多的麻将游戏",
+    "2、奖励最多的麻将游戏"
+   ],
+   "gameId"           : 7,
+   "gameMark"         : "majiang"
+  }
+ ],
+ "templates"        : [
+  {
+   "des"              : "优乐-四川麻将",
+   "name"             : "majiang_v3.770_youlesc",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "sichuan_conf"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "四川场",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.7798",
+        "defaultRes"       : "MaJiangSichuan"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "guobiao"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "疯狂场",
+        "quitAlertName"    : "",
+        "version"          : "3.7798",
+        "defaultRes"       : "MaJiang4RenGuoBiao"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangEnterRoom"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "优乐-湖南麻将",
+   "name"             : "majiang_v3.770_AI_youlehn",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "zhuanzhuan"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "转转麻将",
+        "quitAlertName"    : "",
+        "version"          : "3.7798",
+        "defaultRes"       : "MaJiangZhuanZhuan"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "sichuan_conf"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "四川麻将",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.7798",
+        "defaultRes"       : "MaJiangSichuan"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "changsha"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "长沙麻将",
+        "quitAlertName"    : "",
+        "version"          : "3.7798",
+        "defaultRes"       : "MaJiangChangSha"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "hongzhong"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "红中麻将",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.7798",
+        "defaultRes"       : "MaJiangHongZhong"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangEnterRoom"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "优乐-贵阳捉鸡",
+   "name"             : "majiang_v3.770_youlegy",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "guiyang_zhuoji"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "贵阳捉鸡",
+        "quitAlertName"    : "",
+        "version"          : "3.7798",
+        "defaultRes"       : "MaJiangGuiYangZhuoJi"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "sichuan_conf"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "四川场",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.7798",
+        "defaultRes"       : "MaJiangSichuan"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangEnterRoom"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "三缺一-主包全",
+   "name"             : "majiang_v3.770_AI_sqymain",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "sichuan_conf"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "四川麻将",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.7798",
+        "defaultRes"       : "MaJiangSichuan"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "guiyang_zhuoji"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "贵阳捉鸡",
+        "quitAlertName"    : "",
+        "version"          : "3.7798",
+        "defaultRes"       : "MaJiangGuiYangZhuoJi"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "guobiao2ren"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "二人场",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.7798",
+        "defaultRes"       : "MaJiang2RenGuoBiao"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "hongzhong"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "红中麻将",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.7798",
+        "defaultRes"       : "MaJiangHongZhong"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangEnterRoom"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "萍乡麻将",
+   "name"             : "majiang_v3.777_pingxiang",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "zhuanzhuan"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "转转麻将",
+        "quitAlertName"    : "",
+        "version"          : "3.7798",
+        "defaultRes"       : "MaJiangZhuanZhuan"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "changsha"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "长沙麻将",
+        "quitAlertName"    : "",
+        "version"          : "3.7798",
+        "defaultRes"       : "MaJiangChangSha"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "hongzhong"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "红中麻将",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.7798",
+        "defaultRes"       : "MaJiangHongZhong"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "sichuan_conf"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "四川麻将",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.7798",
+        "defaultRes"       : "MaJiangSichuan"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangEnterRoom"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "南昌麻将模板",
+   "name"             : "majiang_v3.777_AI_ncmj",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangEnterRoom"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "fuzhou",
+          "le_an",
+          "yihuang",
+          "jinxi",
+          "lichuan",
+          "chongren",
+          "nancity",
+          "zixi"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/majiang_fuzhou.png",
+        "vipLevel"         : 0,
+        "gameName"         : "抚州麻将",
+        "quitAlertName"    : "",
+        "version"          : "3.9013",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "nanchang"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "南昌麻将",
+        "quitAlertName"    : "",
+        "version"          : "3.9013",
+        "defaultRes"       : "MaJiangNanChang"
+       },
+       "type"             : "game",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "ji_an",
+          "taihe",
+          "xingan_chongguan",
+          "xingan_bojing"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/jx_majiang_ji_an.png",
+        "vipLevel"         : 0,
+        "gameName"         : "吉安麻将",
+        "quitAlertName"    : "",
+        "version"          : "3.9013",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "jingdezhen"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/_0000_jingdezhen-icon---.png",
+        "vipLevel"         : 0,
+        "gameName"         : "景德镇",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9013",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "ganzhou"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/majiang_ganzhou.png",
+        "vipLevel"         : 0,
+        "gameName"         : "赣州麻将",
+        "quitAlertName"    : "",
+        "version"          : "3.9013",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      }
+     ]
+    },
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "poyang"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "鄱阳麻将",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9013",
+        "defaultRes"       : "MaJiangPoYang"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "deguo"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/deguo.png",
+        "vipLevel"         : 0,
+        "gameName"         : "德国麻将",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9013",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "hongzhong"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/_0001_hongzhong-icon.png",
+        "vipLevel"         : 0,
+        "gameName"         : "红中麻将",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9013",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "zhuanzhuan"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/_0000_zhuanzhuan-icon-.png",
+        "vipLevel"         : 0,
+        "gameName"         : "转转麻将",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9013",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "三缺一湖南麻将",
+   "name"             : "majiang_v3.777_AI_sqy_hn",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "changsha"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "长沙麻将",
+        "quitAlertName"    : "",
+        "version"          : "3.7798",
+        "defaultRes"       : "MaJiangChangSha"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "zhuanzhuan"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "转转麻将",
+        "quitAlertName"    : "",
+        "version"          : "3.7798",
+        "defaultRes"       : "MaJiangZhuanZhuan"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangEnterRoom"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "hongzhong"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "红中麻将",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.7798",
+        "defaultRes"       : "MaJiangHongZhong"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "测试专用模板1",
+   "name"             : "majiang_v3.900_AI_test_only",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "nodes"            : [
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "changsha",
+            "hongzhong",
+            "zhuanzhuan"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "长沙麻将",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.7798",
+          "defaultRes"       : "MaJiangChangSha"
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "zhuanzhuan"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "转转麻将",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.7798",
+          "defaultRes"       : "MaJiangZhuanZhuan"
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "hongzhong",
+            "zhuanzhuan"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "红中麻将",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.7798",
+          "defaultRes"       : "MaJiangHongZhong"
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        }
+       ],
+       "params"           : {
+        "gameId"           : 0,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "四川场",
+        "version"          : "3.778",
+        "defaultRes"       : "MaJiangBigCreateRoom"
+       },
+       "type"             : "package",
+       "typeId"           : "hall.gamenode.package"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangBigEnterRoom"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "3.9四川麻将",
+   "name"             : "majiang_v3.90_AI_scmj_aio",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "nodes"            : [
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "sichuan_conf",
+            "guobiao2ren"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "四川麻将",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.7798",
+          "defaultRes"       : "MaJiangSichuan"
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "guobiao2ren",
+            "sichuan_conf"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "二人麻将",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.7798",
+          "defaultRes"       : "MaJiang2RenGuoBiao"
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        }
+       ],
+       "params"           : {
+        "gameId"           : 0,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "四川场",
+        "version"          : "3.778",
+        "defaultRes"       : "MaJiangBigCreateRoom"
+       },
+       "type"             : "package",
+       "typeId"           : "hall.gamenode.package"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangBigEnterRoom"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "3.9南昌麻将",
+   "name"             : "majiang_v3.90_ncmj_aio",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "nodes"            : [
+        {
+         "conditions"       : [ ],
+         "todotasks"        : [
+          {
+           "gameType"         : 10,
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ],
+           "create_play_modes": [
+            "nanchang"
+           ]
+          }
+         ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "nanchang"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "南昌麻将",
+          "quitAlertName"    : "",
+          "version"          : "3.9010",
+          "defaultRes"       : "MaJiangNanChang"
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "deguo"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "德国麻将",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9010",
+          "defaultRes"       : "MaJiangDeGuo"
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "ji_an"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "吉安麻将",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9010",
+          "defaultRes"       : "MaJiangJiAn"
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "todotasks"        : [
+          {
+           "typeId"           : "todotask.showInfo",
+           "info"             : "敬请期待！！"
+          }
+         ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "fuzhou"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "抚州麻将",
+          "quitAlertName"    : "",
+          "version"          : "3.9010",
+          "defaultRes"       : "MaJiangFuZhou"
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "todotasks"        : [
+          {
+           "typeId"           : "todotask.showInfo",
+           "info"             : "敬请期待！！"
+          }
+         ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "ganzhou"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "赣州麻将",
+          "quitAlertName"    : "",
+          "version"          : "3.9010",
+          "defaultRes"       : "MaJiangGanZhou"
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "poyang"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "鄱阳麻将",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9010",
+          "defaultRes"       : "MaJiangPoYang"
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "yihuang"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "宜黄麻将",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9010",
+          "defaultRes"       : "MaJiangYiHuang"
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "jinxi"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/jx_majiang_jin_xi.png",
+          "vipLevel"         : 0,
+          "gameName"         : "金溪麻将",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9010",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "todotasks"        : [
+          {
+           "typeId"           : "todotask.showInfo",
+           "info"             : "敬请期待！！"
+          }
+         ],
+         "params"           : {
+          "nameUrl"          : "",
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "defaultRes"       : "PokerErQiWang"
+         },
+         "type"             : "todo_task",
+         "typeId"           : "hall.gamenode.todotask"
+        },
+        {
+         "conditions"       : [ ],
+         "todotasks"        : [
+          {
+           "typeId"           : "todotask.showInfo",
+           "info"             : "敬请期待！！"
+          }
+         ],
+         "params"           : {
+          "nameUrl"          : "",
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "defaultRes"       : "PokerSiTuan"
+         },
+         "type"             : "todo_task",
+         "typeId"           : "hall.gamenode.todotask"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "taihe"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/jx_majiang_tai_he_gunjing.png",
+          "vipLevel"         : 0,
+          "gameName"         : "泰和滚精",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9010",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "le_an"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/jx_majiang_le_an.png",
+          "vipLevel"         : 0,
+          "gameName"         : "乐安麻将",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9010",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        }
+       ],
+       "params"           : {
+        "gameId"           : 0,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "四川场",
+        "version"          : "3.778",
+        "defaultRes"       : "MaJiangBigCreateRoom"
+       },
+       "type"             : "package",
+       "typeId"           : "hall.gamenode.package"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangBigEnterRoom"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "3.9鄱阳麻将1",
+   "name"             : "majiang_v3.90_AI_poyangmajiang",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "poyang"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "鄱阳麻将",
+        "quitAlertName"    : "",
+        "version"          : "3.901",
+        "defaultRes"       : "MaJiangBigCreateRoom"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangBigEnterRoom"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "3.9湖南麻将",
+   "name"             : "majiang_v3.90_AI_youlehnmj",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "nodes"            : [
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "hongzhong"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "长沙麻将",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.7798",
+          "defaultRes"       : "MaJiangHongZhong"
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "zhuanzhuan"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "转转麻将",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.7798",
+          "defaultRes"       : "MaJiangZhuanZhuan"
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "changsha"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "长沙麻将",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.7798",
+          "defaultRes"       : "MaJiangChangSha"
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "guobiao2ren"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "二人麻将",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.7798",
+          "defaultRes"       : "MaJiang2RenGuoBiao"
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        }
+       ],
+       "params"           : {
+        "gameId"           : 0,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "四川场",
+        "version"          : "3.778",
+        "defaultRes"       : "MaJiangBigCreateRoom"
+       },
+       "type"             : "package",
+       "typeId"           : "hall.gamenode.package"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangBigEnterRoom"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "3.9湖南麻将测试模板",
+   "name"             : "majiang_v3.900_AI_youlehntest",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "nodes"            : [
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "hongzhong"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "长沙麻将",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.7798",
+          "defaultRes"       : "MaJiangHongZhong"
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "zhuanzhuan"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "转转麻将",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.7798",
+          "defaultRes"       : "MaJiangZhuanZhuan"
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "changsha"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "长沙麻将",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.7798",
+          "defaultRes"       : "MaJiangChangSha"
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "sichuan_conf",
+            "guiyang_zhuoji",
+            "guobiao2ren"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "麻将合集",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.7798",
+          "defaultRes"       : "MaJiangHeJi"
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        }
+       ],
+       "params"           : {
+        "gameId"           : 0,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "四川场",
+        "version"          : "3.778",
+        "defaultRes"       : "MaJiangBigCreateRoom"
+       },
+       "type"             : "package",
+       "typeId"           : "hall.gamenode.package"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangBigEnterRoom"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "湖南麻将2人测试配置",
+   "name"             : "majiang_v3.90_hnmj_2r",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "guobiao2ren",
+          "changsha",
+          "guiyang_zhuoji",
+          "sichuan_conf",
+          "zhuanzhuan",
+          "hongzhong"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "2人麻将",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.7798",
+        "defaultRes"       : "MaJiangBigCreateRoom"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangBigEnterRoom"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "南昌麻将测试",
+   "name"             : "majiang_v3.96_AI_ddncmj",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "nodes"            : [
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "koudian"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 720,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "扣点",
+          "quitAlert"        : 1,
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9001",
+          "defaultRes"       : "MaJiangKouDian"
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        }
+       ],
+       "params"           : {
+        "gameId"           : 0,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "南昌麻将",
+        "version"          : "3.901",
+        "defaultRes"       : "MaJiangFuZhou"
+       },
+       "type"             : "package",
+       "typeId"           : "hall.gamenode.package"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangBigEnterRoom"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "优乐南昌麻将提审模板",
+   "name"             : "majiang_v3.901_AI_youlencmj",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangEnterRoom"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      },
+      {
+       "conditions"       : [ ],
+       "nodes"            : [
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "fuzhou"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/jx_majiang_fu_zhou_shi.png",
+          "vipLevel"         : 0,
+          "gameName"         : "抚州市麻将",
+          "quitAlertName"    : "",
+          "version"          : "3.9013",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "le_an"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/jx_majiang_le_an.png",
+          "vipLevel"         : 0,
+          "gameName"         : "乐安麻将",
+          "quitAlertName"    : "",
+          "version"          : "3.9013",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "yihuang"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/_0000_yihuang-.png",
+          "vipLevel"         : 0,
+          "gameName"         : "宜黄麻将",
+          "quitAlertName"    : "",
+          "version"          : "3.9013",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "jinxi"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/_0001_jinxi-.png",
+          "vipLevel"         : 0,
+          "gameName"         : "金溪麻将",
+          "quitAlertName"    : "",
+          "version"          : "3.9013",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "lichuan"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/_0002_lichuan-.png",
+          "vipLevel"         : 0,
+          "gameName"         : "黎川麻将",
+          "quitAlertName"    : "",
+          "version"          : "3.9013",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "chongren"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/_0000_chongren-icon.png",
+          "vipLevel"         : 0,
+          "gameName"         : "崇仁麻将",
+          "quitAlertName"    : "",
+          "version"          : "3.9013",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "nancity"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/_0000_nancheng-icon.png",
+          "vipLevel"         : 0,
+          "gameName"         : "南城麻将",
+          "quitAlertName"    : "",
+          "version"          : "3.9013",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "zixi"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/_0000_zixi-.png",
+          "vipLevel"         : 0,
+          "gameName"         : "资溪麻将",
+          "quitAlertName"    : "",
+          "version"          : "3.9013",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        }
+       ],
+       "params"           : {
+        "gameId"           : 0,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/majiang_fuzhou.png",
+        "vipLevel"         : 0,
+        "gameName"         : "抚州麻将",
+        "version"          : "3.9001",
+        "defaultRes"       : ""
+       },
+       "type"             : "package",
+       "typeId"           : "hall.gamenode.package"
+      },
+      {
+       "conditions"       : [ ],
+       "nodes"            : [
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "nanchang"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "南昌麻将",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9013",
+          "defaultRes"       : "MaJiangNanChang"
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "todotasks"        : [
+          {
+           "typeId"           : "todotask.showInfo",
+           "info"             : "敬请期待！！"
+          }
+         ],
+         "params"           : {
+          "nameUrl"          : "",
+          "iconUrl"          : "${http_download}/majiang/difang/icon/_0001_erqiwang.png",
+          "vipLevel"         : 0,
+          "gameName"         : "二七王",
+          "version"          : "3.901",
+          "defaultRes"       : ""
+         },
+         "type"             : "todo_task",
+         "typeId"           : "hall.gamenode.todotask"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "deguo"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/deguo.png",
+          "vipLevel"         : 0,
+          "gameName"         : "德国麻将",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9013",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        }
+       ],
+       "params"           : {
+        "gameId"           : 0,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "南昌麻将",
+        "version"          : "3.9013",
+        "defaultRes"       : "MaJiangNanChang"
+       },
+       "type"             : "package",
+       "typeId"           : "hall.gamenode.package"
+      },
+      {
+       "conditions"       : [ ],
+       "nodes"            : [
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "ji_an"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/jx_majiang_ji_an_tuijing.png",
+          "vipLevel"         : 0,
+          "gameName"         : "吉安推精",
+          "quitAlertName"    : "",
+          "version"          : "3.9013",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "taihe"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/jx_majiang_tai_he_gunjing.png",
+          "vipLevel"         : 0,
+          "gameName"         : "泰和滚精",
+          "quitAlertName"    : "",
+          "version"          : "3.9013",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "xingan_chongguan"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/_0001_xingan_chongguan-icon.png",
+          "vipLevel"         : 0,
+          "gameName"         : "新干冲关",
+          "quitAlertName"    : "",
+          "version"          : "3.9013",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "xingan_bojing"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/_0000_xingan_bojing-icon.png",
+          "vipLevel"         : 0,
+          "gameName"         : "新干博精",
+          "quitAlertName"    : "",
+          "version"          : "3.9013",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        }
+       ],
+       "params"           : {
+        "gameId"           : 0,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/jx_majiang_ji_an.png",
+        "vipLevel"         : 0,
+        "gameName"         : "吉安麻将",
+        "version"          : "3.9001",
+        "defaultRes"       : ""
+       },
+       "type"             : "package",
+       "typeId"           : "hall.gamenode.package"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "jingdezhen"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/_0000_jingdezhen-icon---.png",
+        "vipLevel"         : 0,
+        "gameName"         : "景德镇麻将",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9013",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "ganzhou"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/majiang_ganzhou.png",
+        "vipLevel"         : 0,
+        "gameName"         : "赣州麻将",
+        "quitAlertName"    : "",
+        "version"          : "3.9013",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      }
+     ]
+    },
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "poyang"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "鄱阳麻将",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9013",
+        "defaultRes"       : "MaJiangPoYang"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameArgs"         : "pdk",
+         "gameType"         : "custom"
+        },
+        "nameUrl"          : "",
+        "gameId"           : 150,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/_0000_pdk.png",
+        "vipLevel"         : 0,
+        "gameName"         : "跑得快",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9030",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "hongzhong"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/_0001_hongzhong-icon.png",
+        "vipLevel"         : 0,
+        "gameName"         : "红中麻将",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9013",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "zhuanzhuan"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/_0000_zhuanzhuan-icon-.png",
+        "vipLevel"         : 0,
+        "gameName"         : "转转麻将",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9013",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "三缺一新疆麻将插件模板",
+   "name"             : "majiang_v3.901_AI_xjmj",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "sichuan_conf"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "四川麻将",
+        "quitAlertName"    : "",
+        "version"          : "3.7798",
+        "defaultRes"       : "MaJiangBigCreateRoom"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangBigEnterRoom"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "抚州麻将模板",
+   "name"             : "majiang_v3.901_AI_fzmj",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "fuzhou"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/_0005_fuzhou_shi.png",
+        "vipLevel"         : 0,
+        "gameName"         : "抚州麻将",
+        "quitAlertName"    : "",
+        "version"          : "3.9013",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "jinxi"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/_0003_jin_xi.png",
+        "vipLevel"         : 0,
+        "gameName"         : "宜黄麻将",
+        "quitAlertName"    : "",
+        "version"          : "3.9013",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "le_an"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/_0004_le_an.png",
+        "vipLevel"         : 0,
+        "gameName"         : "乐安麻将",
+        "quitAlertName"    : "",
+        "version"          : "3.9013",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "lichuan"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/_0002_li_chuan.png",
+        "vipLevel"         : 0,
+        "gameName"         : "黎川麻将",
+        "quitAlertName"    : "",
+        "version"          : "3.9013",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "yihuang"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/_0001_yi_huang.png",
+        "vipLevel"         : 0,
+        "gameName"         : "宜黄麻将",
+        "quitAlertName"    : "",
+        "version"          : "3.9013",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "${http_download}/majiang/difang/icon/_0000_enterroom.png",
+        "vipLevel"         : 0,
+        "defaultRes"       : ""
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    },
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "chongren"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/_0000_chongren-.png",
+        "vipLevel"         : 0,
+        "gameName"         : "崇仁麻将",
+        "quitAlertName"    : "",
+        "version"          : "3.9013",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "nancity"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/_0000_nancity--.png",
+        "vipLevel"         : 0,
+        "gameName"         : "南城麻将",
+        "quitAlertName"    : "",
+        "version"          : "3.9013",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "zixi"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/_0000_zixi.png",
+        "vipLevel"         : 0,
+        "gameName"         : "资溪麻将",
+        "quitAlertName"    : "",
+        "version"          : "3.9013",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "优乐南昌麻将测试模板",
+   "name"             : "majiang_v3.901_AI_youleceshi",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "nodes"            : [
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "nanchang"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "南昌麻将",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9001",
+          "defaultRes"       : "MaJiangNanChang"
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameArgs"         : "tsk",
+           "gameType"         : "11"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 151,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/_0001_erqiwang.png",
+          "vipLevel"         : 0,
+          "gameName"         : "二七王",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.901",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "deguo"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/deguo.png",
+          "vipLevel"         : 0,
+          "gameName"         : "德国麻将",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9001",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        }
+       ],
+       "params"           : {
+        "gameId"           : 0,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "南昌麻将",
+        "version"          : "3.9001",
+        "defaultRes"       : "MaJiangNanChang"
+       },
+       "type"             : "package",
+       "typeId"           : "hall.gamenode.package"
+      },
+      {
+       "conditions"       : [ ],
+       "nodes"            : [
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "fuzhou"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/jx_majiang_fu_zhou_shi.png",
+          "vipLevel"         : 0,
+          "gameName"         : "抚州市麻将",
+          "quitAlertName"    : "",
+          "version"          : "3.9001",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "le_an"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/jx_majiang_le_an.png",
+          "vipLevel"         : 0,
+          "gameName"         : "乐安麻将",
+          "quitAlertName"    : "",
+          "version"          : "3.9001",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "yihuang"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/_0000_yihuang-.png",
+          "vipLevel"         : 0,
+          "gameName"         : "宜黄麻将",
+          "quitAlertName"    : "",
+          "version"          : "3.9001",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "jinxi"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/_0001_jinxi-.png",
+          "vipLevel"         : 0,
+          "gameName"         : "金溪麻将",
+          "quitAlertName"    : "",
+          "version"          : "3.9001",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "lichuan"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/_0002_lichuan-.png",
+          "vipLevel"         : 0,
+          "gameName"         : "黎川麻将",
+          "quitAlertName"    : "",
+          "version"          : "3.9001",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "nancity"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/_0000_nancheng-icon.png",
+          "vipLevel"         : 0,
+          "gameName"         : "南城麻将",
+          "quitAlertName"    : "0",
+          "version"          : "3.9001",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "chongren"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/_0000_chongren-icon.png",
+          "vipLevel"         : 0,
+          "gameName"         : "崇仁麻将",
+          "quitAlertName"    : "",
+          "version"          : "3.9001",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "zixi"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/_0000_zixi-.png",
+          "vipLevel"         : 0,
+          "gameName"         : "资溪麻将",
+          "quitAlertName"    : "",
+          "version"          : "3.9001",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "nanfeng"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/nanfeng-icon.png",
+          "vipLevel"         : 0,
+          "gameName"         : "南丰麻将",
+          "quitAlertName"    : "",
+          "version"          : "3.9001",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        }
+       ],
+       "params"           : {
+        "gameId"           : 0,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/majiang_fuzhou.png",
+        "vipLevel"         : 0,
+        "gameName"         : "抚州麻将",
+        "version"          : "3.9001",
+        "defaultRes"       : ""
+       },
+       "type"             : "package",
+       "typeId"           : "hall.gamenode.package"
+      },
+      {
+       "conditions"       : [ ],
+       "nodes"            : [
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "ji_an"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/jx_majiang_ji_an_tuijing.png",
+          "vipLevel"         : 0,
+          "gameName"         : "吉安推精",
+          "quitAlertName"    : "",
+          "version"          : "3.9001",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "taihe"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/jx_majiang_tai_he_gunjing.png",
+          "vipLevel"         : 0,
+          "gameName"         : "泰和滚精",
+          "quitAlertName"    : "",
+          "version"          : "3.9001",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "xingan_chongguan"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/_0001_xingan_chongguan-icon.png",
+          "vipLevel"         : 0,
+          "gameName"         : "新干冲关",
+          "quitAlertName"    : "",
+          "version"          : "3.9001",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "xingan_bojing"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 7,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/_0000_xingan_bojing-icon.png",
+          "vipLevel"         : 0,
+          "gameName"         : "新干博精",
+          "quitAlertName"    : "",
+          "version"          : "3.9001",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        }
+       ],
+       "params"           : {
+        "gameId"           : 0,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/jx_majiang_ji_an.png",
+        "vipLevel"         : 0,
+        "gameName"         : "吉安麻将",
+        "version"          : "3.9001",
+        "defaultRes"       : ""
+       },
+       "type"             : "package",
+       "typeId"           : "hall.gamenode.package"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "poyang"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "鄱阳麻将",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9001",
+        "defaultRes"       : "MaJiangPoYang"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangEnterRoom"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "ganzhou"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/majiang_ganzhou.png",
+        "vipLevel"         : 0,
+        "gameName"         : "赣州麻将",
+        "quitAlertName"    : "",
+        "version"          : "3.9001",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      }
+     ]
+    },
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "deguo"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/deguo.png",
+        "vipLevel"         : 0,
+        "gameName"         : "德国麻将",
+        "quitAlertName"    : "",
+        "version"          : "3.9001",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "todotask.showInfo",
+         "info"             : "敬请期待！！"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "PokerSiTuan"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameArgs"         : "tsk",
+         "gameType"         : "11"
+        },
+        "nameUrl"          : "",
+        "gameId"           : 151,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/_0001_erqiwang.png",
+        "vipLevel"         : 0,
+        "gameName"         : "二七王",
+        "quitAlertName"    : "",
+        "version"          : "3.901",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameArgs"         : "pdk",
+         "gameType"         : "custom"
+        },
+        "nameUrl"          : "",
+        "gameId"           : 150,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/_0000_pdk.png",
+        "vipLevel"         : 0,
+        "gameName"         : "跑得快",
+        "quitAlertName"    : "（当quitAlert=1时有效",
+        "version"          : "3.9030",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "jingdezhen"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/_0000_jingdezhen-icon---.png",
+        "vipLevel"         : 0,
+        "gameName"         : "景德镇麻将",
+        "quitAlertName"    : "",
+        "version"          : "3.9001",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "hongzhong"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/_0001_hongzhong-icon.png",
+        "vipLevel"         : 0,
+        "gameName"         : "红中麻将",
+        "quitAlertName"    : "",
+        "version"          : "3.9001",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      }
+     ]
+    },
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "zhuanzhuan"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/_0000_zhuanzhuan-icon-.png",
+        "vipLevel"         : 0,
+        "gameName"         : "转转麻将",
+        "quitAlertName"    : "",
+        "version"          : "3.9001",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "玩一把湖南棋牌试用模板1",
+   "name"             : "majiang_v3.9001_AI_wybhnqp",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "nodes"            : [
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameArgs"         : "chenzhou",
+           "gameType"         : "custom"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 21,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/chenzhou.png",
+          "vipLevel"         : 0,
+          "gameName"         : "邵阳剥皮",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9013",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameArgs"         : "s6",
+           "gameType"         : "custom"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 21,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/s6.png",
+          "vipLevel"         : 0,
+          "gameName"         : "六胡抢",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9013",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameArgs"         : "anhua",
+           "gameType"         : "custom"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 21,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/anhuapaohuzi.png",
+          "vipLevel"         : 0,
+          "gameName"         : "安华跑胡子",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9013",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameArgs"         : "changde",
+           "gameType"         : "custom"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 21,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/changde.png",
+          "vipLevel"         : 0,
+          "gameName"         : "常德跑胡子",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9013",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameArgs"         : "youxian",
+           "gameType"         : "custom"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 21,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/youxian.png",
+          "vipLevel"         : 0,
+          "gameName"         : "攸县碰胡子",
+          "quitAlertName"    : "",
+          "version"          : "3.9013",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameArgs"         : "gao",
+           "gameType"         : "custom"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 21,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/xiangxiang.png",
+          "vipLevel"         : 0,
+          "gameName"         : "湘乡告胡子",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9013",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameArgs"         : "loudi",
+           "gameType"         : "custom"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 21,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/loudi.png",
+          "vipLevel"         : 0,
+          "gameName"         : "娄底放炮罚",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9013",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameArgs"         : "shaozi",
+           "gameType"         : "custom"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 21,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/shaozi.png",
+          "vipLevel"         : 0,
+          "gameName"         : "邵阳字牌",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9013",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameArgs"         : "huaihua",
+           "gameType"         : "custom"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 21,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/huaihua.png",
+          "vipLevel"         : 0,
+          "gameName"         : "怀化红拐弯",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9013",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        }
+       ],
+       "params"           : {
+        "gameId"           : 0,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/xiuxianpaohuzi.png",
+        "vipLevel"         : 0,
+        "defaultRes"       : ""
+       },
+       "type"             : "package",
+       "typeId"           : "hall.gamenode.package"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "zhuanzhuan"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/xiuxianzhuanzhuan.png",
+        "vipLevel"         : 0,
+        "gameName"         : "转转麻将",
+        "quitAlertName"    : "",
+        "version"          : "3.7798",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameArgs"         : "pdk",
+         "gameType"         : "custom"
+        },
+        "nameUrl"          : "",
+        "gameId"           : 150,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/xiuxianpaodekuai.png",
+        "vipLevel"         : 0,
+        "gameName"         : "跑得快",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9030",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "hongzhong"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/xiuxianhongzhong.png",
+        "vipLevel"         : 0,
+        "gameName"         : "红中麻将",
+        "quitAlertName"    : "",
+        "version"          : "3.7798",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "${http_download}/majiang/difang/icon/xiuxianjiarupaizhuo.png",
+        "vipLevel"         : 0,
+        "defaultRes"       : ""
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "优乐鄱阳麻将",
+   "name"             : "majiang_v3.901_AI_youle_pymj",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "poyang"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/_0001_pymj--icon-2.png",
+        "vipLevel"         : 0,
+        "gameName"         : "鄱阳麻将",
+        "quitAlertName"    : "",
+        "version"          : "3.9013",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "${http_download}/majiang/difang/icon/_0000_pymj--icon-1.png",
+        "vipLevel"         : 0,
+        "defaultRes"       : ""
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

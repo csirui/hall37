@@ -1,0 +1,247 @@
+{
+ "games"            : [
+  {
+   "versions"         : [
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "卡五星"
+     ],
+     "md5"              : "e8a0ae0a590cb2fc815bf8fc00294fb9",
+     "ver"              : "3.9001",
+     "url"              : "http://ddz.dl.tuyoo.com/cdn37/majiang/difang/plugin/kawuxing3.9001.zip",
+     "size"             : "6.2M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "卡五星"
+     ],
+     "md5"              : "0a0d4390801169adc5de6847f11142d2",
+     "ver"              : "3.9002",
+     "url"              : "http://ddz.dl.tuyoo.com/cdn37/majiang/difang/plugin/lailaikawuxing_1_3_3.9002.zip",
+     "size"             : "6.67M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "卡五星"
+     ],
+     "md5"              : "c176a90ed21c261f98a8a0e6683f151d",
+     "ver"              : "3.9003",
+     "url"              : "http://ddz.dl.tuyoo.com/cdn37/majiang/difang/plugin/lailaikawuxing_1_12_3.9003.zip",
+     "size"             : "6.28M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "卡五星"
+     ],
+     "md5"              : "9f28acbd6c0776d1ea530468d558b5cc",
+     "ver"              : "3.9004",
+     "url"              : "http://ddz.dl.tuyoo.com/cdn37/majiang/difang/plugin/lailaikawuxing_1_20_3.9004.zip",
+     "size"             : "6.68M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "卡五星"
+     ],
+     "md5"              : "793ef3f30fbaa7cfa6c22ad56e148692",
+     "ver"              : "3.9005",
+     "url"              : "http://ddz.dl.tuyoo.com/cdn37/majiang/difang/plugin/lailaikawuxing_1_23_3.9005.zip",
+     "size"             : "6.68M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "卡五星"
+     ],
+     "md5"              : "235524c59157ae5659906eec6d8b06e8",
+     "ver"              : "3.9006",
+     "url"              : "http://ddz.dl.tuyoo.com/cdn37/majiang/difang/plugin/lailaikawuxing_02_17_3.9006.zip",
+     "size"             : "6.51M"
+    }
+   ],
+   "description"      : [
+    "1、湖北卡五星麻将"
+   ],
+   "gameId"           : 715,
+   "gameMark"         : "kawuxing"
+  }
+ ],
+ "templates"        : [
+  {
+   "des"              : "来来湖北卡五星1",
+   "name"             : "kawuxing_v3.901_AI_hubei_kawuxing_lailai",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "kawuxing#xiangyang"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 715,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/lailaikwxhjtb.png",
+        "vipLevel"         : 0,
+        "gameName"         : "湖北卡五星",
+        "quitAlertName"    : "",
+        "version"          : "3.9005",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "${http_download}/majiang/difang/icon/lailai09woodjrpz.png",
+        "vipLevel"         : 0,
+        "defaultRes"       : ""
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "来来湖北麻将专属插件模板1",
+   "name"             : "kawuxing_v3.901_AI_lailaihbmj",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "kawuxing-xiangyang",
+          "kawuxing-suizhou",
+          "kawuxing-shiyan"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 715,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "卡五星麻将",
+        "quitAlertName"    : "",
+        "version"          : "3.9006",
+        "defaultRes"       : "MaJiangBigCreateRoom"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangBigEnterRoom"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "卡五星",
+   "name"             : "kawuxing_v3.901_AI_hubei",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "kawuxing-xiangyang",
+          "kawuxing-suizhou",
+          "kawuxing-shiyan"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 715,
+        "iconUrl"          : "${http_download}/majiang/difang/ads/kawuxinghall_hall_mj_btn_big_cjpz_bg.png",
+        "vipLevel"         : 0,
+        "gameName"         : "卡五星麻将",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9005",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "${http_download}/majiang/difang/ads/kawuxinghall_hall_mj_btn_big_jrpz_bg.png",
+        "vipLevel"         : 0,
+        "defaultRes"       : ""
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

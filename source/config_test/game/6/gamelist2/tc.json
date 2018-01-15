@@ -1,0 +1,171 @@
+{
+ "games"            : [
+  {
+   "versions"         : [
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 6,
+     "changelogs"       : [
+      "1、斗地主3.7插件震撼首发~"
+     ],
+     "md5"              : "45072b18545b9138ff5c7ebf68f835ee",
+     "ver"              : "3.701",
+     "url"              : "${http_download}/hall/plugin/game/ddz_release_v3.701_2.zip",
+     "size"             : "4.6M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 6,
+     "changelogs"       : [
+      "主3.70"
+     ],
+     "md5"              : "3036f82bcd5d10e1b2b0b1720c1ac160",
+     "ver"              : "3.702",
+     "url"              : "${http_download}/hall/plugin/game/ddz_release_v3.702_2.zip",
+     "size"             : "4.6M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 6,
+     "changelogs"       : [
+      "1、翻翻乐、彩池震撼来袭"
+     ],
+     "md5"              : "79b08bc59998b1e576e6fe5e0d38c38e",
+     "ver"              : "3.703",
+     "url"              : "${http_download}/hall/plugin/game/ddz_release_v3.702_5.zip",
+     "size"             : "4.6M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 6,
+     "changelogs"       : [
+      "1、修改已发现的bug",
+      "2、 优化桌面、打牌体验"
+     ],
+     "md5"              : "9b08db20b911c9ff692dd2a1aaa04676",
+     "ver"              : "3.705",
+     "url"              : "${http_download}/hall/plugin/game/ddz_release_v3.705_2.zip",
+     "size"             : "4.3M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 6,
+     "changelogs"       : [
+      "1、牌桌优化",
+      "2、拆分单机场"
+     ],
+     "md5"              : "e1d87c07826ca28e891b730097da9845",
+     "ver"              : "3.706",
+     "url"              : "${http_download}/hall/plugin/game/ddz_release_v3.706_5.zip",
+     "size"             : "4.0M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 6,
+     "changelogs"       : [
+      "1、翻翻乐、彩池震撼来袭"
+     ],
+     "md5"              : "e2aefa378bb2d7a49bb501eda2d593ae",
+     "ver"              : "3.707",
+     "url"              : "${http_download}/hall/plugin/game/ddz_release_v3.707_6.zip",
+     "size"             : "4.5M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 6,
+     "changelogs"       : [
+      "1、斗地主3.771插件震撼首发~"
+     ],
+     "md5"              : "a67ae66123670e4e1610c341fed6b782",
+     "ver"              : "3.771",
+     "url"              : "${http_download}/hall/plugin/game/ddz_ddz_release_v3.771_5.zip",
+     "size"             : "6.7M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 6,
+     "changelogs"       : [
+      "1、斗地主3.771插件震撼首发~"
+     ],
+     "md5"              : "a5c1f2c87636d41a1d983ef0d8de2605",
+     "ver"              : "3.772",
+     "url"              : "${http_download}/hall/plugin/game/ddz_release_v3.772_2.zip",
+     "size"             : "10.3M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 6,
+     "changelogs"       : [
+      "1、斗地主3.773插件~"
+     ],
+     "md5"              : "21bb6dc8798b1b63facd4c74cc83d205",
+     "ver"              : "3.773",
+     "url"              : "${http_download}/hall/plugin/game/ddz_release_3.773_2.zip",
+     "size"             : "11.5M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 6,
+     "changelogs"       : [
+      "1、斗地主3.775插件震撼首发~"
+     ],
+     "md5"              : "c91b4cfde552b9359c7d1951cc72f171",
+     "ver"              : "3.775",
+     "url"              : "${http_download}/hall/plugin/game/ddz_release_v3.775_1.zip",
+     "size"             : "11.4M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 6,
+     "changelogs"       : [
+      "1、斗地主3.811插件震撼首发~"
+     ],
+     "md5"              : "018a0c261885dc86500bce07135ac7fc",
+     "ver"              : "3.811",
+     "url"              : "${http_download}/hall/plugin/game/ddz_release_v3.811_1.zip",
+     "size"             : "11.0M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 6,
+     "changelogs"       : [
+      "1、斗地主3.812插件震撼发布~"
+     ],
+     "md5"              : "b1d836288b1220b679d3288011f90de1",
+     "ver"              : "3.812",
+     "url"              : "${http_download}/hall/plugin/game/ddz_release_v3.812_1.zip",
+     "size"             : "13.6M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 6,
+     "changelogs"       : [
+      "1、斗地主3.817自建桌版本"
+     ],
+     "md5"              : "4e53a41a883aa14656f1858bf117fb4c",
+     "ver"              : "3.817",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/1201ddz3817_1.zip",
+     "size"             : "13.3"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 6,
+     "changelogs"       : [
+      "1、斗地主3.820插件震撼首发~"
+     ],
+     "md5"              : "a03e0790653d466cf1c47221a9de780a",
+     "ver"              : "3.820",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/1208_ddz_shanxi.zip",
+     "size"             : "13M"
+    }
+   ],
+   "description"      : [
+    "1、玩法最全的斗地主",
+    "2、奖励最多的斗地主"
+   ],
+   "gameId"           : 6,
+   "gameMark"         : "ddz"
+  }
+ ],
+ "templates"        : [ ]
+}

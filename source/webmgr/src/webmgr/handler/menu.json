@@ -1,0 +1,52 @@
+[{
+      "id" : 1,
+      "text" : "配置管理",
+      "iconCls" : "icon-save",
+      "children" : [{
+            "text" : "FreeTime",
+            "children" : [{
+                  "text" : "全局配置",
+                  "attributes" : {
+                    "purl" : "model/config/freetime/global.html"
+                  }
+                }, {
+                  "text" : "数据库配置",
+                  "attributes" : {
+                    "purl" : "model/config/freetime/db.html"
+                  }
+                }]
+          }, {
+            "text" : "Poker",
+            "children" : [{
+                  "text" : "基本配置",
+                  "attributes" : {
+                    "purl" : "model/config/poker/global.html"
+                  }
+                }, {
+                  "text" : "服务器配置",
+                  "attributes" : {
+                    "purl" : "model/config/poker/machine.html"
+                  }
+                }, {
+                  "text" : "运行工程配置",
+                  "attributes" : {
+                    "purl" : "model/config/poker/project.html"
+                  }
+                }, {
+                  "text" : "命令路由配置",
+                  "attributes" : {
+                    "purl" : "model/config/poker/cmd.html"
+                  }
+                }, {
+                  "text" : "旧命令对照表配置",
+                  "attributes" : {
+                    "purl" : "model/config/poker/oldcmd.html"
+                  }
+                }]
+          }]
+    }, {
+      "text" : "运行管理",
+      "attributes" : {
+        "purl" : "model/logview/logview.html"
+      }
+    }]

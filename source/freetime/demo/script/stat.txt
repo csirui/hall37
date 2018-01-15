@@ -1,0 +1,7 @@
+测试每秒处理5000个包
+TPSvr: cpu 99.504 mem 0.888
+TPCli: cpu 3.44 mem 0.1
+TPSvr: cpu 3.12 mem 0.1
+TPCli: cpu 0.16 mem 0.1
+TPSvr: cpu 3.6 mem 0.1
+TPCli: cpu 0.08 mem 0.1

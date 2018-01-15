@@ -1,0 +1,9 @@
+{
+  "hasrobot" : 0,
+  "tableConf" : {
+    "maxSeatN": 5,
+    "baseChip": 1,
+    "optime": 3
+  },
+  "typeName" : "custom"
+}

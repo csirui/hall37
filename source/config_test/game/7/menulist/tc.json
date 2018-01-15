@@ -1,0 +1,570 @@
+{
+ "custom_menus"                             : {
+  "xinzhanji715"                             : {
+   "picUrl"                                   : "${http_download}/majiang/difang/ads/lailaihall_bottom_icon_zhanji.png",
+   "todotasks"                                : [
+    {
+     "enter_param"                              : {
+      "pluginParams"                             : {
+       "gameType"                                 : 11,
+       "tasks"                                    : [
+        {
+         "action"                                   : "pop_create_room_zhanji",
+         "params"                                   : { }
+        }
+       ]
+      },
+      "type"                                     : "roomlist"
+     },
+     "gameId"                                   : 715,
+     "typeId"                                   : "hall.goto.enter.game"
+    }
+   ]
+  },
+  "guize714"                                 : {
+   "picUrl"                                   : "${http_download}/hall/menulist/hall_bottom_icon_guize.png",
+   "todotasks"                                : [
+    {
+     "enter_param"                              : {
+      "pluginParams"                             : {
+       "gameType"                                 : 11,
+       "tasks"                                    : [
+        {
+         "action"                                   : "pop_create_room_guize",
+         "params"                                   : { }
+        }
+       ]
+      },
+      "type"                                     : "roomlist"
+     },
+     "gameId"                                   : 714,
+     "typeId"                                   : "hall.goto.enter.game"
+    }
+   ]
+  },
+  "guize716"                                 : {
+   "picUrl"                                   : "${http_download}/hall/menulist/hall_bottom_icon_guize.png",
+   "todotasks"                                : [
+    {
+     "enter_param"                              : {
+      "pluginParams"                             : {
+       "gameType"                                 : 11,
+       "tasks"                                    : [
+        {
+         "action"                                   : "pop_create_room_guize",
+         "params"                                   : { }
+        }
+       ]
+      },
+      "type"                                     : "roomlist"
+     },
+     "gameId"                                   : 716,
+     "typeId"                                   : "hall.goto.enter.game"
+    }
+   ]
+  },
+  "guize721"                                 : {
+   "picUrl"                                   : "${http_download}/majiang/difang/icon/_0000__guize.png",
+   "todotasks"                                : [
+    {
+     "enter_param"                              : {
+      "pluginParams"                             : {
+       "gameType"                                 : 11,
+       "tasks"                                    : [
+        {
+         "action"                                   : "pop_create_room_guize",
+         "params"                                   : { }
+        }
+       ]
+      },
+      "type"                                     : "roomlist"
+     },
+     "gameId"                                   : 7,
+     "typeId"                                   : "hall.goto.enter.game"
+    }
+   ]
+  },
+  "zhanji714"                                : {
+   "picUrl"                                   : "${http_download}/hall/menulist/hall_bottom_icon_zhanji.png",
+   "todotasks"                                : [
+    {
+     "enter_param"                              : {
+      "pluginParams"                             : {
+       "gameType"                                 : 11,
+       "tasks"                                    : [
+        {
+         "action"                                   : "pop_create_room_zhanji",
+         "params"                                   : { }
+        }
+       ]
+      },
+      "type"                                     : "roomlist"
+     },
+     "gameId"                                   : 714,
+     "typeId"                                   : "hall.goto.enter.game"
+    }
+   ]
+  },
+  "zhanji715"                                : {
+   "picUrl"                                   : "${http_download}/hall/menulist/hall_bottom_icon_zhanji_2.png",
+   "todotasks"                                : [ ]
+  },
+  "guize710"                                 : {
+   "picUrl"                                   : "${http_download}/hall/menulist/hall_bottom_icon_guize.png",
+   "todotasks"                                : [
+    {
+     "enter_param"                              : {
+      "pluginParams"                             : {
+       "gameType"                                 : 11,
+       "tasks"                                    : [
+        {
+         "action"                                   : "pop_create_room_guize",
+         "params"                                   : { }
+        }
+       ]
+      },
+      "type"                                     : "roomlist"
+     },
+     "gameId"                                   : 710,
+     "typeId"                                   : "hall.goto.enter.game"
+    }
+   ]
+  },
+  "xzhanji715"                               : {
+   "picUrl"                                   : "${http_download}/hall/menulist/hall_bottom_icon_zhanji_2.png",
+   "todotasks"                                : [
+    {
+     "enter_param"                              : {
+      "pluginParams"                             : {
+       "gameType"                                 : 11,
+       "tasks"                                    : [
+        {
+         "action"                                   : "pop_create_room_zhanji",
+         "params"                                   : { }
+        }
+       ]
+      },
+      "type"                                     : "roomlist"
+     },
+     "gameId"                                   : 715,
+     "typeId"                                   : "hall.goto.enter.game"
+    }
+   ]
+  },
+  "zhanji716"                                : {
+   "picUrl"                                   : "${http_download}/hall/menulist/hall_bottom_icon_zhanji.png",
+   "todotasks"                                : [
+    {
+     "enter_param"                              : {
+      "pluginParams"                             : {
+       "gameType"                                 : 11,
+       "tasks"                                    : [
+        {
+         "action"                                   : "pop_create_room_zhanji",
+         "params"                                   : { }
+        }
+       ]
+      },
+      "type"                                     : "roomlist"
+     },
+     "gameId"                                   : 716,
+     "typeId"                                   : "hall.goto.enter.game"
+    }
+   ]
+  },
+  "zhanji710"                                : {
+   "picUrl"                                   : "${http_download}/hall/menulist/hall_bottom_icon_zhanji.png",
+   "todotasks"                                : [
+    {
+     "enter_param"                              : {
+      "pluginParams"                             : {
+       "gameType"                                 : 11,
+       "tasks"                                    : [
+        {
+         "action"                                   : "pop_create_room_zhanji",
+         "params"                                   : { }
+        }
+       ]
+      },
+      "type"                                     : "roomlist"
+     },
+     "gameId"                                   : 710,
+     "typeId"                                   : "hall.goto.enter.game"
+    }
+   ]
+  },
+  "zhanji711"                                : {
+   "picUrl"                                   : "${http_download}/hall/menulist/hall_bottom_icon_zhanji_2.png",
+   "todotasks"                                : [
+    {
+     "enter_param"                              : {
+      "pluginParams"                             : {
+       "gameType"                                 : 11,
+       "tasks"                                    : [
+        {
+         "action"                                   : "pop_create_room_zhanji",
+         "params"                                   : { }
+        }
+       ]
+      },
+      "type"                                     : "roomlist"
+     },
+     "gameId"                                   : 711,
+     "typeId"                                   : "hall.goto.enter.game"
+    }
+   ]
+  },
+  "zhanji712"                                : {
+   "picUrl"                                   : "${http_download}/majiang/images/others/zhanji712.png",
+   "todotasks"                                : [
+    {
+     "enter_param"                              : {
+      "pluginParams"                             : {
+       "gameType"                                 : 11,
+       "tasks"                                    : [
+        {
+         "action"                                   : "pop_create_room_zhanji",
+         "params"                                   : { }
+        }
+       ]
+      },
+      "type"                                     : "roomlist"
+     },
+     "gameId"                                   : 712,
+     "typeId"                                   : "hall.goto.enter.game"
+    }
+   ]
+  },
+  "zhanji10"                                 : {
+   "picUrl"                                   : "",
+   "todotasks"                                : [
+    {
+     "enter_param"                              : {
+      "pluginParams"                             : {
+       "gameType"                                 : 2,
+       "action"                                   : "pop_enter_friend_record"
+      },
+      "type"                                     : "roomlist"
+     },
+     "gameId"                                   : 10,
+     "typeId"                                   : "hall.goto.enter.game"
+    }
+   ]
+  },
+  "huodong715"                               : {
+   "picUrl"                                   : "${http_download}/majiang/difang/ads/lailaihall_bottom_icon.png",
+   "todotasks"                                : [
+    {
+     "enter_param"                              : {
+      "pluginParams"                             : {
+       "gameType"                                 : 11,
+       "tasks"                                    : [
+        {
+         "action"                                   : "pop_create_room_zhanji",
+         "params"                                   : { }
+        }
+       ]
+      },
+      "type"                                     : "roomlist"
+     },
+     "gameId"                                   : 715,
+     "typeId"                                   : "hall.goto.enter.game"
+    }
+   ]
+  },
+  "guize7"                                   : {
+   "picUrl"                                   : "${http_download}/majiang/difang/icon/_0000__jxguize.png",
+   "todotasks"                                : [
+    {
+     "enter_param"                              : {
+      "pluginParams"                             : {
+       "gameType"                                 : 11,
+       "tasks"                                    : [
+        {
+         "action"                                   : "pop_create_room_guize",
+         "params"                                   : { }
+        }
+       ]
+      },
+      "type"                                     : "roomlist"
+     },
+     "gameId"                                   : 7,
+     "typeId"                                   : "hall.goto.enter.game"
+    }
+   ]
+  },
+  "zhanji704"                                : {
+   "picUrl"                                   : "${http_download}/hall/menulist/hall_bottom_icon_zhanji_2.png",
+   "todotasks"                                : [
+    {
+     "enter_param"                              : {
+      "pluginParams"                             : {
+       "gameType"                                 : 11,
+       "tasks"                                    : [
+        {
+         "action"                                   : "pop_create_room_zhanji",
+         "params"                                   : { }
+        }
+       ]
+      },
+      "type"                                     : "roomlist"
+     },
+     "gameId"                                   : 704,
+     "typeId"                                   : "hall.goto.enter.game"
+    }
+   ]
+  },
+  "zhanji7"                                  : {
+   "picUrl"                                   : "${http_download}/hall/menulist/hall_bottom_icon_zhanji_2.png",
+   "todotasks"                                : [
+    {
+     "enter_param"                              : {
+      "pluginParams"                             : {
+       "gameType"                                 : 11,
+       "tasks"                                    : [
+        {
+         "action"                                   : "pop_create_room_zhanji",
+         "params"                                   : { }
+        }
+       ]
+      },
+      "type"                                     : "roomlist"
+     },
+     "gameId"                                   : 7,
+     "typeId"                                   : "hall.goto.enter.game"
+    }
+   ]
+  },
+  "xiaoxi715"                                : {
+   "picUrl"                                   : "${http_download}/majiang/difang/ads/hall_bottom_icon_message.png",
+   "todotasks"                                : [
+    {
+     "enter_param"                              : {
+      "pluginParams"                             : {
+       "gameType"                                 : 11,
+       "tasks"                                    : [
+        {
+         "action"                                   : "pop_create_room_zhanji",
+         "params"                                   : { }
+        }
+       ]
+      },
+      "type"                                     : "roomlist"
+     },
+     "gameId"                                   : 715,
+     "typeId"                                   : "hall.goto.enter.game"
+    }
+   ]
+  },
+  "zhanji722"                                : {
+   "picUrl"                                   : "${http_download}/majiang/difang/icon/hall_bottom_icon_zhanji1.png",
+   "todotasks"                                : [
+    {
+     "enter_param"                              : {
+      "pluginParams"                             : {
+       "gameType"                                 : 11,
+       "tasks"                                    : [
+        {
+         "action"                                   : "pop_create_room_zhanji",
+         "params"                                   : { }
+        }
+       ]
+      },
+      "type"                                     : "roomlist"
+     },
+     "gameId"                                   : 7,
+     "typeId"                                   : "hall.goto.enter.game"
+    }
+   ]
+  },
+  "shezhi715"                                : {
+   "picUrl"                                   : "${http_download}/majiang/difang/ads/hall_bottom_icon_settings.png",
+   "todotasks"                                : [
+    {
+     "enter_param"                              : {
+      "pluginParams"                             : {
+       "gameType"                                 : 11,
+       "tasks"                                    : [
+        {
+         "action"                                   : "pop_create_room_zhanji",
+         "params"                                   : { }
+        }
+       ]
+      },
+      "type"                                     : "roomlist"
+     },
+     "gameId"                                   : 715,
+     "typeId"                                   : "hall.goto.enter.game"
+    }
+   ]
+  },
+  "zhanji151"                                : {
+   "picUrl"                                   : "${http_download}/majiang/difang/icon/hall_bottom_icon_fzzhanji.png",
+   "todotasks"                                : [
+    {
+     "enter_param"                              : {
+      "pluginParams"                             : {
+       "gameType"                                 : 11,
+       "tasks"                                    : [
+        {
+         "action"                                   : "pop_create_room_zhanji",
+         "params"                                   : { }
+        }
+       ]
+      },
+      "type"                                     : "roomlist"
+     },
+     "gameId"                                   : 151,
+     "typeId"                                   : "hall.goto.enter.game"
+    }
+   ]
+  },
+  "zhanji721"                                : {
+   "picUrl"                                   : "${http_download}/majiang/difang/icon/hall_bottom_icon_fzzhanji.png",
+   "todotasks"                                : [
+    {
+     "enter_param"                              : {
+      "pluginParams"                             : {
+       "gameType"                                 : 11,
+       "tasks"                                    : [
+        {
+         "action"                                   : "pop_create_room_zhanji",
+         "params"                                   : { }
+        }
+       ]
+      },
+      "type"                                     : "roomlist"
+     },
+     "gameId"                                   : 7,
+     "typeId"                                   : "hall.goto.enter.game"
+    }
+   ]
+  },
+  "wanfa715"                                 : {
+   "picUrl"                                   : "${http_download}/majiang/difang/ads/hall_bottom_icon_play.png",
+   "todotasks"                                : [
+    {
+     "enter_param"                              : {
+      "pluginParams"                             : {
+       "gameType"                                 : 11,
+       "tasks"                                    : [
+        {
+         "action"                                   : "pop_create_room_guize",
+         "params"                                   : { }
+        }
+       ]
+      },
+      "type"                                     : "roomlist"
+     },
+     "gameId"                                   : 715,
+     "typeId"                                   : "hall.goto.enter.game"
+    }
+   ]
+  },
+  "zhanji152"                                : {
+   "picUrl"                                   : "${http_download}/hall/menulist/hall_bottom_icon_zhanji_152_0124.png",
+   "todotasks"                                : [
+    {
+     "enter_param"                              : {
+      "pluginParams"                             : {
+       "gameType"                                 : 11,
+       "tasks"                                    : [
+        {
+         "action"                                   : "pop_create_room_zhanji",
+         "params"                                   : { }
+        }
+       ]
+      },
+      "type"                                     : "roomlist"
+     },
+     "gameId"                                   : 152,
+     "typeId"                                   : "hall.goto.enter.game"
+    }
+   ]
+  },
+  "zhanji720"                                : {
+   "picUrl"                                   : "${http_download}/hall/menulist/hall_bottom_icon_zhanji_720_1220.png",
+   "todotasks"                                : [
+    {
+     "enter_param"                              : {
+      "pluginParams"                             : {
+       "gameType"                                 : 11,
+       "tasks"                                    : [
+        {
+         "action"                                   : "pop_create_room_zhanji",
+         "params"                                   : { }
+        }
+       ]
+      },
+      "type"                                     : "roomlist"
+     },
+     "gameId"                                   : 720,
+     "typeId"                                   : "hall.goto.enter.game"
+    }
+   ]
+  }
+ },
+ "templates"                                : {
+  "majiang_v3.901_AI_majiang_v3.901_IOS_fzmj": [
+   "zhanji721",
+   "guize721",
+   "activity",
+   "message",
+   "settings"
+  ],
+  "majiang_v3.9002_AI__youle_jxmj"           : [
+   "[]"
+  ],
+  "majiang_v3.770_AI_difang"                 : [
+   "zhanji",
+   "activity",
+   "bag",
+   "message",
+   "settings"
+  ],
+  "majiang_v3.901_AI__youle_jxmj"            : [
+   "zhanji7",
+   "activity",
+   "message",
+   "settings"
+  ],
+  "majiang_v3.901_AI__youle_fzmj_tishen"     : [
+   "zhanji721",
+   "guize721",
+   "activity",
+   "message",
+   "settings"
+  ],
+  "majiang_v3.901_AI_youle_pymj"             : [
+   "zhanji721",
+   "activity",
+   "message",
+   "settings"
+  ],
+  "majiang_v3.901_AI_wybhn"                  : [
+   "activity",
+   "message",
+   "settings"
+  ],
+  "majiang_v3.776_AI_with_store"             : [
+   "zhanji",
+   "activity",
+   "message",
+   "settings",
+   "shop"
+  ],
+  "majiang_v3.90_AI_zhanj_define"            : [
+   "zhanji722",
+   "activity",
+   "message",
+   "settings"
+  ],
+  "majiang_v3.90_AI_mjceshi"                 : [
+   "zhanji7",
+   "activity",
+   "bag",
+   "message",
+   "settings"
+  ]
+ }
+}

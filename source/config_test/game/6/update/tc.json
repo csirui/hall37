@@ -1,0 +1,13 @@
+{
+    "6": {
+    	"3.817":[
+            {
+                "des": "测试 更新包工具",
+                "updateVersion": "1",
+                "md5": "6ba4d28849a6590b4cd45c1178367002",
+                "path": "${http_download}/hall/update/ddz_update_v3.817_1.zip",
+                "size": "3.9M"
+            }
+        ]
+    }
+}

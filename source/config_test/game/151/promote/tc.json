@@ -1,0 +1,128 @@
+{
+ "templates"   : [
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 151010604,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 151010601,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    }
+   ],
+   "name"        : "king27_v3.90_AI_youle_erqiwang"
+  },
+  {
+   "positions"   : [ ],
+   "name"        : "tsk_v3.901_AI__youle_tishen_allclosed"
+  }
+ ],
+ "promotions"  : [
+  {
+   "promotionId" : 151010601,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "tasks"       : [
+        {
+         "action"      : "wechat_share",
+         "params"      : {
+          "content"     : "终于发现二七王\n快快邀请好友来一起游戏吧",
+          "title"       : "二七王",
+          "desc"        : "最正宗的江西二七王，更富挑战性，精彩刺激！",
+          "buttons"     : [
+           {
+            "content"     : "好友",
+            "tasks"       : [ ],
+            "type"        : "1"
+           },
+           {
+            "content"     : "朋友圈",
+            "tasks"       : [ ],
+            "type"        : "0"
+           }
+          ],
+          "url"         : "http://www.shediao.com/landing/erqiwang.html"
+         }
+        }
+       ]
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 151,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "优乐二七王分享",
+   "url"         : "${http_download}/hall/promote/imgs/share_icon.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 151010602,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "tasks"       : [
+        {
+         "action"      : "pop_create_room_invite",
+         "params"      : { }
+        }
+       ]
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 151,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "二七王邀请赠房卡",
+   "url"         : "${http_download}/majiang/images/act/icon_tgw_mffk.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 151010603,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.download",
+     "url"         : "http://www.shediao.com/youle/jx/gameGuide.html"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "二七王新手帮助",
+   "url"         : "${http_download}/majiang/difang/ads/icon_tgw_zenmewan.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 151010604,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "todotask.showInfo",
+     "info"        : "代理及买卡联系：\n微信：youle238 或 youle301\n官方公众号：YLE555888"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "二七王商城",
+   "url"         : "${http_download}/majiang/difang/act/icon_tgw_mfk.png",
+   "defaultRes"  : ""
+  }
+ ]
+}

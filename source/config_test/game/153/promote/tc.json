@@ -1,0 +1,60 @@
+{
+ "templates"  : [
+  {
+   "positions"  : [
+    {
+     "promotes"   : [
+      {
+       "promotionId": 153123001,
+       "conditions" : [ ]
+      }
+     ],
+     "pos"        : 1
+    },
+    {
+     "promotes"   : [
+      {
+       "promotionId": 153123002,
+       "conditions" : [ ]
+      }
+     ],
+     "pos"        : 4
+    }
+   ],
+   "name"       : "gdy_v3.901_AI_diandiangdy"
+  }
+ ],
+ "promotions" : [
+  {
+   "promotionId": 153123001,
+   "animate"    : 1,
+   "todotasks"  : [
+    {
+     "typeId"     : "todotask.showInfo",
+     "info"       : "代理咨询:ddyxkf001（微信）\n代理咨询:ddyx6688（微信）\n买卡请联系自己的群主"
+    }
+   ],
+   "redPoint"   : [ ],
+   "displayName": "点点干瞪眼买房卡",
+   "url"        : "${http_download}/majiang/difang/act/icon_tgw_mfk.png",
+   "defaultRes" : ""
+  },
+  {
+   "promotionId": 153123002,
+   "animate"    : 1,
+   "todotasks"  : [
+    {
+     "typeId"     : "todotask.simple.invite"
+    }
+   ],
+   "redPoint"   : [
+    {
+     "typeId"     : "user.cond.HasFreeMark"
+    }
+   ],
+   "displayName": "点点干瞪眼邀请有礼",
+   "url"        : "${http_download}/hall/promote/imgs/icon_tgw_mffk.png",
+   "defaultRes" : ""
+  }
+ ]
+}

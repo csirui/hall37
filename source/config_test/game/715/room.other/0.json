@@ -1,0 +1,255 @@
+{
+    "configDesc": "麻将房间其他相关配置,例如:比赛的标签配置,自建桌",
+    "create_table_config": {
+            "kawuxing-xiangyang": {
+                    "playModeDesc": "卡五星",
+                    "paramType": {
+                        "cardCount": "游戏局数",
+                        "wanFa": "玩法",
+                        "playerType": "人数",
+                        "maxFan": "封顶",
+                        "maiMa": "买马",
+                        "kawuxingFan": "卡五星",
+                        "pengpenghuFan": "碰碰胡",
+                        "gangshanghuaFan": "杠上花",
+                        "pinDao": "频道",
+                        "paoqiamoba": "跑恰摸八"
+                    },
+                    "cardCount":[
+                        {"id": 1, "value":8, "desc":"8局(3张)", "default": 1, "fangka_count": 3},
+                        {"id": 3, "value":16, "desc":"16局(6张)", "default": 0, "fangka_count": 6}
+                    ],
+                    "wanFa":[
+                        {"id": "kawuxingFan", "desc": "卡五星4番", "default": 0},
+                        {"id": "pengpenghuFan", "desc": "碰碰胡4番", "default": 0},
+                        {"id": "gangshanghuaFan", "desc": "杠上花4番", "default": 0},
+                        {"id": "pinDao", "desc": "全频道", "default": 0},
+                        {"id": "paoqiamoba", "desc": "跑恰摸八", "default": 0}
+                    ],
+                    "playerType":[
+                        {"id": 2, "desc": "3人", "default": 1, "count": 3}
+                    ],
+                    "maxFan": [
+                        {"id": 1, "desc": "8番封顶", "default": 1, "max_fan": 8},
+                        {"id": 2, "desc": "16番封顶", "default": 0, "max_fan": 16}
+                    ],
+                    "kawuxingFan": [
+                        {"id": 0, "desc": "卡五星2番", "default": 1, "kawuxing_fan": 2},
+                        {"id": 1, "desc": "卡五星4番", "default": 0, "kawuxing_fan": 4}
+                    ],
+                    "pengpenghuFan": [
+                        {"id": 0, "desc": "碰碰胡2番", "default": 1, "pengpenghu_fan": 2},
+                        {"id": 1, "desc": "碰碰胡4番", "default": 0, "pengpenghu_fan": 4}
+                    ],
+                    "gangshanghuaFan": [
+                        {"id": 0, "desc": "杠上花2番", "default": 1, "gangshanghua_fan": 2},
+                        {"id": 1, "desc": "杠上花4番", "default": 0, "gangshanghua_fan": 4}
+                    ],
+                    "pinDao": [
+                        {"id": 1, "desc": "全频道", "default": 0, "pin_dao": 1},
+                        {"id": 0, "desc": "半频道", "default": 1, "pin_dao": 2}
+                    ],
+                    "paoqiamoba": [
+                        {"id": 1, "desc": "跑恰摸八", "default": 0, "paoqiamoba": 1},
+                        {"id": 0, "desc": "跑恰摸八(关闭)", "default": 1, "paoqiamoba": 0}
+                    ],
+                    "maiMa": [
+                        {"id": 0, "desc": "不买马", "default": 1, "mai_ma": 0},
+                        {"id": 1, "desc": "自摸买马", "default": 0, "mai_ma": 1},
+                        {"id": 2, "desc": "亮倒自摸买马", "default": 0, "mai_ma": 2}
+                    ]
+            },
+            "kawuxing-xiaogan": {
+                    "playModeDesc": "卡五星",
+                    "paramType": {
+                        "cardCount": "游戏局数",
+                        "wanFa": "玩法",
+                        "playerType": "人数",
+                        "maxFan": "最大番",
+                        "dingPiao": "定漂",
+                        "maiMa": "买马",
+                        "kawuxingFan": "卡五星",
+                        "pengpenghuFan": "碰碰胡",
+                        "gangshanghuaFan": "杠上花",
+                        "shuKan": "数坎"
+                    },
+                    "cardCount":[
+                        {"id": 1, "value":8, "desc":"8局(3张)", "default": 1, "fangka_count": 3},
+                        {"id": 2, "value":16, "desc":"16局(6张)", "default": 0, "fangka_count": 6}
+                    ],
+                    "wanFa":[
+                        {"id": "kawuxingFan", "desc": "卡五星4番", "default": 0},
+                        {"id": "pengpenghuFan", "desc": "碰碰胡4番", "default": 0},
+                        {"id": "gangshanghuaFan", "desc": "杠上花4番", "default": 0},
+                        {"id": "shuKan", "desc": "数坎", "default": 0}
+                    ],
+                    "playerType":[
+                        {"id": 2, "desc": "3人", "default": 1, "count": 3}
+                    ],
+                    "maxFan": [
+                        {"id": 1, "desc": "8番", "default": 1, "max_fan": 8},
+                        {"id": 2, "desc": "16番", "default": 0, "max_fan": 16}
+                    ],
+                    "kawuxingFan": [
+                        {"id": 0, "desc": "卡五星2番", "default": 1, "kawuxing_fan": 2},
+                        {"id": 1, "desc": "卡五星4番", "default": 0, "kawuxing_fan": 4}
+                    ],
+                    "pengpenghuFan": [
+                        {"id": 0, "desc": "碰碰胡2番", "default": 1, "pengpenghu_fan": 2},
+                        {"id": 1, "desc": "碰碰胡4番", "default": 0, "pengpenghu_fan": 4}
+                    ],
+                    "gangshanghuaFan": [
+                        {"id": 0, "desc": "杠上花2番", "default": 1, "gangshanghua_fan": 2},
+                        {"id": 1, "desc": "杠上花4番", "default": 0, "gangshanghua_fan": 4}
+                    ],
+                    "shuKan": [
+                        {"id": 1, "desc": "数坎", "default": 0, "shu_kan": 1},
+                        {"id": 0, "desc": "不数坎", "default": 1, "shu_kan": 0}
+                    ],
+                    "dingPiao": [
+                        {"id": 0, "desc": "不漂", "default": 1, "ding_piao": 0},
+                        {"id": 1, "desc": "自由选漂", "default": 0, "ding_piao": 1}
+                    ],
+                    "maiMa": [
+                        {"id": 0, "desc": "不买马", "default": 1, "mai_ma": 0},
+                        {"id": 1, "desc": "自摸买马", "default": 0, "mai_ma": 1},
+                        {"id": 2, "desc": "亮倒自摸买马", "default": 0, "mai_ma": 2}
+                    ]
+            },
+            "kawuxing-suizhou": {
+                    "playModeDesc": "卡五星",
+                    "paramType": {
+                        "cardCount": "游戏局数",
+                        "wanFa": "玩法",
+                        "playerType": "人数",
+                        "maxFan": "最大番",
+                        "dingPiao": "定漂",
+                        "maiMa": "买马",
+                        "kawuxingFan": "卡五星",
+                        "pengpenghuFan": "碰碰胡",
+                        "gangshanghuaFan": "杠上花",
+                        "liangPai": "亮牌规则"
+                    },
+                    "cardCount":[
+                        {"id": 1, "value":8, "desc":"8局(3张)", "default": 1, "fangka_count": 3},
+                        {"id": 2, "value":16, "desc":"16局(6张)", "default": 0, "fangka_count": 6}
+                    ],
+                    "wanFa":[
+                        {"id": "kawuxingFan", "desc": "卡五星4番", "default": 0},
+                        {"id": "pengpenghuFan", "desc": "碰碰胡4番", "default": 0},
+                        {"id": "gangshanghuaFan", "desc": "杠上花4番", "default": 0},
+                        {"id": "liangPai", "desc": "仅亮听口牌", "default": 0}
+                    ],
+                    "playerType":[
+                        {"id": 2, "desc": "3人", "default": 1, "count": 3}
+                    ],
+                    "maxFan": [
+                        {"id": 1, "desc": "8番", "default": 1, "max_fan": 8},
+                        {"id": 2, "desc": "16番", "default": 0, "max_fan": 16}
+                    ],
+                    "kawuxingFan": [
+                        {"id": 0, "desc": "卡五星2番", "default": 1, "kawuxing_fan": 2},
+                        {"id": 1, "desc": "卡五星4番", "default": 0, "kawuxing_fan": 4}
+                    ],
+                    "pengpenghuFan": [
+                        {"id": 0, "desc": "碰碰胡2番", "default": 1, "pengpenghu_fan": 2},
+                        {"id": 1, "desc": "碰碰胡4番", "default": 0, "pengpenghu_fan": 4}
+                    ],
+                    "gangshanghuaFan": [
+                        {"id": 0, "desc": "杠上花2番", "default": 1, "gangshanghua_fan": 2},
+                        {"id": 1, "desc": "杠上花4番", "default": 0, "gangshanghua_fan": 4}
+                    ],
+                    "liangPai": [
+                        {"id": 0, "desc": "全亮牌", "default": 1, "liang_pai": 1},
+                        {"id": 1, "desc": "仅亮听口牌", "default": 0, "liang_pai": 2}
+                    ],
+                    "dingPiao": [
+                        {"id": 0, "desc": "不漂", "default": 1, "ding_piao": 0},
+                        {"id": 1, "desc": "自由选漂", "default": 0, "ding_piao": 1}
+                    ],
+                    "maiMa": [
+                        {"id": 0, "desc": "不买马", "default": 1, "mai_ma": 0},
+                        {"id": 1, "desc": "自摸买马", "default": 0, "mai_ma": 1},
+                        {"id": 2, "desc": "亮倒自摸买马", "default": 0, "mai_ma": 2}
+                    ]
+            },
+            "kawuxing-shiyan": {
+                    "playModeDesc": "卡五星",
+                    "paramType": {
+                        "cardCount": "游戏局数",
+                        "wanFa": "玩法",
+                        "playerType": "人数",
+                        "maxFan": "最大番",
+                        "dingPiao": "定漂",
+                        "maiMa": "买马",
+                        "kawuxingFan": "卡五星",
+                        "pengpenghuFan": "碰碰胡",
+                        "gangshanghuaFan": "杠上花",
+                        "paoqiamoba": "跑恰摸八"
+                    },
+                    "cardCount":[
+                        {"id": 1, "value":8, "desc":"8局(3张)", "default": 1, "fangka_count": 3},
+                        {"id": 2, "value":16, "desc":"16局(6张)", "default": 0, "fangka_count": 6}
+                    ],
+                    "wanFa":[
+                        {"id": "kawuxingFan", "desc": "卡五星4番", "default": 0},
+                        {"id": "pengpenghuFan", "desc": "碰碰胡4番", "default": 0},
+                        {"id": "gangshanghuaFan", "desc": "杠上花4番", "default": 0},
+                        {"id": "paoqiamoba", "desc": "跑恰摸八", "default": 0}
+                    ],
+                    "playerType":[
+                        {"id": 2, "desc": "3人", "default": 1, "count": 3}
+                    ],
+                    "maxFan": [
+                        {"id": 1, "desc": "8番", "default": 1, "max_fan": 8},
+                        {"id": 2, "desc": "16番", "default": 0, "max_fan": 16}
+                    ],
+                    "kawuxingFan": [
+                        {"id": 0, "desc": "卡五星2番", "default": 1, "kawuxing_fan": 2},
+                        {"id": 1, "desc": "卡五星4番", "default": 0, "kawuxing_fan": 4}
+                    ],
+                    "pengpenghuFan": [
+                        {"id": 0, "desc": "碰碰胡2番", "default": 1, "pengpenghu_fan": 2},
+                        {"id": 1, "desc": "碰碰胡4番", "default": 0, "pengpenghu_fan": 4}
+                    ],
+                    "gangshanghuaFan": [
+                        {"id": 0, "desc": "杠上花2番", "default": 1, "gangshanghua_fan": 2},
+                        {"id": 1, "desc": "杠上花4番", "default": 0, "gangshanghua_fan": 4}
+                    ],
+                    "paoqiamoba": [
+                        {"id": 1, "desc": "跑恰摸八", "default": 0, "paoqiamoba": 1},
+                        {"id": 0, "desc": "跑恰摸八(关闭)", "default": 1, "paoqiamoba": 0}
+                    ],
+                    "dingPiao": [
+                        {"id": 0, "desc": "不漂", "default": 1, "ding_piao": 0},
+                        {"id": 1, "desc": "自由选漂", "default": 0, "ding_piao": 1}
+                    ],
+                    "maiMa": [
+                        {"id": 0, "desc": "不买马", "default": 1, "mai_ma": 0},
+                        {"id": 1, "desc": "自摸买马", "default": 0, "mai_ma": 1},
+                        {"id": 2, "desc": "亮倒自摸买马", "default": 0, "mai_ma": 2}
+                    ]
+            }
+    },
+    "create_table_weixin_invite_info": {
+        "title": "三缺一，麻将找脚啦",
+        "des": "房间号：$##table_no##,$##play_mode##,$##card_count##局",
+        "url": "http://www.shediao.com/youle/gamelist.html",
+        "type": "1"
+    },
+    "create_table_weixin_inivite_desc_key": [
+        "cardCount"
+    ],
+    "leave_countdown": 2,
+    "create_table_leave_success": "解散牌桌成功",
+    "create_table_leave_failure": "解散牌桌失败，继续游戏",
+    "create_table_init_fangka": 12,
+    "create_table_countdown": 60,
+    "playmode_forbid_return_fanka": [],
+    "playmode_desc_map": {
+        "kawuxing-xiangyang": "襄阳玩法",
+        "kawuxing-xiaogan": "孝感玩法",
+        "kawuxing-suizhou": "随州玩法",
+        "kawuxing-shiyan": "十堰玩法"
+    }
+}

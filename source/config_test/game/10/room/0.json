@@ -1,0 +1,14 @@
+{
+	"10201": {
+		"controlServerCount": 1,
+		"controlTableCount": 0,
+		"gameServerCount": 1,
+		"gameTableCount": 500
+	},
+	"10202": {
+		"controlServerCount": 1,
+		"controlTableCount": 0,
+		"gameServerCount": 1,
+		"gameTableCount": 500
+	}
+}

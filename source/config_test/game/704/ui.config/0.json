@@ -1,0 +1,21 @@
+{
+	"task.ui.config": {
+		"coin": "${http_game}/scmahjong2/images/coin/task_coin.png",
+		"coupon": "${http_game}/scmahjong2/imagesitem/item_50.png",
+		"vip": "${http_game}/scmahjong2/imagesitem/vip.png"
+	},
+
+	"medal.ui.config": {
+		"title": "${http_game}/majiang/images/medal/title.png",
+    	"level": "${http_game}/majiang/images/medal/%s.png"
+	},
+
+	"coupon.ui.config": {
+		"4": {"picurl": "${http_game}/scmahjong2/images/exchange_phone_10.png", "tag": ""},
+    	"5": {"picurl": "${http_game}/scmahjong2/images/exchange_phone_30.png", "tag": ""},
+    	"6": {"picurl": "${http_game}/scmahjong2/images/exchange_phone_50.png", "tag": ""},
+    	"7": {"picurl": "${http_game}/scmahjong2/images/exchange_phone_100.png", "tag": ""},
+    	"9": {"picurl": "${http_game}/scmahjong2/images/exchange_phone_500.png", "tag": ""},
+    	"10": {"picurl": "${http_game}/scmahjong2/images/exchange_chip_600.png", "tag": ""}
+    }
+}

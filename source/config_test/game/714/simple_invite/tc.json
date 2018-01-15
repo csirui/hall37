@@ -1,0 +1,17 @@
+{
+    "templates": [
+        {
+        	"name": "jixi",
+            "inviteRewardItem": {
+                "itemId": "item:6010",
+                "count": 12
+            },
+            "gotoTitle": "体验游戏送房卡啦",
+            "gotoDesc": "要至少体验一把游戏才有房卡送哦，快和我一起来游戏吧。",
+            "gotoUrl": "http://www.shediao.com/youle/gamelist.html",
+            "inviteTitle": "点点鸡西，最正宗的鸡西麻将",
+            "inviteDesc": "玩鸡西麻将，报我ID(\\${rewardContent})就领取12张房卡",
+            "inviteUrl": "http://www.shediao.com/youle/gamelist.html"
+        }
+    ]
+}

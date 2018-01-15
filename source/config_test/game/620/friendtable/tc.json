@@ -1,0 +1,28 @@
+{
+    "templates":[
+        {
+            "name": "difang_620_default",
+            "inviteShareId":603,
+            "cardAssetKindId":"item:6007",
+            "cardProduct":"TY9999Q0000501",
+            "cardPrice":5,
+            "bigWinnerRewardContent":{},
+            "rounds":[
+                {
+                    "nRound":10,
+                    "fee":2
+                },
+                {
+                    "nRound":20,
+                    "fee":3
+                }
+            ],
+            "playModes":[
+                {
+                    "name":"123",
+                    "displayName":"经典玩法"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+#CentOS release 6.4 (Final)
+#Linux 2.6.32-358.23.2.el6.x86_64 #1 SMP Wed Oct 16 18:37:12 UTC 2013 #x86_64 x86_64 x86_64 GNU/Linux
+wget https://bitbucket.org/pypy/pypy/downloads/pypy-2.5.0-src.tar.bz2
+tar xvfj pypy-2.5.0-src.tar.bz2 
+cd pypy-2.5.0-src/
+cd pypy/goal/
+yum install libffi-devel
+yum install ncurses-devel
+yum install expat-devel
+yum install bzip2-devel
+yum install sqlite-devel
+pypy ../../rpython/bin/rpython -Ojit targetpypystandalone --objspace-lonepycfiles
+cd ../tool/release/
+pypy package.py ../../.. pypy25
+cd /tmp/usession-release-2.5.x-9/build/
+mv pypy25.tar.bz2 pypy25 /home/zhoux
+cd /usr/local
+mv pypy pypy24
+mv /home/zhoux/pypy/pypy25 ./pypy
+wget --no-check-certificate https://pypi.python.org/packages/source/s/setuptools/setuptools-14.3.tar.gz#md5=b428d481e0beeba5ae59fd4d67d04fb8
+tar xvfz setuptools-14.3.tar.gz 
+cd setuptools-14.3
+pypy setup.py install
+/usr/local/pypy/bin/easy_install Twisted
+/usr/local/pypy/bin/easy_install redis
+/usr/local/pypy/bin/easy_install pyMySQL
+/usr/local/pypy/bin/easy_install paramiko 
+# 注意: 如果是pypy2.51, 需要先安装./easy_install https://pypi.python.org/packages/source/c/cryptography/cryptography-0.8.tar.gz
+# pypy2.51包依赖自动安装的cryptography-1.0有问题
+/usr/local/pypy/bin/easy_install pyOpenSSL
+/usr/local/pypy/bin/easy_install Crypto
+/usr/local/pypy/bin/easy_install python-dateutil
+# /usr/local/pypy/bin/easy_install txredisapi
+/usr/local/pypy/bin/easy_install service_identity
+/usr/local/pypy/bin/easy_install python-Levenshtein
+/usr/local/pypy/bin/easy_install psutil
+# 解压缩 AutobahnPython-master.zip, 安装WebScoket客户端支持
+

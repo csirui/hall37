@@ -1,0 +1,62 @@
+{
+    "templates"  : [
+        {
+            "name"       : "tsk_v3.901__youle_eqw_tishen",
+            "shelves"    : [
+                {
+                    "displayName": "钻石商城",
+                    "iconType"   : "diamond",
+                    "name"       : "diamond",
+                    "products"   : [
+                        "TY9999R0006001"
+                    ],
+                    "sort"       : 0,
+                    "visible"    : 1
+                }
+            ]
+        },
+        {
+            "name"       : "tsk_v3.901_youle_eqw",
+            "shelves"    : [
+                {
+                    "displayName": "装饰道具",
+                    "iconType"   : "diamond",
+                    "name"       : "charm",
+                    "products"   : [
+                        "TY9999C0003001",
+                        "TY9999C0003002",
+                        "TY9999C0001501",
+                        "TY9999D0008006",
+                        "TY9999D0002003",
+                        "TY9999D0006008",
+                        "TY9999D0006009",
+                        "TY9999D0030004",
+                        "TY9999D0030005",
+                        "TY9999D0100027",
+                        "TY9999C0006001",
+                        "TY9999D0100003",
+                        "TY9999D0100004",
+                        "TY9999D0100026",
+                        "TY9999D0100025",
+                        "T60K"
+                    ],
+                    "sort"       : 1,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "钻石商城",
+                    "iconType"   : "diamond",
+                    "name"       : "diamond",
+                    "products"   : [
+                        "TY9999R0198001",
+                        "TY9999R0328001",
+                        "TY9999R0648001",
+                        "TY9999D0005004"
+                    ],
+                    "sort"       : 0,
+                    "visible"    : 1
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+ "games"            : [
+  {
+   "versions"         : [
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、哈尔滨斗地主插件模板"
+     ],
+     "md5"              : "cb1c46b5503f4cc84192c05833a5e9d0",
+     "ver"              : "3.901",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/haerbinddz_v3.901_3.zip",
+     "size"             : "13.1M"
+    }
+   ],
+   "description"      : [
+    "1、哈尔滨斗地主"
+   ],
+   "gameId"           : 610,
+   "gameMark"         : "haerbinddz"
+  }
+ ],
+ "templates"        : [ ]
+}

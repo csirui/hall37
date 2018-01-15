@@ -1,0 +1,50 @@
+{
+ "templates"                : {
+  "jixi_v3.902_AI_jixitishen": {
+   "desc"                     : "鸡西提审",
+   "activities"               : [
+    "activity_mj_df_jiankang"
+   ]
+  },
+  "jixi_v3.901_AI_jiximj"    : {
+   "desc"                     : "鸡西麻将活动模板",
+   "activities"               : [
+    "jixizhaodaili"
+   ]
+  }
+ },
+ "activities"               : {
+  "jixizhaodaili"            : {
+   "id"                       : "jixizhaodaili",
+   "des"                      : "代理招募活动",
+   "moduleId"                 : "notice_img",
+   "typeid"                   : 1,
+   "name"                     : "招募代理",
+   "server_config"            : {
+    "start"                    : "2016-12-20 00:00:00",
+    "end"                      : "2017-12-31 00:00:00"
+   },
+   "config"                   : {
+    "firstButton"              : {
+     "visible"                  : 0,
+     "action"                   : "",
+     "params"                   : {
+      "duration"                 : 2,
+      "text"                     : "确定"
+     }
+    },
+    "secondButton"             : {
+     "visible"                  : 0,
+     "action"                   : "",
+     "params"                   : {
+      "duration"                 : 2,
+      "text"                     : "确定"
+     }
+    },
+    "bgURL"                    : "${http_download}/majiang/difang/act/jixidaili.jpg"
+   },
+   "url"                      : ""
+  }
+ },
+ "modules"                  : { }
+}

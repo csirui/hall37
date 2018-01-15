@@ -1,0 +1,78 @@
+{
+ "games"            : [
+  {
+   "versions"         : [
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、江西27王"
+     ],
+     "md5"              : "20d18457d3ecf447cab6b0b12e29a636",
+     "ver"              : "3.901",
+     "url"              : "${http_download}/apk/tsk_3.901.zip",
+     "size"             : "4.8M"
+    }
+   ],
+   "description"      : [
+    "1、江西27王"
+   ],
+   "gameId"           : 151,
+   "gameMark"         : "tsk"
+  }
+ ],
+ "templates"        : [
+  {
+   "des"              : "优乐二七王模板",
+   "name"             : "king27_v3.90_AI_youle_erqiwang",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 11,
+         "create_play_modes": [ ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 151,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/01createroom.png",
+        "vipLevel"         : 0,
+        "gameName"         : "创建房间",
+        "quitAlertName"    : "",
+        "version"          : "3.901",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "${http_download}/majiang/difang/icon/02enterroom.png",
+        "vipLevel"         : 0,
+        "defaultRes"       : ""
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

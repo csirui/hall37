@@ -1,0 +1,208 @@
+{
+    "mysql" : {
+        "ads" : [
+            "db.dayun-app.com", 
+            3306, 
+            "ads", 
+            "tuyoogame", 
+            "tuyoogame"
+        ], 
+        "beauty" : [
+            "db.dayun-app.com", 
+            3306, 
+            "beauty", 
+            "tuyoogame", 
+            "tuyoogame"
+        ], 
+        "user0" : [
+            "db.dayun-app.com", 
+            3306, 
+            "tydata0", 
+            "tuyoogame", 
+            "tuyoogame"
+        ], 
+        "user1" : [
+            "db.dayun-app.com", 
+            3306, 
+            "tydata1", 
+            "tuyoogame", 
+            "tuyoogame"
+        ], 
+        "user2" : [
+            "db.dayun-app.com", 
+            3306, 
+            "tydata2", 
+            "tuyoogame", 
+            "tuyoogame"
+        ], 
+        "user3" : [
+            "db.dayun-app.com", 
+            3306, 
+            "tydata3", 
+            "tuyoogame", 
+            "tuyoogame"
+        ], 
+        "user4" : [
+            "db.dayun-app.com", 
+            3306, 
+            "tydata4", 
+            "tuyoogame", 
+            "tuyoogame"
+        ], 
+        "user5" : [
+            "db.dayun-app.com", 
+            3306, 
+            "tydata5", 
+            "tuyoogame", 
+            "tuyoogame"
+        ], 
+        "user6" : [
+            "db.dayun-app.com", 
+            3306, 
+            "tydata6", 
+            "tuyoogame", 
+            "tuyoogame"
+        ], 
+        "user7" : [
+            "db.dayun-app.com", 
+            3306, 
+            "tydata7", 
+            "tuyoogame", 
+            "tuyoogame"
+        ]
+    }, 
+    "redis" : {
+        "rank" : [
+            "redis.dayun-app.com",
+            "${{port_redis}}", 
+            9, 
+            10
+        ], 
+        "dizhu" : [
+            "redis.dayun-app.com",
+            "${{port_redis}}", 
+            4, 
+            10
+        ], 
+        "friend" : [
+            "redis.dayun-app.com",
+            "${{port_redis}}", 
+            2, 
+            10
+        ], 
+        "geo" : [
+            "redis.dayun-app.com",
+            "${{port_redis}}", 
+            6, 
+            10
+        ], 
+        "keymap" : [
+            "redis.dayun-app.com",
+            "${{port_redis}}", 
+            5, 
+            10
+        ], 
+        "locker" : [
+            "redis.dayun-app.com",
+            "${{port_redis}}", 
+            10, 
+            10
+        ], 
+        "mix" : [
+            "redis.dayun-app.com",
+            "${{port_redis}}", 
+            1, 
+            10
+        ], 
+        "replay" : [
+            "redis.dayun-app.com",
+            "${{port_redis}}", 
+            2, 
+            10
+        ], 
+        "online" : [
+            "redis.dayun-app.com",
+            "${{port_redis}}", 
+            6, 
+            10
+        ], 
+        "paydata" : [
+            "redis.dayun-app.com",
+            "${{port_redis}}", 
+            3, 
+            10
+        ], 
+        "table0" : [
+            "redis.dayun-app.com",
+            "${{port_redis}}", 
+            11, 
+            10
+        ], 
+        "table1" : [
+            "redis.dayun-app.com",
+            "${{port_redis}}", 
+            12, 
+            10
+        ], 
+        "table2" : [
+            "redis.dayun-app.com",
+            "${{port_redis}}", 
+            11, 
+            10
+        ], 
+        "table3" : [
+            "redis.dayun-app.com",
+            "${{port_redis}}", 
+            12, 
+            10
+        ], 
+        "user0" : [
+            "redis.dayun-app.com",
+            "${{port_redis}}", 
+            7, 
+            10
+        ], 
+        "user1" : [
+            "redis.dayun-app.com",
+            "${{port_redis}}", 
+            8, 
+            10
+        ], 
+        "user2" : [
+            "redis.dayun-app.com",
+            "${{port_redis}}", 
+            7, 
+            10
+        ], 
+        "user3" : [
+            "redis.dayun-app.com",
+            "${{port_redis}}", 
+            8, 
+            10
+        ], 
+        "user4" : [
+            "redis.dayun-app.com",
+            "${{port_redis}}", 
+            7, 
+            10
+        ], 
+        "user5" : [
+            "redis.dayun-app.com",
+            "${{port_redis}}", 
+            8, 
+            10
+        ], 
+        "user6" : [
+            "redis.dayun-app.com",
+            "${{port_redis}}", 
+            7, 
+            10
+        ], 
+        "user7" : [
+            "redis.dayun-app.com",
+            "${{port_redis}}", 
+            8, 
+            10
+        ]
+    }
+}

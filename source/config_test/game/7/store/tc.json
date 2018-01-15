@@ -1,0 +1,2711 @@
+{
+    "templates"  : [
+        {
+            "name"       : "goods_conf_mj_old_ios_danji",
+            "shelves"    : [
+                {
+                    "displayName": "金币不足",
+                    "iconType"   : "coin",
+                    "name"       : "lessbuychip",
+                    "products"   : [
+                        "IOS_C6",
+                        "IOS_C12",
+                        "IOS_C30",
+                        "IOS_C68",
+                        "IOS_C138",
+                        "IOS_C228"
+                    ],
+                    "sort"       : 5,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "快速购买",
+                    "iconType"   : "coin",
+                    "name"       : "quick",
+                    "products"   : [ ],
+                    "sort"       : 6,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "钻石商城",
+                    "iconType"   : "diamond",
+                    "name"       : "diamond",
+                    "products"   : [ ],
+                    "sort"       : 0,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "抽奖",
+                    "iconType"   : "coin",
+                    "name"       : "raffle",
+                    "products"   : [
+                        "IOS_C12_RAFFLE"
+                    ],
+                    "sort"       : 3,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "商 城",
+                    "iconType"   : "coin",
+                    "name"       : "coin",
+                    "products"   : [
+                        "IOS_C12",
+                        "IOS_C30",
+                        "IOS_C68",
+                        "IOS_C138",
+                        "IOS_C228",
+                        "IOS_C6"
+                    ],
+                    "sort"       : 1,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "道具商城",
+                    "iconType"   : "coin",
+                    "name"       : "item",
+                    "products"   : [ ],
+                    "sort"       : 2,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "转运礼包",
+                    "iconType"   : "coin",
+                    "name"       : "zhuanyun",
+                    "products"   : [
+                        "IOS_C6_LUCKY"
+                    ],
+                    "sort"       : 4,
+                    "visible"    : 0
+                }
+            ]
+        },
+        {
+            "name"       : "goods_conf_mj_old_android_woStore",
+            "shelves"    : [
+                {
+                    "displayName": "金币不足",
+                    "iconType"   : "coin",
+                    "name"       : "lessbuychip",
+                    "products"   : [
+                        "C6",
+                        "C8",
+                        "C10"
+                    ],
+                    "sort"       : 5,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "快速购买",
+                    "iconType"   : "coin",
+                    "name"       : "quick",
+                    "products"   : [ ],
+                    "sort"       : 6,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "钻石商城",
+                    "iconType"   : "diamond",
+                    "name"       : "diamond",
+                    "products"   : [ ],
+                    "sort"       : 0,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "抽奖",
+                    "iconType"   : "coin",
+                    "name"       : "raffle",
+                    "products"   : [
+                        "C8_RAFFLE"
+                    ],
+                    "sort"       : 3,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "商 城",
+                    "iconType"   : "coin",
+                    "name"       : "coin",
+                    "products"   : [
+                        "C6",
+                        "C8",
+                        "C10"
+                    ],
+                    "sort"       : 1,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "道具商城",
+                    "iconType"   : "coin",
+                    "name"       : "item",
+                    "products"   : [ ],
+                    "sort"       : 2,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "转运礼包",
+                    "iconType"   : "coin",
+                    "name"       : "zhuanyun",
+                    "products"   : [
+                        "C8_LUCKY"
+                    ],
+                    "sort"       : 4,
+                    "visible"    : 0
+                }
+            ]
+        },
+        {
+            "name"       : "goods_conf_mj_hall_ios_3_501_novip",
+            "shelves"    : [
+                {
+                    "displayName": "金币不足",
+                    "iconType"   : "coin",
+                    "name"       : "lessbuychip",
+                    "products"   : [
+                        "TY9999D0006007",
+                        "TY9999D0030007",
+                        "TY9999D0098007",
+                        "TY9999D0198007",
+                        "TY9999D0328007",
+                        "TY9999D0648007"
+                    ],
+                    "sort"       : 5,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "快速购买",
+                    "iconType"   : "coin",
+                    "name"       : "quick",
+                    "products"   : [ ],
+                    "sort"       : 6,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "钻石商城",
+                    "iconType"   : "diamond",
+                    "name"       : "diamond",
+                    "products"   : [
+                        "TY9999R0006001",
+                        "TY9999R0030001",
+                        "TY9999R0128001"
+                    ],
+                    "sort"       : 0,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "抽奖",
+                    "iconType"   : "coin",
+                    "name"       : "raffle",
+                    "products"   : [
+                        "TY9999D0006004"
+                    ],
+                    "sort"       : 3,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "商 城",
+                    "iconType"   : "coin",
+                    "name"       : "coin",
+                    "products"   : [
+                        "TY9999D0006007",
+                        "TY9999D0030007",
+                        "TY9999D0098007",
+                        "TY9999D0198007",
+                        "TY9999D0328007",
+                        "TY9999D0648007"
+                    ],
+                    "sort"       : 1,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "道具商城",
+                    "iconType"   : "coin",
+                    "name"       : "item",
+                    "products"   : [ ],
+                    "sort"       : 2,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "转运礼包",
+                    "iconType"   : "coin",
+                    "name"       : "zhuanyun",
+                    "products"   : [
+                        "TY9999D0006005"
+                    ],
+                    "sort"       : 4,
+                    "visible"    : 0
+                }
+            ]
+        },
+        {
+            "name"       : "goods_conf_mj_old_android",
+            "shelves"    : [
+                {
+                    "displayName": "金币不足",
+                    "iconType"   : "coin",
+                    "name"       : "lessbuychip",
+                    "products"   : [
+                        "C8",
+                        "C10",
+                        "C30",
+                        "C50",
+                        "C100",
+                        "C300",
+                        "C1000"
+                    ],
+                    "sort"       : 5,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "快速购买",
+                    "iconType"   : "coin",
+                    "name"       : "quick",
+                    "products"   : [ ],
+                    "sort"       : 6,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "钻石商城",
+                    "iconType"   : "diamond",
+                    "name"       : "diamond",
+                    "products"   : [ ],
+                    "sort"       : 0,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "抽奖",
+                    "iconType"   : "coin",
+                    "name"       : "raffle",
+                    "products"   : [
+                        "C8_RAFFLE"
+                    ],
+                    "sort"       : 3,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "商 城",
+                    "iconType"   : "coin",
+                    "name"       : "coin",
+                    "products"   : [
+                        "C10",
+                        "C30",
+                        "C8",
+                        "C50",
+                        "C100",
+                        "C300",
+                        "C1000"
+                    ],
+                    "sort"       : 1,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "道具商城",
+                    "iconType"   : "coin",
+                    "name"       : "item",
+                    "products"   : [ ],
+                    "sort"       : 2,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "转运礼包",
+                    "iconType"   : "coin",
+                    "name"       : "zhuanyun",
+                    "products"   : [
+                        "C8_LUCKY"
+                    ],
+                    "sort"       : 4,
+                    "visible"    : 0
+                }
+            ]
+        },
+        {
+            "name"       : "goods_conf_mj_old_ios_queen",
+            "shelves"    : [
+                {
+                    "displayName": "金币不足",
+                    "iconType"   : "coin",
+                    "name"       : "lessbuychip",
+                    "products"   : [
+                        "IOS_QUEEN_C6",
+                        "IOS_QUEEN_C12",
+                        "IOS_QUEEN_C18",
+                        "IOS_QUEEN_C30",
+                        "IOS_QUEEN_C68",
+                        "IOS_QUEEN_C128",
+                        "IOS_QUEEN_C648"
+                    ],
+                    "sort"       : 5,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "快速购买",
+                    "iconType"   : "coin",
+                    "name"       : "quick",
+                    "products"   : [ ],
+                    "sort"       : 6,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "钻石商城",
+                    "iconType"   : "diamond",
+                    "name"       : "diamond",
+                    "products"   : [ ],
+                    "sort"       : 0,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "抽奖",
+                    "iconType"   : "coin",
+                    "name"       : "raffle",
+                    "products"   : [
+                        "IOS_QUEEN_C12_RAFFLE"
+                    ],
+                    "sort"       : 3,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "商 城",
+                    "iconType"   : "coin",
+                    "name"       : "coin",
+                    "products"   : [
+                        "IOS_QUEEN_C6",
+                        "IOS_QUEEN_C12",
+                        "IOS_QUEEN_C18",
+                        "IOS_QUEEN_C30",
+                        "IOS_QUEEN_C68",
+                        "IOS_QUEEN_C128",
+                        "IOS_QUEEN_C648"
+                    ],
+                    "sort"       : 1,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "道具商城",
+                    "iconType"   : "coin",
+                    "name"       : "item",
+                    "products"   : [ ],
+                    "sort"       : 2,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "转运礼包",
+                    "iconType"   : "coin",
+                    "name"       : "zhuanyun",
+                    "products"   : [
+                        "IOS_QUEEN_C6_LUCKY"
+                    ],
+                    "sort"       : 4,
+                    "visible"    : 0
+                }
+            ]
+        },
+        {
+            "name"       : "goods_conf_mj_old_android_lt_2.31",
+            "shelves"    : [
+                {
+                    "displayName": "金币不足",
+                    "iconType"   : "coin",
+                    "name"       : "lessbuychip",
+                    "products"   : [
+                        "C6",
+                        "C8",
+                        "C10",
+                        "C30",
+                        "C50",
+                        "C100",
+                        "C300",
+                        "C1000"
+                    ],
+                    "sort"       : 5,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "快速购买",
+                    "iconType"   : "coin",
+                    "name"       : "quick",
+                    "products"   : [ ],
+                    "sort"       : 6,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "钻石商城",
+                    "iconType"   : "diamond",
+                    "name"       : "diamond",
+                    "products"   : [ ],
+                    "sort"       : 0,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "抽奖",
+                    "iconType"   : "coin",
+                    "name"       : "raffle",
+                    "products"   : [
+                        "C5_RAFFLE"
+                    ],
+                    "sort"       : 3,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "商 城",
+                    "iconType"   : "coin",
+                    "name"       : "coin",
+                    "products"   : [
+                        "C10",
+                        "C30",
+                        "C8",
+                        "C50",
+                        "C100",
+                        "C300",
+                        "C1000",
+                        "C6"
+                    ],
+                    "sort"       : 1,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "道具商城",
+                    "iconType"   : "coin",
+                    "name"       : "item",
+                    "products"   : [ ],
+                    "sort"       : 2,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "转运礼包",
+                    "iconType"   : "coin",
+                    "name"       : "zhuanyun",
+                    "products"   : [
+                        "C8_LUCKY"
+                    ],
+                    "sort"       : 4,
+                    "visible"    : 0
+                }
+            ]
+        },
+        {
+            "name"       : "goods_conf_mj_hall_ios_3_502",
+            "shelves"    : [
+                {
+                    "displayName": "金币不足",
+                    "iconType"   : "coin",
+                    "name"       : "lessbuychip",
+                    "products"   : [
+                        "TY9999D0006007",
+                        "TY9999D0030007",
+                        "TY9999D0098007",
+                        "TY9999D0198007",
+                        "TY9999D0328007",
+                        "TY9999D0648007"
+                    ],
+                    "sort"       : 6,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "快速购买",
+                    "iconType"   : "coin",
+                    "name"       : "quick",
+                    "products"   : [ ],
+                    "sort"       : 7,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "钻石商城",
+                    "iconType"   : "diamond",
+                    "name"       : "diamond",
+                    "products"   : [
+                        "TY9999R0006001",
+                        "TY9999R0030001",
+                        "TY9999R0128001",
+                        "TY9999D0000102"
+                    ],
+                    "sort"       : 0,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "抽奖",
+                    "iconType"   : "coin",
+                    "name"       : "raffle",
+                    "products"   : [
+                        "TY9999D0006004"
+                    ],
+                    "sort"       : 4,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "商 城",
+                    "iconType"   : "coin",
+                    "name"       : "coin",
+                    "products"   : [
+                        "TY9999D0006007",
+                        "TY9999D0030007",
+                        "TY9999D0098007",
+                        "TY9999D0198007",
+                        "TY9999D0328007",
+                        "TY9999D0648007"
+                    ],
+                    "sort"       : 1,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "道具商城",
+                    "iconType"   : "coin",
+                    "name"       : "item",
+                    "products"   : [ ],
+                    "sort"       : 2,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "转运礼包",
+                    "iconType"   : "coin",
+                    "name"       : "zhuanyun",
+                    "products"   : [
+                        "TY9999D0006005"
+                    ],
+                    "sort"       : 5,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "VIP商城",
+                    "iconType"   : "diamond",
+                    "name"       : "vip",
+                    "products"   : [
+                        "TY9999D0012001",
+                        "TY9999D0002003",
+                        "TY9999D0006008",
+                        "TY9999D0006009",
+                        "TY9999D0030004",
+                        "TY9999D0030005",
+                        "TY9999D0100002",
+                        "TY9999D0100003",
+                        "TY9999D0100004"
+                    ],
+                    "sort"       : 3,
+                    "visible"    : 1
+                }
+            ]
+        },
+        {
+            "name"       : "goods_conf_mj_hall_ios_3_501",
+            "shelves"    : [
+                {
+                    "displayName": "金币不足",
+                    "iconType"   : "coin",
+                    "name"       : "lessbuychip",
+                    "products"   : [
+                        "TY9999D0006007",
+                        "TY9999D0030007",
+                        "TY9999D0098007",
+                        "TY9999D0198007",
+                        "TY9999D0328007",
+                        "TY9999D0648007"
+                    ],
+                    "sort"       : 6,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "快速购买",
+                    "iconType"   : "coin",
+                    "name"       : "quick",
+                    "products"   : [ ],
+                    "sort"       : 7,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "钻石商城",
+                    "iconType"   : "diamond",
+                    "name"       : "diamond",
+                    "products"   : [
+                        "TY9999R0006001",
+                        "TY9999R0030001",
+                        "TY9999R0128001"
+                    ],
+                    "sort"       : 0,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "抽奖",
+                    "iconType"   : "coin",
+                    "name"       : "raffle",
+                    "products"   : [
+                        "TY9999D0006004"
+                    ],
+                    "sort"       : 4,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "商 城",
+                    "iconType"   : "coin",
+                    "name"       : "coin",
+                    "products"   : [
+                        "TY9999D0006007",
+                        "TY9999D0030007",
+                        "TY9999D0098007",
+                        "TY9999D0198007",
+                        "TY9999D0328007",
+                        "TY9999D0648007"
+                    ],
+                    "sort"       : 1,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "道具商城",
+                    "iconType"   : "coin",
+                    "name"       : "item",
+                    "products"   : [ ],
+                    "sort"       : 2,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "转运礼包",
+                    "iconType"   : "coin",
+                    "name"       : "zhuanyun",
+                    "products"   : [
+                        "TY9999D0006005"
+                    ],
+                    "sort"       : 5,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "VIP商城",
+                    "iconType"   : "diamond",
+                    "name"       : "vip",
+                    "products"   : [
+                        "TY9999D0012001",
+                        "TY9999D0002003",
+                        "TY9999D0006008",
+                        "TY9999D0006009",
+                        "TY9999D0030004",
+                        "TY9999D0030005",
+                        "TY9999D0100002",
+                        "TY9999D0100003",
+                        "TY9999D0100004"
+                    ],
+                    "sort"       : 3,
+                    "visible"    : 1
+                }
+            ]
+        },
+        {
+            "name"       : "goods_conf_mj_old_ios_cherry",
+            "shelves"    : [
+                {
+                    "displayName": "金币不足",
+                    "iconType"   : "coin",
+                    "name"       : "lessbuychip",
+                    "products"   : [
+                        "IOS_C6",
+                        "IOS_C12",
+                        "IOS_C30",
+                        "IOS_C68",
+                        "IOS_C138",
+                        "IOS_C228"
+                    ],
+                    "sort"       : 5,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "快速购买",
+                    "iconType"   : "coin",
+                    "name"       : "quick",
+                    "products"   : [ ],
+                    "sort"       : 6,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "钻石商城",
+                    "iconType"   : "diamond",
+                    "name"       : "diamond",
+                    "products"   : [ ],
+                    "sort"       : 0,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "抽奖",
+                    "iconType"   : "coin",
+                    "name"       : "raffle",
+                    "products"   : [
+                        "IOS_C12_RAFFLE"
+                    ],
+                    "sort"       : 3,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "商 城",
+                    "iconType"   : "coin",
+                    "name"       : "coin",
+                    "products"   : [
+                        "IOS_C12",
+                        "IOS_C30",
+                        "IOS_C68",
+                        "IOS_C138",
+                        "IOS_C228",
+                        "IOS_C6"
+                    ],
+                    "sort"       : 1,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "道具商城",
+                    "iconType"   : "coin",
+                    "name"       : "item",
+                    "products"   : [ ],
+                    "sort"       : 2,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "转运礼包",
+                    "iconType"   : "coin",
+                    "name"       : "zhuanyun",
+                    "products"   : [
+                        "IOS_C6_LUCKY"
+                    ],
+                    "sort"       : 4,
+                    "visible"    : 0
+                }
+            ]
+        },
+        {
+            "name"       : "goods_conf_mj_hall_ydmm_3_502",
+            "shelves"    : [
+                {
+                    "displayName": "金币不足",
+                    "iconType"   : "coin",
+                    "name"       : "lessbuychip",
+                    "products"   : [
+                        "TY0007D0008001"
+                    ],
+                    "sort"       : 5,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "快速购买",
+                    "iconType"   : "coin",
+                    "name"       : "quick",
+                    "products"   : [ ],
+                    "sort"       : 6,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "钻石商城",
+                    "iconType"   : "diamond",
+                    "name"       : "diamond",
+                    "products"   : [
+                        "TY9999R0008001"
+                    ],
+                    "sort"       : 0,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "抽奖",
+                    "iconType"   : "coin",
+                    "name"       : "raffle",
+                    "products"   : [
+                        "TY9999D0008001"
+                    ],
+                    "sort"       : 3,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "商 城",
+                    "iconType"   : "coin",
+                    "name"       : "coin",
+                    "products"   : [
+                        "TY0007D0008001",
+                        "TY9999D0008001",
+                        "TY9999D0008002"
+                    ],
+                    "sort"       : 1,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "道具商城",
+                    "iconType"   : "coin",
+                    "name"       : "item",
+                    "products"   : [ ],
+                    "sort"       : 2,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "转运礼包",
+                    "iconType"   : "coin",
+                    "name"       : "zhuanyun",
+                    "products"   : [
+                        "TY9999D0008002"
+                    ],
+                    "sort"       : 4,
+                    "visible"    : 0
+                }
+            ]
+        },
+        {
+            "name"       : "goods_conf_mj_hall_ydmm_ext",
+            "shelves"    : [
+                {
+                    "displayName": "金币不足",
+                    "iconType"   : "coin",
+                    "name"       : "lessbuychip",
+                    "products"   : [
+                        "TY0007D0008001"
+                    ],
+                    "sort"       : 5,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "快速购买",
+                    "iconType"   : "coin",
+                    "name"       : "quick",
+                    "products"   : [ ],
+                    "sort"       : 6,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "钻石商城",
+                    "iconType"   : "diamond",
+                    "name"       : "diamond",
+                    "products"   : [
+                        "TY9999R0008001"
+                    ],
+                    "sort"       : 0,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "抽奖",
+                    "iconType"   : "coin",
+                    "name"       : "raffle",
+                    "products"   : [
+                        "TY9999D0008001"
+                    ],
+                    "sort"       : 3,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "商 城",
+                    "iconType"   : "coin",
+                    "name"       : "coin",
+                    "products"   : [
+                        "TY0007D0008001"
+                    ],
+                    "sort"       : 1,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "道具商城",
+                    "iconType"   : "coin",
+                    "name"       : "item",
+                    "products"   : [ ],
+                    "sort"       : 2,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "转运礼包",
+                    "iconType"   : "coin",
+                    "name"       : "zhuanyun",
+                    "products"   : [
+                        "TY9999D0008002"
+                    ],
+                    "sort"       : 4,
+                    "visible"    : 0
+                }
+            ]
+        },
+        {
+            "name"       : "goods_conf_mj_hall",
+            "shelves"    : [
+                {
+                    "displayName": "金币不足",
+                    "iconType"   : "coin",
+                    "name"       : "lessbuychip",
+                    "products"   : [
+                        "TY0007D0008001",
+                        "TY0007D0010001",
+                        "TY0007D0030001",
+                        "TY0007D0050001",
+                        "TY0007D0100001",
+                        "TY0007D0300001",
+                        "TY0007D1000001"
+                    ],
+                    "sort"       : 5,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "快速购买",
+                    "iconType"   : "coin",
+                    "name"       : "quick",
+                    "products"   : [ ],
+                    "sort"       : 6,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "钻石商城",
+                    "iconType"   : "diamond",
+                    "name"       : "diamond",
+                    "products"   : [
+                        "TY9999R0008001",
+                        "TY9999D0000102",
+                        "TY9999R0050001",
+                        "TY9999R0100001"
+                    ],
+                    "sort"       : 0,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "抽奖",
+                    "iconType"   : "coin",
+                    "name"       : "raffle",
+                    "products"   : [
+                        "TY9999D0008001"
+                    ],
+                    "sort"       : 3,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "商 城",
+                    "iconType"   : "coin",
+                    "name"       : "coin",
+                    "products"   : [
+                        "TY9999D0004001",
+                        "TY0007D0008001",
+                        "TY0007D0010001",
+                        "TY0007D0030001",
+                        "TY0007D0050001",
+                        "TY0007D0100001",
+                        "TY0007D0300001",
+                        "TY0007D1000001"
+                    ],
+                    "sort"       : 1,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "道具商城",
+                    "iconType"   : "coin",
+                    "name"       : "item",
+                    "products"   : [ ],
+                    "sort"       : 2,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "转运礼包",
+                    "iconType"   : "coin",
+                    "name"       : "zhuanyun",
+                    "products"   : [
+                        "TY9999D0008022",
+                        "TY9999D0050004",
+                        "TY9999D0100008"
+                    ],
+                    "sort"       : 4,
+                    "visible"    : 0
+                }
+            ]
+        },
+        {
+            "name"       : "goods_conf_mj_old_android_v2.5",
+            "shelves"    : [
+                {
+                    "displayName": "金币不足",
+                    "iconType"   : "coin",
+                    "name"       : "lessbuychip",
+                    "products"   : [
+                        "C6",
+                        "C8",
+                        "C10",
+                        "C30",
+                        "C50",
+                        "C100",
+                        "C300",
+                        "C1000"
+                    ],
+                    "sort"       : 5,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "快速购买",
+                    "iconType"   : "coin",
+                    "name"       : "quick",
+                    "products"   : [ ],
+                    "sort"       : 6,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "钻石商城",
+                    "iconType"   : "diamond",
+                    "name"       : "diamond",
+                    "products"   : [ ],
+                    "sort"       : 0,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "抽奖",
+                    "iconType"   : "coin",
+                    "name"       : "raffle",
+                    "products"   : [
+                        "C6_RAFFLE"
+                    ],
+                    "sort"       : 3,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "商 城",
+                    "iconType"   : "coin",
+                    "name"       : "coin",
+                    "products"   : [
+                        "C10",
+                        "C30",
+                        "C8",
+                        "C50",
+                        "C100",
+                        "C300",
+                        "C1000",
+                        "C6"
+                    ],
+                    "sort"       : 1,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "道具商城",
+                    "iconType"   : "coin",
+                    "name"       : "item",
+                    "products"   : [ ],
+                    "sort"       : 2,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "转运礼包",
+                    "iconType"   : "coin",
+                    "name"       : "zhuanyun",
+                    "products"   : [
+                        "C8_LUCKY"
+                    ],
+                    "sort"       : 4,
+                    "visible"    : 0
+                }
+            ]
+        },
+        {
+            "name"       : "goods_conf_mj_hall_3_5",
+            "shelves"    : [
+                {
+                    "displayName": "金币不足",
+                    "iconType"   : "coin",
+                    "name"       : "lessbuychip",
+                    "products"   : [
+                        "TY0007D0008001",
+                        "TY0007D0030001",
+                        "TY0007D0050001",
+                        "TY0007D0100001",
+                        "TY0007D0300001",
+                        "TY0007D1000001"
+                    ],
+                    "sort"       : 6,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "快速购买",
+                    "iconType"   : "coin",
+                    "name"       : "quick",
+                    "products"   : [ ],
+                    "sort"       : 7,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "钻石商城",
+                    "iconType"   : "diamond",
+                    "name"       : "diamond",
+                    "products"   : [
+                        "TY9999R0008001",
+                        "TY9999D0000102",
+                        "TY9999R0050001",
+                        "TY9999R0100001",
+                        "TY9999D0008031"
+                    ],
+                    "sort"       : 1,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "抽奖",
+                    "iconType"   : "coin",
+                    "name"       : "raffle",
+                    "products"   : [
+                        "TY9999D0008001"
+                    ],
+                    "sort"       : 4,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "商 城",
+                    "iconType"   : "coin",
+                    "name"       : "coin",
+                    "products"   : [
+                        "TY0007D0008001",
+                        "TY0007D0030001",
+                        "TY0007D0050001",
+                        "TY0007D0100001",
+                        "TY0007D0300001",
+                        "TY0007D1000001"
+                    ],
+                    "sort"       : 0,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "道具商城",
+                    "iconType"   : "coin",
+                    "name"       : "item",
+                    "products"   : [ ],
+                    "sort"       : 2,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "转运礼包",
+                    "iconType"   : "coin",
+                    "name"       : "zhuanyun",
+                    "products"   : [
+                        "TY9999D0008022",
+                        "TY9999D0050004",
+                        "TY9999D0100008"
+                    ],
+                    "sort"       : 5,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "VIP商城",
+                    "iconType"   : "diamond",
+                    "name"       : "vip",
+                    "products"   : [
+                        "TY9999D0012001",
+                        "TY9999D0002003",
+                        "TY9999D0006008",
+                        "TY9999D0006009",
+                        "TY9999D0030004",
+                        "TY9999D0030005",
+                        "TY9999D0100002",
+                        "TY9999D0100003",
+                        "TY9999D0100004"
+                    ],
+                    "sort"       : 3,
+                    "visible"    : 1
+                }
+            ]
+        },
+        {
+            "name"       : "goods_conf_3.71_mj",
+            "shelves"    : [
+                {
+                    "displayName": "装饰道具",
+                    "iconType"   : "diamond",
+                    "name"       : "charm",
+                    "products"   : [
+                        "TY9999C0003001",
+                        "TY9999C0006001",
+                        "TY9999C0001501",
+                        "TY9999C0003002",
+                        "TY9999D0012001",
+                        "TY9999D0002003",
+                        "TY9999D0006008",
+                        "TY9999D0006009",
+                        "TY9999D0030004",
+                        "TY9999D0030005",
+                        "TY9999D0100002",
+                        "TY9999D0100003",
+                        "TY9999D0100004"
+                    ],
+                    "sort"       : 2,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "金币不足",
+                    "iconType"   : "coin",
+                    "name"       : "lessbuychip",
+                    "products"   : [
+                        "TY9999D0008027",
+                        "TY9999D0030001",
+                        "TY9999D0100001",
+                        "TY9999D0300001",
+                        "TY9999D0050001",
+                        "TY9999D1000001"
+                    ],
+                    "sort"       : 9,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "高手礼包",
+                    "iconType"   : "coin",
+                    "name"       : "winlead",
+                    "products"   : [
+                        "TY9999D0008025",
+                        "TY9999D0030012",
+                        "TY9999D0050008",
+                        "TY9999D0100012"
+                    ],
+                    "sort"       : 12,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "快速购买",
+                    "iconType"   : "coin",
+                    "name"       : "quick",
+                    "products"   : [
+                        "TY9999D0002001"
+                    ],
+                    "sort"       : 11,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "购买金币",
+                    "iconType"   : "coin",
+                    "name"       : "coin",
+                    "products"   : [
+                        "TY9999D1000001",
+                        "TY9999D0300001",
+                        "TY9999D0050001",
+                        "TY9999D0008005",
+                        "TY9999D0001003"
+                    ],
+                    "sort"       : 1,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "钻石商城",
+                    "iconType"   : "diamond",
+                    "name"       : "diamond",
+                    "products"   : [
+                        "TY9999R0100001",
+                        "TY9999R0008005",
+                        "TY9999D0000102",
+                        "TY9999D0008006",
+                        "TY9999D0008031"
+                    ],
+                    "sort"       : 3,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "会员",
+                    "iconType"   : "coin",
+                    "name"       : "member",
+                    "products"   : [
+                        "TY9999D0001003",
+                        "TY9999D0008030"
+                    ],
+                    "sort"       : 13,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "抽奖",
+                    "iconType"   : "coin",
+                    "name"       : "raffle",
+                    "products"   : [
+                        "TY9999D0008001"
+                    ],
+                    "sort"       : 6,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "特惠商品",
+                    "iconType"   : "coin",
+                    "name"       : "recommend",
+                    "products"   : [
+                        "TY9999D0008001"
+                    ],
+                    "sort"       : 10,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "奖品兑换",
+                    "iconType"   : "diamond",
+                    "name"       : "coupon",
+                    "products"   : [
+                        "TY9999Q0000101",
+                        "TY9999Q0000401",
+                        "TY9999Q0000601",
+                        "TY9999Q0001001",
+                        "TY9999Q0008002",
+                        "TY9999Q0050002",
+                        "TY9999Q0100002"
+                    ],
+                    "sort"       : 4,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "桌面快充",
+                    "iconType"   : "coin",
+                    "name"       : "tablebuy",
+                    "products"   : [
+                        "TY9999D0002001",
+                        "TY9999D0008027",
+                        "TY9999D0030001",
+                        "TY9999D0050001",
+                        "TY9999D0100001",
+                        "TY9999D0300001",
+                        "TY9999D1000001"
+                    ],
+                    "sort"       : 8,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "特价专区",
+                    "iconType"   : "diamond",
+                    "name"       : "activity",
+                    "products"   : [
+                        "TY9999D0010001",
+                        "TY9999R0050001",
+                        "TY9999D0012003"
+                    ],
+                    "sort"       : 0,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "道具商城",
+                    "iconType"   : "coin",
+                    "name"       : "item",
+                    "products"   : [ ],
+                    "sort"       : 5,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "转运礼包",
+                    "iconType"   : "coin",
+                    "name"       : "zhuanyun",
+                    "products"   : [
+                        "TY9999D0008026",
+                        "TY9999D0030011",
+                        "TY9999D0050007",
+                        "TY9999D0100011"
+                    ],
+                    "sort"       : 7,
+                    "visible"    : 0
+                }
+            ]
+        },
+        {
+            "name"       : "goods_conf_mj_hall_ydmm",
+            "shelves"    : [
+                {
+                    "displayName": "金币不足",
+                    "iconType"   : "coin",
+                    "name"       : "lessbuychip",
+                    "products"   : [
+                        "TY0007D0008001"
+                    ],
+                    "sort"       : 5,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "快速购买",
+                    "iconType"   : "coin",
+                    "name"       : "quick",
+                    "products"   : [ ],
+                    "sort"       : 6,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "钻石商城",
+                    "iconType"   : "diamond",
+                    "name"       : "diamond",
+                    "products"   : [
+                        "TY9999R0008001"
+                    ],
+                    "sort"       : 0,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "抽奖",
+                    "iconType"   : "coin",
+                    "name"       : "raffle",
+                    "products"   : [
+                        "TY9999D0008001"
+                    ],
+                    "sort"       : 3,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "商 城",
+                    "iconType"   : "coin",
+                    "name"       : "coin",
+                    "products"   : [
+                        "TY9999D0004001",
+                        "TY0007D0008001",
+                        "TY9999D0008001",
+                        "TY9999D0008002"
+                    ],
+                    "sort"       : 1,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "道具商城",
+                    "iconType"   : "coin",
+                    "name"       : "item",
+                    "products"   : [ ],
+                    "sort"       : 2,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "转运礼包",
+                    "iconType"   : "coin",
+                    "name"       : "zhuanyun",
+                    "products"   : [
+                        "TY9999D0008002"
+                    ],
+                    "sort"       : 4,
+                    "visible"    : 0
+                }
+            ]
+        },
+        {
+            "name"       : "goods_conf_mj_hall_ios",
+            "shelves"    : [
+                {
+                    "displayName": "金币不足",
+                    "iconType"   : "coin",
+                    "name"       : "lessbuychip",
+                    "products"   : [
+                        "TY9999D0006007",
+                        "TY9999D0030007",
+                        "TY9999D0098007",
+                        "TY9999D0198007",
+                        "TY9999D0328007",
+                        "TY9999D0648007"
+                    ],
+                    "sort"       : 5,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "快速购买",
+                    "iconType"   : "coin",
+                    "name"       : "quick",
+                    "products"   : [ ],
+                    "sort"       : 6,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "钻石商城",
+                    "iconType"   : "diamond",
+                    "name"       : "diamond",
+                    "products"   : [
+                        "TY9999R0006001",
+                        "TY9999R0030001",
+                        "TY9999D0000102"
+                    ],
+                    "sort"       : 0,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "抽奖",
+                    "iconType"   : "coin",
+                    "name"       : "raffle",
+                    "products"   : [
+                        "TY9999D0006004"
+                    ],
+                    "sort"       : 3,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "商 城",
+                    "iconType"   : "coin",
+                    "name"       : "coin",
+                    "products"   : [
+                        "TY9999D0006007",
+                        "TY9999D0030007",
+                        "TY9999D0098007",
+                        "TY9999D0198007",
+                        "TY9999D0328007",
+                        "TY9999D0648007"
+                    ],
+                    "sort"       : 1,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "道具商城",
+                    "iconType"   : "coin",
+                    "name"       : "item",
+                    "products"   : [ ],
+                    "sort"       : 2,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "转运礼包",
+                    "iconType"   : "coin",
+                    "name"       : "zhuanyun",
+                    "products"   : [
+                        "TY9999D0006005"
+                    ],
+                    "sort"       : 4,
+                    "visible"    : 0
+                }
+            ]
+        },
+        {
+            "name"       : "goods_conf_mj_old_android_v3.36",
+            "shelves"    : [
+                {
+                    "displayName": "金币不足",
+                    "iconType"   : "coin",
+                    "name"       : "lessbuychip",
+                    "products"   : [
+                        "C6",
+                        "C8",
+                        "C10",
+                        "C30",
+                        "C50",
+                        "C100",
+                        "C300",
+                        "C1000"
+                    ],
+                    "sort"       : 5,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "快速购买",
+                    "iconType"   : "coin",
+                    "name"       : "quick",
+                    "products"   : [ ],
+                    "sort"       : 6,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "钻石商城",
+                    "iconType"   : "diamond",
+                    "name"       : "diamond",
+                    "products"   : [ ],
+                    "sort"       : 0,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "抽奖",
+                    "iconType"   : "coin",
+                    "name"       : "raffle",
+                    "products"   : [
+                        "C5_RAFFLE"
+                    ],
+                    "sort"       : 3,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "商 城",
+                    "iconType"   : "coin",
+                    "name"       : "coin",
+                    "products"   : [
+                        "C10",
+                        "C30",
+                        "C8",
+                        "C50",
+                        "C100",
+                        "C300",
+                        "C1000",
+                        "C6"
+                    ],
+                    "sort"       : 1,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "道具商城",
+                    "iconType"   : "coin",
+                    "name"       : "item",
+                    "products"   : [ ],
+                    "sort"       : 2,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "转运礼包",
+                    "iconType"   : "coin",
+                    "name"       : "zhuanyun",
+                    "products"   : [
+                        "C8_LUCKY"
+                    ],
+                    "sort"       : 4,
+                    "visible"    : 0
+                }
+            ]
+        },
+        {
+            "name"       : "goods_conf_3_71_mj_tishen",
+            "shelves"    : [
+                {
+                    "displayName": "金币不足",
+                    "iconType"   : "coin",
+                    "name"       : "lessbuychip",
+                    "products"   : [
+                        "TY9999D0002001",
+                        "TY9999D0008027",
+                        "TY9999D0010001"
+                    ],
+                    "sort"       : 7,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "高手礼包",
+                    "iconType"   : "coin",
+                    "name"       : "winlead",
+                    "products"   : [
+                        "TY9999D0008025"
+                    ],
+                    "sort"       : 9,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "快速购买",
+                    "iconType"   : "coin",
+                    "name"       : "quick",
+                    "products"   : [ ],
+                    "sort"       : 8,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "钻石商城",
+                    "iconType"   : "diamond",
+                    "name"       : "diamond",
+                    "products"   : [
+                        "TY9999R0008005"
+                    ],
+                    "sort"       : 1,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "抽奖",
+                    "iconType"   : "coin",
+                    "name"       : "raffle",
+                    "products"   : [
+                        "TY9999D0008001"
+                    ],
+                    "sort"       : 5,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "商 城",
+                    "iconType"   : "coin",
+                    "name"       : "coin",
+                    "products"   : [
+                        "TY9999D0002001",
+                        "TY9999D0001003",
+                        "TY9999D0005003",
+                        "TY9999D0006016",
+                        "TY9999D0008027",
+                        "TY9999D0010001",
+                        "TY9999D0008001",
+                        "TY9999D0008025",
+                        "TY9999D0008026"
+                    ],
+                    "sort"       : 0,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "道具商城",
+                    "iconType"   : "coin",
+                    "name"       : "item",
+                    "products"   : [ ],
+                    "sort"       : 2,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "转运礼包",
+                    "iconType"   : "coin",
+                    "name"       : "zhuanyun",
+                    "products"   : [
+                        "TY9999D0008026"
+                    ],
+                    "sort"       : 6,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "特价活动",
+                    "iconType"   : "diamond",
+                    "name"       : "activity",
+                    "products"   : [ ],
+                    "sort"       : 3,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "VIP商城",
+                    "iconType"   : "diamond",
+                    "name"       : "vip",
+                    "products"   : [ ],
+                    "sort"       : 4,
+                    "visible"    : 1
+                }
+            ]
+        },
+        {
+            "name"       : "goods_conf_ios_3_71_mj_tishen",
+            "shelves"    : [
+                {
+                    "displayName": "金币不足",
+                    "iconType"   : "coin",
+                    "name"       : "lessbuychip",
+                    "products"   : [
+                        "TY9999D0006003",
+                        "TY9999D0030001",
+                        "TY9999D0098001",
+                        "TY9999D0198001",
+                        "TY9999D0328001",
+                        "TY9999D0648001"
+                    ],
+                    "sort"       : 5,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "快速购买",
+                    "iconType"   : "coin",
+                    "name"       : "quick",
+                    "products"   : [
+                        "TY9999D0006003"
+                    ],
+                    "sort"       : 7,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "购买金币",
+                    "iconType"   : "coin",
+                    "name"       : "coin",
+                    "products"   : [
+                        "TY9999D0006003",
+                        "TY9999D0030001",
+                        "TY9999D0098001",
+                        "TY9999D0198001",
+                        "TY9999D0328001",
+                        "TY9999D0648001"
+                    ],
+                    "sort"       : 0,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "钻石商城",
+                    "iconType"   : "diamond",
+                    "name"       : "diamond",
+                    "products"   : [
+                        "TY9999D0000102",
+                        "TY9999R0006001",
+                        "TY9999R0030001",
+                        "TY9999R0128001"
+                    ],
+                    "sort"       : 1,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "抽奖",
+                    "iconType"   : "coin",
+                    "name"       : "raffle",
+                    "products"   : [
+                        "TY9999D0006004"
+                    ],
+                    "sort"       : 2,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "特惠商品",
+                    "iconType"   : "coin",
+                    "name"       : "recommend",
+                    "products"   : [ ],
+                    "sort"       : 6,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "桌面快充",
+                    "iconType"   : "coin",
+                    "name"       : "tablebuy",
+                    "products"   : [
+                        "TY9999D0006003",
+                        "TY9999D0030001",
+                        "TY9999D0098001",
+                        "TY9999D0198001",
+                        "TY9999D0328001",
+                        "TY9999D0648001"
+                    ],
+                    "sort"       : 4,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "转运礼包",
+                    "iconType"   : "coin",
+                    "name"       : "zhuanyun",
+                    "products"   : [
+                        "TY9999D0006005"
+                    ],
+                    "sort"       : 3,
+                    "visible"    : 0
+                }
+            ]
+        },
+        {
+            "name"       : "goods_conf_mj_ios_3_7",
+            "shelves"    : [
+                {
+                    "displayName": "装饰道具",
+                    "iconType"   : "diamond",
+                    "name"       : "charm",
+                    "products"   : [
+                        "TY9999C0006001",
+                        "TY9999C0003001",
+                        "TY9999C0001501",
+                        "TY9999C0003002",
+                        "TY9999D0012001",
+                        "TY9999D0002003",
+                        "TY9999D0030004",
+                        "TY9999D0030005",
+                        "TY9999D0100002",
+                        "TY9999D0100003",
+                        "TY9999D0100004"
+                    ],
+                    "sort"       : 0,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "金币不足",
+                    "iconType"   : "coin",
+                    "name"       : "lessbuychip",
+                    "products"   : [
+                        "TY9999D0006003",
+                        "TY9999D0030001",
+                        "TY9999D0098001",
+                        "TY9999D0198001",
+                        "TY9999D0328001",
+                        "TY9999D0648001"
+                    ],
+                    "sort"       : 7,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "高手礼包",
+                    "iconType"   : "coin",
+                    "name"       : "winlead",
+                    "products"   : [
+                        "TY9999D0006004"
+                    ],
+                    "sort"       : 10,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "快速购买",
+                    "iconType"   : "coin",
+                    "name"       : "quick",
+                    "products"   : [
+                        "TY9999D0006003",
+                        "TY9999D0030001"
+                    ],
+                    "sort"       : 9,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "购买金币",
+                    "iconType"   : "coin",
+                    "name"       : "coin",
+                    "products"   : [
+                        "TY9999D0006003",
+                        "TY9999D0030001",
+                        "TY9999D0098001",
+                        "TY9999D0198001",
+                        "TY9999D0328001",
+                        "TY9999D0648001"
+                    ],
+                    "sort"       : 1,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "钻石商城",
+                    "iconType"   : "diamond",
+                    "name"       : "diamond",
+                    "products"   : [
+                        "TY9999D0000102",
+                        "TY9999R0006001",
+                        "TY9999R0030001",
+                        "TY9999R0128001",
+                        "TY9999D0008031",
+                        "TY9999D0030020"
+                    ],
+                    "sort"       : 2,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "抽奖",
+                    "iconType"   : "coin",
+                    "name"       : "raffle",
+                    "products"   : [
+                        "TY9999D0006004"
+                    ],
+                    "sort"       : 4,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "特惠商品",
+                    "iconType"   : "coin",
+                    "name"       : "recommend",
+                    "products"   : [
+                        "TY9999D0006004"
+                    ],
+                    "sort"       : 8,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "奖品兑换",
+                    "iconType"   : "diamond",
+                    "name"       : "coupon",
+                    "products"   : [
+                        "TY9999Q0000101",
+                        "TY9999Q0000401",
+                        "TY9999Q0000601",
+                        "TY9999Q0001001",
+                        "TY9999Q0008002",
+                        "TY9999Q0050002",
+                        "TY9999Q0100002"
+                    ],
+                    "sort"       : 3,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "桌面快充",
+                    "iconType"   : "coin",
+                    "name"       : "tablebuy",
+                    "products"   : [
+                        "TY9999D0006003",
+                        "TY9999D0030001",
+                        "TY9999D0098001",
+                        "TY9999D0198001",
+                        "TY9999D0328001",
+                        "TY9999D0648001"
+                    ],
+                    "sort"       : 6,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "转运礼包",
+                    "iconType"   : "coin",
+                    "name"       : "zhuanyun",
+                    "products"   : [
+                        "TY9999D0006005"
+                    ],
+                    "sort"       : 5,
+                    "visible"    : 0
+                }
+            ]
+        },
+        {
+            "name"       : "goods_conf_3.71_mj_no_pig",
+            "shelves"    : [
+                {
+                    "displayName": "装饰道具",
+                    "iconType"   : "diamond",
+                    "name"       : "charm",
+                    "products"   : [
+                        "TY9999C0003001",
+                        "TY9999C0006001",
+                        "TY9999C0001501",
+                        "TY9999C0003002",
+                        "TY9999D0002003",
+                        "TY9999D0006008",
+                        "TY9999D0006009"
+                    ],
+                    "sort"       : 1,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "金币不足",
+                    "iconType"   : "coin",
+                    "name"       : "lessbuychip",
+                    "products"   : [
+                        "TY9999D0002001",
+                        "TY9999D0008027"
+                    ],
+                    "sort"       : 8,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "高手礼包",
+                    "iconType"   : "coin",
+                    "name"       : "winlead",
+                    "products"   : [
+                        "TY9999D0008025"
+                    ],
+                    "sort"       : 11,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "快速购买",
+                    "iconType"   : "coin",
+                    "name"       : "quick",
+                    "products"   : [ ],
+                    "sort"       : 10,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "购买金币",
+                    "iconType"   : "coin",
+                    "name"       : "coin",
+                    "products"   : [
+                        "TY9999D0008005",
+                        "TY9999D0001003",
+                        "TY9999D0010001"
+                    ],
+                    "sort"       : 0,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "钻石商城",
+                    "iconType"   : "diamond",
+                    "name"       : "diamond",
+                    "products"   : [
+                        "TY9999R0008005",
+                        "TY9999D0000102",
+                        "TY9999D0008006",
+                        "TY9999D0008031"
+                    ],
+                    "sort"       : 2,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "会员",
+                    "iconType"   : "coin",
+                    "name"       : "member",
+                    "products"   : [
+                        "TY9999D0001003",
+                        "TY9999D0008030"
+                    ],
+                    "sort"       : 12,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "抽奖",
+                    "iconType"   : "coin",
+                    "name"       : "raffle",
+                    "products"   : [
+                        "TY9999D0008001"
+                    ],
+                    "sort"       : 5,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "特惠商品",
+                    "iconType"   : "coin",
+                    "name"       : "recommend",
+                    "products"   : [
+                        "TY9999D0008001"
+                    ],
+                    "sort"       : 9,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "奖品兑换",
+                    "iconType"   : "diamond",
+                    "name"       : "coupon",
+                    "products"   : [
+                        "TY9999Q0000101",
+                        "TY9999Q0000401",
+                        "TY9999Q0000601",
+                        "TY9999Q0001001"
+                    ],
+                    "sort"       : 3,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "桌面快充",
+                    "iconType"   : "coin",
+                    "name"       : "tablebuy",
+                    "products"   : [
+                        "TY9999D0002001",
+                        "TY9999D0008027"
+                    ],
+                    "sort"       : 7,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "道具商城",
+                    "iconType"   : "coin",
+                    "name"       : "item",
+                    "products"   : [ ],
+                    "sort"       : 4,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "转运礼包",
+                    "iconType"   : "coin",
+                    "name"       : "zhuanyun",
+                    "products"   : [
+                        "TY9999D0008026"
+                    ],
+                    "sort"       : 6,
+                    "visible"    : 0
+                }
+            ]
+        },
+        {
+            "name"       : "goods_conf_mac_mj_3.6",
+            "shelves"    : [
+                {
+                    "displayName": "购买金币",
+                    "iconType"   : "coin",
+                    "name"       : "coin",
+                    "products"   : [
+                        "TY9999D0006003",
+                        "TY9999D0030001",
+                        "TY9999D0098001",
+                        "TY9999D0198001",
+                        "TY9999D0328001",
+                        "TY9999D0648001"
+                    ],
+                    "sort"       : 0,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "钻石商城",
+                    "iconType"   : "diamond",
+                    "name"       : "diamond",
+                    "products"   : [
+                        "TY9999R0006001",
+                        "TY9999R0030001",
+                        "TY9999R0128001"
+                    ],
+                    "sort"       : 1,
+                    "visible"    : 1
+                }
+            ]
+        },
+        {
+            "name"       : "goods_conf_3_71_mj_tishen_tehus",
+            "shelves"    : [
+                {
+                    "displayName": "金币不足",
+                    "iconType"   : "coin",
+                    "name"       : "lessbuychip",
+                    "products"   : [
+                        "TY9999D0002001",
+                        "TY9999D0008027",
+                        "TY9999D0010001"
+                    ],
+                    "sort"       : 7,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "高手礼包",
+                    "iconType"   : "coin",
+                    "name"       : "winlead",
+                    "products"   : [
+                        "TY9999D0008025"
+                    ],
+                    "sort"       : 9,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "快速购买",
+                    "iconType"   : "coin",
+                    "name"       : "quick",
+                    "products"   : [ ],
+                    "sort"       : 8,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "钻石商城",
+                    "iconType"   : "diamond",
+                    "name"       : "diamond",
+                    "products"   : [
+                        "TY9999R0008005"
+                    ],
+                    "sort"       : 0,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "抽奖",
+                    "iconType"   : "coin",
+                    "name"       : "raffle",
+                    "products"   : [
+                        "TY9999D0008001"
+                    ],
+                    "sort"       : 5,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "商 城",
+                    "iconType"   : "coin",
+                    "name"       : "coin",
+                    "products"   : [
+                        "TY9999D0002001",
+                        "TY9999D0001003",
+                        "TY9999D0005003",
+                        "TY9999D0006016",
+                        "TY9999D0008027",
+                        "TY9999D0010001",
+                        "TY9999D0008001",
+                        "TY9999D0008025",
+                        "TY9999D0008026"
+                    ],
+                    "sort"       : 1,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "道具商城",
+                    "iconType"   : "coin",
+                    "name"       : "item",
+                    "products"   : [ ],
+                    "sort"       : 2,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "转运礼包",
+                    "iconType"   : "coin",
+                    "name"       : "zhuanyun",
+                    "products"   : [
+                        "TY9999D0008026"
+                    ],
+                    "sort"       : 6,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "特价活动",
+                    "iconType"   : "diamond",
+                    "name"       : "activity",
+                    "products"   : [ ],
+                    "sort"       : 3,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "VIP商城",
+                    "iconType"   : "diamond",
+                    "name"       : "vip",
+                    "products"   : [ ],
+                    "sort"       : 4,
+                    "visible"    : 1
+                }
+            ]
+        },
+        {
+            "name"       : "majiang_v3.7_Android_no_Premium",
+            "shelves"    : [
+                {
+                    "displayName": "装饰道具",
+                    "iconType"   : "diamond",
+                    "name"       : "charm",
+                    "products"   : [
+                        "TY9999C0003001",
+                        "TY9999C0006001",
+                        "TY9999C0001501",
+                        "TY9999C0003002",
+                        "TY9999D0012001",
+                        "TY9999D0002003",
+                        "TY9999D0006008",
+                        "TY9999D0006009",
+                        "TY9999D0030004",
+                        "TY9999D0030005",
+                        "TY9999D0100002",
+                        "TY9999D0100003",
+                        "TY9999D0100004"
+                    ],
+                    "sort"       : 2,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "金币不足",
+                    "iconType"   : "coin",
+                    "name"       : "lessbuychip",
+                    "products"   : [
+                        "TY9999D0008027",
+                        "TY9999D0030001",
+                        "TY9999D0100001",
+                        "TY9999D0300001",
+                        "TY9999D0050001"
+                    ],
+                    "sort"       : 9,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "高手礼包",
+                    "iconType"   : "coin",
+                    "name"       : "winlead",
+                    "products"   : [
+                        "TY9999D0008025"
+                    ],
+                    "sort"       : 12,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "快速购买",
+                    "iconType"   : "coin",
+                    "name"       : "quick",
+                    "products"   : [
+                        "TY9999D0002001"
+                    ],
+                    "sort"       : 11,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "购买金币",
+                    "iconType"   : "coin",
+                    "name"       : "coin",
+                    "products"   : [
+                        "TY9999D1000011",
+                        "TY9999D0300003",
+                        "TY9999D0050010",
+                        "TY9999D0001003",
+                        "TY9999D0008005"
+                    ],
+                    "sort"       : 1,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "钻石商城",
+                    "iconType"   : "diamond",
+                    "name"       : "diamond",
+                    "products"   : [
+                        "TY9999R0100001",
+                        "TY9999R0008005",
+                        "TY9999D0008006"
+                    ],
+                    "sort"       : 3,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "会员",
+                    "iconType"   : "coin",
+                    "name"       : "member",
+                    "products"   : [
+                        "TY9999D0001003",
+                        "TY9999D0008030"
+                    ],
+                    "sort"       : 13,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "抽奖",
+                    "iconType"   : "coin",
+                    "name"       : "raffle",
+                    "products"   : [
+                        "TY9999D0008001"
+                    ],
+                    "sort"       : 6,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "特惠商品",
+                    "iconType"   : "coin",
+                    "name"       : "recommend",
+                    "products"   : [
+                        "TY9999D0008001"
+                    ],
+                    "sort"       : 10,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "奖品兑换",
+                    "iconType"   : "diamond",
+                    "name"       : "coupon",
+                    "products"   : [
+                        "TY9999Q0000101",
+                        "TY9999Q0000401",
+                        "TY9999Q0000601",
+                        "TY9999Q0001001",
+                        "TY9999Q0008002",
+                        "TY9999Q0050002",
+                        "TY9999Q0100002"
+                    ],
+                    "sort"       : 4,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "桌面快充",
+                    "iconType"   : "coin",
+                    "name"       : "tablebuy",
+                    "products"   : [
+                        "TY9999D0002001",
+                        "TY9999D0008027",
+                        "TY9999D0030001",
+                        "TY9999D0050001",
+                        "TY9999D0100001"
+                    ],
+                    "sort"       : 8,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "特价专区",
+                    "iconType"   : "diamond",
+                    "name"       : "activity",
+                    "products"   : [
+                        "TY9999D0010001",
+                        "TY9999R0050001",
+                        "TY9999D0012003"
+                    ],
+                    "sort"       : 0,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "道具商城",
+                    "iconType"   : "coin",
+                    "name"       : "item",
+                    "products"   : [ ],
+                    "sort"       : 5,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "转运礼包",
+                    "iconType"   : "coin",
+                    "name"       : "zhuanyun",
+                    "products"   : [
+                        "TY9999D0008026"
+                    ],
+                    "sort"       : 7,
+                    "visible"    : 0
+                }
+            ]
+        },
+        {
+            "name"       : "majiang_v3.736_AI_goods_conf_mj_tishen_3.736",
+            "shelves"    : [
+                {
+                    "displayName": "钻石商城",
+                    "iconType"   : "diamond",
+                    "name"       : "diamond",
+                    "products"   : [
+                        "T80K"
+                    ],
+                    "sort"       : 0,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "商 城",
+                    "iconType"   : "coin",
+                    "name"       : "coin",
+                    "products"   : [
+                        "T50K",
+                        "T60K",
+                        "T80K",
+                        "T100K"
+                    ],
+                    "sort"       : 1,
+                    "visible"    : 1
+                }
+            ]
+        },
+        {
+            "name"       : "majiang_v3.770_AI_difang",
+            "shelves"    : [
+                {
+                    "displayName": "装饰道具",
+                    "iconType"   : "diamond",
+                    "name"       : "charm",
+                    "products"   : [
+                        "TY9999C0003001",
+                        "TY9999C0003002",
+                        "TY9999C0001501",
+                        "TY9999D0008006",
+                        "TY9999D0002003",
+                        "TY9999D0006008",
+                        "TY9999D0006009",
+                        "TY9999D0030004",
+                        "TY9999D0030005",
+                        "TY9999D0100027",
+                        "TY9999C0006001",
+                        "TY9999D0100003",
+                        "TY9999D0100004",
+                        "TY9999D0100026",
+                        "TY9999D0100025",
+                        "T60K"
+                    ],
+                    "sort"       : 1,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "钻石商城",
+                    "iconType"   : "diamond",
+                    "name"       : "diamond",
+                    "products"   : [
+                        "TY9999R0198001",
+                        "TY9999R0328001",
+                        "TY9999R0648001",
+                        "TY9999D0005004"
+                    ],
+                    "sort"       : 0,
+                    "visible"    : 1
+                }
+            ]
+        },
+        {
+            "name"       : "majiang_v3.770_difang_tishen",
+            "shelves"    : [
+                {
+                    "displayName": "钻石商城",
+                    "iconType"   : "diamond",
+                    "name"       : "diamond",
+                    "products"   : [
+                        "TY9999R0006001"
+                    ],
+                    "sort"       : 0,
+                    "visible"    : 1
+                }
+            ]
+        },
+        {
+            "name"       : "majiang_majiang_AI_tuyou",
+            "shelves"    : [
+                {
+                    "displayName": "装饰道具",
+                    "iconType"   : "diamond",
+                    "name"       : "charm",
+                    "products"   : [
+                        "TY9999C0003001",
+                        "TY9999C0001501",
+                        "TY9999C0003002",
+                        "TY9999D0012001",
+                        "TY9999D0002003",
+                        "TY9999D0006008",
+                        "TY9999D0006009",
+                        "TY9999D0030004",
+                        "TY9999D0030005",
+                        "TY9999D0100002",
+                        "TY9999D0100003",
+                        "TY9999D0100004"
+                    ],
+                    "sort"       : 2,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "金币不足",
+                    "iconType"   : "coin",
+                    "name"       : "lessbuychip",
+                    "products"   : [
+                        "TY9999D0008027",
+                        "TY9999D0030001",
+                        "TY9999D0100001",
+                        "TY9999D0300001",
+                        "TY9999D0050001",
+                        "TY9999D1000001"
+                    ],
+                    "sort"       : 9,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "高手礼包",
+                    "iconType"   : "coin",
+                    "name"       : "winlead",
+                    "products"   : [
+                        "TY9999D0008025",
+                        "TY9999D0030012",
+                        "TY9999D0050008",
+                        "TY9999D0100012"
+                    ],
+                    "sort"       : 12,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "快速购买",
+                    "iconType"   : "coin",
+                    "name"       : "quick",
+                    "products"   : [
+                        "TY9999D0002001"
+                    ],
+                    "sort"       : 11,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "购买金币",
+                    "iconType"   : "coin",
+                    "name"       : "coin",
+                    "products"   : [
+                        "TY9999D1000001",
+                        "TY9999D0300001",
+                        "TY9999D0050001",
+                        "TY9999D0008005",
+                        "TY9999D0001003"
+                    ],
+                    "sort"       : 1,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "钻石商城",
+                    "iconType"   : "diamond",
+                    "name"       : "diamond",
+                    "products"   : [
+                        "TY9999R0100001",
+                        "TY9999R0008005",
+                        "TY9999D0000102",
+                        "TY9999D0008006",
+                        "TY9999D0008031"
+                    ],
+                    "sort"       : 3,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "会员",
+                    "iconType"   : "coin",
+                    "name"       : "member",
+                    "products"   : [
+                        "TY9999D0001003",
+                        "TY9999D0008030"
+                    ],
+                    "sort"       : 13,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "抽奖",
+                    "iconType"   : "coin",
+                    "name"       : "raffle",
+                    "products"   : [
+                        "TY9999D0008001"
+                    ],
+                    "sort"       : 6,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "特惠商品",
+                    "iconType"   : "coin",
+                    "name"       : "recommend",
+                    "products"   : [
+                        "TY9999D0008001"
+                    ],
+                    "sort"       : 10,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "奖品兑换",
+                    "iconType"   : "diamond",
+                    "name"       : "coupon",
+                    "products"   : [
+                        "TY9999Q0008002",
+                        "TY9999Q0050002",
+                        "TY9999Q0100002"
+                    ],
+                    "sort"       : 4,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "桌面快充",
+                    "iconType"   : "coin",
+                    "name"       : "tablebuy",
+                    "products"   : [
+                        "TY9999D0002001",
+                        "TY9999D0008027",
+                        "TY9999D0030001",
+                        "TY9999D0050001",
+                        "TY9999D0100001",
+                        "TY9999D0300001",
+                        "TY9999D1000001"
+                    ],
+                    "sort"       : 8,
+                    "visible"    : 0
+                },
+                {
+                    "displayName": "特价专区",
+                    "iconType"   : "diamond",
+                    "name"       : "activity",
+                    "products"   : [
+                        "TY9999D0010001",
+                        "TY9999R0050001",
+                        "TY9999D0012003"
+                    ],
+                    "sort"       : 0,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "道具商城",
+                    "iconType"   : "coin",
+                    "name"       : "item",
+                    "products"   : [ ],
+                    "sort"       : 5,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "转运礼包",
+                    "iconType"   : "coin",
+                    "name"       : "zhuanyun",
+                    "products"   : [
+                        "TY9999D0008026",
+                        "TY9999D0030011",
+                        "TY9999D0050007",
+                        "TY9999D0100011"
+                    ],
+                    "sort"       : 7,
+                    "visible"    : 0
+                }
+            ]
+        }
+    ]
+}

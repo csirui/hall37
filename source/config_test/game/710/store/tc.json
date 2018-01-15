@@ -1,0 +1,33 @@
+{
+    "templates"  : [
+        {
+            "name"       : "haerbin_v3.902_AI_haerbincoin",
+            "shelves"    : [
+                {
+                    "displayName": "房卡商城",
+                    "iconType"   : "diamond",
+                    "name"       : "haerbin_fangka_coin",
+                    "products"   : [
+                        "HRB10000",
+                        "HRB100000",
+                        "HRB1000000"
+                    ],
+                    "sort"       : 1,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "金币商城",
+                    "iconType"   : "coin",
+                    "name"       : "haerbin_exchangecoin",
+                    "products"   : [
+                        "HRBFK1",
+                        "HRBFK10",
+                        "HRBFK100"
+                    ],
+                    "sort"       : 0,
+                    "visible"    : 1
+                }
+            ]
+        }
+    ]
+}

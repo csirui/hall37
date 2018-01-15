@@ -1,0 +1,47 @@
+{
+ "templates"                  : {
+  "mudanjiang_v3.901_AI_mudanjiangtishen": {
+   "interval"                   : 5,
+   "name"                       : "mudanjiang_v3.901_AI_mudanjiangtishen",
+   "ads"                        : [
+    7071605
+   ]
+  },
+  "mudanjiang_v3.90_AI_mudanjiangmj" : {
+   "interval"                   : 5,
+   "name"                       : "mudanjiang_v3.90_AI_mudanjiangmj",
+   "ads"                        : [
+    716122001,
+    9999120701
+   ]
+  }
+ },
+ "ads"                        : [
+  {
+   "startTime"                  : "2016-11-21 00:00:00",
+   "id"                         : 716112101,
+   "todotasks"                  : [
+    {
+     "actId"                      : "activity_mj_df_jiankang",
+     "typeId"                     : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                  : 1,
+   "pic"                        : "${http_download}/paohuzi/ads/imgs/phzzjz_jkx.jpg",
+   "endTime"                    : "2031-10-30 00:00:00"
+  },
+  {
+   "startTime"                  : "2016-12-20 00:00:00",
+   "id"                         : 716122001,
+   "todotasks"                  : [
+    {
+     "actId"                      : "zhaojidaili_1220",
+     "typeId"                     : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                  : 1,
+   "pic"                        : "${http_download}/majiang/difang/ads/mudanjiangzdl.jpg",
+   "endTime"                    : "2017-12-26 00:00:00"
+  }
+ ]
+}

@@ -1,0 +1,907 @@
+{
+ "templates"                                    : {
+  "phz_v3.901_AI_sqy_gl_phz"                     : {
+   "desc"                                         : "三缺一桂林跑胡子",
+   "activities"                                   : [
+    "activity_phz_zjz_jiankang"
+   ]
+  },
+  "phz_v3.901_AI_youle_gl_phz"                   : {
+   "desc"                                         : "优乐广西字牌模板",
+   "activities"                                   : [
+    "youle_phz_phz_gf0216",
+    "youle_phz_youxijy1219",
+    "activity_phz_zjz_jiankang"
+   ]
+  },
+  "phz_v3.788_AI_youle_hn_phz_dlt"               : {
+   "desc"                                         : "优乐跑胡子大擂台",
+   "activities"                                   : [
+    "youle_phz_phz_gf0216",
+    "youle_phz_youxijy1219",
+    "activity_phz_zjz_jubao",
+    "activity_phz_zjz_jiankang"
+   ]
+  },
+  "phz_v3.783_AI_difang_tishen"                  : {
+   "desc"                                         : "",
+   "activities"                                   : [
+    "activity_phz_zjz_jiankang"
+   ]
+  },
+  "phz_v3.783_AI_zijianzhuo"                     : {
+   "desc"                                         : "自建桌活动模板",
+   "activities"                                   : [
+    "activity_phz_zjz_jubao",
+    "activity_phz_zjz_jiankang"
+   ]
+  },
+  "phz_v3.901_AI_phz_v3.901_AI_diandian.ioshnphz": {
+   "desc"                                         : "IOS点点跑胡子过审1",
+   "activities"                                   : [
+    "activity_phz_zjz_jiankang"
+   ]
+  }
+ },
+ "activities"                                   : {
+  "activity_phz_zjz_yaoqing"                     : {
+   "id"                                           : "activity_phz_zjz_yaoqing",
+   "des"                                          : "邀请好友加入游戏，会有丰厚奖励哦。",
+   "moduleId"                                     : "notice_img",
+   "typeid"                                       : 1,
+   "name"                                         : "邀请有礼",
+   "server_config"                                : {
+    "start"                                        : "2016-07-19 00:00:00",
+    "end"                                          : "2019-07-01 00:00:00"
+   },
+   "config"                                       : {
+    "firstButton"                                  : {
+     "visible"                                      : 0,
+     "action"                                       : "",
+     "params"                                       : {
+      "duration"                                     : 2,
+      "text"                                         : "确定"
+     }
+    },
+    "secondButton"                                 : {
+     "visible"                                      : 0,
+     "action"                                       : "",
+     "params"                                       : {
+      "duration"                                     : 2,
+      "text"                                         : "确定"
+     }
+    },
+    "bgURL"                                        : "${http_download}/majiang/difang/act/1022yqyj_hd.jpg"
+   },
+   "url"                                          : ""
+  },
+  "activity_joinQQGroup_paohuzi"                 : {
+   "id"                                           : "activity_joinQQGroup_paohuzi",
+   "des"                                          : "亲们，大家一起来参与跑胡子的成长吧！加入跑胡子玩家QQ群：240979557，来吐槽、分享和约牌吧。",
+   "moduleId"                                     : "notice_img",
+   "typeid"                                       : 1,
+   "name"                                         : "进QQ群吧",
+   "server_config"                                : {
+    "start"                                        : "2016-01-12 00:00:00",
+    "end"                                          : "2017-04-30 00:00:00"
+   },
+   "config"                                       : {
+    "firstButton"                                  : {
+     "visible"                                      : 0,
+     "action"                                       : "",
+     "params"                                       : {
+      "duration"                                     : 2,
+      "text"                                         : "确定"
+     }
+    },
+    "secondButton"                                 : {
+     "visible"                                      : 0,
+     "action"                                       : "",
+     "params"                                       : {
+      "duration"                                     : 2,
+      "text"                                         : "确定"
+     }
+    },
+    "bgURL"                                        : "${http_download}/paohuzi/act/complete/notice_img/act_paohuzi_joinQQGroup.jpg"
+   },
+   "url"                                          : ""
+  },
+  "youle_phz_1111free1109"                       : {
+   "id"                                           : "youle_phz_1111free1109",
+   "des"                                          : "双十一冬日温暖大回馈，11月10日至11月11日晚19点-24点，登录游戏即可免费开房，爽玩至凌晨！时间有限，不容错过~",
+   "moduleId"                                     : "general_btn",
+   "typeid"                                       : 1,
+   "name"                                         : "双十一免费玩",
+   "server_config"                                : {
+    "start"                                        : "2016-11-09 00:00:00",
+    "end"                                          : "2016-11-16 00:00:00"
+   },
+   "config"                                       : {
+    "button"                                       : {
+     "visible"                                      : "true",
+     "todoTask"                                     : "",
+     "URL"                                          : ""
+    },
+    "bgURL"                                        : "${http_download}/majiang/difang/act/ceshi1109.jpg"
+   }
+  },
+  "activity_gotomatch10_paohuzi"                 : {
+   "id"                                           : "activity_gotomatch10_paohuzi",
+   "des"                                          : "免费参赛，百场十元话费赛，每日等你来战！",
+   "moduleId"                                     : "general_btn",
+   "typeid"                                       : 4,
+   "name"                                         : "百场话费赛",
+   "server_config"                                : {
+    "start"                                        : "2016-01-08 00:00:00",
+    "end"                                          : "2017-04-30 00:00:00"
+   },
+   "config"                                       : {
+    "button"                                       : {
+     "visible"                                      : "true",
+     "todoTask"                                     : {
+      "enter_param"                                  : {
+       "pluginParams"                                 : {
+        "gameType"                                     : "mt"
+       },
+       "type"                                         : "roomlist"
+      },
+      "gameId"                                       : 21,
+      "typeId"                                       : "hall.goto.enter.game"
+     },
+     "URL"                                          : "${http_download}/hall/act/complete/general_btn/act_paohuzi_baiyuan.png"
+    },
+    "bgURL"                                        : "${http_download}/paohuzi/act/complete/general_btn/act_10_100.jpg"
+   }
+  },
+  "activity_jdkashangxian_paohuzi"               : {
+   "id"                                           : "activity_jdkashangxian_paohuzi",
+   "des"                                          : "奖券可以在商城兑换京东卡啦！",
+   "moduleId"                                     : "general_btn",
+   "typeid"                                       : 1,
+   "name"                                         : "京东卡任你兑",
+   "server_config"                                : {
+    "start"                                        : "2016-05-27 00:00:00",
+    "end"                                          : "2016-08-31 00:00:00"
+   },
+   "config"                                       : {
+    "button"                                       : {
+     "visible"                                      : "true",
+     "todoTask"                                     : {
+      "subStore"                                     : "diamond",
+      "typeId"                                       : "hall.goto.shop"
+     },
+     "URL"                                          : ""
+    },
+    "bgURL"                                        : ""
+   }
+  },
+  "activity_gotomatch_paohuzi"                   : {
+   "id"                                           : "activity_gotomatch_paohuzi",
+   "des"                                          : "免费参赛，赢百元话费，每日等你来战！（记得要升级到v3.73噢）",
+   "moduleId"                                     : "general_btn",
+   "typeid"                                       : 4,
+   "name"                                         : "赢百元话费",
+   "server_config"                                : {
+    "start"                                        : "2016-01-08 00:00:00",
+    "end"                                          : "2017-04-30 00:00:00"
+   },
+   "config"                                       : {
+    "button"                                       : {
+     "visible"                                      : "true",
+     "todoTask"                                     : {
+      "enter_param"                                  : {
+       "pluginParams"                                 : {
+        "gameType"                                     : "mt"
+       },
+       "type"                                         : "roomlist"
+      },
+      "gameId"                                       : 21,
+      "typeId"                                       : "hall.goto.enter.game"
+     },
+     "URL"                                          : "${http_download}/hall/act/complete/general_btn/act_paohuzi_baiyuan.png"
+    },
+    "bgURL"                                        : "${http_download}/hall/act/complete/general_btn/paohuzi_act_baiyuan.jpg"
+   }
+  },
+  "youle_hnphz_phzhongbao1201"                   : {
+   "id"                                           : "youle_hnphz_phzhongbao1201",
+   "des"                                          : "分享给朋友 邀请好友为你点赞 集满5个赞，即可领取3元微信红包，数量有限，速速来领！",
+   "moduleId"                                     : "general_btn",
+   "typeid"                                       : 4,
+   "name"                                         : "分享得红包",
+   "server_config"                                : {
+    "start"                                        : "2016-11-30 00:00:00",
+    "end"                                          : "2016-12-08 00:00:00"
+   },
+   "config"                                       : {
+    "button"                                       : {
+     "visible"                                      : "true",
+     "todoTask"                                     : {
+      "subCmd"                                       : {
+       "shareId"                                      : 7010,
+       "typeId"                                       : "todotask.sharegift.with.shareId"
+      },
+      "typeId"                                       : "todotask.showInfo",
+      "info"                                         : "转发微信集满五赞，即可获得3元微信红包！"
+     },
+     "URL"                                          : "${http_download}/majiang/difang/ads/anniu_1124_147_57.png"
+    },
+    "bgURL"                                        : "${http_download}/majiang/difang/act/phzhongbao1201_bg.jpg"
+   }
+  },
+  "activity_winQiku_paohuzi"                     : {
+   "id"                                           : "activity_winQiku_paohuzi",
+   "des"                                          : "2月7日到2月22日（除夕到十五），每天比赛赢手机。（记得要升级到v3.73噢）",
+   "moduleId"                                     : "general_btn",
+   "typeid"                                       : 4,
+   "name"                                         : "免费赢手机",
+   "server_config"                                : {
+    "start"                                        : "2016-01-25 00:00:00",
+    "end"                                          : "2016-02-22 22:00:00"
+   },
+   "config"                                       : {
+    "button"                                       : {
+     "visible"                                      : true,
+     "todoTask"                                     : {
+      "enter_param"                                  : {
+       "pluginParams"                                 : {
+        "gameType"                                     : "mt"
+       },
+       "type"                                         : "roomlist"
+      },
+      "gameId"                                       : 21,
+      "typeId"                                       : "hall.goto.enter.game"
+     },
+     "URL"                                          : "${http_download}/paohuzi/act/complete/general_btn/btn_enter_match.png"
+    },
+    "bgURL"                                        : "${http_download}/paohuzi/act/complete/general_btn/act_qiku_match.jpg"
+   }
+  },
+  "activity_phz_zjz_jiankang"                    : {
+   "id"                                           : "activity_phz_zjz_jiankang",
+   "des"                                          : "合理休闲娱乐，远离非法赌博",
+   "moduleId"                                     : "notice_img",
+   "typeid"                                       : 1,
+   "name"                                         : "健康游戏提示",
+   "server_config"                                : {
+    "start"                                        : "2016-07-19 00:00:00",
+    "end"                                          : "2019-07-01 00:00:00"
+   },
+   "config"                                       : {
+    "firstButton"                                  : {
+     "visible"                                      : 0,
+     "action"                                       : "",
+     "params"                                       : {
+      "duration"                                     : 2,
+      "text"                                         : "确定"
+     }
+    },
+    "secondButton"                                 : {
+     "visible"                                      : 0,
+     "action"                                       : "",
+     "params"                                       : {
+      "duration"                                     : 2,
+      "text"                                         : "确定"
+     }
+    },
+    "bgURL"                                        : "${http_download}/paohuzi/act/complete/notice_img/phzzjz_jkd.jpg"
+   },
+   "url"                                          : ""
+  },
+  "youle_phz_gaohuzi_1117free"                   : {
+   "id"                                           : "youle_phz_gaohuzi_1117free",
+   "des"                                          : "不要房卡，无限开房！11月18日至11月24日，无需房卡，免费开局！此活动仅限湘乡告胡子玩法~",
+   "moduleId"                                     : "general_btn",
+   "typeid"                                       : 1,
+   "name"                                         : "告胡子免费啦",
+   "server_config"                                : {
+    "start"                                        : "2016-11-09 00:00:00",
+    "end"                                          : "2016-11-25 00:00:00"
+   },
+   "config"                                       : {
+    "button"                                       : {
+     "visible"                                      : "true",
+     "todoTask"                                     : "",
+     "URL"                                          : ""
+    },
+    "bgURL"                                        : "${http_download}/majiang/difang/act/gaohuzi_1117_act_659_453.jpg"
+   }
+  },
+  "activity_phz_lyhsfk1215"                      : {
+   "id"                                           : "activity_phz_lyhsfk1215",
+   "des"                                          : "你是老用户么？寻找老用户免费送房卡活动等你来参加，登录自动送房卡。感谢您对游戏的支持。",
+   "moduleId"                                     : "general_btn",
+   "typeid"                                       : 1,
+   "name"                                         : "老用户送房卡",
+   "server_config"                                : {
+    "start"                                        : "2016-11-30 00:00:00",
+    "end"                                          : "2016-12-31 00:00:00"
+   },
+   "config"                                       : {
+    "button"                                       : {
+     "visible"                                      : "true",
+     "todoTask"                                     : "",
+     "URL"                                          : ""
+    },
+    "bgURL"                                        : "${http_download}/majiang/difang/act/lyhsfk1215_bg.jpg"
+   }
+  },
+  "youle_phz_khshengdanjie1223"                  : {
+   "id"                                           : "youle_phz_khshengdanjie1223",
+   "des"                                          : "狂欢圣诞节，登录送房卡，圣诞节期间，登录游戏即可获得10张房卡的赠送，祝您圣诞节愉快！",
+   "moduleId"                                     : "general_btn",
+   "typeid"                                       : 1,
+   "name"                                         : "嗨圣诞送房卡",
+   "server_config"                                : {
+    "start"                                        : "2016-11-22 00:00:00",
+    "end"                                          : "2019-07-01 10:05:39"
+   },
+   "config"                                       : {
+    "button"                                       : {
+     "visible"                                      : "true",
+     "todoTask"                                     : "",
+     "URL"                                          : ""
+    },
+    "bgURL"                                        : "${http_download}/paohuzi/act/khshengdanjie1223_bg.jpg"
+   }
+  },
+  "activity_notice_paohuzi_1026"                 : {
+   "id"                                           : "activity_notice_paohuzi_1026",
+   "des"                                          : "途游跑胡子横空出世啦，最好玩的纸牌游戏，更多精彩活动陆续上线，欢迎关注哦！",
+   "moduleId"                                     : "notice_img",
+   "typeid"                                       : 1,
+   "name"                                         : "隆重上线",
+   "server_config"                                : {
+    "start"                                        : "2015-07-31 00:00:00",
+    "end"                                          : "2016-02-01 00:00:00"
+   },
+   "config"                                       : {
+    "firstButton"                                  : {
+     "visible"                                      : 0,
+     "action"                                       : "pop_tip",
+     "params"                                       : {
+      "duration"                                     : 2,
+      "text"                                         : "确定"
+     }
+    },
+    "secondButton"                                 : {
+     "visible"                                      : 0,
+     "action"                                       : "pop_tip",
+     "params"                                       : {
+      "duration"                                     : 2,
+      "text"                                         : "确定"
+     }
+    },
+    "bgURL"                                        : "${http_download}/hall/act/complete/notice_img/paohuzi_act_10-26.png"
+   }
+  },
+  "youle_phz_gengfu1124"                         : {
+   "id"                                           : "youle_phz_gengfu1124",
+   "des"                                          : "本次更服时间为 11月25日 早6:30 ，给您带来不便，请谅解。",
+   "moduleId"                                     : "general_btn",
+   "typeid"                                       : 1,
+   "name"                                         : "更服通知",
+   "server_config"                                : {
+    "start"                                        : "2016-11-24 00:00:00",
+    "end"                                          : "2016-12-03 00:00:00"
+   },
+   "config"                                       : {
+    "button"                                       : {
+     "visible"                                      : "true",
+     "todoTask"                                     : "",
+     "URL"                                          : ""
+    },
+    "bgURL"                                        : "${http_download}/majiang/difang/act/fengfu_phz_1124_act.jpg"
+   }
+  },
+  "activity_phz_zjz_jubao"                       : {
+   "id"                                           : "activity_phz_zjz_jubao",
+   "des"                                          : "让我们一起维护健康的游戏环境！",
+   "moduleId"                                     : "notice_img",
+   "typeid"                                       : 1,
+   "name"                                         : "举报有奖",
+   "server_config"                                : {
+    "start"                                        : "2016-07-19 00:00:00",
+    "end"                                          : "2019-07-01 00:00:00"
+   },
+   "config"                                       : {
+    "firstButton"                                  : {
+     "visible"                                      : 0,
+     "action"                                       : "",
+     "params"                                       : {
+      "duration"                                     : 2,
+      "text"                                         : "确定"
+     }
+    },
+    "secondButton"                                 : {
+     "visible"                                      : 0,
+     "action"                                       : "",
+     "params"                                       : {
+      "duration"                                     : 2,
+      "text"                                         : "确定"
+     }
+    },
+    "bgURL"                                        : "${http_download}/paohuzi/act/complete/notice_img/phzzjz_jbd.jpg"
+   },
+   "url"                                          : ""
+  },
+  "youle_phz_ganenjie1122"                       : {
+   "id"                                           : "youle_phz_ganenjie1122",
+   "des"                                          : "当日每完成80局游戏，游戏内自动发放2张房卡，多玩多得，时间有限，不容错过~",
+   "moduleId"                                     : "general_btn",
+   "typeid"                                       : 1,
+   "name"                                         : "感恩节大回馈",
+   "server_config"                                : {
+    "start"                                        : "2016-11-22 00:00:00",
+    "end"                                          : "2016-12-01 00:00:00"
+   },
+   "config"                                       : {
+    "button"                                       : {
+     "visible"                                      : "true",
+     "todoTask"                                     : "",
+     "URL"                                          : ""
+    },
+    "bgURL"                                        : "${http_download}/majiang/difang/act/ganenjie_act_1122_659_453.jpg"
+   }
+  },
+  "youle_phz_youxijy1219"                        : {
+   "id"                                           : "youle_phz_youxijy1219",
+   "des"                                          : "即日起，添加微信号：youle1166并提交你对游戏的建议，被确定为有效建议的即可获得3张房卡，建议被采纳将获得30张房卡（您可以对游戏规则，游戏方式，游戏活动等各个方面提供您的游戏建议）",
+   "moduleId"                                     : "general_btn",
+   "typeid"                                       : 1,
+   "name"                                         : "提建议送房卡",
+   "server_config"                                : {
+    "start"                                        : "2016-11-22 00:00:00",
+    "end"                                          : "2019-07-01 10:05:39"
+   },
+   "config"                                       : {
+    "button"                                       : {
+     "visible"                                      : "true",
+     "todoTask"                                     : "",
+     "URL"                                          : ""
+    },
+    "bgURL"                                        : "${http_download}/majiang/difang/act/youxijy1219_bg.jpg"
+   }
+  },
+  "activity_paohuzi_ZFtishen"                    : {
+   "id"                                           : "activity_paohuzi_ZFtishen",
+   "des"                                          : "政府提审健康公告",
+   "moduleId"                                     : "notice_img",
+   "typeid"                                       : 1,
+   "name"                                         : "政府提审健康公告",
+   "server_config"                                : {
+    "start"                                        : "2016-05-11 00:00:00",
+    "end"                                          : "2016-05-18 00:00:00"
+   },
+   "config"                                       : {
+    "firstButton"                                  : {
+     "visible"                                      : 0,
+     "action"                                       : "",
+     "params"                                       : {
+      "duration"                                     : 2,
+      "text"                                         : "确定"
+     }
+    },
+    "secondButton"                                 : {
+     "visible"                                      : 0,
+     "action"                                       : "",
+     "params"                                       : {
+      "duration"                                     : 2,
+      "text"                                         : "确定"
+     }
+    },
+    "bgURL"                                        : "${http_download}/hall/act/complete/notice_img/shenhegonggao.png"
+   },
+   "url"                                          : ""
+  },
+  "activity_phz_zjz_daili"                       : {
+   "id"                                           : "activity_phz_zjz_daili",
+   "des"                                          : "诚招代理，零风险，零门槛，收益稳定，有意者联系微信：huazai778800",
+   "moduleId"                                     : "notice_img",
+   "typeid"                                       : 1,
+   "name"                                         : "诚招代理",
+   "server_config"                                : {
+    "start"                                        : "2016-07-19 00:00:00",
+    "end"                                          : "2019-07-01 00:00:00"
+   },
+   "config"                                       : {
+    "firstButton"                                  : {
+     "visible"                                      : 0,
+     "action"                                       : "",
+     "params"                                       : {
+      "duration"                                     : 2,
+      "text"                                         : "确定"
+     }
+    },
+    "secondButton"                                 : {
+     "visible"                                      : 0,
+     "action"                                       : "",
+     "params"                                       : {
+      "duration"                                     : 2,
+      "text"                                         : "确定"
+     }
+    },
+    "bgURL"                                        : "${http_download}/paohuzi/act/complete/notice_img/phzzjz_dld.jpg"
+   },
+   "url"                                          : ""
+  },
+  "activity_phz_df_daili"                        : {
+   "id"                                           : "activity_phz_df_daili",
+   "des"                                          : "诚招代理，零风险，零门槛，收益稳定，有意者联系微信：huazai778800",
+   "moduleId"                                     : "notice_img",
+   "typeid"                                       : 1,
+   "name"                                         : "诚招代理",
+   "server_config"                                : {
+    "start"                                        : "2016-07-16 00:00:00",
+    "end"                                          : "2019-07-25 00:00:00"
+   },
+   "config"                                       : {
+    "firstButton"                                  : {
+     "visible"                                      : 0,
+     "action"                                       : "",
+     "params"                                       : {
+      "duration"                                     : 2,
+      "text"                                         : "确定"
+     }
+    },
+    "secondButton"                                 : {
+     "visible"                                      : 0,
+     "action"                                       : "",
+     "params"                                       : {
+      "duration"                                     : 2,
+      "text"                                         : "确定"
+     }
+    },
+    "bgURL"                                        : "${http_download}/majiang/images/ads/mjdf_dld.jpg"
+   },
+   "url"                                          : ""
+  },
+  "youle_hn_phz_dtl"                             : {
+   "id"                                           : "youle_hn_phz_dtl",
+   "des"                                          : "金牌代理谁是擂主，售卡王者赢大奖",
+   "moduleId"                                     : "notice_img",
+   "typeid"                                       : 1,
+   "name"                                         : "金牌大擂台",
+   "server_config"                                : {
+    "start"                                        : "2016-10-14 00:00:00",
+    "end"                                          : "2016-11-13 00:00:00"
+   },
+   "config"                                       : {
+    "firstButton"                                  : {
+     "visible"                                      : 0,
+     "action"                                       : "",
+     "params"                                       : {
+      "duration"                                     : 2,
+      "text"                                         : "确定"
+     }
+    },
+    "secondButton"                                 : {
+     "visible"                                      : 0,
+     "action"                                       : "",
+     "params"                                       : {
+      "duration"                                     : 2,
+      "text"                                         : "确定"
+     }
+    },
+    "bgURL"                                        : "${http_download}/majiang/difang/act/act_hn_dlt.png"
+   },
+   "url"                                          : ""
+  },
+  "youle_phz_shengdanbaohe1223"                  : {
+   "id"                                           : "youle_phz_shengdanbaohe1223",
+   "des"                                          : "圣诞节，我们为您准备了圣诞宝箱，让运气带你起飞，打开最高可得iphone7，千元京东券，更多微信红包，等您来抽取~",
+   "moduleId"                                     : "general_btn",
+   "typeid"                                       : 4,
+   "name"                                         : "圣诞宝盒有礼",
+   "server_config"                                : {
+    "start"                                        : "2016-11-22 00:00:00",
+    "end"                                          : "2019-07-01 10:05:39"
+   },
+   "config"                                       : {
+    "button"                                       : {
+     "visible"                                      : "true",
+     "todoTask"                                     : {
+      "typeId"                                       : "todotask.showInfo",
+      "info"                                         : "买卡联系:youle1218（微信）\n诚招代理:youle1199或youle1188（微信）\n举报:2162952363（QQ）"
+     },
+     "URL"                                          : "${http_download}/paohuzi/ads/touming_btn.png"
+    },
+    "bgURL"                                        : "${http_download}/paohuzi/act/dailihuikui1223_bg.jpg"
+   }
+  },
+  "youle_phz_bangdingweixin_1223"                : {
+   "id"                                           : "youle_phz_bangdingweixin_1223",
+   "des"                                          : "优惠活动，红包领取，最新资讯，关注微信“优乐棋牌互娱”，给您更多乐趣。",
+   "moduleId"                                     : "general_btn",
+   "typeid"                                       : 1,
+   "name"                                         : "微信绑定流程",
+   "server_config"                                : {
+    "start"                                        : "2016-11-22 00:00:00",
+    "end"                                          : "2019-07-01 10:05:39"
+   },
+   "config"                                       : {
+    "button"                                       : {
+     "visible"                                      : "true",
+     "todoTask"                                     : "",
+     "URL"                                          : ""
+    },
+    "bgURL"                                        : "${http_download}/paohuzi/act/bangdingweixin_1223_bg.jpg"
+   }
+  },
+  "sqy_phz_fangkabaoxiang0105"                   : {
+   "id"                                           : "sqy_phz_fangkabaoxiang0105",
+   "des"                                          : "1.6日至1.12日，送您10个宝箱，玩跑胡子游戏完成宝箱任务即可领取宝箱奖励，奖励从1-100张房卡随机抽出，使用方法，打够局数--天天福利领取宝箱--打开背包开始抽奖。",
+   "moduleId"                                     : "general_btn",
+   "typeid"                                       : 4,
+   "name"                                         : "跑胡子送房卡",
+   "server_config"                                : {
+    "start"                                        : "2016-11-22 00:00:00",
+    "end"                                          : "2019-07-01 10:05:39"
+   },
+   "config"                                       : {
+    "button"                                       : {
+     "visible"                                      : "true",
+     "todoTask"                                     : {
+      "typeId"                                       : "hall.download",
+      "url"                                          : "http://www.shediao.com/sqy/gamelist_sqy.html"
+     },
+     "URL"                                          : "${http_download}/paohuzi/ads/touming_btn.png"
+    },
+    "bgURL"                                        : "${http_download}/paohuzi/act/fangkabaoxiang0105_bg.jpg"
+   }
+  },
+  "youle_phz_shengdanbaohe12231"                 : {
+   "id"                                           : "youle_phz_shengdanbaohe12231",
+   "des"                                          : "第二期集赞红包送大奖活动已经开始，老用户集赞赢房卡，新用户集赞赢微信红包以及微信红包福袋，给您双旦最好的祝福。活动时间：即日开始，送完为止",
+   "moduleId"                                     : "general_btn",
+   "typeid"                                       : 4,
+   "name"                                         : "集赞赢红包",
+   "server_config"                                : {
+    "start"                                        : "2016-11-22 00:00:00",
+    "end"                                          : "2019-07-01 10:05:39"
+   },
+   "config"                                       : {
+    "button"                                       : {
+     "visible"                                      : "true",
+     "todoTask"                                     : {
+      "subCmd"                                       : {
+       "shareId"                                      : 7010,
+       "typeId"                                       : "todotask.sharegift.with.shareId"
+      },
+      "typeId"                                       : "todotask.showInfo",
+      "info"                                         : "转发微信集满五赞，即可获得最低价值3元奖品！"
+     },
+     "URL"                                          : "${http_download}/paohuzi/ads/likefenxiang_btn.png"
+    },
+    "bgURL"                                        : "${http_download}/paohuzi/act/hongbaopart2_bg1.jpg"
+   }
+  },
+  "activity_phz_zjz_youhui"                      : {
+   "id"                                           : "activity_phz_zjz_youhui",
+   "des"                                          : "更多优惠信息，请联系微信：huazai778800",
+   "moduleId"                                     : "notice_img",
+   "typeid"                                       : 1,
+   "name"                                         : "优惠购卡",
+   "server_config"                                : {
+    "start"                                        : "2016-07-19 00:00:00",
+    "end"                                          : "2019-07-01 00:00:00"
+   },
+   "config"                                       : {
+    "firstButton"                                  : {
+     "visible"                                      : 0,
+     "action"                                       : "",
+     "params"                                       : {
+      "duration"                                     : 2,
+      "text"                                         : "确定"
+     }
+    },
+    "secondButton"                                 : {
+     "visible"                                      : 0,
+     "action"                                       : "",
+     "params"                                       : {
+      "duration"                                     : 2,
+      "text"                                         : "确定"
+     }
+    },
+    "bgURL"                                        : "${http_download}/paohuzi/act/complete/notice_img/phzzjz_yhd.jpg"
+   },
+   "url"                                          : ""
+  },
+  "youle_phz_dailihuikui1223"                    : {
+   "id"                                           : "youle_phz_dailihuikui1223",
+   "des"                                          : "回馈11月1日之前加入的游戏的老代理，赠送50张房卡，祝各位代理圣诞节活动。加入代理行列会收到不定期回馈活动，快来试试吧·",
+   "moduleId"                                     : "general_btn",
+   "typeid"                                       : 4,
+   "name"                                         : "老代理大福利",
+   "server_config"                                : {
+    "start"                                        : "2016-11-22 00:00:00",
+    "end"                                          : "2019-07-01 10:05:39"
+   },
+   "config"                                       : {
+    "button"                                       : {
+     "visible"                                      : "true",
+     "todoTask"                                     : {
+      "typeId"                                       : "todotask.showInfo",
+      "info"                                         : "买卡联系:youle1199（微信）\n诚招代理:youle1188（微信）\n举报:2162952363（QQ）"
+     },
+     "URL"                                          : "${http_download}/paohuzi/ads/shenqingdaili_btn.png"
+    },
+    "bgURL"                                        : "${http_download}/paohuzi/act/dailihuikui1223_bg1.jpg"
+   }
+  },
+  "youle_phz_yxnmfsk0111"                        : {
+   "id"                                           : "youle_phz_yxnmfsk0111",
+   "des"                                          : "12年1月12日-19日每天首次登陆跑胡子游戏，就免费送2张房卡。全新版本跑胡子已经上线，请点击按钮下载~",
+   "moduleId"                                     : "general_btn",
+   "typeid"                                       : 4,
+   "name"                                         : "迎新年送房卡",
+   "server_config"                                : {
+    "start"                                        : "2016-11-22 00:00:00",
+    "end"                                          : "2019-07-01 10:05:39"
+   },
+   "config"                                       : {
+    "button"                                       : {
+     "visible"                                      : "true",
+     "todoTask"                                     : {
+      "typeId"                                       : "hall.download",
+      "url"                                          : "http://www.shediao.com/youle/gamelist.html"
+     },
+     "URL"                                          : "${http_download}/paohuzi/ads/touming_btn.png"
+    },
+    "bgURL"                                        : "${http_download}/paohuzi/act/yxnmfsk0111_bg.jpg"
+   }
+  },
+  "sqy_phz_yxnmfsk0111"                          : {
+   "id"                                           : "sqy_phz_yxnmfsk0111",
+   "des"                                          : "12年1月12日-19日每天首次登陆跑胡子游戏，就免费送2张房卡。全新版本跑胡子已经上线，请点击按钮下载~",
+   "moduleId"                                     : "general_btn",
+   "typeid"                                       : 4,
+   "name"                                         : "迎新年送房卡",
+   "server_config"                                : {
+    "start"                                        : "2016-11-22 00:00:00",
+    "end"                                          : "2019-07-01 10:05:39"
+   },
+   "config"                                       : {
+    "button"                                       : {
+     "visible"                                      : "true",
+     "todoTask"                                     : {
+      "typeId"                                       : "hall.download",
+      "url"                                          : "http://www.shediao.com/sqy/gamelist_sqy.html"
+     },
+     "URL"                                          : "${http_download}/paohuzi/ads/touming_btn.png"
+    },
+    "bgURL"                                        : "${http_download}/paohuzi/act/yxnmfsk0111_bg.jpg"
+   }
+  },
+  "youle_phz_yuandansongka1230"                  : {
+   "id"                                           : "youle_phz_yuandansongka1230",
+   "des"                                          : "元旦放假期间2016年12月31日-2017年1月2日每日登陆游戏，可随机领取1-100张免费房卡。",
+   "moduleId"                                     : "general_btn",
+   "typeid"                                       : 1,
+   "name"                                         : "元旦房卡福利",
+   "server_config"                                : {
+    "start"                                        : "2016-11-22 00:00:00",
+    "end"                                          : "2019-07-01 10:05:39"
+   },
+   "config"                                       : {
+    "button"                                       : {
+     "visible"                                      : "true",
+     "todoTask"                                     : "",
+     "URL"                                          : ""
+    },
+    "bgURL"                                        : "${http_download}/paohuzi/act/yuandansongka1230_bg.jpg"
+   }
+  },
+  "youle_phz_phz_gf0216"                         : {
+   "id"                                           : "youle_phz_phz_gf0216",
+   "des"                                          : "本周更新内容",
+   "moduleId"                                     : "general_btn",
+   "typeid"                                       : 1,
+   "name"                                         : "本周更新内容",
+   "server_config"                                : {
+    "start"                                        : "2016-11-22 00:00:00",
+    "end"                                          : "2019-07-01 10:05:39"
+   },
+   "config"                                       : {
+    "button"                                       : {
+     "visible"                                      : "true",
+     "todoTask"                                     : "",
+     "URL"                                          : ""
+    },
+    "bgURL"                                        : "${http_download}/paohuzi/act/phz_gf0216_bg.jpg"
+   }
+  },
+  "youle_phz_fangka1123"                         : {
+   "id"                                           : "youle_phz_fangka1123",
+   "des"                                          : "成功邀请好友加入并体验游戏，即可获得12张房卡奖励~",
+   "moduleId"                                     : "general_btn",
+   "typeid"                                       : 1,
+   "name"                                         : "邀请有礼",
+   "server_config"                                : {
+    "start"                                        : "2016-11-22 00:00:00",
+    "end"                                          : "2019-07-01 10:05:39"
+   },
+   "config"                                       : {
+    "button"                                       : {
+     "visible"                                      : "true",
+     "todoTask"                                     : "",
+     "URL"                                          : ""
+    },
+    "bgURL"                                        : "${http_download}/majiang/difang/act/fangka12_act_1123_659_453.jpg"
+   }
+  },
+  "activity_migration_paohuzi"                   : {
+   "id"                                           : "activity_migration_paohuzi",
+   "des"                                          : "尊敬的用户，近期百旺跑胡子后台将会重大升级，请记下百旺ID和金币数量，加QQ群240979557，找管理员迁移账号金币。",
+   "moduleId"                                     : "notice_img",
+   "typeid"                                       : 1,
+   "name"                                         : "旧账户迁移",
+   "server_config"                                : {
+    "start"                                        : "2016-05-26 00:00:00",
+    "end"                                          : "2016-06-01 00:00:00"
+   },
+   "config"                                       : {
+    "firstButton"                                  : {
+     "visible"                                      : 0,
+     "action"                                       : "",
+     "params"                                       : {
+      "duration"                                     : 2,
+      "text"                                         : "确定"
+     }
+    },
+    "secondButton"                                 : {
+     "visible"                                      : 0,
+     "action"                                       : "",
+     "params"                                       : {
+      "duration"                                     : 2,
+      "text"                                         : "确定"
+     }
+    },
+    "bgURL"                                        : "${http_download}/paohuzi/act/complete/notice_img/act_paohuzi_migration.jpg"
+   },
+   "url"                                          : ""
+  },
+  "youle_phz_fangkabaoxiang0105"                 : {
+   "id"                                           : "youle_phz_fangkabaoxiang0105",
+   "des"                                          : "1.6日至1.12日，送您10个宝箱，玩跑胡子游戏完成宝箱任务即可领取宝箱奖励，奖励从1-100张房卡随机抽出，使用方法，打够局数--天天福利领取宝箱--打开背包开始抽奖。",
+   "moduleId"                                     : "general_btn",
+   "typeid"                                       : 4,
+   "name"                                         : "跑胡子送房卡",
+   "server_config"                                : {
+    "start"                                        : "2016-11-22 00:00:00",
+    "end"                                          : "2019-07-01 10:05:39"
+   },
+   "config"                                       : {
+    "button"                                       : {
+     "visible"                                      : "true",
+     "todoTask"                                     : {
+      "typeId"                                       : "hall.download",
+      "url"                                          : "http://www.shediao.com/youle/gamelist.html"
+     },
+     "URL"                                          : "${http_download}/paohuzi/ads/touming_btn.png"
+    },
+    "bgURL"                                        : "${http_download}/paohuzi/act/fangkabaoxiang0105_bg.jpg"
+   }
+  },
+  "youle_phz_2017newyear0122"                    : {
+   "id"                                           : "youle_phz_2017newyear0122",
+   "des"                                          : "2017新年已经到来，除夕至初二全平台游戏免费，初三至初六每日下午14点-20点限时免费，让您假期爽玩跑胡子，跑得快，湖南麻将。祝您新年快乐，鸡年大吉",
+   "moduleId"                                     : "general_btn",
+   "typeid"                                       : 1,
+   "name"                                         : "新年免费活动",
+   "server_config"                                : {
+    "start"                                        : "2016-11-22 00:00:00",
+    "end"                                          : "2019-07-01 10:05:39"
+   },
+   "config"                                       : {
+    "button"                                       : {
+     "visible"                                      : "true",
+     "todoTask"                                     : "",
+     "URL"                                          : ""
+    },
+    "bgURL"                                        : "${http_download}/paohuzi/act/2017newyear0122_bg.jpg"
+   }
+  }
+ },
+ "modules"                                      : { }
+}

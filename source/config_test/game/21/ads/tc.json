@@ -1,0 +1,485 @@
+{
+ "templates"                                    : {
+  "phz_v3.783_AI_difang_tishen2"                 : {
+   "interval"                                     : 5,
+   "name"                                         : "phz_v3.783_AI_difang_tishen2",
+   "ads"                                          : [
+    21071903
+   ]
+  },
+  "phz_v3.901_AI_sqy_glphz"                      : {
+   "interval"                                     : 5,
+   "name"                                         : "phz_v3.901_AI_sqy_glphz",
+   "ads"                                          : [
+    9999021301,
+    21071903
+   ]
+  },
+  "phz_v3.901_AI_youle_glphz"                    : {
+   "interval"                                     : 5,
+   "name"                                         : "phz_v3.901_AI_youle_glphz",
+   "ads"                                          : [
+    9999021301,
+    21071903
+   ]
+  },
+  "phz_v3.783_AI_zijianzhuo"                     : {
+   "interval"                                     : 5,
+   "name"                                         : "phz_v3.783_AI_zijianzhuo",
+   "ads"                                          : [
+    21021602,
+    21021601,
+    21071903
+   ]
+  },
+  "phz_v3.901_AI_phz_v3.901_AI_diandian.ioshnphz": {
+   "interval"                                     : 5,
+   "name"                                         : "phz_v3.901_AI_phz_v3.901_AI_diandian.ioshnphz",
+   "ads"                                          : [
+    21071903
+   ]
+  },
+  "phz_v3.788_AI_youle_hn_phz"                   : {
+   "interval"                                     : 5,
+   "name"                                         : "phz_v3.788_AI_youle_hn_phz",
+   "ads"                                          : [
+    21021602,
+    21021601,
+    21121901,
+    21071903
+   ]
+  }
+ },
+ "ads"                                          : [
+  {
+   "startTime"                                    : "2015-08-01 00:00:00",
+   "id"                                           : 21001,
+   "todotasks"                                    : [
+    {
+     "actId"                                        : "activity_joinQQGroup_paohuzi",
+     "typeId"                                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                                    : 1,
+   "pic"                                          : "${http_download}/paohuzi/ads/imgs/paohuzi_ads_joinQQGroup_btn.jpg",
+   "endTime"                                      : "2017-04-30 00:00:00"
+  },
+  {
+   "startTime"                                    : "2016-01-25 00:00:00",
+   "id"                                           : 21002,
+   "todotasks"                                    : [
+    {
+     "actId"                                        : "activity_winQiku_paohuzi",
+     "typeId"                                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                                    : 1,
+   "pic"                                          : "${http_download}/paohuzi/ads/imgs/ads_qiku_match.jpg",
+   "endTime"                                      : "2016-02-22 22:00:00"
+  },
+  {
+   "startTime"                                    : "2016-01-14 00:00:00",
+   "id"                                           : 21000,
+   "clickable"                                    : 0,
+   "pic"                                          : "${http_download}/hall/ads/imgs/paohuzi_ads_1.png",
+   "endTime"                                      : "2016-02-29 00:00:00"
+  },
+  {
+   "startTime"                                    : "2015-08-01 00:00:00",
+   "id"                                           : 43,
+   "todotasks"                                    : [
+    {
+     "actId"                                        : "activity_gotomatch_paohuzi",
+     "typeId"                                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                                    : 1,
+   "pic"                                          : "${http_download}/paohuzi/ads/imgs/paohuzi_ads_baiyuan_btn.jpg",
+   "endTime"                                      : "2017-04-30 00:00:00"
+  },
+  {
+   "startTime"                                    : "2016-05-11 00:00:00",
+   "id"                                           : 21051101,
+   "todotasks"                                    : [
+    {
+     "actId"                                        : "activity_paohuzi_ZFtishen",
+     "typeId"                                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                                    : 0,
+   "pic"                                          : "${http_download}/hall/ads/imgs/ads_shenhegongg.png",
+   "endTime"                                      : "2026-05-18 00:00:00"
+  },
+  {
+   "startTime"                                    : "2016-05-26 00:00:00",
+   "id"                                           : 21052601,
+   "todotasks"                                    : [
+    {
+     "actId"                                        : "activity_migration_paohuzi",
+     "typeId"                                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                                    : 1,
+   "pic"                                          : "${http_download}/paohuzi/ads/imgs/paohuzi_ads_migration_btn.jpg",
+   "endTime"                                      : "2016-06-01 00:00:00"
+  },
+  {
+   "startTime"                                    : "2016-07-19 00:00:00",
+   "id"                                           : 21071901,
+   "todotasks"                                    : [
+    {
+     "actId"                                        : "activity_phz_zjz_daili",
+     "typeId"                                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                                    : 1,
+   "pic"                                          : "${http_download}/paohuzi/ads/imgs/phzzjz_dlx.jpg",
+   "endTime"                                      : "2019-07-01 00:00:00"
+  },
+  {
+   "startTime"                                    : "2016-07-19 00:00:00",
+   "id"                                           : 21071902,
+   "todotasks"                                    : [
+    {
+     "actId"                                        : "activity_phz_zjz_jubao",
+     "typeId"                                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                                    : 1,
+   "pic"                                          : "${http_download}/majiang/images/ads/mjdf_jbx.png",
+   "endTime"                                      : "2019-07-01 00:00:00"
+  },
+  {
+   "startTime"                                    : "2016-07-19 00:00:00",
+   "id"                                           : 21071903,
+   "todotasks"                                    : [
+    {
+     "actId"                                        : "activity_phz_zjz_jiankang",
+     "typeId"                                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                                    : 1,
+   "pic"                                          : "${http_download}/paohuzi/ads/imgs/phzzjz_jkx.jpg",
+   "endTime"                                      : "2019-07-01 00:00:00"
+  },
+  {
+   "startTime"                                    : "2016-07-19 00:00:00",
+   "id"                                           : 21071904,
+   "todotasks"                                    : [
+    {
+     "actId"                                        : "activity_phz_zjz_youhui",
+     "typeId"                                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                                    : 1,
+   "pic"                                          : "${http_download}/paohuzi/ads/imgs/phzzjz_yhx.jpg",
+   "endTime"                                      : "2019-07-01 00:00:00"
+  },
+  {
+   "startTime"                                    : "2016-07-19 00:00:00",
+   "id"                                           : 21071905,
+   "todotasks"                                    : [
+    {
+     "actId"                                        : "activity_phz_zjz_yaoqing",
+     "typeId"                                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                                    : 1,
+   "pic"                                          : "${http_download}/majiang/difang/ads/1022yqyj.jpg",
+   "endTime"                                      : "2019-07-01 00:00:00"
+  },
+  {
+   "startTime"                                    : "2016-07-21 00:00:00",
+   "id"                                           : 21072101,
+   "todotasks"                                    : [
+    {
+     "actId"                                        : "activity_gotomatch10_paohuzi",
+     "typeId"                                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                                    : 1,
+   "pic"                                          : "${http_download}/paohuzi/ads/imgs/ads_10_100.jpg",
+   "endTime"                                      : "2019-07-01 00:00:00"
+  },
+  {
+   "startTime"                                    : "2016-10-14 00:00:00",
+   "id"                                           : 21101401,
+   "todotasks"                                    : [
+    {
+     "actId"                                        : "youle_hn_phz_dtl",
+     "typeId"                                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                                    : 1,
+   "pic"                                          : "${http_download}/majiang/difang/ads/ads_youle_hn_dlt.png",
+   "endTime"                                      : "2016-11-13 00:00:00"
+  },
+  {
+   "startTime"                                    : "2016-11-09 00:00:00",
+   "id"                                           : 21110901,
+   "todotasks"                                    : [
+    {
+     "actId"                                        : "youle_phz_1111free1109",
+     "typeId"                                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                                    : 1,
+   "pic"                                          : "${http_download}/majiang/difang/ads/1111free1109_icon.jpg",
+   "endTime"                                      : "2016-11-16 00:00:00"
+  },
+  {
+   "startTime"                                    : "2016-11-17 00:00:00",
+   "id"                                           : 21111701,
+   "todotasks"                                    : [
+    {
+     "actId"                                        : "youle_phz_gaohuzi_1117free",
+     "typeId"                                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                                    : 1,
+   "pic"                                          : "${http_download}/majiang/difang/ads/gaohuzi_1117_ads_210_380.jpg",
+   "endTime"                                      : "2016-11-25 00:00:00"
+  },
+  {
+   "startTime"                                    : "2016-11-22 00:00:00",
+   "id"                                           : 21112201,
+   "todotasks"                                    : [
+    {
+     "actId"                                        : "youle_phz_ganenjie1122",
+     "typeId"                                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                                    : 1,
+   "pic"                                          : "${http_download}/majiang/difang/ads/ganenjie_ads_1122_210_380.jpg",
+   "endTime"                                      : "2016-12-01 00:00:00"
+  },
+  {
+   "startTime"                                    : "2016-11-23 00:00:00",
+   "id"                                           : 21112301,
+   "todotasks"                                    : [
+    {
+     "actId"                                        : "activity_youle_phz_fangka1123",
+     "typeId"                                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                                    : 1,
+   "pic"                                          : "${http_download}/majiang/difang/ads/fangka12_ads_1123_210_380.jpg",
+   "endTime"                                      : "2019-07-01 00:00:00"
+  },
+  {
+   "startTime"                                    : "2016-11-24 00:00:00",
+   "id"                                           : 21112401,
+   "todotasks"                                    : [
+    {
+     "actId"                                        : "youle_phz_gengfu1124",
+     "typeId"                                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                                    : 1,
+   "pic"                                          : "${http_download}/majiang/difang/ads/fengfu_1124_ads.png",
+   "endTime"                                      : "2019-12-31 00:00:00"
+  },
+  {
+   "startTime"                                    : "2016-12-01 00:00:00",
+   "id"                                           : 21120101,
+   "todotasks"                                    : [
+    {
+     "actId"                                        : "youle_hnphz_phzhongbao1201",
+     "typeId"                                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                                    : 1,
+   "pic"                                          : "${http_download}/majiang/difang/ads/phzhongbao1201_icon.jpg",
+   "endTime"                                      : "2016-12-08 00:00:00"
+  },
+  {
+   "startTime"                                    : "2016-12-15 00:00:00",
+   "id"                                           : 21121501,
+   "todotasks"                                    : [
+    {
+     "actId"                                        : "activity_phz_lyhsfk1215",
+     "typeId"                                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                                    : 1,
+   "pic"                                          : "${http_download}/majiang/difang/ads/lyhsfk1215_icon.jpg",
+   "endTime"                                      : "2016-12-22 00:00:00"
+  },
+  {
+   "startTime"                                    : "2016-12-19 00:00:00",
+   "id"                                           : 21121901,
+   "todotasks"                                    : [
+    {
+     "actId"                                        : "youle_phz_youxijy1219",
+     "typeId"                                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                                    : 1,
+   "pic"                                          : "${http_download}/majiang/difang/ads/youxijy1219_icon.jpg",
+   "endTime"                                      : "2016-12-26 00:00:00"
+  },
+  {
+   "startTime"                                    : "2016-12-24 00:00:00",
+   "id"                                           : 21122401,
+   "todotasks"                                    : [
+    {
+     "actId"                                        : "youle_phz_dailihuikui1223",
+     "typeId"                                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                                    : 1,
+   "pic"                                          : "${http_download}/paohuzi/ads/dailihuikui1223_icon1.jpg",
+   "endTime"                                      : "2018-12-20 00:00:00"
+  },
+  {
+   "startTime"                                    : "2016-12-24 00:00:00",
+   "id"                                           : 21122402,
+   "todotasks"                                    : [
+    {
+     "actId"                                        : "youle_phz_khshengdanjie1223",
+     "typeId"                                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                                    : 1,
+   "pic"                                          : "${http_download}/paohuzi/ads/khshengdanjie1223_icon.jpg",
+   "endTime"                                      : "2018-12-26 00:00:00"
+  },
+  {
+   "startTime"                                    : "2016-12-24 00:00:00",
+   "id"                                           : 21122403,
+   "todotasks"                                    : [
+    {
+     "actId"                                        : "shengdanhuodong",
+     "typeId"                                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                                    : 1,
+   "pic"                                          : "${http_download}/paohuzi/ads/shengdanbaohe1223_icon.jpg",
+   "endTime"                                      : "2016-12-31 00:00:00"
+  },
+  {
+   "startTime"                                    : "2016-12-24 00:00:00",
+   "id"                                           : 21122404,
+   "todotasks"                                    : [
+    {
+     "actId"                                        : "youle_phz_shengdanbaohe12231",
+     "typeId"                                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                                    : 1,
+   "pic"                                          : "${http_download}/paohuzi/ads/hongbaoseason21223_icon.jpg",
+   "endTime"                                      : "2016-12-31 00:00:00"
+  },
+  {
+   "startTime"                                    : "2016-12-30 00:00:00",
+   "id"                                           : 21123001,
+   "todotasks"                                    : [
+    {
+     "actId"                                        : "youle_phz_yuandansongka1230",
+     "typeId"                                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                                    : 1,
+   "pic"                                          : "${http_download}/paohuzi/ads/yuandansongka1230_icon.jpg",
+   "endTime"                                      : "2017-01-31 00:00:00"
+  },
+  {
+   "startTime"                                    : "2017-01-05 00:00:00",
+   "id"                                           : 21010501,
+   "todotasks"                                    : [
+    {
+     "actId"                                        : "youle_phz_fangkabaoxiang0105",
+     "typeId"                                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                                    : 1,
+   "pic"                                          : "${http_download}/paohuzi/ads/fangkabaoxiang0105_icon.jpg",
+   "endTime"                                      : "2017-01-13 00:00:00"
+  },
+  {
+   "startTime"                                    : "2017-01-05 00:00:00",
+   "id"                                           : 21010502,
+   "todotasks"                                    : [
+    {
+     "actId"                                        : "sqy_phz_fangkabaoxiang0105",
+     "typeId"                                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                                    : 1,
+   "pic"                                          : "${http_download}/paohuzi/ads/fangkabaoxiang0105_icon.jpg",
+   "endTime"                                      : "2017-01-13 00:00:00"
+  },
+  {
+   "startTime"                                    : "2017-01-11 00:00:00",
+   "id"                                           : 21011101,
+   "todotasks"                                    : [
+    {
+     "actId"                                        : "sqy_phz_yxnmfsk0111",
+     "typeId"                                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                                    : 1,
+   "pic"                                          : "${http_download}/paohuzi/ads/yxnmfsk0111_icon.jpg",
+   "endTime"                                      : "2017-01-18 00:00:00"
+  },
+  {
+   "startTime"                                    : "2017-01-11 00:00:00",
+   "id"                                           : 21011102,
+   "todotasks"                                    : [
+    {
+     "actId"                                        : "youle_phz_yxnmfsk0111",
+     "typeId"                                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                                    : 1,
+   "pic"                                          : "${http_download}/paohuzi/ads/yxnmfsk0111_icon.jpg",
+   "endTime"                                      : "2017-01-19 00:00:00"
+  },
+  {
+   "startTime"                                    : "2017-01-22 00:00:00",
+   "id"                                           : 21012201,
+   "todotasks"                                    : [
+    {
+     "actId"                                        : "youle_phz_2017newyear0122",
+     "typeId"                                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                                    : 1,
+   "pic"                                          : "${http_download}/paohuzi/ads/2017newyear0122_icon.jpg",
+   "endTime"                                      : "2017-03-31 00:00:00"
+  },
+  {
+   "startTime"                                    : "2017-02-16 00:00:00",
+   "id"                                           : 21021601,
+   "todotasks"                                    : [
+    {
+     "enter_param"                                  : {
+      "pluginParams"                                 : {
+       "gameArgs"                                     : "youxian",
+       "gameType"                                     : "custom"
+      },
+      "type"                                         : "roomlist"
+     },
+     "gameId"                                       : 21,
+     "typeId"                                       : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                                    : 1,
+   "pic"                                          : "${http_download}/paohuzi/ads/youxianphz0216_ads.jpg",
+   "endTime"                                      : "2017-02-23 00:00:00"
+  },
+  {
+   "startTime"                                    : "2017-02-16 00:00:00",
+   "id"                                           : 21021602,
+   "todotasks"                                    : [
+    {
+     "actId"                                        : "youle_phz_phz_gf0216",
+     "typeId"                                       : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                                    : 1,
+   "pic"                                          : "${http_download}/paohuzi/ads/phz_gf0216_icon.jpg",
+   "endTime"                                      : "2017-02-23 00:00:00"
+  }
+ ]
+}

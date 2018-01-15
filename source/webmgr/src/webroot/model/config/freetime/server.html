@@ -1,0 +1,231 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>服务管理</title>
+
+	<!-- Bootstrap -->
+    <link rel="stylesheet" href="./../../../third/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./../../../third/css/docs.min.css">
+    <link rel="stylesheet" href="./../../../third/css/buttons.css">
+    <link rel="stylesheet" href="./../../../third/css/main.css">
+
+    <script src="./../../../third/js/jquery.min.js"></script>
+    <script src="./../../../third/js/bootstrap.min.js"></script>
+    <script src="./../../../third/js/vue.min.js"></script>
+
+    <script src="./../../../js/lib/base.js"></script>
+    <script src="./../../../js/lib/model.js"></script>
+
+    <script src="server.js"></script>
+  
+</head>
+<body>
+	<div id="dataContent">
+		<table class="table table-bordered bs-docs-section">
+			<tr>
+				<td colspan="3">
+					<button type="button" class="btn btn-success" v-on="click: reset">重 置</button>
+					<button type="button" class="btn btn-success" v-on="click: submit" >保 存</button>
+					<b>freetime/server.json 游戏服务进程定义</b>
+				</td>
+			</tr>
+		</table>
+		<table class="table table-bordered bs-docs-section">
+			<tr class="bg-info">
+				<th width="40px"><button type="button" class="btn btn-info" v-on="click: addData('PL')">+PL</button></th>
+				<th>进程ID</th>
+				<th>IP地址</th>
+				<th>代理ID(AGENT)</th>
+				<th>HTTP端口</th>
+				<th>REDIS列表</th>
+				<th>MYSQL列表</th>
+			</tr>
+			<tr v-repeat="PL">
+				<th width="40px"><button type="button" class="btn btn-warning" v-on="click: removeData('PL', $index)">-</button></th>
+				<td><input type="text" v-model="id"></td>
+				<td><input type="text" v-model="ip"></td>
+				<td><input type="text" v-model="agent"></td>
+				<td><input type="text" v-model="ht_http | superInt"></td>
+				<td><input type="text" v-model="redis"></td>
+				<td><input type="text" v-model="mysql"></td>
+			</tr>
+		</table>
+		<table class="table table-bordered bs-docs-section">
+			<tr class="bg-info">
+				<th width="40px"><button type="button" class="btn btn-info" v-on="click: addData('HT')">+HT</button></th>
+				<th>进程ID</th>
+				<th>IP地址</th>
+				<th>代理ID(AGENT)</th>
+				<th>HTTP端口</th>
+				<th>REDIS列表</th>
+				<th>MYSQL列表</th>
+			</tr>
+			<tr v-repeat="HT">
+				<th width="40px"><button type="button" class="btn btn-warning" v-on="click: removeData('HT', $index)">-</button></th>
+				<td><input type="text" v-model="id"></td>
+				<td><input type="text" v-model="ip"></td>
+				<td><input type="text" v-model="agent"></td>
+				<td><input type="text" v-model="ht_http | superInt"></td>
+				<td><input type="text" v-model="redis"></td>
+				<td><input type="text" v-model="mysql"></td>
+			</tr>
+		</table>
+		<table class="table table-bordered bs-docs-section">
+			<tr class="bg-info">
+				<th width="40px"><button type="button" class="btn btn-info" v-on="click: addData('BI')">+BI</button></th>
+				<th>进程ID</th>
+				<th>IP地址</th>
+				<th>代理ID(AGENT)</th>
+				<th>HTTP端口</th>
+				<th>REDIS列表</th>
+				<th>MYSQL列表</th>
+			</tr>
+			<tr v-repeat="BI">
+				<th width="40px"><button type="button" class="btn btn-warning" v-on="click: removeData('BI', $index)">-</button></th>
+				<td><input type="text" v-model="id"></td>
+				<td><input type="text" v-model="ip"></td>
+				<td><input type="text" v-model="agent"></td>
+				<td><input type="text" v-model="ht_http | superInt"></td>
+				<td><input type="text" v-model="redis"></td>
+				<td><input type="text" v-model="mysql"></td>
+			</tr>
+		</table>
+
+		<table class="table table-bordered bs-docs-section">
+			<tr class="bg-info">
+				<th width="40px"><button type="button" class="btn btn-info" v-on="click: addData('AG')">+AG</button></th>
+				<th>进程ID</th>
+				<th>IP地址</th>
+				<th>A2A端口</th>
+				<th>A2S端口</th>
+			</tr>
+			<tr v-repeat="AG">
+				<th width="40px"><button type="button" class="btn btn-warning" v-on="click: removeData('AG', $index)">-</button></th>
+				<td><input type="text" v-model="id"></td>
+				<td><input type="text" v-model="ip"></td>
+				<td><input type="text" v-model="a2a | superInt"></td>
+				<td><input type="text" v-model="a2s | superInt"></td>
+			</tr>
+		</table>
+
+		<table class="table table-bordered bs-docs-section">
+			<tr class="bg-info">
+				<th width="40px"><button type="button" class="btn btn-info" v-on="click: addData('CO')">+CO</button></th>
+				<th>进程ID</th>
+				<th>IP地址</th>
+				<th>代理ID(AGENT)</th>
+				<th>TCP端口</th>
+				<th>REDIS列表</th>
+				<th>MYSQL列表</th>
+			</tr>
+			<tr v-repeat="CO">
+				<th width="40px"><button type="button" class="btn btn-warning" v-on="click: removeData('CO', $index)">-</button></th>
+				<td><input type="text" v-model="id"></td>
+				<td><input type="text" v-model="ip"></td>
+				<td><input type="text" v-model="agent"></td>
+				<td><input type="text" v-model="co_tcp | superInt"></td>
+				<td><input type="text" v-model="redis"></td>
+				<td><input type="text" v-model="mysql"></td>
+			</tr>
+		</table>
+
+		<table class="table table-bordered bs-docs-section">
+			<tr class="bg-info">
+				<th width="40px"><button type="button" class="btn btn-info" v-on="click: addData('RB')">+RB</button></th>
+				<th>进程ID</th>
+				<th>IP地址</th>
+				<th>代理ID(AGENT)</th>
+				<th>REDIS列表</th>
+				<th>MYSQL列表</th>
+			</tr>
+			<tr v-repeat="RB">
+				<th width="40px"><button type="button" class="btn btn-warning" v-on="click: removeData('RB', $index)">-</button></th>
+				<td><input type="text" v-model="id"></td>
+				<td><input type="text" v-model="ip"></td>
+				<td><input type="text" v-model="agent"></td>
+				<td><input type="text" v-model="redis"></td>
+				<td><input type="text" v-model="mysql"></td>
+			</tr>
+		</table>
+
+		<table class="table table-bordered bs-docs-section">
+			<tr class="bg-info">
+				<th width="40px"><button type="button" class="btn btn-info" v-on="click: addData('UT')">+UT</button></th>
+				<th>进程ID</th>
+				<th>IP地址</th>
+				<th>代理ID(AGENT)</th>
+				<th>REDIS列表</th>
+				<th>MYSQL列表</th>
+			</tr>
+			<tr v-repeat="UT">
+				<th width="40px"><button type="button" class="btn btn-warning" v-on="click: removeData('UT', $index)">-</button></th>
+				<td><input type="text" v-model="id"></td>
+				<td><input type="text" v-model="ip"></td>
+				<td><input type="text" v-model="agent"></td>
+				<td><input type="text" v-model="redis"></td>
+				<td><input type="text" v-model="mysql"></td>
+			</tr>
+		</table>
+
+		<table class="table table-bordered bs-docs-section">
+			<tr class="bg-info">
+				<th width="40px"><button type="button" class="btn btn-info" v-on="click: addData('CT')">+CT</button></th>
+				<th>进程ID</th>
+				<th>IP地址</th>
+				<th>代理ID(AGENT)</th>
+				<th>REDIS列表</th>
+				<th>MYSQL列表</th>
+			</tr>
+			<tr v-repeat="CT">
+				<th width="40px"><button type="button" class="btn btn-warning" v-on="click: removeData('CT', $index)">-</button></th>
+				<td><input type="text" v-model="id"></td>
+				<td><input type="text" v-model="ip"></td>
+				<td><input type="text" v-model="agent"></td>
+				<td><input type="text" v-model="redis"></td>
+				<td><input type="text" v-model="mysql"></td>
+			</tr>
+		</table>
+
+		<table class="table table-bordered bs-docs-section">
+			<tr class="bg-info">
+				<th width="40px"><button type="button" class="btn btn-info" v-on="click: addData('GR')">+GR</button></th>
+				<th>进程ID</th>
+				<th>IP地址</th>
+				<th>代理ID(AGENT)</th>
+				<th>REDIS列表</th>
+				<th>MYSQL列表</th>
+			</tr>
+			<tr v-repeat="GR">
+				<th width="40px"><button type="button" class="btn btn-warning" v-on="click: removeData('GR', $index)">-</button></th>
+				<td><input type="text" v-model="id"></td>
+				<td><input type="text" v-model="ip"></td>
+				<td><input type="text" v-model="agent"></td>
+				<td><input type="text" v-model="redis"></td>
+				<td><input type="text" v-model="mysql"></td>
+			</tr>
+		</table>
+
+		<table class="table table-bordered bs-docs-section">
+			<tr class="bg-info">
+				<th width="40px"><button type="button" class="btn btn-info" v-on="click: addData('GT')">+GT</button></th>
+				<th>进程ID</th>
+				<th>IP地址</th>
+				<th>代理ID(AGENT)</th>
+				<th>REDIS列表</th>
+				<th>MYSQL列表</th>
+			</tr>
+			<tr v-repeat="GT">
+				<th width="40px"><button type="button" class="btn btn-warning" v-on="click: removeData('GT', $index)">-</button></th>
+				<td><input type="text" v-model="id"></td>
+				<td><input type="text" v-model="ip"></td>
+				<td><input type="text" v-model="agent"></td>
+				<td><input type="text" v-model="redis"></td>
+				<td><input type="text" v-model="mysql"></td>
+			</tr>
+		</table>
+	<div>
+</body>
+</html>
+
+

@@ -1,0 +1,52 @@
+{
+ "templates"           : {
+  "h5dt_v3.0_AI_default": {
+   "interval"            : 5,
+   "name"                : "h5dt_v3.0_AI_default",
+   "ads"                 : [
+    9999120701
+   ]
+  }
+ },
+ "ads"                 : [
+  {
+   "startTime"           : "2016-12-07 00:00:00",
+   "id"                  : 9999120701,
+   "todotasks"           : [
+    {
+     "actId"               : "default",
+     "typeId"              : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"           : 1,
+   "pic"                 : "${http_download}/paohuzi/ads/imgs/phzzjz_jkx.jpg",
+   "endTime"             : "2080-12-31 00:00:00"
+  },
+  {
+   "startTime"           : "2017-02-09 00:00:00",
+   "id"                  : 9999020901,
+   "todotasks"           : [
+    {
+     "actId"               : "youle_phz_naoyuanxiao170209",
+     "typeId"              : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"           : 1,
+   "pic"                 : "${http_download}/paohuzi/ads/naoyuanxiao170209_icon.jpg",
+   "endTime"             : "2017-02-16 00:00:00"
+  },
+  {
+   "startTime"           : "2017-02-13 00:00:00",
+   "id"                  : 9999021301,
+   "todotasks"           : [
+    {
+     "actId"               : "youle_phz_tmqrj0213",
+     "typeId"              : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"           : 1,
+   "pic"                 : "${http_download}/paohuzi/ads/tmqrj0213_icon.jpg",
+   "endTime"             : "2017-02-20 00:00:00"
+  }
+ ]
+}

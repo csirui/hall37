@@ -1,0 +1,69 @@
+{
+    "templates": [
+        {
+            "name": "paohuzi",
+            "inviteRewardItem": {
+                "itemId": "item:6002",
+                "count": 6
+            },
+            "gotoTitle": "体验游戏送房卡啦",
+            "gotoDesc": "要至少体验一把游戏才有房卡送哦，快和我一起来游戏吧。",
+            "gotoUrl": "http://www.shediao.com/youle/gamelist.html",
+            "inviteTitle": "体验游戏送房卡啦",
+            "inviteDesc": "玩自建桌本地跑胡子游戏，报我ID(\\${rewardContent})就领取6张房卡",
+            "inviteUrl": "http://www.shediao.com/youle/gamelist.html"
+        },
+        {
+            "name": "sqypaohuzi",
+            "inviteRewardItem": {
+                "itemId": "item:6009",
+                "count": 6
+            },
+            "gotoTitle": "体验游戏送房卡啦",
+            "gotoDesc": "要至少体验一把游戏才有房卡送哦，快和我一起来游戏吧。",
+            "gotoUrl": "http://www.shediao.com/sqy/gamelist_sqy.html",
+            "inviteTitle": "体验游戏送房卡啦",
+            "inviteDesc": "玩自建桌本地跑胡子游戏，报我ID(\\${rewardContent})就领取6张房卡",
+            "inviteUrl": "http://www.shediao.com/sqy/gamelist_sqy.html"
+        },
+        {
+            "name": "diandianpaohuzi",
+            "inviteRewardItem": {
+                "itemId": "item:6002",
+                "count": 6
+            },
+            "gotoTitle": "体验游戏送房卡啦",
+            "gotoDesc": "要至少体验一把游戏才有房卡送哦，快和我一起来游戏吧。",
+            "gotoUrl": "http://www.shediao.com/diandian/gamelist_dd.html",
+            "inviteTitle": "体验游戏送房卡啦",
+            "inviteDesc": "玩自建桌本地跑胡子游戏，报我ID(\\${rewardContent})就领取6张房卡",
+            "inviteUrl": "http://www.shediao.com/diandian/gamelist_dd.html"
+        },
+        {
+            "name": "youlegxzp",
+            "inviteRewardItem": {
+                "itemId": "item:6103",
+                "count": 6
+            },
+            "gotoTitle": "体验游戏送房卡啦",
+            "gotoDesc": "要至少体验一把游戏才有房卡送哦，快和我一起来游戏吧。",
+            "gotoUrl": "http://www.shediao.com/landing/gxzp.html",
+            "inviteTitle": "体验游戏送房卡啦",
+            "inviteDesc": "玩自建桌广西字牌游戏，报我ID(\\${rewardContent})就领取6张房卡",
+            "inviteUrl": "http://www.shediao.com/landing/gxzp.html"
+        },
+        {
+            "name": "sqyglzp",
+            "inviteRewardItem": {
+                "itemId": "item:6104",
+                "count": 6
+            },
+            "gotoTitle": "体验游戏送房卡啦",
+            "gotoDesc": "要至少体验一把游戏才有房卡送哦，快和我一起来游戏吧。",
+            "gotoUrl": "http://www.shediao.com/landing/glzp.html",
+            "inviteTitle": "体验游戏送房卡啦",
+            "inviteDesc": "玩自建桌桂林字牌游戏，报我ID(\\${rewardContent})就领取6张房卡",
+            "inviteUrl": "http://www.shediao.com/landing/glzp.html"
+        }
+    ]
+}

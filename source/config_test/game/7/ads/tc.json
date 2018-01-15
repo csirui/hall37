@@ -1,0 +1,1057 @@
+{
+ "templates"                           : {
+  "majiang_v3.90_AI_sqyscmj"            : {
+   "interval"                            : 5,
+   "name"                                : "majiang_v3.90_AI_sqyscmj",
+   "ads"                                 : [
+    7071605
+   ]
+  },
+  "majiang_v3.770_AI_youle_sichuan"     : {
+   "interval"                            : 5,
+   "name"                                : "majiang_v3.770_AI_youle_sichuan",
+   "ads"                                 : [
+    7071605,
+    7071603
+   ]
+  },
+  "majiang_v3.901_AI_wybhnqp"           : {
+   "interval"                            : 5,
+   "name"                                : "majiang_v3.901_AI_wybhnqp",
+   "ads"                                 : [
+    153121601
+   ]
+  },
+  "majiang_v3.770_AI_difang_tishen"     : {
+   "interval"                            : 5,
+   "name"                                : "majiang_v3.770_AI_difang_tishen",
+   "ads"                                 : [
+    7071605
+   ]
+  },
+  "majiang_v3.901_AI__youle_jx"         : {
+   "interval"                            : 5,
+   "name"                                : "majiang_v3.901_AI__youle_jx",
+   "ads"                                 : [
+    9999120701,
+    7101302,
+    7112401
+   ]
+  },
+  "majiang_v3.770_AI_difang"            : {
+   "interval"                            : 5,
+   "name"                                : "majiang_v3.770_AI_difang",
+   "ads"                                 : [
+    7012201,
+    7071605,
+    7071603
+   ]
+  },
+  "majiang_v3.770_AI_sqy_main"          : {
+   "interval"                            : 5,
+   "name"                                : "majiang_v3.770_AI_sqy_main",
+   "ads"                                 : [
+    7071605
+   ]
+  },
+  "majiang_v3.901_AI__youle_fz"         : {
+   "interval"                            : 5,
+   "name"                                : "majiang_v3.901_AI__youle_fz",
+   "ads"                                 : [
+    7101302,
+    7071605
+   ]
+  },
+  "majiang_v3.901_AI_youle_pymj"        : {
+   "interval"                            : 5,
+   "name"                                : "majiang_v3.901_AI_youle_pymj",
+   "ads"                                 : [
+    9999120701,
+    7101302,
+    7022001
+   ]
+  },
+  "majiang_v3.776_AI_youle_nc"          : {
+   "interval"                            : 5,
+   "name"                                : "majiang_v3.776_AI_youle_nc",
+   "ads"                                 : [
+    7101302,
+    7071605,
+    7112401,
+    7021701
+   ]
+  },
+  "majiang_v3.901_AI_xjmj"              : {
+   "interval"                            : 5,
+   "name"                                : "majiang_v3.901_AI_xjmj",
+   "ads"                                 : [
+    7071605
+   ]
+  },
+  "majiang_v3.777_AI_diandian_pingxiang": {
+   "interval"                            : 5,
+   "name"                                : "majiang_v3.777_AI_diandian_pingxiang",
+   "ads"                                 : [
+    7071605,
+    7093002,
+    7093001
+   ]
+  },
+  "majiang_test"                        : {
+   "interval"                            : 5,
+   "name"                                : "majiang_test",
+   "ads"                                 : [
+    7092201
+   ]
+  },
+  "majiang_v3.96_AI_ddncmj"             : {
+   "interval"                            : 5,
+   "name"                                : "majiang_v3.96_AI_ddncmj",
+   "ads"                                 : [
+    7071605
+   ]
+  }
+ },
+ "ads"                                 : [
+  {
+   "startTime"                           : "2015-09-20 00:00:00",
+   "id"                                  : 57,
+   "todotasks"                           : [
+    {
+     "enter_param"                         : {
+      "pluginParams"                        : {
+       "tasks"                               : [
+        {
+         "action"                              : "pop_cumulate_recharge",
+         "params"                              : { }
+        }
+       ]
+      },
+      "type"                                : "roomlist"
+     },
+     "gameId"                              : 7,
+     "typeId"                              : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/hall/ads/imgs/ads_majiang_1117.jpg",
+   "endTime"                             : "2016-06-24 00:00:00"
+  },
+  {
+   "startTime"                           : "2015-09-20 00:00:00",
+   "id"                                  : 70005,
+   "todotasks"                           : [
+    {
+     "actId"                               : "majiang_3_71_Android_4",
+     "typeId"                              : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/hall/ads/imgs/ads_majiang_20151224.png",
+   "endTime"                             : "2016-02-21 00:00:00"
+  },
+  {
+   "startTime"                           : "2015-08-01 00:00:00",
+   "id"                                  : 32,
+   "clickable"                           : 0,
+   "pic"                                 : "${http_download}/hall/ads/imgs/pc_ad_32.png",
+   "endTime"                             : "2017-08-06 00:00:00"
+  },
+  {
+   "startTime"                           : "2016-01-30 00:00:00",
+   "id"                                  : 7013001,
+   "todotasks"                           : [
+    {
+     "actId"                               : "majiang_3_71_Android_1",
+     "typeId"                              : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/majiang/images/ads/广告图-比赛.jpg",
+   "endTime"                             : "2016-02-10 00:00:00"
+  },
+  {
+   "startTime"                           : "2015-08-01 00:00:00",
+   "id"                                  : 49,
+   "clickable"                           : 0,
+   "pic"                                 : "${http_download}/hall/ads/imgs/ads_majiang_static.jpg",
+   "endTime"                             : "2016-04-16 00:00:00"
+  },
+  {
+   "startTime"                           : "2015-08-01 00:00:00",
+   "id"                                  : 70001,
+   "todotasks"                           : [
+    {
+     "payOrder"                            : {
+      "shelves"                             : [
+       "raffle"
+      ],
+      "priceDiamond"                        : {
+       "count"                               : 80,
+       "minCount"                            : 0,
+       "maxCount"                            : -1
+      },
+      "buyTypes"                            : [
+       "direct",
+       "consume"
+      ]
+     },
+     "typeId"                              : "todotask.payOrder"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/hall/ads/imgs/ads_majiang07122.jpg",
+   "endTime"                             : "2017-05-17 00:00:00"
+  },
+  {
+   "startTime"                           : "2016-01-30 00:00:00",
+   "id"                                  : 7013002,
+   "todotasks"                           : [
+    {
+     "actId"                               : "majiang_3_71_Android_4",
+     "typeId"                              : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/majiang/images/ads/广告图-雀神榜.jpg",
+   "endTime"                             : "2017-02-01 00:00:00"
+  },
+  {
+   "startTime"                           : "2015-08-01 00:00:00",
+   "id"                                  : 33,
+   "clickable"                           : 0,
+   "pic"                                 : "${http_download}/hall/ads/imgs/pc_ad_33.png",
+   "endTime"                             : "2017-08-06 00:00:00"
+  },
+  {
+   "startTime"                           : "2015-08-01 00:00:00",
+   "id"                                  : 18,
+   "todotasks"                           : [
+    {
+     "actId"                               : "activity_notice_majiang_1015",
+     "typeId"                              : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/hall/ads/imgs/ads_majiang_1015.jpg",
+   "endTime"                             : "2016-04-16 00:00:00"
+  },
+  {
+   "startTime"                           : "2015-08-01 00:00:00",
+   "id"                                  : 19,
+   "todotasks"                           : [
+    {
+     "payOrder"                            : {
+      "shelves"                             : [
+       "raffle"
+      ],
+      "priceDiamond"                        : {
+       "count"                               : 80,
+       "minCount"                            : 0,
+       "maxCount"                            : -1
+      },
+      "buyTypes"                            : [
+       "direct",
+       "consume"
+      ]
+     },
+     "typeId"                              : "todotask.payOrder"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/hall/ads/imgs/ads_majiang_gift_1015.jpg",
+   "endTime"                             : "2016-04-16 00:00:00"
+  },
+  {
+   "startTime"                           : "2015-09-20 00:00:00",
+   "id"                                  : 70002,
+   "todotasks"                           : [
+    {
+     "actId"                               : "majiang_3_71_Android_1",
+     "typeId"                              : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/hall/ads/imgs/ads_majiang_20151209.jpg",
+   "endTime"                             : "2016-02-21 00:00:00"
+  },
+  {
+   "startTime"                           : "2015-08-01 00:00:00",
+   "id"                                  : 66,
+   "clickable"                           : 0,
+   "pic"                                 : "${http_download}/hall/ads/imgs/ads_majiang_1203.jpg",
+   "endTime"                             : "2016-04-16 00:00:00"
+  },
+  {
+   "startTime"                           : "2016-01-30 00:00:00",
+   "id"                                  : 7013003,
+   "todotasks"                           : [
+    {
+     "actId"                               : "majaing_3.7_tishen",
+     "typeId"                              : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/majiang/images/ads/210x380.png",
+   "endTime"                             : "2017-02-02 00:00:00"
+  },
+  {
+   "startTime"                           : "2015-08-01 00:00:00",
+   "id"                                  : 48,
+   "todotasks"                           : [
+    {
+     "actId"                               : "activity_general_btn_majiang_double11_1104",
+     "typeId"                              : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/hall/ads/imgs/ads_majiang_double11_1104.jpg",
+   "endTime"                             : "2016-04-16 00:00:00"
+  },
+  {
+   "startTime"                           : "2015-08-01 00:00:00",
+   "id"                                  : 31,
+   "clickable"                           : 0,
+   "pic"                                 : "${http_download}/hall/ads/imgs/pc_ad_31.png",
+   "endTime"                             : "2017-08-06 00:00:00"
+  },
+  {
+   "startTime"                           : "2015-08-01 00:00:00",
+   "id"                                  : 70003,
+   "todotasks"                           : [
+    {
+     "payOrder"                            : {
+      "shelves"                             : [
+       "raffle"
+      ],
+      "priceDiamond"                        : {
+       "count"                               : 60,
+       "minCount"                            : 0,
+       "maxCount"                            : -1
+      },
+      "buyTypes"                            : [
+       "direct",
+       "consume"
+      ]
+     },
+     "typeId"                              : "todotask.payOrder"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/hall/ads/imgs/majiang_ads_20151210_ios.jpg",
+   "endTime"                             : "2016-04-16 00:00:00"
+  },
+  {
+   "startTime"                           : "2015-12-03 00:00:00",
+   "id"                                  : 70006,
+   "todotasks"                           : [
+    {
+     "payOrder"                            : {
+      "shelves"                             : [
+       "raffle"
+      ],
+      "priceDiamond"                        : {
+       "count"                               : 60,
+       "minCount"                            : 0,
+       "maxCount"                            : -1
+      },
+      "buyTypes"                            : [
+       "direct",
+       "consume"
+      ]
+     },
+     "typeId"                              : "todotask.payOrder"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/hall/ads/imgs/majiang_ads_20151210_ios.jpg",
+   "endTime"                             : "2025-12-09 23:59:00"
+  },
+  {
+   "startTime"                           : "2015-08-01 00:00:00",
+   "id"                                  : 22,
+   "todotasks"                           : [
+    {
+     "actId"                               : "activity_general_btn_hmw_ddz_match_1019",
+     "typeId"                              : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/hall/ads/imgs/ads_ddz_match_1019.jpg",
+   "endTime"                             : "2016-04-16 00:00:00"
+  },
+  {
+   "startTime"                           : "2015-08-01 00:00:00",
+   "id"                                  : 54,
+   "todotasks"                           : [
+    {
+     "actId"                               : "activity_general_btn_majiang_match_1111",
+     "typeId"                              : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/hall/ads/imgs/ads_majiang_match_1111.jpg",
+   "endTime"                             : "2016-04-16 00:00:00"
+  },
+  {
+   "startTime"                           : "2016-03-10 00:00:00",
+   "id"                                  : 716031001,
+   "todotasks"                           : [
+    {
+     "enter_param"                         : {
+      "pluginParams"                        : {
+       "gameType"                            : 3
+      },
+      "type"                                : "roomlist"
+     },
+     "gameId"                              : 7,
+     "typeId"                              : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/majiang/images/ads/ads_mj_freematch_.jpg",
+   "endTime"                             : "2016-05-31 00:00:00"
+  },
+  {
+   "startTime"                           : "2016-03-30 00:00:00",
+   "id"                                  : 716033001,
+   "todotasks"                           : [
+    {
+     "enter_param"                         : {
+      "pluginParams"                        : {
+       "gameType"                            : 3
+      },
+      "type"                                : "roomlist"
+     },
+     "gameId"                              : 7,
+     "typeId"                              : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/majiang/images/ads/ads-AprilFoolsDay.jpg",
+   "endTime"                             : "2016-04-04 00:00:00"
+  },
+  {
+   "startTime"                           : "2016-03-30 00:00:00",
+   "id"                                  : 716033002,
+   "todotasks"                           : [
+    {
+     "enter_param"                         : {
+      "pluginParams"                        : {
+       "gameType"                            : 3
+      },
+      "type"                                : "roomlist"
+     },
+     "gameId"                              : 7,
+     "typeId"                              : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/majiang/images/ads/ads-qingming.jpg",
+   "endTime"                             : "2016-04-06 00:00:00"
+  },
+  {
+   "startTime"                           : "2016-04-06 00:00:00",
+   "id"                                  : 716040601,
+   "todotasks"                           : [
+    {
+     "enter_param"                         : {
+      "pluginParams"                        : {
+       "gameType"                            : 3
+      },
+      "type"                                : "roomlist"
+     },
+     "gameId"                              : 7,
+     "typeId"                              : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/majiang/images/ads/ads_spring.jpg",
+   "endTime"                             : "2016-04-13 00:00:00"
+  },
+  {
+   "startTime"                           : "2016-04-12 00:00:00",
+   "id"                                  : 7041201,
+   "todotasks"                           : [
+    {
+     "enter_param"                         : {
+      "pluginParams"                        : {
+       "gameType"                            : 3
+      },
+      "type"                                : "roomlist"
+     },
+     "gameId"                              : 7,
+     "typeId"                              : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/majiang/images/ads/ads_sundaymatch.jpg",
+   "endTime"                             : "2016-04-29 00:00:00"
+  },
+  {
+   "startTime"                           : "2016-04-26 00:00:00",
+   "id"                                  : 7042701,
+   "todotasks"                           : [
+    {
+     "enter_param"                         : {
+      "pluginParams"                        : {
+       "gameType"                            : 3
+      },
+      "type"                                : "roomlist"
+     },
+     "gameId"                              : 7,
+     "typeId"                              : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/hall/ads/imgs/ads_majiang_20160427.jpg",
+   "endTime"                             : "2016-05-03 00:00:00"
+  },
+  {
+   "startTime"                           : "2016-05-25 00:00:00",
+   "id"                                  : 7052501,
+   "todotasks"                           : [
+    {
+     "enter_param"                         : {
+      "pluginParams"                        : {
+       "gameType"                            : 3
+      },
+      "type"                                : "roomlist"
+     },
+     "gameId"                              : 7,
+     "typeId"                              : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/hall/ads/imgs/ads_majiang_0525liuyi.jpg",
+   "endTime"                             : "2016-06-01 23:59:59"
+  },
+  {
+   "startTime"                           : "2016-05-31 00:00:00",
+   "id"                                  : 7053101,
+   "todotasks"                           : [
+    {
+     "enter_param"                         : {
+      "pluginParams"                        : {
+       "gameType"                            : 3
+      },
+      "type"                                : "roomlist"
+     },
+     "gameId"                              : 7,
+     "typeId"                              : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/hall/ads/imgs/ads_majiang0531.jpg",
+   "endTime"                             : "2016-06-12 00:00:00"
+  },
+  {
+   "startTime"                           : "2016-06-29 00:00:00",
+   "id"                                  : 7062901,
+   "todotasks"                           : [
+    {
+     "enter_param"                         : {
+      "pluginParams"                        : {
+       "gameType"                            : 3
+      },
+      "type"                                : "roomlist"
+     },
+     "gameId"                              : 7,
+     "typeId"                              : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/hall/ads/imgs/ads_majiang0629.jpg",
+   "endTime"                             : "2016-07-02 00:00:00"
+  },
+  {
+   "startTime"                           : "2016-06-29 00:00:00",
+   "id"                                  : 7062902,
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/hall/ads/imgs/ads_majiang0630.jpg",
+   "endTime"                             : "2020-06-17 00:00:00"
+  },
+  {
+   "startTime"                           : "2016-07-13 00:00:00",
+   "id"                                  : 7071301,
+   "todotasks"                           : [
+    {
+     "enter_param"                         : {
+      "pluginParams"                        : {
+       "gameType"                            : 3
+      },
+      "type"                                : "roomlist"
+     },
+     "gameId"                              : 7,
+     "typeId"                              : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/hall/ads/imgs/ads_majiang07121.jpg",
+   "endTime"                             : "2018-03-08 00:00:00"
+  },
+  {
+   "startTime"                           : "2016-07-16 00:00:00",
+   "id"                                  : 7071601,
+   "todotasks"                           : [
+    {
+     "actId"                               : "activity_mj_df_daili",
+     "typeId"                              : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/majiang/images/ads/mjdf_dlx.jpg",
+   "endTime"                             : "2019-08-01 00:00:00"
+  },
+  {
+   "startTime"                           : "2016-07-16 00:00:00",
+   "id"                                  : 7071602,
+   "todotasks"                           : [
+    {
+     "actId"                               : "activity_mj_df_yaoqing",
+     "typeId"                              : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/majiang/difang/ads/1022yqyj.jpg",
+   "endTime"                             : "2019-08-01 00:00:00"
+  },
+  {
+   "startTime"                           : "2016-07-16 00:00:00",
+   "id"                                  : 7071603,
+   "todotasks"                           : [
+    {
+     "actId"                               : "activity_mj_df_jubao",
+     "typeId"                              : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/majiang/images/ads/mjdf_jbx.png",
+   "endTime"                             : "2019-08-01 00:00:00"
+  },
+  {
+   "startTime"                           : "2016-07-16 00:00:00",
+   "id"                                  : 7071604,
+   "todotasks"                           : [
+    {
+     "actId"                               : "activity_mj_df_youhui",
+     "typeId"                              : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/majiang/images/ads/mjdf_yhx.jpg",
+   "endTime"                             : "2019-08-01 00:00:00"
+  },
+  {
+   "startTime"                           : "2016-07-16 00:00:00",
+   "id"                                  : 7071605,
+   "todotasks"                           : [
+    {
+     "actId"                               : "activity_mj_df_jiankang",
+     "typeId"                              : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/majiang/images/ads/mjdf_jkx.jpg",
+   "endTime"                             : "2019-08-01 00:00:00"
+  },
+  {
+   "startTime"                           : "2016-07-20 00:00:00",
+   "id"                                  : 7072001,
+   "todotasks"                           : [
+    {
+     "enter_param"                         : {
+      "pluginParams"                        : {
+       "gameType"                            : 3
+      },
+      "type"                                : "roomlist"
+     },
+     "gameId"                              : 7,
+     "typeId"                              : "hall.goto.enter.game"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/hall/ads/imgs/ads_majiang_hongbao.jpg",
+   "endTime"                             : "2016-08-09 00:00:00"
+  },
+  {
+   "startTime"                           : "2016-08-29 00:00:00",
+   "id"                                  : 7082901,
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/majiang/difang/ads/uleyhgk.jpg",
+   "endTime"                             : "2019-09-07 00:00:00"
+  },
+  {
+   "startTime"                           : "2016-08-29 00:00:00",
+   "id"                                  : 7082902,
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/majiang/difang/ads/ulezdl.jpg",
+   "endTime"                             : "2016-09-05 00:00:00"
+  },
+  {
+   "startTime"                           : "2016-08-29 00:00:00",
+   "id"                                  : 7082903,
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/majiang/difang/ads/mjzlh.jpg",
+   "endTime"                             : "2019-09-07 00:00:00"
+  },
+  {
+   "startTime"                           : "2016-08-29 00:00:00",
+   "id"                                  : 7082904,
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/majiang/difang/ads/phzzlh.jpg",
+   "endTime"                             : "2019-09-07 00:00:00"
+  },
+  {
+   "startTime"                           : "2016-09-22 00:00:00",
+   "id"                                  : 7092201,
+   "todotasks"                           : [
+    {
+     "typeId"                              : "hall.download",
+     "url"                                 : "http://www.shediao.com/diandian/gamelist_dd.html"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/majiang/difang/ads/mjzlh.jpg",
+   "endTime"                             : "2016-09-29 00:00:00"
+  },
+  {
+   "startTime"                           : "2016-09-29 00:00:00",
+   "id"                                  : 7092901,
+   "todotasks"                           : [
+    {
+     "actId"                               : "youle_nc_sxj",
+     "typeId"                              : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/majiang/difang/ads/1027xjhb.jpg",
+   "endTime"                             : "2017-02-10 00:00:00"
+  },
+  {
+   "startTime"                           : "2016-09-29 00:00:00",
+   "id"                                  : 7092902,
+   "todotasks"                           : [
+    {
+     "actId"                               : "youle_nc",
+     "typeId"                              : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/majiang/difang/ads/ads_ylnczdl.jpg",
+   "endTime"                             : "2019-10-01 00:00:00"
+  },
+  {
+   "startTime"                           : "2016-09-29 00:00:00",
+   "id"                                  : 7092903,
+   "todotasks"                           : [
+    {
+     "actId"                               : "youle_nc_zjz",
+     "typeId"                              : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/majiang/difang/ads/adssxj1011.png",
+   "endTime"                             : "2018-10-12 00:00:00"
+  },
+  {
+   "startTime"                           : "2016-09-30 00:00:00",
+   "id"                                  : 7093001,
+   "todotasks"                           : [
+    {
+     "actId"                               : "diandian_px_sxj",
+     "typeId"                              : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/majiang/difang/ads/ads_ddpxsxj.jpg",
+   "endTime"                             : "2016-10-08 00:00:00"
+  },
+  {
+   "startTime"                           : "2016-09-30 00:00:00",
+   "id"                                  : 7093002,
+   "todotasks"                           : [
+    {
+     "actId"                               : "diandian_px_zdl",
+     "typeId"                              : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/majiang/difang/ads/ads_ddpxzdl.jpg",
+   "endTime"                             : "2016-10-08 00:00:00"
+  },
+  {
+   "startTime"                           : "2016-10-13 00:00:00",
+   "id"                                  : 7101301,
+   "todotasks"                           : [
+    {
+     "actId"                               : "youle_nc_jpdl",
+     "typeId"                              : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/majiang/difang/ads/ads_jpdl_1020.JPG",
+   "endTime"                             : "2016-11-16 00:00:00"
+  },
+  {
+   "startTime"                           : "2016-10-13 00:00:00",
+   "id"                                  : 7101302,
+   "todotasks"                           : [
+    {
+     "actId"                               : "youle_nc_jb",
+     "typeId"                              : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/majiang/difang/ads/ads_jb_11013.jpg",
+   "endTime"                             : "2016-10-20 00:00:00"
+  },
+  {
+   "startTime"                           : "2016-10-14 00:00:00",
+   "id"                                  : 7101401,
+   "todotasks"                           : [
+    {
+     "actId"                               : "youle_hn_dlt",
+     "typeId"                              : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/majiang/difang/ads/ads_youle_hn_dlt.png",
+   "endTime"                             : "2016-10-21 00:00:00"
+  },
+  {
+   "startTime"                           : "2016-10-20 00:00:00",
+   "id"                                  : 7102001,
+   "todotasks"                           : [
+    {
+     "actId"                               : "youle_nc_fzdl",
+     "typeId"                              : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/majiang/difang/ads/ads_fzdl_1020.JPG",
+   "endTime"                             : "2016-11-03 00:00:00"
+  },
+  {
+   "startTime"                           : "2016-11-09 00:00:00",
+   "id"                                  : 7110901,
+   "todotasks"                           : [
+    {
+     "actId"                               : "youle_nc_1111free1109",
+     "typeId"                              : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/majiang/difang/ads/1111free1109_icon.jpg",
+   "endTime"                             : "2016-11-30 00:00:00"
+  },
+  {
+   "startTime"                           : "2016-11-11 00:00:00",
+   "id"                                  : 7111101,
+   "todotasks"                           : [
+    {
+     "actId"                               : "youle_mj_songxianjin1111",
+     "typeId"                              : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/majiang/difang/ads/songxianjin1111_icon1.jpg",
+   "endTime"                             : "2016-11-30 00:00:00"
+  },
+  {
+   "startTime"                           : "2016-11-16 00:00:00",
+   "id"                                  : 7111601,
+   "todotasks"                           : [
+    {
+     "actId"                               : "youle_ncmj_jianqunnahongbao1116",
+     "typeId"                              : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/majiang/difang/ads/jianqunnahongbao210-380.jpg",
+   "endTime"                             : "2016-12-01 00:00:00"
+  },
+  {
+   "startTime"                           : "2016-11-19 00:00:00",
+   "id"                                  : 7111901,
+   "todotasks"                           : [
+    {
+     "actId"                               : "youle_ncmj_hongbaofenxiang1119",
+     "typeId"                              : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/majiang/difang/ads/hongbao1119_ads(11-19-16-25-39).jpg",
+   "endTime"                             : "2016-12-01 00:00:00"
+  },
+  {
+   "startTime"                           : "2016-11-22 00:00:00",
+   "id"                                  : 7112201,
+   "todotasks"                           : [
+    {
+     "actId"                               : "youle_nc_ganenjie1122",
+     "typeId"                              : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/majiang/difang/ads/ganenjie_ads_1122_210_380.jpg",
+   "endTime"                             : "2016-11-29 00:00:00"
+  },
+  {
+   "startTime"                           : "2016-11-23 00:00:00",
+   "id"                                  : 7112301,
+   "todotasks"                           : [
+    {
+     "actId"                               : "activity_youle_nc_fangka1123",
+     "typeId"                              : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/majiang/difang/ads/fangka12_ads_1123_210_380.jpg",
+   "endTime"                             : "2019-07-01 00:00:00"
+  },
+  {
+   "startTime"                           : "2016-11-26 00:00:00",
+   "id"                                  : 7112401,
+   "todotasks"                           : [
+    {
+     "actId"                               : "youlencm-gengfu12.2",
+     "typeId"                              : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/majiang/difang/ads/fengfu_1124_ads.png",
+   "endTime"                             : "2019-12-31 00:00:00"
+  },
+  {
+   "startTime"                           : "2017-01-17 00:00:00",
+   "id"                                  : 7121001,
+   "todotasks"                           : [
+    {
+     "actId"                               : "chunjiehuodong",
+     "typeId"                              : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/majiang/difang/ads/3.9up_spring_festival_ads.jpg",
+   "endTime"                             : "2017-02-13 00:00:00"
+  },
+  {
+   "startTime"                           : "2016-12-14 00:00:00",
+   "id"                                  : 7121401,
+   "todotasks"                           : [
+    {
+     "actId"                               : "sqy_scmj_queshen",
+     "typeId"                              : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/majiang/difang/ads/1214adssqymeishanzhengbasai.jpg",
+   "endTime"                             : "2017-03-03 00:00:00"
+  },
+  {
+   "startTime"                           : "2016-12-21 00:00:00",
+   "id"                                  : 7122101,
+   "todotasks"                           : [
+    {
+     "actId"                               : "zhaodianpaogaoshou",
+     "typeId"                              : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/majiang/difang/ads/chang.jpg",
+   "endTime"                             : "2016-12-23 23:59:59"
+  },
+  {
+   "startTime"                           : "2016-12-27 00:00:00",
+   "id"                                  : 7122701,
+   "todotasks"                           : [
+    {
+     "actId"                               : "sqy_scmj_hupaidafangsong1227",
+     "typeId"                              : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/majiang/difang/ads/sqyschpdfschang.jpg",
+   "endTime"                             : "2017-01-03 00:00:00"
+  },
+  {
+   "startTime"                           : "2017-01-09 00:00:00",
+   "id"                                  : 7010901,
+   "todotasks"                           : [
+    {
+     "actId"                               : "wyb_hn_jkyxgg",
+     "typeId"                              : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/paohuzi/ads/imgs/phzzjz_jkx.jpg",
+   "endTime"                             : "2018-02-15 00:00:00"
+  },
+  {
+   "startTime"                           : "2017-01-17 00:00:00",
+   "id"                                  : 7011701,
+   "todotasks"                           : [
+    {
+     "actId"                               : "chunjiehuodong1",
+     "typeId"                              : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/majiang/difang/ads/3.9down_spring_festival_ads.jpg",
+   "endTime"                             : "2017-02-13 00:00:00"
+  },
+  {
+   "startTime"                           : "2017-01-17 00:00:00",
+   "id"                                  : 7011702,
+   "todotasks"                           : [
+    {
+     "actId"                               : "wyb_hn_xinjkyxgg",
+     "typeId"                              : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/majiang/difang/ads/lvjkyxggchang.jpg",
+   "endTime"                             : "2018-01-24 00:00:00"
+  },
+  {
+   "startTime"                           : "2017-01-22 00:00:00",
+   "id"                                  : 7012201,
+   "todotasks"                           : [
+    {
+     "actId"                               : "youle_mj_2017newyear0122",
+     "typeId"                              : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/paohuzi/ads/2017newyear0122_icon.jpg",
+   "endTime"                             : "2017-01-29 00:00:00"
+  },
+  {
+   "startTime"                           : "2017-02-17 00:00:00",
+   "id"                                  : 7021701,
+   "todotasks"                           : [
+    {
+     "actId"                               : "banbenshengji",
+     "typeId"                              : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/majiang/difang/ads/update_version_ads.jpg",
+   "endTime"                             : "2017-03-17 00:00:00"
+  },
+  {
+   "startTime"                           : "2017-02-20 00:00:00",
+   "id"                                  : 7022001,
+   "todotasks"                           : [
+    {
+     "actId"                               : "pymjbisai",
+     "typeId"                              : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                           : 1,
+   "pic"                                 : "${http_download}/majiang/difang/ads/bisai_ads.jpg",
+   "endTime"                             : "2017-02-27 00:00:00"
+  }
+ ]
+}

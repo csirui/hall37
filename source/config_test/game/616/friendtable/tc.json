@@ -1,0 +1,32 @@
+{
+    "templates":[
+        {
+            "name": "difang_616_default",
+            "inviteShareId":61603,
+            "cardAssetKindId":"item:6006",
+            "cardProduct":"TY9999Q0000501",
+            "cardPrice":5,
+            "bigWinnerRewardContent":{},
+            "rounds":[
+                {
+                    "nRound":24,
+                    "fee":6
+                },
+                {
+                    "nRound":40,
+                    "fee":10
+                }
+            ],
+            "playModes":[
+                {
+                    "name":"123",
+                    "displayName":"经典玩法"
+                },
+                {
+                    "name":"erdou",
+                    "displayName":"二人玩法"
+                }
+            ]
+        }
+    ]
+}

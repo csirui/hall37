@@ -1,0 +1,80 @@
+{
+ "games"            : [
+  {
+   "versions"         : [
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、鄱阳麻将插件模板"
+     ],
+     "md5"              : "a53df7614d0cabd27d32dfa5d6a7f732",
+     "ver"              : "3.7796",
+     "url"              : "${http_download}/majiang/difang/plugin/1110poyangmj3.7796.zip",
+     "size"             : "7.96M"
+    }
+   ],
+   "description"      : [
+    "1、正宗鄱阳麻将"
+   ],
+   "gameId"           : 704,
+   "gameMark"         : "poyangmj"
+  }
+ ],
+ "templates"        : [
+  {
+   "des"              : "鄱阳麻将插件",
+   "name"             : "poyangmj_v3.90_AI_youlepymj",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "poyang"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 704,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "鄱阳麻将",
+        "quitAlertName"    : "",
+        "version"          : "3.7796",
+        "defaultRes"       : "MaJiangBigCreateRoom"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangBigEnterRoom"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

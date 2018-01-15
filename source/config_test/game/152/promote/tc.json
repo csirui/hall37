@@ -1,0 +1,42 @@
+{
+ "templates"  : [
+  {
+   "positions"  : [ ],
+   "name"       : "biga_v3.901_AI_biga"
+  },
+  {
+   "positions"  : [
+    {
+     "promotes"   : [
+      {
+       "promotionId": 152012401,
+       "conditions" : [ ]
+      }
+     ],
+     "pos"        : 4
+    }
+   ],
+   "name"       : "biga_v3.901_AI_nmdyj"
+  },
+  {
+   "positions"  : [ ],
+   "name"       : "biga_v3.901_AI_nmdyj_biga"
+  }
+ ],
+ "promotions" : [
+  {
+   "promotionId": 152012401,
+   "animate"    : 0,
+   "todotasks"  : [
+    {
+     "typeId"     : "todotask.showInfo",
+     "info"       : "购买房卡请联系所在群主\n代理咨询请联系微信客服\n nmgaaa888"
+    }
+   ],
+   "redPoint"   : [ ],
+   "displayName": "内蒙打大__A商城",
+   "url"        : "${http_download}/majiang/difang/act/icon_tgw_mfk.png",
+   "defaultRes" : ""
+  }
+ ]
+}

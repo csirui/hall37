@@ -1,0 +1,1716 @@
+{
+ "games"            : [
+  {
+   "versions"         : [
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、安化玩法上线啊"
+     ],
+     "md5"              : "772ba379a08b6734d3672689919dc92d",
+     "ver"              : "3.9003",
+     "url"              : "http://ddz.dl.tuyoo.com/cdn37/majiang/difang/plugin/phz_3.9003_1124_4.zip",
+     "size"             : "5.17M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、河池字牌上线测试"
+     ],
+     "md5"              : "1213c80af2e6857a8644d0122916d982",
+     "ver"              : "3.9008",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/phz_3.9008_1215.zip",
+     "size"             : "5.10M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、补充河池一炮双响"
+     ],
+     "md5"              : "69b26c3aa926abe5c74f64f8ea7798c9",
+     "ver"              : "3.9009",
+     "url"              : "http://ddz.dl.tuyoo.com/cdn37/majiang/difang/plugin/phz_3.9009_1222_02.zip",
+     "size"             : "5.11M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、牌桌界面优化，2、游戏功能提升"
+     ],
+     "md5"              : "0e647cc8b043f00f200e2871e0297a4f",
+     "ver"              : "3.9010",
+     "url"              : "http://ddz.dl.tuyoo.com/cdn37/paohuzi/apk/paohuzi3.9010_1228.zip",
+     "size"             : "5.16M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、攸县碰胡子上线啦"
+     ],
+     "md5"              : "afb1201a840d2d9268594b18641263fe",
+     "ver"              : "3.9011",
+     "url"              : "http://ddz.dl.tuyoo.com/cdn37/majiang/difang/plugin/phz39011_0111.zip",
+     "size"             : "5.41M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      " [1、郴州字牌偎牌问题修复"
+     ],
+     "md5"              : "6b3669273f70b9deb23fa9a5c88e3323",
+     "ver"              : "3.9012",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/phzchajian0112.zip",
+     "size"             : "\t 5.41M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、手牌问题解决，优化发牌体验"
+     ],
+     "md5"              : "ffbadec4a1c4f2b78dbdf7ac0f43655b",
+     "ver"              : "3.9013",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/phz39013_0112cj.zip",
+     "size"             : "5.43M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、优化碰胡子玩法；2、完善用户体验"
+     ],
+     "md5"              : "ff734e8933be65e9faa2208822053191",
+     "ver"              : "3.9014",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/39014phzchajian.zip",
+     "size"             : "5.55M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      " [1、碰胡子玩法优化，2、用户体验优化"
+     ],
+     "md5"              : "fecb63798ef97b416ef9cc7ce2004921",
+     "ver"              : "3.9015",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/phz39015_02091.zip",
+     "size"             : "5.17M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、安华跑胡子，碰胡子玩法优化~"
+     ],
+     "md5"              : "640637781fc939844f731d102cb54ce9",
+     "ver"              : "3.9016",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/39016phzchajian_021401.zip",
+     "size"             : "5.59M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、安化跑胡子，郴州红黑点玩法更新~"
+     ],
+     "md5"              : "8f064a085fc83fb66e9b2e8056065ff1",
+     "ver"              : "3.9017",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/phz_39017_0216.zip",
+     "size"             : "5.60M"
+    }
+   ],
+   "description"      : [
+    "1、各种精彩玩法",
+    "2、大奖赛停不下来"
+   ],
+   "gameId"           : 21,
+   "gameMark"         : "phz"
+  }
+ ],
+ "templates"        : [
+  {
+   "des"              : "跑胡子合集带麻将",
+   "name"             : "phz_v3.788_AI_hejidaimajiang",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "nodes"            : [
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameArgs"         : "s6",
+           "gameType"         : "custom"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 21,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/s6.png",
+          "vipLevel"         : 0,
+          "gameName"         : "六胡抢",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9017",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameArgs"         : "gao",
+           "gameType"         : "custom"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 21,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/xiangxiang.png",
+          "vipLevel"         : 0,
+          "gameName"         : "湘乡告胡子",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9017",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameArgs"         : "changde",
+           "gameType"         : "custom"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 21,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/changde.png",
+          "vipLevel"         : 0,
+          "gameName"         : "常德跑胡子",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9017",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameArgs"         : "huaihua",
+           "gameType"         : "custom"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 21,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/huaihua.png",
+          "vipLevel"         : 0,
+          "gameName"         : "怀化红拐弯",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9017",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameArgs"         : "loudi",
+           "gameType"         : "custom"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 21,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/loudi.png",
+          "vipLevel"         : 0,
+          "gameName"         : "娄底放炮罚",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9017",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameArgs"         : "shaozi",
+           "gameType"         : "custom"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 21,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/shaozi.png",
+          "vipLevel"         : 0,
+          "gameName"         : "邵阳字牌",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9017",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameArgs"         : "anhua",
+           "gameType"         : "custom"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 21,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/anhuapaohuzi.png",
+          "vipLevel"         : 0,
+          "gameName"         : "安华跑胡子",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9017",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameArgs"         : "shaobo",
+           "gameType"         : "custom"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 21,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/shaoyang.png",
+          "vipLevel"         : 0,
+          "gameName"         : "邵阳剥皮",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9017",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "todotasks"        : [
+          {
+           "subCmd"           : {
+            "enter_param"      : {
+             "pluginParams"     : {
+              "gameArgs"         : "youxian",
+              "gameType"         : "custom"
+             },
+             "type"             : "roomlist"
+            },
+            "gameId"           : 21,
+            "typeId"           : "hall.goto.enter.game"
+           },
+           "typeId"           : "todotask.showInfo",
+           "info"             : "攸县跑胡子免费开放测试中\n建议反馈至微信:youle1166\n点击进入游戏"
+          }
+         ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameArgs"         : "youxian",
+           "gameType"         : "custom"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 21,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/youxian.png",
+          "vipLevel"         : 0,
+          "gameName"         : "攸县碰胡子",
+          "quitAlertName"    : "",
+          "version"          : "3.9017",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        }
+       ],
+       "params"           : {
+        "gameId"           : 0,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/phzqj.png",
+        "vipLevel"         : 0,
+        "defaultRes"       : ""
+       },
+       "type"             : "package",
+       "typeId"           : "hall.gamenode.package"
+      },
+      {
+       "conditions"       : [ ],
+       "nodes"            : [
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameArgs"         : "guilin",
+           "gameType"         : "custom"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 21,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/guilin.png",
+          "vipLevel"         : 0,
+          "gameName"         : "桂林字牌",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9017",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameArgs"         : "hechi",
+           "gameType"         : "custom"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 21,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/hechizipai.png",
+          "vipLevel"         : 0,
+          "gameName"         : "河池字牌",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9017",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        }
+       ],
+       "params"           : {
+        "gameId"           : 0,
+        "iconUrl"          : "${http_download}/hall/plugin/img/gxphzqj.png",
+        "vipLevel"         : 0,
+        "defaultRes"       : ""
+       },
+       "type"             : "package",
+       "typeId"           : "hall.gamenode.package"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameArgs"         : "chenzhou",
+         "gameType"         : "custom"
+        },
+        "nameUrl"          : "",
+        "gameId"           : 21,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/chenzhou.png",
+        "vipLevel"         : 0,
+        "gameName"         : "郴州字牌",
+        "quitAlertName"    : "",
+        "version"          : "3.9017",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameArgs"         : "pdk",
+         "gameType"         : "custom"
+        },
+        "nameUrl"          : "",
+        "gameId"           : 150,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/iconpdk.png",
+        "vipLevel"         : 0,
+        "gameName"         : "跑得快",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9030",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "${http_download}/paohuzi/images/quick_enter.png",
+        "vipLevel"         : 0,
+        "defaultRes"       : ""
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "hongzhong"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/majiang_hongzhong.png",
+        "vipLevel"         : 0,
+        "gameName"         : "红中麻将",
+        "quitAlertName"    : "",
+        "version"          : "3.7798",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      }
+     ]
+    },
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "changsha"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/majiang_changsha.png",
+        "vipLevel"         : 0,
+        "gameName"         : "长沙麻将",
+        "quitAlertName"    : "",
+        "version"          : "3.7798",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "zhuanzhuan"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/majiang_zhuanzhuan.png",
+        "vipLevel"         : 0,
+        "gameName"         : "转转麻将",
+        "quitAlertName"    : "",
+        "version"          : "3.7798",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "三缺一桂林字牌模板",
+   "name"             : "phz_v3.900_AI_glphz_shualiang",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameArgs"         : "guilin",
+         "gameType"         : "custom"
+        },
+        "nameUrl"          : "",
+        "gameId"           : 21,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/guilin_lv.png",
+        "vipLevel"         : 0,
+        "gameName"         : "桂林大字牌",
+        "quitAlertName"    : "",
+        "version"          : "3.9017",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameArgs"         : "hechi",
+         "gameType"         : "custom"
+        },
+        "nameUrl"          : "",
+        "gameId"           : 21,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/hechizipai_lv.png",
+        "vipLevel"         : 0,
+        "gameName"         : "河池字牌",
+        "quitAlertName"    : "",
+        "version"          : "3.9017",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "${http_download}/majiang/difang/icon/enter_yellow.png",
+        "vipLevel"         : 0,
+        "defaultRes"       : ""
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "IOS点点跑胡子过审",
+   "name"             : "phz_v3.901_AI_diandian.ioshnphz",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameArgs"         : "anhua",
+         "gameType"         : "custom"
+        },
+        "nameUrl"          : "",
+        "gameId"           : 21,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "安化跑胡子",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9017",
+        "defaultRes"       : "MaJiangBigCreateRoom"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangBigEnterRoom"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "湖南跑胡子通用提审模板",
+   "name"             : "phz_v3.901_AI_hn_phz_tishen",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameArgs"         : "anhua",
+         "gameType"         : "custom"
+        },
+        "nameUrl"          : "",
+        "gameId"           : 21,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "安化跑胡子",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9017",
+        "defaultRes"       : "MaJiangBigCreateRoom"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangBigEnterRoom"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "优乐广西字牌模板",
+   "name"             : "phz_v3.901_AI_youle_glphz",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameArgs"         : "guilin",
+         "gameType"         : "custom"
+        },
+        "nameUrl"          : "",
+        "gameId"           : 21,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/guilin.png",
+        "vipLevel"         : 0,
+        "gameName"         : "桂林大字牌",
+        "quitAlertName"    : "",
+        "version"          : "3.9017",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameArgs"         : "hechi",
+         "gameType"         : "custom"
+        },
+        "nameUrl"          : "",
+        "gameId"           : 21,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/hechizipai.png",
+        "vipLevel"         : 0,
+        "gameName"         : "河池字牌",
+        "quitAlertName"    : "",
+        "version"          : "3.9017",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "${http_download}/paohuzi/images/quick_enter.png",
+        "vipLevel"         : 0,
+        "defaultRes"       : ""
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "三缺一桂林提审IOS",
+   "name"             : "phz_v3.901_AI_gl_tishen",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameArgs"         : "guilin",
+         "gameType"         : "custom"
+        },
+        "nameUrl"          : "",
+        "gameId"           : 21,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "桂林大字牌",
+        "quitAlertName"    : "",
+        "version"          : "3.9017",
+        "defaultRes"       : "MaJiangBigCreateRoom"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangBigEnterRoom"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "优乐广西提审字牌",
+   "name"             : "phz_v3.901_AI_youlegl_tishen",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameArgs"         : "guilin",
+         "gameType"         : "custom"
+        },
+        "nameUrl"          : "",
+        "gameId"           : 21,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/guilin.png",
+        "vipLevel"         : 0,
+        "gameName"         : "桂林大字牌",
+        "quitAlertName"    : "",
+        "version"          : "3.9017",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "${http_download}/paohuzi/images/quick_enter.png",
+        "vipLevel"         : 0,
+        "defaultRes"       : ""
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "三缺一跑胡子无麻将模板",
+   "name"             : "phz_v3.901_AI_phz_nomj",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "nodes"            : [
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameArgs"         : "s6",
+           "gameType"         : "custom"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 21,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/s6.png",
+          "vipLevel"         : 0,
+          "gameName"         : "六胡抢",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9017",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameArgs"         : "gao",
+           "gameType"         : "custom"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 21,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/xiangxiang.png",
+          "vipLevel"         : 0,
+          "gameName"         : "湘乡告胡子",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9017",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameArgs"         : "changde",
+           "gameType"         : "custom"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 21,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/changde.png",
+          "vipLevel"         : 0,
+          "gameName"         : "常德跑胡子",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9017",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameArgs"         : "huaihua",
+           "gameType"         : "custom"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 21,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/huaihua.png",
+          "vipLevel"         : 0,
+          "gameName"         : "怀化红拐弯",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9017",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameArgs"         : "loudi",
+           "gameType"         : "custom"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 21,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/loudi.png",
+          "vipLevel"         : 0,
+          "gameName"         : "娄底放炮罚",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9017",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameArgs"         : "shaozi",
+           "gameType"         : "custom"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 21,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/shaozi.png",
+          "vipLevel"         : 0,
+          "gameName"         : "邵阳字牌",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9017",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameArgs"         : "anhua",
+           "gameType"         : "custom"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 21,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/anhuapaohuzi.png",
+          "vipLevel"         : 0,
+          "gameName"         : "安华跑胡子",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9017",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameArgs"         : "shaobo",
+           "gameType"         : "custom"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 21,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/shaoyang.png",
+          "vipLevel"         : 0,
+          "gameName"         : "邵阳剥皮",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9017",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "todotasks"        : [
+          {
+           "subCmd"           : {
+            "enter_param"      : {
+             "pluginParams"     : {
+              "gameArgs"         : "youxian",
+              "gameType"         : "custom"
+             },
+             "type"             : "roomlist"
+            },
+            "gameId"           : 21,
+            "typeId"           : "hall.goto.enter.game"
+           },
+           "typeId"           : "todotask.showInfo",
+           "info"             : "攸县跑胡子免费开放测试中\n建议反馈至微信:youle1166\n点击进入游戏"
+          }
+         ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameArgs"         : "youxian",
+           "gameType"         : "custom"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 21,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/youxian.png",
+          "vipLevel"         : 0,
+          "gameName"         : "攸县碰胡子",
+          "quitAlertName"    : "",
+          "version"          : "3.9017",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        }
+       ],
+       "params"           : {
+        "gameId"           : 0,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/phzqj.png",
+        "vipLevel"         : 0,
+        "defaultRes"       : ""
+       },
+       "type"             : "package",
+       "typeId"           : "hall.gamenode.package"
+      },
+      {
+       "conditions"       : [ ],
+       "nodes"            : [
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameArgs"         : "guilin",
+           "gameType"         : "custom"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 21,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/guilin.png",
+          "vipLevel"         : 0,
+          "gameName"         : "桂林字牌",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9017",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameArgs"         : "hechi",
+           "gameType"         : "custom"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 21,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/hechizipai.png",
+          "vipLevel"         : 0,
+          "gameName"         : "河池字牌",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9017",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        }
+       ],
+       "params"           : {
+        "gameId"           : 0,
+        "iconUrl"          : "${http_download}/hall/plugin/img/gxphzqj.png",
+        "vipLevel"         : 0,
+        "defaultRes"       : ""
+       },
+       "type"             : "package",
+       "typeId"           : "hall.gamenode.package"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameArgs"         : "chenzhou",
+         "gameType"         : "custom"
+        },
+        "nameUrl"          : "",
+        "gameId"           : 21,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/chenzhou.png",
+        "vipLevel"         : 0,
+        "gameName"         : "郴州字牌",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9017",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameArgs"         : "pdk",
+         "gameType"         : "custom"
+        },
+        "nameUrl"          : "",
+        "gameId"           : 150,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/iconpdk.png",
+        "vipLevel"         : 0,
+        "gameName"         : "跑得快",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9030",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "${http_download}/paohuzi/images/quick_enter.png",
+        "vipLevel"         : 0,
+        "defaultRes"       : ""
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "hongzhong"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/majiang_hongzhong.png",
+        "vipLevel"         : 0,
+        "gameName"         : "红中麻将",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.7798",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      }
+     ]
+    },
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "changsha"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/majiang_changsha.png",
+        "vipLevel"         : 0,
+        "gameName"         : "长沙麻将",
+        "quitAlertName"    : "",
+        "version"          : "3.7798",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "zhuanzhuan"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/majiang_zhuanzhuan.png",
+        "vipLevel"         : 0,
+        "gameName"         : "转转麻将",
+        "quitAlertName"    : "",
+        "version"          : "3.7798",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "跑胡子测试插件模板",
+   "name"             : "phz_v3.901_AI_paohuzitext",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "nodes"            : [
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameArgs"         : "s6",
+           "gameType"         : "custom"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 21,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/s6.png",
+          "vipLevel"         : 0,
+          "gameName"         : "六胡抢",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9017",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameArgs"         : "gao",
+           "gameType"         : "custom"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 21,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/xiangxiang.png",
+          "vipLevel"         : 0,
+          "gameName"         : "湘乡告胡子",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9017",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameArgs"         : "changde",
+           "gameType"         : "custom"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 21,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/changde.png",
+          "vipLevel"         : 0,
+          "gameName"         : "常德跑胡子",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9017",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameArgs"         : "huaihua",
+           "gameType"         : "custom"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 21,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/huaihua.png",
+          "vipLevel"         : 0,
+          "gameName"         : "怀化红拐弯",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9017",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameArgs"         : "loudi",
+           "gameType"         : "custom"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 21,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/loudi.png",
+          "vipLevel"         : 0,
+          "gameName"         : "娄底放炮罚",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9017",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameArgs"         : "shaozi",
+           "gameType"         : "custom"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 21,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/shaozi.png",
+          "vipLevel"         : 0,
+          "gameName"         : "邵阳字牌",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9017",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameArgs"         : "anhua",
+           "gameType"         : "custom"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 21,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/anhuapaohuzi.png",
+          "vipLevel"         : 0,
+          "gameName"         : "安华跑胡子",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9017",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameArgs"         : "shaobo",
+           "gameType"         : "custom"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 21,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/shaoyang.png",
+          "vipLevel"         : 0,
+          "gameName"         : "邵阳剥皮",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9017",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameArgs"         : "youxian",
+           "gameType"         : "custom"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 21,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/youxian.png",
+          "vipLevel"         : 0,
+          "gameName"         : "攸县碰胡子",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9017",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        }
+       ],
+       "params"           : {
+        "gameId"           : 0,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/phzqj.png",
+        "vipLevel"         : 0,
+        "defaultRes"       : ""
+       },
+       "type"             : "package",
+       "typeId"           : "hall.gamenode.package"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameArgs"         : "yongzhou",
+         "gameType"         : "custom"
+        },
+        "nameUrl"          : "",
+        "gameId"           : 21,
+        "iconUrl"          : "${http_download}/paohuzi/images/yongzhou_icon.png",
+        "vipLevel"         : 0,
+        "gameName"         : "永州双王",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9017",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameArgs"         : "s10",
+         "gameType"         : "custom"
+        },
+        "nameUrl"          : "",
+        "gameId"           : 21,
+        "iconUrl"          : "${http_download}/paohuzi/images/hengyangshk.png",
+        "vipLevel"         : 0,
+        "gameName"         : "衡阳十胡卡",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9017",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameArgs"         : "yizhang",
+         "gameType"         : "custom"
+        },
+        "nameUrl"          : "",
+        "gameId"           : 21,
+        "iconUrl"          : "${http_download}/paohuzi/images/yizhangphz.png",
+        "vipLevel"         : 0,
+        "gameName"         : "宜章跑胡子",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9017",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "${http_download}/paohuzi/images/quick_enter.png",
+        "vipLevel"         : 0,
+        "defaultRes"       : ""
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameArgs"         : "zhuzhou",
+         "gameType"         : "custom"
+        },
+        "nameUrl"          : "",
+        "gameId"           : 21,
+        "iconUrl"          : "${http_download}/paohuzi/images/zhuzhouph.png",
+        "vipLevel"         : 0,
+        "gameName"         : "株洲碰胡",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9017",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      }
+     ]
+    },
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameArgs"         : "chenzhou",
+         "gameType"         : "custom"
+        },
+        "nameUrl"          : "",
+        "gameId"           : 21,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/chenzhou.png",
+        "vipLevel"         : 0,
+        "gameName"         : "郴州字牌",
+        "quitAlertName"    : "",
+        "version"          : "3.9017",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameArgs"         : "pdk",
+         "gameType"         : "custom"
+        },
+        "nameUrl"          : "",
+        "gameId"           : 150,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/iconpdk.png",
+        "vipLevel"         : 0,
+        "gameName"         : "跑得快",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9030",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "zhuanzhuan"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/majiang_zhuanzhuan.png",
+        "vipLevel"         : 0,
+        "gameName"         : "转转麻将",
+        "quitAlertName"    : "",
+        "version"          : "3.7798",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "nodes"            : [
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameArgs"         : "guilin",
+           "gameType"         : "custom"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 21,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/guilin.png",
+          "vipLevel"         : 0,
+          "gameName"         : "桂林字牌",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9017",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameArgs"         : "hechi",
+           "gameType"         : "custom"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 21,
+          "iconUrl"          : "${http_download}/majiang/difang/icon/hechizipai.png",
+          "vipLevel"         : 0,
+          "gameName"         : "河池字牌",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9017",
+          "defaultRes"       : ""
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        }
+       ],
+       "params"           : {
+        "gameId"           : 0,
+        "iconUrl"          : "${http_download}/hall/plugin/img/gxphzqj.png",
+        "vipLevel"         : 0,
+        "defaultRes"       : ""
+       },
+       "type"             : "package",
+       "typeId"           : "hall.gamenode.package"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "changsha"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/majiang_changsha.png",
+        "vipLevel"         : 0,
+        "gameName"         : "长沙麻将",
+        "quitAlertName"    : "",
+        "version"          : "3.7798",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "hongzhong"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/majiang_hongzhong.png",
+        "vipLevel"         : 0,
+        "gameName"         : "红中麻将",
+        "quitAlertName"    : "",
+        "version"          : "3.7798",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

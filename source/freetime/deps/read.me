@@ -1,0 +1,18 @@
+                 ==FreeTime运行依赖==
+
+* 推荐运行在linux环境中(CentOS release 6.4 Final x86-64)
+
+* 主要的代码采用python编写，为了获得高性能，采用pypy2.5，
+  应用pypy提供的stackless模块，实现tasklet微线程并发
+
+* 需要安装Twisted等python模块 
+
+* 详细环境部署步骤，参考install-pypy25-with-package.txt  
+
+* 一个已经编译好的，包含了必要模块的二进制包：
+  pypy_with_deps-2.5-linux-binary-x86-64.tar.bz2
+  解压到/usr/local/中，可在大部分centos64位服务器环境直接
+  使用
+
+* 实际应用中，配合使用redis2.8.19版本(http://redis.io)
+  以及mysql5.1.4用于存储冷数据

@@ -1,0 +1,14 @@
+{
+ "templates" : {
+  "default"   : [
+   "activity",
+   "message",
+   "settings"
+  ],
+  "ios_tishen": [
+   "message",
+   "activity",
+   "settings"
+  ]
+ }
+}

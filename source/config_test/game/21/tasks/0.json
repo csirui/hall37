@@ -1,0 +1,61 @@
+{
+    "taskUnits": [
+        {
+            "pools": [
+                {
+                    "tasks": [
+                        {
+                            "count": 6, 
+                            "desc": "今日玩6局", 
+                            "inspector": {
+                                "conditions": [], 
+                                "typeId": "phz.play"
+                            }, 
+                            "kindId": 1, 
+                            "name": "今日玩6局", 
+                            "pic": "", 
+                            "rewardContent": {
+                                "items": [
+                                    {
+                                        "count": 100, 
+                                        "itemId": "user:chip"
+                                    }
+                                ], 
+                                "typeId": "FixedContent"
+                            }, 
+                            "rewardMail": "任务奖励: \\${rewardContent}", 
+                            "star": 1, 
+                            "totalLimit": 1, 
+                            "typeId": "phz.task.simple"
+                        }, 
+                        {
+                            "count": 1, 
+                            "desc": "微信分享", 
+                            "inspector": {
+                                "conditions": [], 
+                                "typeId": "phz.share"
+                            }, 
+                            "kindId": 2, 
+                            "name": "微信分享", 
+                            "pic": "", 
+                            "rewardContent": {
+                                "items": [
+                                    {
+                                        "count": 100, 
+                                        "itemId": "user:chip"
+                                    }
+                                ], 
+                                "typeId": "FixedContent"
+                            }, 
+                            "rewardMail": "任务奖励: \\${rewardContent}", 
+                            "star": 1, 
+                            "totalLimit": 1, 
+                            "typeId": "phz.task.simple"
+                        }
+                    ]
+                }
+            ], 
+            "taskUnitId": "phz.task.daily"
+        }
+    ]
+}

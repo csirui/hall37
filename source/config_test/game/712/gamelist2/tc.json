@@ -1,0 +1,212 @@
+{
+ "games"            : [
+  {
+   "versions"         : [
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、棋乐昭通麻将插件模板3.9001"
+     ],
+     "md5"              : "6df63cc044d97d0a9378ba40b6623c0c",
+     "ver"              : "3.9001",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/zhaotongmj_V3.9001_12261442.zip",
+     "size"             : "8.28M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、棋乐昭通麻将插件模板3.9002"
+     ],
+     "md5"              : "e491b7af54f20d72052ee1bb9023f111",
+     "ver"              : "3.9002",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/zhaotongmj_v3.9002_201701162137.zip",
+     "size"             : "8.10M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1.新游戏"
+     ],
+     "md5"              : "9875135f3b3e83243fff921244517b58",
+     "ver"              : "3.9003",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/1214zhaotongmj.zip",
+     "size"             : "8.6M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、棋乐昭通麻将插件模板3.9004"
+     ],
+     "md5"              : "e6fe88f3e71af80a3d4afaa3242ea5e1",
+     "ver"              : "3.9004",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/zhaotongmj_v3.9004_201701192224.zip",
+     "size"             : "6.30M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、棋乐昭通麻将插件模板3.9005"
+     ],
+     "md5"              : "06809492c200b5e18d101d0197e14705",
+     "ver"              : "3.9005",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/zhaotongmj3.9005.zip",
+     "size"             : "6.4M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、棋乐昭通麻将插件模板3.9006"
+     ],
+     "md5"              : "7bc63023ced4bbb08dc98be0764cf8ed",
+     "ver"              : "3.9006",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/zhaotongmj_v3.9006_201701230417.zip",
+     "size"             : "5.79M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、棋乐昭通麻将插件模板3.9007"
+     ],
+     "md5"              : "724f2fef253346f722cdffc4dd9098bd",
+     "ver"              : "3.9007",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/zhaotongmj_v3.9007_201701232109.zip",
+     "size"             : "5.80M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、棋乐昭通麻将插件模板3.9008"
+     ],
+     "md5"              : "685a00854111916a2775b01c72a5fc75",
+     "ver"              : "3.9008",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/zhaotongmj_v3.9008_201702092200.zip",
+     "size"             : "5.80M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、棋乐昭通麻将插件模板3.9009"
+     ],
+     "md5"              : "907c3f41015c5895af6b107ba57d999d",
+     "ver"              : "3.9009",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/zhaotongmj_v3.9009_201702101810.zip",
+     "size"             : "5.72M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、棋乐昭通麻将插件模板3.9010"
+     ],
+     "md5"              : "b56e815673f1bc22bcb36fa2e7f39b92",
+     "ver"              : "3.9010",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/zhaotongmj_v3.9010_201702111858.zip",
+     "size"             : "5.72M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      " [1、棋乐昭通麻将插件模板3.9011"
+     ],
+     "md5"              : "d488c149e32ddc7a53e971c8200e7882",
+     "ver"              : "3.9011",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/zhaotongmj_v3.9011_201702161753.zip",
+     "size"             : "5.81M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、棋乐昭通麻将插件模板3.9012"
+     ],
+     "md5"              : "425cfa67c7c44ba6cabef5f496664bb1",
+     "ver"              : "3.9012",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/zhaotongmj_v3.9012_201702172151.zip",
+     "size"             : "5.81M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、棋乐昭通麻将插件模板3.9013"
+     ],
+     "md5"              : "4b84320c5929b9626117db2106658286",
+     "ver"              : "3.9013",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/zhaotongmj_v3.9013_201702202248.zip",
+     "size"             : "5.81M"
+    }
+   ],
+   "description"      : [
+    "1、昭通麻将"
+   ],
+   "gameId"           : 712,
+   "gameMark"         : "zhaotongmj"
+  }
+ ],
+ "templates"        : [
+  {
+   "des"              : "昭通麻将提审的模板1",
+   "name"             : "zhaotongmj_v3.901_AI_zhaotong_tishen",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "zhaotong"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 712,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "昭通麻将",
+        "quitAlertName"    : "",
+        "version"          : "3.9013",
+        "defaultRes"       : "MaJiangBigCreateRoom"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangBigEnterRoom"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

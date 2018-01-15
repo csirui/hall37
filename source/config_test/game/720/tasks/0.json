@@ -1,0 +1,27 @@
+{
+    "group": {
+        "9": {
+            "desc": "游戏%d局", 
+            "processer": "global_play", 
+            "show": [
+                "global"
+            ], 
+            "sub": [
+                "9", 
+                "10", 
+                "11", 
+                "12", 
+                "15"
+            ], 
+            "type": "daily", 
+            "update": [
+                "global"
+            ], 
+            "var_name": "day_play_game_count", 
+            "version": [
+                0.1, 
+                100.0
+            ]
+        }
+    }
+}

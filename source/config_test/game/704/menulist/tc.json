@@ -1,0 +1,54 @@
+{
+ "custom_menus"               : {
+  "zhanji704"                  : {
+   "picUrl"                     : "${http_download}/hall/menulist/hall_bottom_icon_zhanji_2.png",
+   "todotasks"                  : [
+    {
+     "enter_param"                : {
+      "pluginParams"               : {
+       "gameType"                   : 11,
+       "tasks"                      : [
+        {
+         "action"                     : "pop_create_room_zhanji",
+         "params"                     : { }
+        }
+       ]
+      },
+      "type"                       : "roomlist"
+     },
+     "gameId"                     : 704,
+     "typeId"                     : "hall.goto.enter.game"
+    }
+   ]
+  },
+  "zhanji7"                    : {
+   "picUrl"                     : "${http_download}/hall/menulist/hall_bottom_icon_zhanji_2.png",
+   "todotasks"                  : [
+    {
+     "enter_param"                : {
+      "pluginParams"               : {
+       "gameType"                   : 11,
+       "tasks"                      : [
+        {
+         "action"                     : "pop_create_room_zhanji",
+         "params"                     : { }
+        }
+       ]
+      },
+      "type"                       : "roomlist"
+     },
+     "gameId"                     : 7,
+     "typeId"                     : "hall.goto.enter.game"
+    }
+   ]
+  }
+ },
+ "templates"                  : {
+  "poyangmj_v3.90_AI_youlepymj": [
+   "zhanji704",
+   "activity",
+   "message",
+   "settings"
+  ]
+ }
+}

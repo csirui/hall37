@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>01-用户主账户</title>
+
+	<!-- Bootstrap -->
+    <link rel="stylesheet" href="./../../../third/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./../../../third/css/docs.min.css">
+    <link rel="stylesheet" href="./../../../third/css/buttons.css">
+    <link rel="stylesheet" href="./../../../third/css/main.css">
+
+    <script src="./../../../third/js/jquery.min.js"></script>
+    <script src="./../../../third/js/bootstrap.min.js"></script>
+    <script src="./../../../third/js/vue.min.js"></script>
+
+    <script src="./../../../js/lib/base.js"></script>
+    <script src="./../../../js/lib/model.js"></script>
+
+<script>
+function do_page_one_action(params){
+  $("#action_return").text("waitting ......");
+  SS.setData(SS.url.model.debug_action, params, function(da) {
+    if (da != undefined && da.result != undefined && da.result.text != undefined){
+    	$("#action_return").html(da.result.text);
+    }else{
+    	$("#action_return").text(JSON.stringify(da));
+    }
+  });
+}
+
+function do_redis_get_userdata(){
+  var params = {"action" : "redis_get_userdata",
+  				"userId" : $('#txtuserid').val()
+  				};
+  do_page_one_action(params);
+}
+
+function do_redis_set_userdata(){
+  var params = {"action" : "redis_set_userdata",
+  				"userId" : $('#txtuserid').val(),
+  				"key" : $('#txtkey').val(),
+  				"value" : $('#txtvalue').val()
+  				};
+  do_page_one_action(params);
+}
+
+function do_del_userdata(){
+  var params = {"action" : "redis_del_userdata",
+  				"userId" : $('#txtuserid').val()
+  				};
+  do_page_one_action(params);
+}
+function do_del_day1st(){
+  var params = {"action" : "redis_del_day1st",
+  				"userId" : $('#txtuserid').val()
+  				};
+  do_page_one_action(params);
+}
+function do_del_daylogin(){
+  var params = {"action" : "redis_del_daylogin",
+  				"userId" : $('#txtuserid').val()
+  				};
+  do_page_one_action(params);
+}
+
+</script>
+
+</head>
+<body>
+	<div style="padding:20px;">
+		USERID: <input id="txtuserid"/>
+		<button type="button" class="btn btn-success" onclick="do_redis_get_userdata()">查询用户数据</button>
+		<button type="button" class="btn btn-success btn-danger" onclick="do_del_userdata()">删除账户</button>
+		<button type="button" class="btn btn-success btn-danger" onclick="do_del_day1st()">删除今日登陆</button>
+		<button type="button" class="btn btn-success btn-danger" onclick="do_del_daylogin()">删除登陆奖励</button>
+		<hr>
+		KEY : <input id="txtkey"/>
+		VALUE : <input id="txtvalue"/>
+		<button type="button" class="btn btn-success" onclick="do_redis_set_userdata()">修改用户数据</button>
+		<hr>
+	<div>
+	<div id="action_return">
+	</div>
+</body>
+</html>
+
+

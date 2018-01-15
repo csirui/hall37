@@ -1,0 +1,14 @@
+{
+ "templates"                : {
+  "biga_v3.901_AI_biga"      : [
+   "bag",
+   "message",
+   "settings"
+  ],
+  "biga_v3.901_AI_nmdyj_biga": [
+   "bag",
+   "message",
+   "settings"
+  ]
+ }
+}

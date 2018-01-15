@@ -1,0 +1,14 @@
+{
+	"myListLimit":3,
+	"shares":[
+		{
+			"type":"weixin",
+			"shareId":6001
+		},
+		{
+			"type":"timeline",
+			"shareId":6002
+		}
+	],
+	"shareDesc":"每日第一次分享可获得100金币"
+}

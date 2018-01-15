@@ -1,0 +1,10 @@
+{
+  "vm1": {
+    "internet": "${local_internet}",
+    "intranet": "${local_intranet}",
+    "localhost": 1,
+    "pwd": "",
+    "ssh": 22,
+    "user": ""
+  }
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>服务管理</title>
+
+	<!-- Bootstrap -->
+    <link rel="stylesheet" href="./../../../third/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./../../../third/css/docs.min.css">
+    <link rel="stylesheet" href="./../../../third/css/buttons.css">
+    <link rel="stylesheet" href="./../../../third/css/main.css">
+
+    <script src="./../../../third/js/jquery.min.js"></script>
+    <script src="./../../../third/js/bootstrap.min.js"></script>
+    <script src="./../../../third/js/vue.min.js"></script>
+
+    <script src="./../../../js/lib/base.js"></script>
+    <script src="./../../../js/lib/model.js"></script>
+
+    <script src="project.js"></script>
+  
+</head>
+<body>
+	<div id="dataContent">
+		<table class="table table-bordered bs-docs-section">
+			<tr>
+				<td colspan="3">
+					<button type="button" class="btn btn-success" v-on="click: reset">重 置</button>
+					<button type="button" class="btn btn-success" v-on="click: submit" >保 存</button>
+					<b>poker/project.json 工程配置 TODO 需要可以调整工程的前后顺序</b>
+				</td>
+			</tr>
+			<tr class="bg-info">
+				<th width="40px"><button type="button" class="btn btn-info" v-on="click: addData">+</button></th>
+				<th>顺序</th>
+				<th>游戏ID</th>
+				<th>工程路径</th>
+			</tr>
+			<tr v-repeat="project">
+				<th width="40px"><button type="button" class="btn btn-warning" v-on="click: removeData($index)">-</button></th>
+				<td><input type="text" v-model="index | superInt"></td>
+				<td><input type="text" v-model="gameId | superInt"></td>
+				<td><input type="text" v-model="path"></td>
+			</tr>
+		</table>
+	<div>
+</body>
+</html>
+
+

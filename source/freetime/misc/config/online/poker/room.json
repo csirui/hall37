@@ -1,0 +1,38 @@
+{
+    "00060110000" : {
+        "memory" : "\u6b22\u4e50\u521d\u7ea7\u573a-\u63a7\u52360", 
+        "tableCount" : 0, 
+        "typeName" : "normal",
+        "serverId" : "GR00060001"
+    }, 
+    "00060110001" : {
+        "memory" : "\u6b22\u4e50\u521d\u7ea7\u573a-\u63a7\u52360-\u684c\u5b50\u623f\u95f41", 
+        "tableCount" : 300, 
+        "typeName" : "normal",
+        "serverId" : "GT00060001"
+    }, 
+    "00060110002" : {
+        "memory" : "\u6b22\u4e50\u521d\u7ea7\u573a-\u63a7\u52360-\u684c\u5b50\u623f\u95f42", 
+        "tableCount" : 300, 
+        "typeName" : "normal",
+        "serverId" : "GT00060002"
+    }, 
+    "00060120000" : {
+        "memory" : "\u6b22\u4e50\u4e2d\u7ea7\u573a-\u63a7\u52360", 
+        "tableCount" : 0, 
+        "typeName" : "normal",
+        "serverId" : "GR00060002"
+    }, 
+    "00060120001" : {
+        "memory" : "\u6b22\u4e50\u4e2d\u7ea7\u573a-\u63a7\u52360-\u684c\u5b50\u623f\u95f41", 
+        "tableCount" : 300, 
+        "typeName" : "normal",
+        "serverId" : "GT00060003"
+    }, 
+    "00060120002" : {
+        "memory" : "\u6b22\u4e50\u4e2d\u7ea7\u573a-\u63a7\u52360-\u684c\u5b50\u623f\u95f42", 
+        "tableCount" : 300, 
+        "typeName" : "normal",
+        "serverId" : "GT00060004"
+    }
+}

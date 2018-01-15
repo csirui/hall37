@@ -1,0 +1,168 @@
+{
+    "items": {
+        "roulette_1": {
+            "rouletteId": "roulette_1",
+            "picUrl": "http://df.dl.shediao.com/cdn37/majiang/difang/icon/pan_ipadmini.png",
+            "typeId": "items",
+            "itemId": "item:7008",
+            "itemName": "一等奖",
+            "itemDesc": "ipadmini",
+            "count": 1
+        },
+        "roulette_2": {
+            "rouletteId": "roulette_2",
+            "picUrl": "http://df.dl.shediao.com/cdn37/majiang/difang/icon/pan_mi.png",
+            "typeId": "items",
+            "itemId": "item:7009",
+            "itemName": "二等奖",
+            "itemDesc": "小米移动电源",
+            "count": 1
+        },
+        "roulette_3": {
+            "rouletteId": "roulette_3",
+            "picUrl": "http://df.dl.shediao.com/cdn37/majiang/difang/icon/pan_mi.png",
+            "typeId": "items",
+            "itemId": "item:7009",
+            "itemName": "二等奖",
+            "itemDesc": "小米移动电源",
+            "count": 1
+        },		
+        "roulette_4": {
+            "rouletteId": "roulette_4",
+            "picUrl": "http://df.dl.shediao.com/cdn37/majiang/difang/icon/pan_100M.png",
+            "typeId": "items",
+            "itemId": "item:7010",
+            "itemName": "三等奖",
+            "itemDesc": "100M流量",
+            "count": 1
+        },
+        "roulette_5": {
+            "rouletteId": "roulette_5",
+            "picUrl": "http://df.dl.shediao.com/cdn37/majiang/difang/icon/pan_100M.png",
+            "typeId": "items",
+            "itemId": "item:7010",
+            "itemName": "三等奖",
+            "itemDesc": "100M流量",
+            "count": 1
+        },
+        "roulette_6": {
+            "rouletteId": "roulette_6",
+            "picUrl": "http://df.dl.shediao.com/cdn37/majiang/difang/icon/pan_100M.png",
+            "typeId": "items",
+            "itemId": "item:7010",
+            "itemName": "三等奖",
+            "itemDesc": "100M流量",
+            "count": 1
+        },
+        "roulette_7": {
+            "rouletteId": "roulette_7",
+            "picUrl": "http://df.dl.shediao.com/cdn37/majiang/difang/icon/pan_fangka.png",
+            "typeId": "items",
+            "itemId": "item:7011",
+            "itemName": "碎片*1",
+            "itemDesc": "房卡碎片*1",
+            "count": 1
+        },
+        "roulette_8": {
+            "rouletteId": "roulette_8",
+            "picUrl": "http://df.dl.shediao.com/cdn37/majiang/difang/icon/pan_fangka.png",
+            "typeId": "items",
+            "itemId": "item:7011",
+            "itemName": "碎片*1",
+            "itemDesc": "房卡碎片*1",
+            "count": 1
+        },		
+        "roulette_9": {
+            "rouletteId": "roulette_9",
+            "picUrl": "http://df.dl.shediao.com/cdn37/majiang/difang/icon/pan_fangka.png",
+            "typeId": "items",
+            "itemId": "item:7011",
+            "itemName": "碎片*1",
+            "itemDesc": "房卡碎片*1",
+            "count": 1
+        },
+        "roulette_10": {
+            "rouletteId": "roulette_10",
+            "picUrl": "http://df.dl.shediao.com/cdn37/majiang/difang/icon/pan_fangka.png",
+            "typeId": "items",
+            "itemId": "item:7011",
+            "itemName": "碎片*3",
+            "itemDesc": "房卡碎片*3",
+            "count": 3
+        },
+        "roulette_11": {
+            "rouletteId": "roulette_11",
+            "picUrl": "http://df.dl.shediao.com/cdn37/majiang/difang/icon/pan_fangka.png",
+            "typeId": "items",
+            "itemId": "item:7011",
+            "itemName": "碎片*6",
+            "itemDesc": "房卡碎片*6",
+            "count": 6
+        },
+        "roulette_12": {
+            "rouletteId": "roulette_12",
+            "picUrl": "http://df.dl.shediao.com/cdn37/majiang/difang/icon/pan_fangka.png",
+            "typeId": "items",
+            "itemId": "item:7011",
+            "itemName": "碎片*8",
+            "itemDesc": "房卡碎片*8",
+            "count": 8
+        }
+    },
+    "template": {
+        "default": {
+            "silver_items":[{
+                "rouletteId": "roulette_1",
+                "weight": 0
+            }, {
+                "rouletteId": "roulette_7",
+                "weight": 31450
+            }, {
+                "rouletteId": "roulette_4",
+                "weight": 250
+            }, {
+                "rouletteId": "roulette_11",
+                "weight": 2000
+            }, {
+                "rouletteId": "roulette_2",
+                "weight": 25
+            }, {
+                "rouletteId": "roulette_9",
+                "weight": 25000
+            }, {
+                "rouletteId": "roulette_5",
+                "weight": 0
+            }, {
+                "rouletteId": "roulette_10",
+                "weight": 15000
+            }, {
+                "rouletteId": "roulette_3",
+                "weight": 25
+            }, {
+                "rouletteId": "roulette_8",
+                "weight": 25000
+            }, {
+                "rouletteId": "roulette_6",
+                "weight": 250
+            }, {
+                "rouletteId": "roulette_12",
+                "weight": 1000
+            }],
+            "snatch":[
+                {
+                    "startTime":0,
+                    "endTime":24,
+                    "needNumber":600,
+                    "rewardMsg":"恭喜您获得大奖，奖金已下发至您的账户中",
+                    "picUrl":"${http_download}/hall/roulette/roulette_new_8.png",
+                    "desc":"500万",
+                    "prize":{
+                        "itemId":"user:chip",
+                        "count":5000000,
+                        "typeId":"assert"
+                    }
+                }
+            ]
+        }
+    }
+}

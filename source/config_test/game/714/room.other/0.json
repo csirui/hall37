@@ -1,0 +1,242 @@
+{
+    "configDesc": "麻将房间其他相关配置,例如:比赛的标签配置,自建桌",
+    "create_table_config": {
+        "jixi": {
+            "playModeDesc": "鸡西麻将",
+            "paramType": {
+                "cardCount4": "游戏圈数",
+                "cardCount3": "游戏局数",
+                "playerType": "人数",
+                "awordTileCount": "兑几奖",
+                "chunJia": "不夹不胡",
+                "magicHide": "暗宝",
+                "sanQiBian": "三七边算夹",
+                "danDiaoJia": "单吊算夹",
+                "biMenFan": "闭门翻倍",
+                "wanFa": "可选玩法"
+            },
+            "wanFa": [
+                {
+                    "id": "chunJia",
+                    "desc": "不夹不胡",
+                    "default": 0
+                },
+                {
+                    "id": "magicHide",
+                    "desc": "暗宝",
+                    "default": 1
+                },
+                {
+                    "id": "sanQiBian",
+                    "desc": "三七边算夹",
+                    "default": 1
+                },
+                {
+                    "id": "danDiaoJia",
+                    "desc": "单吊算夹",
+                    "default": 1
+                }
+            ],
+            "cardCount3": [
+                {
+                    "id": 0,
+                    "value": 13,
+                    "desc": "13局(3张房卡)",
+                    "default": 0,
+                    "fangka_count": 3,
+                    "type": "round",
+                    "hasRobot": {
+                        "id": 0,
+                        "value": 4,
+                        "desc": "4局(练习)",
+                        "default": 0,
+                        "fangka_count": 0,
+                        "type": "round"                        
+                    }
+                },
+                {
+                    "id": 1,
+                    "value": 26,
+                    "desc": "26局(6张房卡)",
+                    "default": 1,
+                    "fangka_count": 6,
+                    "type": "round",
+                    "hasRobot": {
+                        "id": 1,
+                        "value": 8,
+                        "desc": "8局(练习)",
+                        "default": 1,
+                        "fangka_count": 0,
+                        "type": "round"                        
+                    }
+                }
+            ],
+            "cardCount4": [
+                {
+                    "id": 1,
+                    "value": 2,
+                    "desc": "2圈(3张房卡)",
+                    "default": 1,
+                    "fangka_count": 3,
+                    "type": "circle",
+                    "hasRobot": {
+                        "id": 1,
+                        "value": 4,
+                        "desc": "4局(练习)",
+                        "default": 0,
+                        "fangka_count": 0,
+                        "type": "round"                        
+                    }
+                },
+                {
+                    "id": 2,
+                    "value": 4,
+                    "desc": "4圈(6张房卡)",
+                    "default": 0,
+                    "fangka_count": 6,
+                    "type": "circle",
+                    "hasRobot": {
+                        "id": 2,
+                        "value": 8,
+                        "desc": "8局(练习)",
+                        "default": 1,
+                        "fangka_count": 0,
+                        "type": "round"                        
+                    }
+                }
+            ],
+            "playerType": [
+                {
+                    "id": 1,
+                    "desc": "4人",
+                    "default": 1,
+                    "count": 4,
+                    "cardCount": "cardCount4"
+                },
+                {
+                    "id": 2,
+                    "desc": "3人",
+                    "default": 0,
+                    "count": 3,
+                    "cardCount": "cardCount3"
+                }
+            ],
+            "chunJia": [
+                {
+                    "id": 0,
+                    "desc": "不夹可以胡",
+                    "min_multi": 0,
+                    "default": 1
+                },
+                {
+                    "id": 1,
+                    "desc": "不夹不胡",
+                    "min_multi": 1,
+                    "default": 0
+                }            
+            ],
+            "awordTileCount": [
+                {
+                    "id": 0,
+                    "desc": "兑1奖",
+                    "award_tile_count": 1,
+                    "default": 1
+                },
+                {
+                    "id": 1,
+                    "desc": "兑2奖",
+                    "award_tile_count": 2,
+                    "default": 0
+                },
+                {
+                    "id": 2,
+                    "desc": "兑3奖",
+                    "award_tile_count": 3,
+                    "default": 0
+                }
+            ],
+            "magicHide": [
+                {
+                    "id": 0,
+                    "desc": "明宝",
+                    "magic_hide": 0,
+                    "default": 0
+                },
+                {
+                    "id": 1,
+                    "desc": "暗宝",
+                    "magic_hide": 1,
+                    "default": 1
+                }            
+            ],
+            "danDiaoJia": [
+                {
+                    "id": 0,
+                    "desc": "单吊不算夹",
+                    "dan_diao_jia": 0,
+                    "default": 0
+                },
+                {
+                    "id": 1,
+                    "desc": "单吊算夹",
+                    "dan_diao_jia": 1,
+                    "default": 1
+                }            
+            ],
+            "sanQiBian": [
+                {
+                    "id": 0,
+                    "desc": "三七边不算夹",
+                    "bian_multi": 0,
+                    "default": 0
+                },
+                {
+                    "id": 1,
+                    "desc": "三七边算夹",
+                    "bian_multi": 1,
+                    "default": 1
+                }        
+            ],
+            "biMenFan": [
+                {
+                    "id": 0,
+                    "desc": "闭门不翻倍",
+                    "bi_men_fan": 0,
+                    "default": 1
+                },
+                {
+                    "id": 1,
+                    "desc": "闭门翻倍",
+                    "bi_men_fan": 1,
+                    "default": 0
+                }       
+            ]
+        }
+    },
+    "create_table_weixin_invite_info": {
+	"title": "三缺一，摇人快来干",
+	"des": "房间号：$##table_no##,$##play_mode##,$##card_count##局",
+	"url": "http://www.shediao.com/youle/gamelist.html",
+	"type": "1"
+    },
+    "create_table_weixin_inivite_desc_key": [
+        "cardCount4",
+        "cardCount3",
+        "cardCount2",
+        "chunJia",
+        "awordTileCount",
+        "magicHide",
+        "sanQiBian",
+        "danDiaoJia",
+        "biMenFan"
+    ],
+    "leave_countdown": 2,
+    "create_table_leave_success": "解散牌桌成功",
+    "create_table_leave_failure": "解散牌桌失败，继续游戏",
+    "create_table_init_fangka": 12,
+    "create_table_countdown": 60,
+    "playmode_forbid_return_fanka": [],
+    "playmode_desc_map": {
+        "jixi": "鸡西麻将"
+    }
+}

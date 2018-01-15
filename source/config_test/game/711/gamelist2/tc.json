@@ -1,0 +1,396 @@
+{
+ "games"            : [
+  {
+   "versions"         : [
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、棋乐曲靖麻将插件模板3.9002"
+     ],
+     "md5"              : "569972187fd2f62a0ba7327cceff675d",
+     "ver"              : "3.9002",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/qileiosqujingmj12_23_3.9002.zip",
+     "size"             : "8.29M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "[1、曲靖飞小鸡插件模板3.9007"
+     ],
+     "md5"              : "165238a1d9e81a499865a5bf7d584853",
+     "ver"              : "3.9007",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/qujingmj_v3.9007_201612281732.zip",
+     "size"             : "8.28M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、曲靖飞小鸡插件模板3.9008"
+     ],
+     "md5"              : "221c73451d2c73d361f4a7340ac5199d",
+     "ver"              : "3.9008",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/qujingmj_v3.9008_201612301532.zip",
+     "size"             : "8.35"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、曲靖飞小鸡插件模板3.9009"
+     ],
+     "md5"              : "4bd3d0fba7722a864f72d30dc8673de2",
+     "ver"              : "3.9009",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/qujingmj_v3.9009_201701052146.zip",
+     "size"             : "6.12M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、曲靖飞小鸡插件模板3.9010"
+     ],
+     "md5"              : "f8fc528476da6a68927e3b0bf83fbb78",
+     "ver"              : "3.9010",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/qujingmj_v3.9010_201701112128.zip",
+     "size"             : "6.09M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、曲靖飞小鸡插件模板3.9011"
+     ],
+     "md5"              : "b8cb6dca6e3d7c7fa6409c52868f74e3",
+     "ver"              : "3.9011",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/qujingmj_v3.9011_201701122236.zip",
+     "size"             : "8.26M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、曲靖飞小鸡插件模板3.9012"
+     ],
+     "md5"              : "6145b530aad2e741b7a8369d83ec74c9",
+     "ver"              : "3.9012",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/qujingmj_v3.9012_201701162114.zip",
+     "size"             : "6.10M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、曲靖飞小鸡插件模板3.9013"
+     ],
+     "md5"              : "89382ab6645b5ff5be48b96f0deb468d",
+     "ver"              : "3.9013",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/qujingmj_v3.9013_201701192059.zip",
+     "size"             : "6.08M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、曲靖飞小鸡插件模板3.9014"
+     ],
+     "md5"              : "78492aae2c86dfc7d2755c1bad5a7b21",
+     "ver"              : "3.9014",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/qujingmj_v3.9014_201701230145.zip",
+     "size"             : "5.87"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、曲靖飞小鸡插件模板3.9015"
+     ],
+     "md5"              : "e564d1341d9e61f44f6b6b15addeafe4",
+     "ver"              : "3.9015",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/qujingmj_v3.9015_201701232126.zip",
+     "size"             : "5.88M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、曲靖飞小鸡插件模板3.9016"
+     ],
+     "md5"              : "71581f8a3a529ebf1c5e5855da2cde50",
+     "ver"              : "3.9016",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/qujingmj_v3.9016_201702092154.zip",
+     "size"             : "6.24M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、曲靖飞小鸡插件模板3.9017"
+     ],
+     "md5"              : "a3b84fffe3a27fa7f56a8b0edcdbb364",
+     "ver"              : "3.9017",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/qujingmj_v3.9017_201702111907.zip",
+     "size"             : "6.24M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、曲靖飞小鸡插件模板3.9018"
+     ],
+     "md5"              : "dc34fac7c66cd156f3134ed936282e1c",
+     "ver"              : "3.9018",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/qujingmj_v3.9018_201702161925.zip",
+     "size"             : "6.33M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、棋乐曲靖麻将插件模板3.9102"
+     ],
+     "md5"              : "13011e5cc74fdfa8043307296e847052",
+     "ver"              : "3.9102",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/qilequjingmj12_23_3.9102.zip",
+     "size"             : "8.32M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、棋乐曲靖麻将插件模板3.9103"
+     ],
+     "md5"              : "35496c978ef24f48a8b7419feb87ba55",
+     "ver"              : "3.9103",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/qilequjingmj_3.9103_12_28.zip",
+     "size"             : "6.37M"
+    }
+   ],
+   "description"      : [
+    "1、曲靖飞小鸡"
+   ],
+   "gameId"           : 711,
+   "gameMark"         : "qujingmj"
+  }
+ ],
+ "templates"        : [
+  {
+   "des"              : "曲靖飞小鸡",
+   "name"             : "qujingmj_v3.90_AI_qujingmj",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "qujing"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 711,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "曲靖飞小鸡",
+        "quitAlertName"    : "",
+        "version"          : "3.9018",
+        "defaultRes"       : "MaJiangBigCreateRoom"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangBigEnterRoom"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "曲靖3.9001提审IOS版",
+   "name"             : "qujingmj_v3.9001_AI_qujing",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "qujing"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 711,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "曲靖飞小鸡",
+        "quitAlertName"    : "",
+        "version"          : "3.9018",
+        "defaultRes"       : "MaJiangBigCreateRoom"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangBigEnterRoom"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "棋乐曲靖飞小鸡",
+   "name"             : "qujingmj_v3.901_AI_qlqjmj",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "qujing"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 711,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "曲靖飞小鸡",
+        "quitAlertName"    : "",
+        "version"          : "3.9002",
+        "defaultRes"       : "MaJiangBigCreateRoom"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangBigEnterRoom"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "棋乐曲靖麻将Android专用",
+   "name"             : "qujingmj_v3.901_AI_qilequjingmajiang",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "qujing"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 711,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "曲靖飞小鸡",
+        "quitAlertName"    : "",
+        "version"          : "3.9103",
+        "defaultRes"       : "MaJiangBigCreateRoom"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangBigEnterRoom"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

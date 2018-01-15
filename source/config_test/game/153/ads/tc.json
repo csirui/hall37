@@ -1,0 +1,95 @@
+{
+ "templates"                : {
+  "gdy_v3.901_AI_diandiangdy": {
+   "interval"                 : 5,
+   "name"                     : "gdy_v3.901_AI_diandiangdy",
+   "ads"                      : [
+    153021002,
+    153021001,
+    153011301,
+    153121601
+   ]
+  },
+  "gdy_v3.902_AI_diandiangdy": {
+   "interval"                 : 5,
+   "name"                     : "gdy_v3.902_AI_diandiangdy",
+   "ads"                      : [
+    153121601
+   ]
+  },
+  "gdy_v3.901_AI_sqy_gdy"    : {
+   "interval"                 : 5,
+   "name"                     : "gdy_v3.901_AI_sqy_gdy",
+   "ads"                      : [
+    153121601
+   ]
+  }
+ },
+ "ads"                      : [
+  {
+   "startTime"                : "2016-12-16 00:00:00",
+   "id"                       : 153121601,
+   "todotasks"                : [
+    {
+     "actId"                    : "diandian_gdy_xinjkyxgg",
+     "typeId"                   : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                : 1,
+   "pic"                      : "${http_download}/majiang/difang/ads/lvjkyxggchang.jpg",
+   "endTime"                  : "2018-04-12 00:00:00"
+  },
+  {
+   "startTime"                : "2017-01-13 00:00:00",
+   "id"                       : 153011301,
+   "todotasks"                : [
+    {
+     "actId"                    : "diandian_gdy_zmdljm",
+     "typeId"                   : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                : 1,
+   "pic"                      : "${http_download}/majiang/difang/ads/czdlchangxin.jpg",
+   "endTime"                  : "2018-01-25 00:00:00"
+  },
+  {
+   "startTime"                : "2017-01-24 00:00:00",
+   "id"                       : 153012401,
+   "todotasks"                : [
+    {
+     "actId"                    : "diandian_gdy_yxndlsfk",
+     "typeId"                   : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                : 1,
+   "pic"                      : "${http_download}/majiang/difang/ads/yxndlsfkchang.jpg",
+   "endTime"                  : "2017-01-31 00:00:00"
+  },
+  {
+   "startTime"                : "2017-02-10 00:00:00",
+   "id"                       : 153021001,
+   "todotasks"                : [
+    {
+     "actId"                    : "diandian_gdy_naoyuanxiao170210",
+     "typeId"                   : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                : 1,
+   "pic"                      : "${http_download}/majiang/difang/ads/naoyuanxiaochang.jpg",
+   "endTime"                  : "2019-02-13 00:00:00"
+  },
+  {
+   "startTime"                : "2017-02-10 00:00:00",
+   "id"                       : 153021002,
+   "todotasks"                : [
+    {
+     "actId"                    : "diandian_gdy_hongbaojianqun170210",
+     "typeId"                   : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                : 1,
+   "pic"                      : "${http_download}/majiang/difang/ads/19haochang.jpg",
+   "endTime"                  : "2018-02-22 00:00:00"
+  }
+ ]
+}

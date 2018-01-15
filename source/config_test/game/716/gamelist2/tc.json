@@ -1,0 +1,327 @@
+{
+ "games"            : [
+  {
+   "versions"         : [
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、牡丹江麻将插件模板"
+     ],
+     "md5"              : "b9215ce50d9eb5072eea86e0158cca5b",
+     "ver"              : "3.9001",
+     "url"              : "https://df.dl.shediao.com/cdn37/majiang/difang/plugin/mdjmj_1224.zip",
+     "size"             : "6M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      " [2、牡丹江麻将插件0210"
+     ],
+     "md5"              : "1b2e7cd891848bc50982bb7bce61d465",
+     "ver"              : "3.9002",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/mudanjiang_0210.zip",
+     "size"             : "11M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "2、牡丹江麻将插件0210修订版"
+     ],
+     "md5"              : "3c84d5f61a17ab12d122ca6f896920cf",
+     "ver"              : "3.9004",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/mudanjiang_0210_3.0.zip",
+     "size"             : "11M"
+    }
+   ],
+   "description"      : [
+    "1、牡丹江麻将"
+   ],
+   "gameId"           : 716,
+   "gameMark"         : "mudanjiang"
+  }
+ ],
+ "templates"        : [
+  {
+   "des"              : "牡丹江麻将",
+   "name"             : "mdjmj_v3.90_AI_mdjmj",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "nodes"            : [
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "mudanjiang"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 716,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "牡丹江麻将",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9004",
+          "defaultRes"       : "MaJiangMuDanJiang"
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "mudanjiang"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : {
+              "hasRobot"         : 1
+             }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 716,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "牡丹江麻将",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9004",
+          "defaultRes"       : "MaJiangExtendsGeRenLianXiChang"
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "todotasks"        : [
+          {
+           "typeId"           : "todotask.showInfo",
+           "info"             : "敬请期待！！"
+          }
+         ],
+         "params"           : {
+          "nameUrl"          : "",
+          "iconUrl"          : "http://df.dl.shediao.com/cdn37/majiang/difang/icon/ningguta.png",
+          "vipLevel"         : 0,
+          "defaultRes"       : ""
+         },
+         "type"             : "todo_task",
+         "typeId"           : "hall.gamenode.todotask"
+        },
+        {
+         "conditions"       : [ ],
+         "todotasks"        : [
+          {
+           "typeId"           : "todotask.showInfo",
+           "info"             : "敬请期待！！"
+          }
+         ],
+         "params"           : {
+          "nameUrl"          : "",
+          "iconUrl"          : "http://df.dl.shediao.com/cdn37/majiang/difang/icon/mdjddj.png",
+          "vipLevel"         : 0,
+          "defaultRes"       : ""
+         },
+         "type"             : "todo_task",
+         "typeId"           : "hall.gamenode.todotask"
+        }
+       ],
+       "params"           : {
+        "gameId"           : 0,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "牡丹江麻将",
+        "version"          : "3.9001",
+        "defaultRes"       : "MaJiangBigCreateRoomSmall"
+       },
+       "type"             : "package",
+       "typeId"           : "hall.gamenode.package"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangBigEnterRoomSmall"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      },
+      {
+       "conditions"       : [ ],
+       "nodes"            : [
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 1
+          },
+          "nameUrl"          : "",
+          "gameId"           : 31,
+          "iconUrl"          : "http://df.dl.shediao.com/cdn37/majiang/difang/icon/dafengshou.png",
+          "vipLevel"         : 0,
+          "gameName"         : "牡丹江水果机",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.901",
+          "defaultRes"       : ""
+         },
+         "type"             : "game",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 1
+          },
+          "nameUrl"          : "",
+          "gameId"           : 19,
+          "iconUrl"          : "http://df.dl.shediao.com/cdn37/majiang/difang/icon/paogou.png",
+          "vipLevel"         : 0,
+          "gameName"         : "跑狗",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.901",
+          "defaultRes"       : ""
+         },
+         "type"             : "game",
+         "typeId"           : "hall.gamenode.normal"
+        }
+       ],
+       "params"           : {
+        "gameId"           : 0,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangBigJoyRoomSmall"
+       },
+       "type"             : "package",
+       "typeId"           : "hall.gamenode.package"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "牡丹江提审",
+   "name"             : "mudanjiang_v3.902_AI_tishen",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "nodes"            : [
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "mudanjiang"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 716,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "牡丹江麻将",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9004",
+          "defaultRes"       : "MaJiangMuDanJiang"
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "mudanjiang"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : {
+              "hasRobot"         : 1
+             }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 716,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "牡丹江麻将",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9004",
+          "defaultRes"       : "MaJiangExtendsGeRenLianXiChang"
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        }
+       ],
+       "params"           : {
+        "gameId"           : 0,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "牡丹江麻将",
+        "version"          : "3.9001",
+        "defaultRes"       : "MaJiangBigCreateRoomSmall"
+       },
+       "type"             : "package",
+       "typeId"           : "hall.gamenode.package"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangBigEnterRoomSmall"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

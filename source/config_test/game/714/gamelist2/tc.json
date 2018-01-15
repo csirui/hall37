@@ -1,0 +1,344 @@
+{
+ "games"            : [
+  {
+   "versions"         : [
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、最正宗的鸡西麻将"
+     ],
+     "md5"              : "fa621284e4b976ddb2a46502bfefd497",
+     "ver"              : "3.9001",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/jiximj39001_1209.zip",
+     "size"             : "6.22M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、鸡西换音效等"
+     ],
+     "md5"              : "573ef0b22249f1bcc3c295b6e53603a8",
+     "ver"              : "3.9002",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/jixi_0210.zip",
+     "size"             : "11M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      " [1、鸡西修正0210"
+     ],
+     "md5"              : "a544ced48ffae56957ad9fc9268597ef",
+     "ver"              : "3.9003",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/jixi_0210_2.0.zip",
+     "size"             : "11M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      " [1、鸡西修正0211"
+     ],
+     "md5"              : "932d84b95088a1c720e6c1ea3f43f5e5",
+     "ver"              : "3.9004",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/jixi0211.zip",
+     "size"             : "10M"
+    }
+   ],
+   "description"      : [
+    "1、鸡西麻将"
+   ],
+   "gameId"           : 714,
+   "gameMark"         : "jixi"
+  }
+ ],
+ "templates"        : [
+  {
+   "des"              : "鸡西麻将专用插件模板",
+   "name"             : "jixi_v3.901_AI_jiximj",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "nodes"            : [
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "jixi"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 714,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "鸡西麻将",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9004",
+          "defaultRes"       : "MaJiangJiXi"
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 9,
+           "action"           : "create"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 614,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "鸡西斗地主",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.901",
+          "defaultRes"       : "MaJiangExtendsDouDiZhu"
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "jixi"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : {
+              "hasRobot"         : 1
+             }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 714,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "鸡西麻将",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9004",
+          "defaultRes"       : "MaJiangExtendsGeRenLianXiChang"
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        }
+       ],
+       "params"           : {
+        "gameId"           : 0,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "鸡西麻将",
+        "version"          : "3.9001",
+        "defaultRes"       : "MaJiangBigCreateRoomSmall"
+       },
+       "type"             : "package",
+       "typeId"           : "hall.gamenode.package"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangBigEnterRoomSmall"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      },
+      {
+       "conditions"       : [ ],
+       "nodes"            : [
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 1
+          },
+          "nameUrl"          : "",
+          "gameId"           : 31,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "鸡西水果机",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.901",
+          "defaultRes"       : "YuleShuiGuo"
+         },
+         "type"             : "game",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 1
+          },
+          "nameUrl"          : "",
+          "gameId"           : 19,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "鸡西跑狗",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.901",
+          "defaultRes"       : "YulePaoGou"
+         },
+         "type"             : "game",
+         "typeId"           : "hall.gamenode.normal"
+        }
+       ],
+       "params"           : {
+        "gameId"           : 0,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "鸡西麻将",
+        "version"          : "3.9001",
+        "defaultRes"       : "MaJiangBigJoyRoomSmall"
+       },
+       "type"             : "package",
+       "typeId"           : "hall.gamenode.package"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "鸡西麻将ios",
+   "name"             : "jixi_v3.901_AI_iosjixi",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "nodes"            : [
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "jixi"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 714,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "鸡西麻将",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9004",
+          "defaultRes"       : "MaJiangJiXi"
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 9,
+           "action"           : "create"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 614,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "鸡西斗地主",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.901",
+          "defaultRes"       : "MaJiangExtendsDouDiZhu"
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "jixi"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : {
+              "hasRobot"         : 1
+             }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 714,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "鸡西麻将",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9004",
+          "defaultRes"       : "MaJiangExtendsGeRenLianXiChang"
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        }
+       ],
+       "params"           : {
+        "gameId"           : 0,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "鸡西麻将",
+        "version"          : "3.9001",
+        "defaultRes"       : "MaJiangBigCreateRoomSmall"
+       },
+       "type"             : "package",
+       "typeId"           : "hall.gamenode.package"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangBigEnterRoomSmall"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

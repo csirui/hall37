@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>服务管理</title>
+
+	<!-- Bootstrap -->
+    <link rel="stylesheet" href="./../../../third/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./../../../third/css/docs.min.css">
+    <link rel="stylesheet" href="./../../../third/css/buttons.css">
+    <link rel="stylesheet" href="./../../../third/css/main.css">
+
+    <script src="./../../../third/js/jquery.min.js"></script>
+    <script src="./../../../third/js/bootstrap.min.js"></script>
+    <script src="./../../../third/js/vue.min.js"></script>
+
+    <script src="./../../../js/lib/base.js"></script>
+    <script src="./../../../js/lib/model.js"></script>
+
+    <script src="ads.js"></script>
+</head>
+<body>
+	<div id="dataContent" style="overflow-x:auto; width:1000px;">
+        <table class="table table-bordered bs-docs-section">
+            <tr>
+                <td colspan="20">
+                    <button type="button" class="btn btn-success" v-on="click: reset">重新加载</button>
+                    <b>game/9999/ads/0.json 游戏服务器定义</b>
+                </td>
+            </tr>
+        </table>
+        <table class="table table-bordered bs-docs-section">
+            <tr>
+                <td colspan="20">
+                    <b>1,广告列表配置</b>
+                </td>
+            </tr>
+        </table>
+		<table class="table table-bordered bs-docs-section">
+			<tr class="bg-info">
+				<th width="30px"><button type="button" class="btn btn-info" v-on="click: addData">+</button></th>
+				<th>id</th>
+				<th>pic</th>
+                <th>clickable</th>
+                <th>startTime</th>
+                <th>endTime</th>
+			</tr>
+			<tr v-repeat="ads">
+				<th class="bg-info" width="40px"><button type="button" class="btn btn-warning" v-on="click: removeData($index)">-</button></th>
+				<td width="30px"><input type="text" v-model="id"></td>
+				<td width="240px"><input type="text" v-model="pic"></td>
+                <td width="20px"><input type="text" v-model="clickable"></td>
+                <td width="60px"><input type="text" v-model="startTime"></td>
+                <td width="60px"><input type="text" v-model="endTime"></td>
+			</tr>
+		</table>
+        <table class="table table-bordered bs-docs-section">
+            <tr>
+                <td colspan="20">
+                    <b>2,模板配置</b>
+                </td>
+            </tr>
+        </table>
+        <table class="table table-bordered bs-docs-section">
+            <tr class="bg-info">
+                <th width="30px"><button type="button" class="btn btn-info" v-on="click: addTMData">+</button></th>
+                <th>模板名称</th>
+                <th>间隔时间</th>
+                <th>ads</th>
+            </tr>
+            <tr v-repeat="templates">
+                <th class="bg-info" width="40px"><button type="button" class="btn btn-warning" v-on="click: removeTMData($index)">-</button></th>
+                <td width="240px"><input type="text" v-model="name"></td>
+                <td width="240px"><input type="text" v-model="interval"></td>
+                <td width="240px"><input type="text" v-model="ads"></td>
+            </tr>
+        </table>
+	<div>
+</body>
+</html>
+
+

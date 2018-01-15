@@ -1,0 +1,55 @@
+{
+ "templates"                  : {
+  "haerbin_v3.901_AI_hrbtishen": {
+   "interval"                   : 5,
+   "name"                       : "haerbin_v3.901_AI_hrbtishen",
+   "ads"                        : [
+    7071605
+   ]
+  },
+  "haerbin_v3.902_AI_hrb_ads"  : {
+   "interval"                   : 5,
+   "name"                       : "haerbin_v3.902_AI_hrb_ads",
+   "ads"                        : [
+    710122001,
+    9999120701
+   ]
+  },
+  "haerbin_v3.90_AI_haerbinmj" : {
+   "interval"                   : 5,
+   "name"                       : "haerbin_v3.90_AI_haerbinmj",
+   "ads"                        : [
+    710122001,
+    9999120701
+   ]
+  }
+ },
+ "ads"                        : [
+  {
+   "startTime"                  : "2016-11-21 00:00:00",
+   "id"                         : 710112101,
+   "todotasks"                  : [
+    {
+     "actId"                      : "activity_mj_df_jiankang",
+     "typeId"                     : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                  : 1,
+   "pic"                        : "${http_download}/paohuzi/ads/imgs/phzzjz_jkx.jpg",
+   "endTime"                    : "2031-10-30 00:00:00"
+  },
+  {
+   "startTime"                  : "2016-12-20 00:00:00",
+   "id"                         : 710122001,
+   "todotasks"                  : [
+    {
+     "actId"                      : "zhaojidaili_1220",
+     "typeId"                     : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                  : 1,
+   "pic"                        : "${http_download}/majiang/difang/ads/hrbzdl.jpg",
+   "endTime"                    : "2017-12-26 00:00:00"
+  }
+ ]
+}

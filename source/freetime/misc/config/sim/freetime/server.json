@@ -1,0 +1,86 @@
+[
+    {
+        "type":"CO", "id":"01", "ip":"127.0.0.1", "agent":"AG02",
+        "protocols": { 
+            "server":{"co-udp":5000, "co-tcp":5001},
+            "client":{"query-udp":["LO*:lo-udp"]}
+        }, 
+        "redis": ["user01","user02"]
+    },
+    {
+        "type":"CO", "id":"02", "ip":"127.0.0.1", "agent":"AG02",
+        "protocols": { 
+            "server":{"co-udp":5002, "co-tcp":5003},
+            "client":{"query-udp":["LO*:lo-udp"]}
+        }, 
+        "redis": ["user01","user02"]
+    },
+    {
+        "type":"LO", "id":"01", "ip":"127.0.0.1",
+        "protocols": { "server":{"lo-udp":5004, "ht-http":8003} },
+        "redis": ["user01","user02","login"]
+    },
+    {
+        "type":"LO", "id":"02", "ip":"127.0.0.1",
+        "protocols": { "server":{"lo-udp":5005, "ht-http":8004} },
+        "redis": ["user01","user02","login"]
+    },
+    {
+        "type":"HT", "id":"01", "ip":"127.0.0.1", "agent":"AG01",
+        "protocols": { "server":{"ht-http":8000} },
+        "redis": ["user01","user02"]
+    },
+    {
+        "type":"HT", "id":"02", "ip":"127.0.0.1", "agent":"AG01",
+        "protocols": { "server":{"ht-http":8001} },
+        "redis": ["user01","user02"]
+    },
+    {
+        "type":"GA", "id":"01", "ip":"127.0.0.1", "agent":"AG04",
+        "redis": ["user01","user02"]
+    },
+    {
+        "type":"GA", "id":"02", "ip":"127.0.0.1", "agent":"AG04",
+        "redis": ["user01","user02"]
+    },
+    {
+        "type":"RO", "id":"01", "ip":"127.0.0.1", "agent":"AG04",
+        "redis": ["user01","user02"]
+    },
+    {
+        "type":"RO", "id":"02", "ip":"127.0.0.1", "agent":"AG04",
+        "redis": ["user01","user02"]
+    },
+    {
+        "type":"UT", "id":"01", "ip":"127.0.0.1", "agent":"AG03",
+        "redis": ["user01","user02"]
+    },
+    {
+        "type":"UT", "id":"02", "ip":"127.0.0.1", "agent":"AG03",
+        "redis": ["user01","user02"]
+    },
+    {
+        "type":"AG", "id":"01", "ip":"127.0.0.1",
+        "protocols": { 
+            "server":{"a2s":7000, "a2a":7001}
+        } 
+    },
+    {
+        "type":"AG", "id":"02", "ip":"127.0.0.1",
+        "protocols": { 
+            "server":{"a2s":7002, "a2a":7003}
+        } 
+    },
+    {
+        "type":"AG", "id":"03", "ip":"127.0.0.1",
+        "protocols": { 
+            "server":{"a2s":7004, "a2a":7005}
+        } 
+    },
+    {
+        "type":"AG", "id":"04", "ip":"127.0.0.1",
+        "protocols": { 
+            "server":{"a2s":7006, "a2a":7007}
+        }
+    }
+]

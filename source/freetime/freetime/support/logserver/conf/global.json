@@ -1,0 +1,7 @@
+{
+  "log_path": "/home/bi/bilog",
+  "log_level": 1,
+  "log_level_comment": "LOG_LEVEL_DEBUG = 0;LOG_LEVEL_INFO = 1;LOG_LEVEL_ERROR = 2",
+  "data_path": "/home/bi/bifiles",
+  "data_back_path": "/home/bi/bidata_backup"
+}

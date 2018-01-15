@@ -1,0 +1,44 @@
+1. 设置打开文件的最大数:
+    参考: http://blog.bbzhh.com/index.php/archives/93.html
+    建立: /Library/LaunchDaemons/limit.maxfiles.plist
+    这两个文件的所有者应该为：root:whee
+    sudo chmod 644 /Library/LaunchDaemons/limit.maxfiles.plist
+	sudo chmod 644 /Library/LaunchDaemons/limit.maxproc.plist
+	
+	修改: ~/.bash_profile
+	添加: 
+	ulimit -n 10240 10240
+	ulimit -u 2048 2048
+	重新启动计算机, 设置才生效
+
+
+2. 需要安装mysql, 打开mysql-5.6.25-osx10.9-x86_64.dmg, 安装其中的mysql pkg
+    初始化mysql, 
+    假设poker工程再:/Users/zqh/workspace2/tuyoo-trunk
+    再终端下执行:
+       cd /Users/zqh/workspace2/tuyoo-trunk/doc/sqlscript
+       /usr/local/mysql/bin/mysql -u root
+       进入mysql终端, 执行: source init.sql;
+	
+	修改mysql的最大连接数:
+		停止mysql
+		修改/usr/local/mysql/my.cnf, 添加段: max_connections=2000
+
+
+3. 安装redis, 
+    解压缩redis-3.0.0.zip
+    例如解压缩到: /Users/zqh/redis-3.0.0
+    再终端中执行 /Users/zqh/redis-3.0.0/conf/start6379
+
+
+4. 安装pypy
+    解压缩pypy-2.5.1-osx64.zip
+    例如解压缩到: /Users/zqh/pypy-2.5.1-osx64
+    再用户更目录下编辑 : .bash_profile文件
+    
+    修改: ~/.bash_profile
+    添加路径: 
+       PATH="/usr/local/mysql/bin/:/Users/zqh/pypy-2.5.1-osx64/bin:/Users/zqh/redis-3.0.0/bin:${PATH}"
+    当前用户重新登录即可生效
+
+   

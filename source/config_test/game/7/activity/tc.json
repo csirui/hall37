@@ -1,0 +1,1416 @@
+{
+ "templates"                                   : {
+  "majiang_v3.901_AI_wybhnqp"                   : {
+   "desc"                                        : "玩一把湖南棋牌健康活动模板",
+   "activities"                                  : [
+    "wyb_hn_jkyxgg"
+   ]
+  },
+  "majiang_v3.901_AI__youle_jx"                 : {
+   "desc"                                        : "优乐江西麻将",
+   "activities"                                  : [
+    "youlencm-gengfu12.2",
+    "activity_jxmj_df_jubao",
+    "activity_mj_df_jiankang"
+   ]
+  },
+  "majiang_3_71"                                : {
+   "desc"                                        : "Android模板(麻将)",
+   "activities"                                  : [
+    "activity_notice_majiang_1117",
+    "activity_general_btn_majiang_37",
+    "activity_notice_51match_2015-05-28"
+   ]
+  },
+  "majiang_v3.770_AI_difang"                    : {
+   "desc"                                        : "地方麻将模板",
+   "activities"                                  : [
+    "activity_mj_df_jiankang"
+   ]
+  },
+  "majiang_tishen_2"                            : {
+   "desc"                                        : "需删除",
+   "activities"                                  : [
+    "majaing_3.7_tishen"
+   ]
+  },
+  "majiang_v3.777_AI_diandian_pingxiang"        : {
+   "desc"                                        : "点点萍乡",
+   "activities"                                  : [
+    "diandian_px_zdl",
+    "activity_mj_df_jiankang"
+   ]
+  },
+  "majiang_v3.901_wybhn"                        : {
+   "desc"                                        : "玩一把湖南棋牌健康游戏公告",
+   "activities"                                  : [
+    "wyb_hn_xinjkyxgg"
+   ]
+  },
+  "majiang_ios_tishen"                          : {
+   "desc"                                        : "iOS提审(麻将)",
+   "activities"                                  : [
+    "activity_general_btn_ios_raffle_majiang_1125",
+    "activity_notice_51match_2015-05-28"
+   ]
+  },
+  "majiang_3_71_IOS"                            : {
+   "desc"                                        : "IOS",
+   "activities"                                  : [
+    "majiang_3_71_IOS_1",
+    "majiang_3_71_Android_3"
+   ]
+  },
+  "majiang_v3.770_AI_difang_tishen"             : {
+   "desc"                                        : "地方麻将提审模板",
+   "activities"                                  : [
+    "activity_mj_df_jiankang"
+   ]
+  },
+  "majiang_v3.901_AI__youle_fz"                 : {
+   "desc"                                        : "优乐抚州麻将",
+   "activities"                                  : [
+    "activity_jxmj_df_jubao",
+    "activity_mj_df_jiankang"
+   ]
+  },
+  "majiang_v3.901_AI_youle_pymj"                : {
+   "desc"                                        : "优乐鄱阳麻将",
+   "activities"                                  : [
+    "pymjbisai",
+    "activity_jxmj_df_jubao",
+    "activity_mj_df_jiankang"
+   ]
+  },
+  "majiang_tishen"                              : {
+   "desc"                                        : "健康游戏提示-提审模板",
+   "activities"                                  : [
+    "majaing_3.7_tishen"
+   ]
+  },
+  "majiang_v3.776_AI_youle_nc"                  : {
+   "desc"                                        : "优乐南昌麻将",
+   "activities"                                  : [
+    "banbenshengji",
+    "activity_jxmj_df_jubao",
+    "youlencm-gengfu12.2",
+    "activity_mj_df_jiankang"
+   ]
+  },
+  "majiang_v3.901_AI_xjmj"                      : {
+   "desc"                                        : "sqyxjmj",
+   "activities"                                  : [
+    "youle_nc_jb",
+    "activity_mj_df_jiankang"
+   ]
+  },
+  "majiang_3_71_Android"                        : {
+   "desc"                                        : "日常使用",
+   "activities"                                  : [
+    "majiang_3_71_Android_3"
+   ]
+  },
+  "majiang_v3.785_AI_youle_hnmj"                : {
+   "desc"                                        : "优乐湖南麻将活动模板",
+   "activities"                                  : [
+    "youle_mj_2017newyear0122",
+    "activity_mj_df_jubao",
+    "activity_mj_df_jiankang"
+   ]
+  },
+  "majiang_v3.96_AI_ddncmj"                     : {
+   "desc"                                        : "点点南昌麻将",
+   "activities"                                  : [
+    "activity_mj_df_jiankang"
+   ]
+  },
+  "majiang_v3.90_AI_sqy"                        : {
+   "desc"                                        : "三缺一四川麻将专用",
+   "activities"                                  : [
+    "activity_mj_df_jiankang"
+   ]
+  }
+ },
+ "activities"                                  : {
+  "youle_nc_jb"                                 : {
+   "id"                                          : "youle_nc_jb",
+   "des"                                         : "禁止乱价行为，举报有奖",
+   "moduleId"                                    : "notice_img",
+   "typeid"                                      : 1,
+   "name"                                        : "举报有奖",
+   "server_config"                               : {
+    "start"                                       : "2016-10-13 00:00:00",
+    "end"                                         : "2017-12-01 00:00:00"
+   },
+   "config"                                      : {
+    "firstButton"                                 : {
+     "visible"                                     : 0,
+     "action"                                      : "",
+     "params"                                      : {
+      "duration"                                    : 2,
+      "text"                                        : "确定"
+     }
+    },
+    "secondButton"                                : {
+     "visible"                                     : 0,
+     "action"                                      : "",
+     "params"                                      : {
+      "duration"                                    : 2,
+      "text"                                        : "确定"
+     }
+    },
+    "bgURL"                                       : "${http_download}/majiang/difang/act/act_jb_1013.jpg"
+   },
+   "url"                                         : ""
+  },
+  "youle_mj_2017newyear0122"                    : {
+   "id"                                          : "youle_mj_2017newyear0122",
+   "des"                                         : "2017新年已经到来，除夕至初二全平台游戏免费，初三至初六每日下午14点-20点限时免费，让您假期爽玩跑胡子，跑得快，湖南麻将。祝您新年快乐，鸡年大吉",
+   "moduleId"                                    : "general_btn",
+   "typeid"                                      : 1,
+   "name"                                        : "新年免费活动",
+   "server_config"                               : {
+    "start"                                       : "2016-11-22 00:00:00",
+    "end"                                         : "2019-07-01 10:05:39"
+   },
+   "config"                                      : {
+    "button"                                      : {
+     "visible"                                     : "true",
+     "todoTask"                                    : "",
+     "URL"                                         : ""
+    },
+    "bgURL"                                       : "${http_download}/paohuzi/act/2017newyear0122_bg.jpg"
+   }
+  },
+  "youle_nc"                                    : {
+   "id"                                          : "youle_nc",
+   "des"                                         : "诚招代理",
+   "moduleId"                                    : "notice_img",
+   "typeid"                                      : 1,
+   "name"                                        : "诚招代理",
+   "server_config"                               : {
+    "start"                                       : "2016-09-29 00:00:00",
+    "end"                                         : "2017-03-01 00:00:00"
+   },
+   "config"                                      : {
+    "firstButton"                                 : {
+     "visible"                                     : 0,
+     "action"                                      : "",
+     "params"                                      : {
+      "duration"                                    : 2,
+      "text"                                        : "确定"
+     }
+    },
+    "secondButton"                                : {
+     "visible"                                     : 0,
+     "action"                                      : "",
+     "params"                                      : {
+      "duration"                                    : 2,
+      "text"                                        : "确定"
+     }
+    },
+    "bgURL"                                       : "${http_download}/majiang/difang/act/act_ylnczdl.jpg"
+   },
+   "url"                                         : ""
+  },
+  "diandian_px_sxj"                             : {
+   "id"                                          : "diandian_px_sxj",
+   "des"                                         : "建群送现金",
+   "moduleId"                                    : "notice_img",
+   "typeid"                                      : 1,
+   "name"                                        : "建群送现金",
+   "server_config"                               : {
+    "start"                                       : "2016-09-29 00:00:00",
+    "end"                                         : "2016-10-31 00:00:00"
+   },
+   "config"                                      : {
+    "firstButton"                                 : {
+     "visible"                                     : 0,
+     "action"                                      : "",
+     "params"                                      : {
+      "duration"                                    : 2,
+      "text"                                        : "确定"
+     }
+    },
+    "secondButton"                                : {
+     "visible"                                     : 0,
+     "action"                                      : "",
+     "params"                                      : {
+      "duration"                                    : 2,
+      "text"                                        : "确定"
+     }
+    },
+    "bgURL"                                       : "${http_download}/majiang/difang/ads/710083592095667486.jpg"
+   },
+   "url"                                         : ""
+  },
+  "activity_notice_majiang_guoji_1117"          : {
+   "id"                                          : "activity_notice_majiang_guoji_1117",
+   "des"                                         : "活动期间，疯狂场、二人场，累计对战18局即可领取超丰厚奖励哦~",
+   "moduleId"                                    : "general_btn",
+   "typeid"                                      : 4,
+   "name"                                        : "国际大法好",
+   "server_config"                               : {
+    "start"                                       : "2015-09-24 00:00:00",
+    "end"                                         : "2016-10-15 00:00:00"
+   },
+   "config"                                      : {
+    "button"                                      : {
+     "visible"                                     : false
+    },
+    "bgURL"                                       : "${http_download}/hall/act/complete/general_btn/act_majiang_guoji_1117.jpg"
+   }
+  },
+  "youle_ncmj_shuang12"                         : {
+   "id"                                          : "youle_ncmj_shuang12",
+   "des"                                         : "“双十二”冬日温暖大放送，12月11日-12月13日，结算出现特殊分或出现特殊牌型，就奖励12张房卡，多打多得！",
+   "moduleId"                                    : "general_btn",
+   "typeid"                                      : 1,
+   "name"                                        : "双十二大放送",
+   "server_config"                               : {
+    "start"                                       : "2016-12-10 12:24:28",
+    "end"                                         : "2016-12-14 00:00:00"
+   },
+   "config"                                      : {
+    "button"                                      : {
+     "visible"                                     : "true",
+     "todoTask"                                    : "",
+     "URL"                                         : ""
+    },
+    "bgURL"                                       : "${http_download}/majiang/difang/act/shuang12huodong.jpg"
+   }
+  },
+  "banbenshengji"                               : {
+   "id"                                          : "banbenshengji",
+   "des"                                         : "促进3.9版本以下玩家升级到最新版本",
+   "moduleId"                                    : "general_btn",
+   "typeid"                                      : 4,
+   "name"                                        : "版本升级",
+   "server_config"                               : {
+    "start"                                       : "2017-02-17 00:00:00",
+    "end"                                         : "2017-03-17 00:00:00"
+   },
+   "config"                                      : {
+    "button"                                      : {
+     "visible"                                     : "true",
+     "todoTask"                                    : {
+      "typeId"                                      : "hall.download",
+      "url"                                         : "http://www.shediao.com/landing/nanchang.html"
+     },
+     "URL"                                         : "${http_download}/paohuzi/ads/touming_btn.png"
+    },
+    "bgURL"                                       : "${http_download}/majiang/difang/act/update_version3.9.jpg"
+   }
+  },
+  "majiang_3_71_Android_4"                      : {
+   "id"                                          : "majiang_3_71_Android_4",
+   "des"                                         : "雀神榜首，得者得天下！榜单前三甲，金币！雀神之翼！只送牌技高超的你！雀神分可在牌桌内获取，等级越高的房间获取的雀神分越多哦",
+   "moduleId"                                    : "general_btn",
+   "typeid"                                      : 1,
+   "name"                                        : "傍上有你",
+   "server_config"                               : {
+    "start"                                       : "2015-09-24 00:00:00",
+    "end"                                         : "2016-10-15 00:00:00"
+   },
+   "config"                                      : {
+    "button"                                      : {
+     "visible"                                     : false,
+     "todoTask"                                    : {
+      "action"                                      : "pop_tip",
+      "params"                                      : {
+       "duration"                                    : 2,
+       "text"                                        : "确定"
+      }
+     },
+     "URL"                                         : "${http_download}/majiang/images/act/button_Leaderboard.png"
+    },
+    "bgURL"                                       : "${http_download}/majiang/images/act/act_queshenbang_0130.jpg"
+   }
+  },
+  "majiang_3_71_Android_1"                      : {
+   "id"                                          : "majiang_3_71_Android_1",
+   "des"                                         : "每天5场！每场200元话费！亲戚朋友坐一桌再也不愁没话费！此活动仅限v3.73及以上版本参与。",
+   "moduleId"                                    : "general_btn",
+   "typeid"                                      : 1,
+   "name"                                        : "春节话费赛",
+   "server_config"                               : {
+    "start"                                       : "2015-09-24 00:00:00",
+    "end"                                         : "2016-10-15 00:00:00"
+   },
+   "config"                                      : {
+    "button"                                      : {
+     "visible"                                     : true,
+     "todoTask"                                    : {
+      "enter_param"                                 : {
+       "pluginParams"                                : {
+        "gameType"                                    : 3
+       },
+       "type"                                        : "roomlist"
+      },
+      "gameId"                                      : 7,
+      "typeId"                                      : "hall.goto.enter.game"
+     },
+     "URL"                                         : "${http_download}/majiang/images/act/button_bill.png"
+    },
+    "bgURL"                                       : "${http_download}/majiang/images/act/act_match_0130.jpg"
+   }
+  },
+  "majiang_3_71_Android_2"                      : {
+   "id"                                          : "majiang_3_71_Android_2",
+   "des"                                         : "有疑问请联系客服\n电话：4008098000\nQQ：400809800",
+   "moduleId"                                    : "general_btn",
+   "typeid"                                      : 4,
+   "name"                                        : "超值大礼包",
+   "server_config"                               : {
+    "start"                                       : "2015-02-28 00:00:00",
+    "end"                                         : "2016-05-14 00:00:00"
+   },
+   "config"                                      : {
+    "button"                                      : {
+     "visible"                                     : "true",
+     "todoTask"                                    : {
+      "payOrder"                                    : {
+       "shelves"                                     : [
+        "raffle"
+       ],
+       "priceDiamond"                                : {
+        "count"                                       : 80,
+        "minCount"                                    : 0,
+        "maxCount"                                    : -1
+       },
+       "buyTypes"                                    : [
+        "direct",
+        "consume"
+       ]
+      },
+      "typeId"                                      : "todotask.payOrder"
+     },
+     "URL"                                         : "${http_download}/hall/act/complete/general_btn/buy_button_3.7.png"
+    },
+    "bgURL"                                       : "${http_download}/hall/act/complete/general_btn/act_majiang_8_gift_1015.jpg"
+   }
+  },
+  "activity_mj_hongbaosai"                      : {
+   "id"                                          : "activity_mj_hongbaosai",
+   "des"                                         : "赢得红包后在背包内使用【微信红包】道具，关注【途游棋牌】微信公众号并绑定账号即可领取微信红包。",
+   "moduleId"                                    : "notice_img",
+   "typeid"                                      : 1,
+   "name"                                        : "微信红包赛",
+   "server_config"                               : {
+    "start"                                       : "2016-07-20 00:00:00",
+    "end"                                         : "2016-08-12 00:00:00"
+   },
+   "config"                                      : {
+    "firstButton"                                 : {
+     "visible"                                     : 0,
+     "action"                                      : "",
+     "params"                                      : {
+      "duration"                                    : 2,
+      "text"                                        : "确定"
+     }
+    },
+    "secondButton"                                : {
+     "visible"                                     : 0,
+     "action"                                      : "",
+     "params"                                      : {
+      "duration"                                    : 2,
+      "text"                                        : "确定"
+     }
+    },
+    "bgURL"                                       : "${http_download}/hall/ads/imgs/ads_majiang_hongbao2.jpg"
+   },
+   "url"                                         : ""
+  },
+  "activity_jxmj_df_jubao"                      : {
+   "id"                                          : "activity_jxmj_df_jubao",
+   "des"                                         : "让我们一起维护健康的游戏环境！",
+   "moduleId"                                    : "notice_img",
+   "typeid"                                      : 1,
+   "name"                                        : "举报有奖",
+   "server_config"                               : {
+    "start"                                       : "2017-01-22 00:00:00",
+    "end"                                         : "2019-01-29 00:00:00"
+   },
+   "config"                                      : {
+    "firstButton"                                 : {
+     "visible"                                     : 0,
+     "action"                                      : "",
+     "params"                                      : {
+      "duration"                                    : 2,
+      "text"                                        : "确定"
+     }
+    },
+    "secondButton"                                : {
+     "visible"                                     : 0,
+     "action"                                      : "",
+     "params"                                      : {
+      "duration"                                    : 2,
+      "text"                                        : "确定"
+     }
+    },
+    "bgURL"                                       : "${http_download}/majiang/difang/act/jxmj_jubao.jpg"
+   },
+   "url"                                         : ""
+  },
+  "activity_mj_df_daili"                        : {
+   "id"                                          : "activity_mj_df_daili",
+   "des"                                         : "诚招代理，零风险，零门槛，收益稳定，有意者联系微信：huazai778800",
+   "moduleId"                                    : "notice_img",
+   "typeid"                                      : 1,
+   "name"                                        : "诚招代理",
+   "server_config"                               : {
+    "start"                                       : "2016-07-16 00:00:00",
+    "end"                                         : "2019-07-25 00:00:00"
+   },
+   "config"                                      : {
+    "firstButton"                                 : {
+     "visible"                                     : 0,
+     "action"                                      : "",
+     "params"                                      : {
+      "duration"                                    : 2,
+      "text"                                        : "确定"
+     }
+    },
+    "secondButton"                                : {
+     "visible"                                     : 0,
+     "action"                                      : "",
+     "params"                                      : {
+      "duration"                                    : 2,
+      "text"                                        : "确定"
+     }
+    },
+    "bgURL"                                       : "${http_download}/majiang/images/ads/mjdf_dld.jpg"
+   },
+   "url"                                         : ""
+  },
+  "youle_nc_sxj"                                : {
+   "id"                                          : "youle_nc_sxj",
+   "des"                                         : "建群送现金",
+   "moduleId"                                    : "notice_img",
+   "typeid"                                      : 1,
+   "name"                                        : "建群送现金",
+   "server_config"                               : {
+    "start"                                       : "2016-09-29 00:00:00",
+    "end"                                         : "2016-10-31 00:00:00"
+   },
+   "config"                                      : {
+    "firstButton"                                 : {
+     "visible"                                     : 0,
+     "action"                                      : "",
+     "params"                                      : {
+      "duration"                                    : 2,
+      "text"                                        : "确定"
+     }
+    },
+    "secondButton"                                : {
+     "visible"                                     : 0,
+     "action"                                      : "",
+     "params"                                      : {
+      "duration"                                    : 2,
+      "text"                                        : "确定"
+     }
+    },
+    "bgURL"                                       : "${http_download}/majiang/difang/act/1027xjhbhd.jpg"
+   },
+   "url"                                         : ""
+  },
+  "activity_mj_df_jiankang"                     : {
+   "id"                                          : "activity_mj_df_jiankang",
+   "des"                                         : "合理休闲娱乐，远离非法赌博",
+   "moduleId"                                    : "notice_img",
+   "typeid"                                      : 1,
+   "name"                                        : "健康游戏提示",
+   "server_config"                               : {
+    "start"                                       : "2016-07-16 00:00:00",
+    "end"                                         : "2019-07-25 00:00:00"
+   },
+   "config"                                      : {
+    "firstButton"                                 : {
+     "visible"                                     : 0,
+     "action"                                      : "",
+     "params"                                      : {
+      "duration"                                    : 2,
+      "text"                                        : "确定"
+     }
+    },
+    "secondButton"                                : {
+     "visible"                                     : 0,
+     "action"                                      : "",
+     "params"                                      : {
+      "duration"                                    : 2,
+      "text"                                        : "确定"
+     }
+    },
+    "bgURL"                                       : "${http_download}/majiang/images/ads/mjdf_jkd.jpg"
+   },
+   "url"                                         : ""
+  },
+  "shengdanhuodong"                             : {
+   "id"                                          : "shengdanhuodong",
+   "des"                                         : "圣诞节——感恩大回馈：全部玩法限时免费",
+   "moduleId"                                    : "notice_img",
+   "typeid"                                      : 1,
+   "name"                                        : "圣诞活动",
+   "server_config"                               : {
+    "start"                                       : "2016-12-23 00:00:00",
+    "end"                                         : "2016-12-26 00:00:00"
+   },
+   "config"                                      : {
+    "firstButton"                                 : {
+     "visible"                                     : 0,
+     "action"                                      : "",
+     "params"                                      : {
+      "duration"                                    : 2,
+      "text"                                        : "确定"
+     }
+    },
+    "secondButton"                                : {
+     "visible"                                     : 0,
+     "action"                                      : "",
+     "params"                                      : {
+      "duration"                                    : 2,
+      "text"                                        : "确定"
+     }
+    },
+    "bgURL"                                       : "${http_download}/majiang/difang/act/shengdanhuodong3.jpg"
+   },
+   "url"                                         : ""
+  },
+  "youlencm-gengfu12.2"                         : {
+   "id"                                          : "youlencm-gengfu12.2",
+   "des"                                         : "江西麻将本周更服内容：1.新增景德镇麻将 2.优化游戏体验",
+   "moduleId"                                    : "notice_img",
+   "typeid"                                      : 1,
+   "name"                                        : "更服通知",
+   "server_config"                               : {
+    "start"                                       : "2017-02-16 06:30:00",
+    "end"                                         : "2017-02-23 00:00:00"
+   },
+   "config"                                      : {
+    "firstButton"                                 : {
+     "visible"                                     : 0,
+     "action"                                      : "",
+     "params"                                      : {
+      "duration"                                    : 2,
+      "text"                                        : "确定"
+     }
+    },
+    "secondButton"                                : {
+     "visible"                                     : 0,
+     "action"                                      : "",
+     "params"                                      : {
+      "duration"                                    : 2,
+      "text"                                        : "确定"
+     }
+    },
+    "bgURL"                                       : "${http_download}/majiang/difang/act/gengfu_07.jpg"
+   },
+   "url"                                         : ""
+  },
+  "xunzhaodianpaogaoshou"                       : {
+   "id"                                          : "xunzhaodianpaogaoshou",
+   "des"                                         : "三缺一四川麻将寻找点炮高手",
+   "moduleId"                                    : "notice_img",
+   "typeid"                                      : 1,
+   "name"                                        : "寻找点炮高手",
+   "server_config"                               : {
+    "start"                                       : "2016-12-21 00:00:00",
+    "end"                                         : "2016-12-23 23:59:59"
+   },
+   "config"                                      : {
+    "firstButton"                                 : {
+     "visible"                                     : 0,
+     "action"                                      : "",
+     "params"                                      : {
+      "duration"                                    : 2,
+      "text"                                        : "确定"
+     }
+    },
+    "secondButton"                                : {
+     "visible"                                     : 0,
+     "action"                                      : "",
+     "params"                                      : {
+      "duration"                                    : 2,
+      "text"                                        : "确定"
+     }
+    },
+    "bgURL"                                       : "${http_download}/majiang/difang/ads/chang.jpg"
+   },
+   "url"                                         : ""
+  },
+  "pymjbisai"                                   : {
+   "id"                                          : "pymjbisai",
+   "des"                                         : "鄱阳麻将线下比赛",
+   "moduleId"                                    : "general_btn",
+   "typeid"                                      : 4,
+   "name"                                        : "雀神争霸赛",
+   "server_config"                               : {
+    "start"                                       : "2017-02-20 00:00:00",
+    "end"                                         : "2017-02-27 00:00:00"
+   },
+   "config"                                      : {
+    "button"                                      : {
+     "visible"                                     : "true",
+     "todoTask"                                    : {
+      "typeId"                                      : "hall.download",
+      "url"                                         : "http://mp.weixin.qq.com/s/-gpCAa9pDlLdeWj_Eb4f8g"
+     },
+     "URL"                                         : "${http_download}/paohuzi/ads/touming_btn.png"
+    },
+    "bgURL"                                       : "${http_download}/majiang/difang/act/bisai_act.jpg"
+   }
+  },
+  "chunjiehuodong"                              : {
+   "id"                                          : "chunjiehuodong",
+   "des"                                         : "3.9版本以上每日首次登陆送2张房卡",
+   "moduleId"                                    : "notice_img",
+   "typeid"                                      : 1,
+   "name"                                        : "春节活动",
+   "server_config"                               : {
+    "start"                                       : "2017-01-17 00:00:00",
+    "end"                                         : "2017-01-28 00:00:00"
+   },
+   "config"                                      : {
+    "firstButton"                                 : {
+     "visible"                                     : 0,
+     "action"                                      : "",
+     "params"                                      : {
+      "duration"                                    : 2,
+      "text"                                        : "确定"
+     }
+    },
+    "secondButton"                                : {
+     "visible"                                     : 0,
+     "action"                                      : "",
+     "params"                                      : {
+      "duration"                                    : 2,
+      "text"                                        : "确定"
+     }
+    },
+    "bgURL"                                       : "${http_download}/majiang/difang/act/3.9up_spring_festival_act.jpg"
+   },
+   "url"                                         : ""
+  },
+  "sqy_scmj_hupaidafangsong1227"                : {
+   "id"                                          : "sqy_scmj_hupaidafangsong1227",
+   "des"                                         : "三缺一胡牌大放送活动开启啦！还等什么，赶快参加吧！",
+   "moduleId"                                    : "general_btn",
+   "typeid"                                      : 1,
+   "name"                                        : "胡牌大放送",
+   "server_config"                               : {
+    "start"                                       : "2016-12-27 00:00:00",
+    "end"                                         : "2019-07-01 10:05:39"
+   },
+   "config"                                      : {
+    "button"                                      : {
+     "visible"                                     : "true",
+     "todoTask"                                    : "",
+     "URL"                                         : ""
+    },
+    "bgURL"                                       : "${http_download}/majiang/difang/ads/sqyschpdfs.jpg"
+   }
+  },
+  "youle_jxmj_gengfu1124"                       : {
+   "id"                                          : "youle_jxmj_gengfu1124",
+   "des"                                         : "本次更服时间为 11月27日 早6:30，给您带来不便，请谅解。",
+   "moduleId"                                    : "general_btn",
+   "typeid"                                      : 1,
+   "name"                                        : "更服通知",
+   "server_config"                               : {
+    "start"                                       : "2016-11-26 00:00:00",
+    "end"                                         : "2016-12-04 00:00:00"
+   },
+   "config"                                      : {
+    "button"                                      : {
+     "visible"                                     : "true",
+     "todoTask"                                    : "",
+     "URL"                                         : ""
+    },
+    "bgURL"                                       : "${http_download}/majiang/difang/act/gengfu_act_1126_659_453.jpg"
+   }
+  },
+  "youle_nc_fangka1123"                         : {
+   "id"                                          : "youle_nc_fangka1123",
+   "des"                                         : "成功邀请好友加入并体验游戏，即可获得12张房卡奖励~",
+   "moduleId"                                    : "general_btn",
+   "typeid"                                      : 1,
+   "name"                                        : "邀请有礼",
+   "server_config"                               : {
+    "start"                                       : "2016-11-22 00:00:00",
+    "end"                                         : "2019-07-01 00:00:00"
+   },
+   "config"                                      : {
+    "button"                                      : {
+     "visible"                                     : "true",
+     "todoTask"                                    : "",
+     "URL"                                         : ""
+    },
+    "bgURL"                                       : "${http_download}/majiang/difang/act/fangka12_act_1123_659_453.jpg"
+   }
+  },
+  "youle_ncmj_hongbaofenxiang1119"              : {
+   "id"                                          : "youle_ncmj_hongbaofenxiang1119",
+   "des"                                         : "分享给朋友 邀请好友为你点赞 集满5个赞，即可领取3元微信红包，数量有限，速速来领！",
+   "moduleId"                                    : "general_btn",
+   "typeid"                                      : 4,
+   "name"                                        : "分享得红包",
+   "server_config"                               : {
+    "start"                                       : "2016-11-19 00:00:00",
+    "end"                                         : "2016-12-01 00:00:00"
+   },
+   "config"                                      : {
+    "button"                                      : {
+     "visible"                                     : "true",
+     "todoTask"                                    : {
+      "subCmd"                                      : {
+       "shareId"                                     : 7010,
+       "typeId"                                      : "todotask.sharegift.with.shareId"
+      },
+      "typeId"                                      : "todotask.showInfo",
+      "info"                                        : "转发微信集满五赞，即可获得3元微信红包！"
+     },
+     "URL"                                         : "${http_download}/majiang/difang/ads/anniu_1124_147_57.png"
+    },
+    "bgURL"                                       : "${http_download}/majiang/difang/act/fenxiangjizan_1124_act_659_453.jpg"
+   }
+  },
+  "youle_nc_ganenjie1122"                       : {
+   "id"                                          : "youle_nc_ganenjie1122",
+   "des"                                         : "当日每完成80局游戏，游戏内自动发放2张房卡，多玩多得，时间有限，不容错过~",
+   "moduleId"                                    : "general_btn",
+   "typeid"                                      : 1,
+   "name"                                        : "感恩节大回馈",
+   "server_config"                               : {
+    "start"                                       : "2016-11-22 00:00:00",
+    "end"                                         : "2016-12-01 00:00:00"
+   },
+   "config"                                      : {
+    "button"                                      : {
+     "visible"                                     : "true",
+     "todoTask"                                    : "",
+     "URL"                                         : ""
+    },
+    "bgURL"                                       : "${http_download}/majiang/difang/act/ganenjie_act_1122_659_453.jpg"
+   }
+  },
+  "chunjiehuodong1"                             : {
+   "id"                                          : "chunjiehuodong1",
+   "des"                                         : "3.9以下版本需要升级到3.9以上版本才可以领取登录奖励房卡，点击按钮可下载最新版本",
+   "moduleId"                                    : "general_btn",
+   "typeid"                                      : 4,
+   "name"                                        : "春节活动",
+   "server_config"                               : {
+    "start"                                       : "2017-01-17 00:00:00",
+    "end"                                         : "2017-01-28 00:00:00"
+   },
+   "config"                                      : {
+    "button"                                      : {
+     "visible"                                     : "true",
+     "todoTask"                                    : {
+      "typeId"                                      : "hall.download",
+      "url"                                         : "http://www.shediao.com/landing/nanchang.html"
+     },
+     "URL"                                         : "${http_download}/paohuzi/ads/touming_btn.png"
+    },
+    "bgURL"                                       : "${http_download}/majiang/difang/act/3.9down_spring_festival_act.jpg"
+   }
+  },
+  "majaing_3.7_tishen"                          : {
+   "id"                                          : "majaing_3.7_tishen",
+   "des"                                         : "如果您对我们的游戏有什么问题或者建议，欢迎联系我们的客服，客服电话：4008098000",
+   "moduleId"                                    : "notice_img",
+   "typeid"                                      : 1,
+   "name"                                        : "健康游戏",
+   "server_config"                               : {
+    "start"                                       : "2016-01-30 00:00:00",
+    "end"                                         : "2017-02-10 00:00:00"
+   },
+   "config"                                      : {
+    "firstButton"                                 : {
+     "visible"                                     : 0,
+     "action"                                      : "",
+     "params"                                      : {
+      "duration"                                    : 2,
+      "text"                                        : "确定"
+     }
+    },
+    "secondButton"                                : {
+     "visible"                                     : 0,
+     "action"                                      : "",
+     "params"                                      : {
+      "duration"                                    : 2,
+      "text"                                        : "确定"
+     }
+    },
+    "bgURL"                                       : "${http_download}/majiang/images/act/mj_tishen_659x453.png"
+   },
+   "url"                                         : ""
+  },
+  "youle_mj_songxianjin1111"                    : {
+   "id"                                          : "youle_mj_songxianjin1111",
+   "des"                                         : "送礼规则：好友需要建立30人以上的游戏群，并组建群内打满一百局以上四人游戏，添加微信客服：sanqueyi9524，领取现金！",
+   "moduleId"                                    : "general_btn",
+   "typeid"                                      : 1,
+   "name"                                        : "玩游戏送现金",
+   "server_config"                               : {
+    "start"                                       : "2016-11-09 00:00:00",
+    "end"                                         : "2016-11-16 00:00:00"
+   },
+   "config"                                      : {
+    "button"                                      : {
+     "visible"                                     : "true",
+     "todoTask"                                    : "",
+     "URL"                                         : ""
+    },
+    "bgURL"                                       : "${http_download}/majiang/difang/act/songxianjin1111_bg1.jpg"
+   }
+  },
+  "diandian_px_zdl"                             : {
+   "id"                                          : "diandian_px_zdl",
+   "des"                                         : "诚招代理",
+   "moduleId"                                    : "notice_img",
+   "typeid"                                      : 1,
+   "name"                                        : "诚招代理",
+   "server_config"                               : {
+    "start"                                       : "2016-09-30 00:00:00",
+    "end"                                         : "2016-10-07 00:00:00"
+   },
+   "config"                                      : {
+    "firstButton"                                 : {
+     "visible"                                     : 0,
+     "action"                                      : "",
+     "params"                                      : {
+      "duration"                                    : 2,
+      "text"                                        : "确定"
+     }
+    },
+    "secondButton"                                : {
+     "visible"                                     : 0,
+     "action"                                      : "",
+     "params"                                      : {
+      "duration"                                    : 2,
+      "text"                                        : "确定"
+     }
+    },
+    "bgURL"                                       : "${http_download}/majiang/difang/act/act_ddpxzdl.jpg"
+   },
+   "url"                                         : ""
+  },
+  "sqy_scmj_queshen"                            : {
+   "id"                                          : "sqy_scmj_queshen",
+   "des"                                         : "争雀神，赢万元现金大奖",
+   "moduleId"                                    : "notice_img",
+   "typeid"                                      : 1,
+   "name"                                        : "眉山雀神赛",
+   "server_config"                               : {
+    "start"                                       : "2016-12-14 00:00:00",
+    "end"                                         : "2017-02-03 00:00:00"
+   },
+   "config"                                      : {
+    "firstButton"                                 : {
+     "visible"                                     : 0,
+     "action"                                      : "",
+     "params"                                      : {
+      "duration"                                    : 2,
+      "text"                                        : "确定"
+     }
+    },
+    "secondButton"                                : {
+     "visible"                                     : 0,
+     "action"                                      : "",
+     "params"                                      : {
+      "duration"                                    : 2,
+      "text"                                        : "确定"
+     }
+    },
+    "bgURL"                                       : "${http_download}/majiang/images/act/1214meishanqueshen.png"
+   },
+   "url"                                         : ""
+  },
+  "activity_mj_df_youhui"                       : {
+   "id"                                          : "activity_mj_df_youhui",
+   "des"                                         : "更多优惠信息，请联系微信：huazai778800",
+   "moduleId"                                    : "notice_img",
+   "typeid"                                      : 1,
+   "name"                                        : "优惠购卡",
+   "server_config"                               : {
+    "start"                                       : "2016-07-16 00:00:00",
+    "end"                                         : "2019-07-25 00:00:00"
+   },
+   "config"                                      : {
+    "firstButton"                                 : {
+     "visible"                                     : 0,
+     "action"                                      : "",
+     "params"                                      : {
+      "duration"                                    : 2,
+      "text"                                        : "确定"
+     }
+    },
+    "secondButton"                                : {
+     "visible"                                     : 0,
+     "action"                                      : "",
+     "params"                                      : {
+      "duration"                                    : 2,
+      "text"                                        : "确定"
+     }
+    },
+    "bgURL"                                       : "${http_download}/majiang/images/ads/mjdf_yhd.jpg"
+   },
+   "url"                                         : ""
+  },
+  "youle_nc_zjz"                                : {
+   "id"                                          : "youle_nc_zjz",
+   "des"                                         : "玩着游戏唱着歌，打出好牌还送钱",
+   "moduleId"                                    : "notice_img",
+   "typeid"                                      : 1,
+   "name"                                        : "打到好牌就送钱",
+   "server_config"                               : {
+    "start"                                       : "2016-09-29 00:00:00",
+    "end"                                         : "2016-10-06 00:00:00"
+   },
+   "config"                                      : {
+    "firstButton"                                 : {
+     "visible"                                     : 0,
+     "action"                                      : "",
+     "params"                                      : {
+      "duration"                                    : 2,
+      "text"                                        : "确定"
+     }
+    },
+    "secondButton"                                : {
+     "visible"                                     : 0,
+     "action"                                      : "",
+     "params"                                      : {
+      "duration"                                    : 2,
+      "text"                                        : "确定"
+     }
+    },
+    "bgURL"                                       : "${http_download}/majiang/difang/act/actdhp1011.jpg"
+   },
+   "url"                                         : ""
+  },
+  "youle_hn_dlt"                                : {
+   "id"                                          : "youle_hn_dlt",
+   "des"                                         : "金牌销售谁是擂主，售卡王者赢大奖",
+   "moduleId"                                    : "notice_img",
+   "typeid"                                      : 1,
+   "name"                                        : "金牌大擂台",
+   "server_config"                               : {
+    "start"                                       : "2016-10-14 00:00:00",
+    "end"                                         : "2016-10-21 00:00:00"
+   },
+   "config"                                      : {
+    "firstButton"                                 : {
+     "visible"                                     : 0,
+     "action"                                      : "",
+     "params"                                      : {
+      "duration"                                    : 2,
+      "text"                                        : "确定"
+     }
+    },
+    "secondButton"                                : {
+     "visible"                                     : 0,
+     "action"                                      : "",
+     "params"                                      : {
+      "duration"                                    : 2,
+      "text"                                        : "确定"
+     }
+    },
+    "bgURL"                                       : "${http_download}/majiang/difang/act/act_hn_dlt.png"
+   },
+   "url"                                         : ""
+  },
+  "youle_nc_1111free1109"                       : {
+   "id"                                          : "youle_nc_1111free1109",
+   "des"                                         : "双十一冬日温暖大回馈，11月10日至11月11日晚19点-24点，登录游戏即可免费开房，爽玩至凌晨！时间有限，不容错过~",
+   "moduleId"                                    : "general_btn",
+   "typeid"                                      : 1,
+   "name"                                        : "双十一免费玩",
+   "server_config"                               : {
+    "start"                                       : "2016-11-09 00:00:00",
+    "end"                                         : "2016-11-16 00:00:00"
+   },
+   "config"                                      : {
+    "button"                                      : {
+     "visible"                                     : "true",
+     "todoTask"                                    : "",
+     "URL"                                         : ""
+    },
+    "bgURL"                                       : "${http_download}/majiang/difang/act/ceshi1109.jpg"
+   }
+  },
+  "activity_mj_df_jubao"                        : {
+   "id"                                          : "activity_mj_df_jubao",
+   "des"                                         : "让我们一起维护健康的游戏环境！",
+   "moduleId"                                    : "notice_img",
+   "typeid"                                      : 1,
+   "name"                                        : "举报有奖",
+   "server_config"                               : {
+    "start"                                       : "2016-07-16 00:00:00",
+    "end"                                         : "2019-07-25 00:00:00"
+   },
+   "config"                                      : {
+    "firstButton"                                 : {
+     "visible"                                     : 0,
+     "action"                                      : "",
+     "params"                                      : {
+      "duration"                                    : 2,
+      "text"                                        : "确定"
+     }
+    },
+    "secondButton"                                : {
+     "visible"                                     : 0,
+     "action"                                      : "",
+     "params"                                      : {
+      "duration"                                    : 2,
+      "text"                                        : "确定"
+     }
+    },
+    "bgURL"                                       : "${http_download}/majiang/images/ads/5.jpg"
+   },
+   "url"                                         : ""
+  },
+  "Copy_youle_ncmj_jianqunnahongbao1116"        : {
+   "id"                                          : "Copy_youle_ncmj_jianqunnahongbao1116",
+   "des"                                         : "只要建立20人以上微信群，开满4间房，就奖励300微信红包！多建群，多奖励！最多累计奖励5次！",
+   "moduleId"                                    : "general_btn",
+   "typeid"                                      : 1,
+   "name"                                        : "建群拿红包",
+   "server_config"                               : {
+    "start"                                       : "2016-11-16 00:00:00",
+    "end"                                         : "2016-11-23 00:00:00"
+   },
+   "config"                                      : {
+    "button"                                      : {
+     "visible"                                     : "true",
+     "todoTask"                                    : "",
+     "URL"                                         : ""
+    },
+    "bgURL"                                       : "${http_download}/majiang/difang/act/jianqunnahongbao_1116_659-453.jpg"
+   }
+  },
+  "majiang_3_71_IOS_1"                          : {
+   "id"                                          : "majiang_3_71_IOS_1",
+   "des"                                         : "如有疑问请联系客服\n电话：4008098000\nQQ：4008098000",
+   "moduleId"                                    : "general_btn",
+   "typeid"                                      : 4,
+   "name"                                        : "超值大礼包",
+   "server_config"                               : {
+    "start"                                       : "2015-02-28 00:00:00",
+    "end"                                         : "2016-04-30 00:00:00"
+   },
+   "config"                                      : {
+    "button"                                      : {
+     "visible"                                     : true,
+     "todoTask"                                    : {
+      "payOrder"                                    : {
+       "shelves"                                     : [
+        "raffle"
+       ],
+       "priceDiamond"                                : {
+        "count"                                       : 60,
+        "minCount"                                    : 0,
+        "maxCount"                                    : -1
+       },
+       "buyTypes"                                    : [
+        "direct",
+        "consume"
+       ]
+      },
+      "typeId"                                      : "todotask.payOrder"
+     },
+     "URL"                                         : "${http_download}/hall/act/complete/general_btn/buy_button_3.7.png"
+    },
+    "bgURL"                                       : "${http_download}/hall/act/complete/general_btn/majiang_activity_20151210_ios.jpg"
+   }
+  },
+  "activity_mj_hongbaosai_gongzhonghao"         : {
+   "id"                                          : "activity_mj_hongbaosai_gongzhonghao",
+   "des"                                         : "领取微信红包需按照以上教程绑定微信账号。",
+   "moduleId"                                    : "notice_img",
+   "typeid"                                      : 1,
+   "name"                                        : "微信绑定流程",
+   "server_config"                               : {
+    "start"                                       : "2016-07-20 00:00:00",
+    "end"                                         : "2016-07-27 00:00:00"
+   },
+   "config"                                      : {
+    "firstButton"                                 : {
+     "visible"                                     : 0,
+     "action"                                      : "",
+     "params"                                      : {
+      "duration"                                    : 2,
+      "text"                                        : "确定"
+     }
+    },
+    "secondButton"                                : {
+     "visible"                                     : 0,
+     "action"                                      : "",
+     "params"                                      : {
+      "duration"                                    : 2,
+      "text"                                        : "确定"
+     }
+    },
+    "bgURL"                                       : "${http_download}/hall/ads/imgs/ads_majiang_hongbao3.jpg"
+   },
+   "url"                                         : ""
+  },
+  "youle_nc_jpdl"                               : {
+   "id"                                          : "youle_nc_jpdl",
+   "des"                                         : "成为优乐南昌金牌代理，就送家电！",
+   "moduleId"                                    : "notice_img",
+   "typeid"                                      : 1,
+   "name"                                        : "金牌代理送家电",
+   "server_config"                               : {
+    "start"                                       : "2016-10-13 00:00:00",
+    "end"                                         : "2016-11-16 00:00:00"
+   },
+   "config"                                      : {
+    "firstButton"                                 : {
+     "visible"                                     : 0,
+     "action"                                      : "",
+     "params"                                      : {
+      "duration"                                    : 2,
+      "text"                                        : "确定"
+     }
+    },
+    "secondButton"                                : {
+     "visible"                                     : 0,
+     "action"                                      : "",
+     "params"                                      : {
+      "duration"                                    : 2,
+      "text"                                        : "确定"
+     }
+    },
+    "bgURL"                                       : "${http_download}/majiang/difang/act/act_jpdl_1020.JPG"
+   },
+   "url"                                         : ""
+  },
+  "zhaodianpaogaoshou"                          : {
+   "id"                                          : "zhaodianpaogaoshou",
+   "des"                                         : "三缺一四川麻将寻找点炮高手啦~ 谁才是真正的点炮王！~ 快来比一比！",
+   "moduleId"                                    : "general_btn",
+   "typeid"                                      : 1,
+   "name"                                        : "寻找点炮高手-99",
+   "server_config"                               : {
+    "start"                                       : "2016-12-21 00:00:00",
+    "end"                                         : "2016-12-30 23:59:59"
+   },
+   "config"                                      : {
+    "button"                                      : {
+     "visible"                                     : "true",
+     "todoTask"                                    : "",
+     "URL"                                         : ""
+    },
+    "bgURL"                                       : "${http_download}/majiang/difang/ads/duan.jpg"
+   }
+  },
+  "activity_mj_df_yaoqing"                      : {
+   "id"                                          : "activity_mj_df_yaoqing",
+   "des"                                         : "邀请好友加入游戏，会有丰厚奖励哦。\n每邀请一名玩过至少一局的好友，获赠6张房卡，上不封顶！",
+   "moduleId"                                    : "notice_img",
+   "typeid"                                      : 1,
+   "name"                                        : "邀请有礼",
+   "server_config"                               : {
+    "start"                                       : "2016-07-16 00:00:00",
+    "end"                                         : "2019-07-25 00:00:00"
+   },
+   "config"                                      : {
+    "firstButton"                                 : {
+     "visible"                                     : 0,
+     "action"                                      : "",
+     "params"                                      : {
+      "duration"                                    : 2,
+      "text"                                        : "确定"
+     }
+    },
+    "secondButton"                                : {
+     "visible"                                     : 0,
+     "action"                                      : "",
+     "params"                                      : {
+      "duration"                                    : 2,
+      "text"                                        : "确定"
+     }
+    },
+    "bgURL"                                       : "${http_download}/majiang/difang/act/1022yqyj_hd.jpg"
+   },
+   "url"                                         : ""
+  },
+  "youle_ncmj_jianqunnahongbao1116"             : {
+   "id"                                          : "youle_ncmj_jianqunnahongbao1116",
+   "des"                                         : "只要建立20人以上微信群，开满4间房，就奖励300微信红包！多建群，多奖励！最多累计奖励5次！",
+   "moduleId"                                    : "general_btn",
+   "typeid"                                      : 1,
+   "name"                                        : "建群拿红包",
+   "server_config"                               : {
+    "start"                                       : "2016-11-16 00:00:00",
+    "end"                                         : "2016-12-01 00:00:00"
+   },
+   "config"                                      : {
+    "button"                                      : {
+     "visible"                                     : "true",
+     "todoTask"                                    : "",
+     "URL"                                         : ""
+    },
+    "bgURL"                                       : "${http_download}/majiang/difang/act/jianqunnahongbao_1116_659-453.jpg"
+   }
+  },
+  "activity_general_btn_ios_raffle_majiang_1125": {
+   "id"                                          : "activity_general_btn_ios_raffle_majiang_1125",
+   "des"                                         : "如有疑问请联系客服\n电话：4008098000\nQQ：4008098000",
+   "moduleId"                                    : "general_btn",
+   "typeid"                                      : 4,
+   "name"                                        : "超值大礼包",
+   "server_config"                               : {
+    "start"                                       : "2015-09-24 00:00:00",
+    "end"                                         : "2016-10-15 00:00:00"
+   },
+   "config"                                      : {
+    "button"                                      : {
+     "visible"                                     : true,
+     "todoTask"                                    : {
+      "payOrder"                                    : {
+       "shelves"                                     : [
+        "raffle"
+       ],
+       "priceDiamond"                                : {
+        "count"                                       : 60,
+        "minCount"                                    : 0,
+        "maxCount"                                    : -1
+       },
+       "buyTypes"                                    : [
+        "direct",
+        "consume"
+       ]
+      },
+      "typeId"                                      : "todotask.payOrder"
+     },
+     "URL"                                         : "${http_download}/hall/act/complete/general_btn/buy_button_3.7.png"
+    },
+    "bgURL"                                       : "${http_download}/hall/act/complete/general_btn/activity_lucky_gift_1015.jpg"
+   }
+  },
+  "wyb_hn_jkyxgg"                               : {
+   "id"                                          : "wyb_hn_jkyxgg",
+   "des"                                         : "健康游戏公告",
+   "moduleId"                                    : "general_btn",
+   "typeid"                                      : 1,
+   "name"                                        : "健康游戏公告",
+   "server_config"                               : {
+    "start"                                       : "2016-12-30 00:00:00",
+    "end"                                         : "2018-02-01 00:00:00"
+   },
+   "config"                                      : {
+    "button"                                      : {
+     "visible"                                     : "true",
+     "todoTask"                                    : "",
+     "URL"                                         : ""
+    },
+    "bgURL"                                       : "${http_download}/majiang/images/ads/mjdf_jkd.jpg"
+   }
+  },
+  "activity_notice_majiang_1117"                : {
+   "id"                                          : "activity_notice_majiang_1117",
+   "des"                                         : "高级、大师场奖券送送送！话费来的止都止不住吼吼吼！",
+   "moduleId"                                    : "general_btn",
+   "typeid"                                      : 4,
+   "name"                                        : "奖劵话费双倍送",
+   "server_config"                               : {
+    "start"                                       : "2015-09-24 00:00:00",
+    "end"                                         : "2016-10-15 00:00:00"
+   },
+   "config"                                      : {
+    "button"                                      : {
+     "visible"                                     : false
+    },
+    "bgURL"                                       : "${http_download}/hall/act/complete/general_btn/act_majiang_1117.jpg"
+   }
+  },
+  "youle_nc_fzdl"                               : {
+   "id"                                          : "youle_nc_fzdl",
+   "des"                                         : "每发展一个代理，上下级代理均可获得房卡和现金奖励",
+   "moduleId"                                    : "notice_img",
+   "typeid"                                      : 1,
+   "name"                                        : "发展代理送红包",
+   "server_config"                               : {
+    "start"                                       : "2016-10-20 00:00:00",
+    "end"                                         : "2016-11-03 00:00:00"
+   },
+   "config"                                      : {
+    "firstButton"                                 : {
+     "visible"                                     : 0,
+     "action"                                      : "",
+     "params"                                      : {
+      "duration"                                    : 2,
+      "text"                                        : "确定"
+     }
+    },
+    "secondButton"                                : {
+     "visible"                                     : 0,
+     "action"                                      : "",
+     "params"                                      : {
+      "duration"                                    : 2,
+      "text"                                        : "确定"
+     }
+    },
+    "bgURL"                                       : "${http_download}/majiang/difang/act/act_fzdl_1020.JPG"
+   },
+   "url"                                         : ""
+  },
+  "wyb_hn_xinjkyxgg"                            : {
+   "id"                                          : "wyb_hn_xinjkyxgg",
+   "des"                                         : "健康游戏公告",
+   "moduleId"                                    : "general_btn",
+   "typeid"                                      : 1,
+   "name"                                        : "健康游戏公告",
+   "server_config"                               : {
+    "start"                                       : "2017-01-12 00:00:00",
+    "end"                                         : "2018-01-24 00:00:00"
+   },
+   "config"                                      : {
+    "button"                                      : {
+     "visible"                                     : "true",
+     "todoTask"                                    : "",
+     "URL"                                         : ""
+    },
+    "bgURL"                                       : "${http_download}/majiang/difang/ads/lvjkyxggduan.jpg"
+   }
+  },
+  "activity_general_btn_majiang_37"             : {
+   "id"                                          : "activity_general_btn_majiang_37",
+   "des"                                         : "如有疑问请联系客服\n电话：4008098000\nQQ：4008098000",
+   "moduleId"                                    : "general_btn",
+   "typeid"                                      : 4,
+   "name"                                        : "超值大礼包",
+   "server_config"                               : {
+    "start"                                       : "2015-02-28 00:00:00",
+    "end"                                         : "2016-04-30 00:00:00"
+   },
+   "config"                                      : {
+    "button"                                      : {
+     "visible"                                     : true,
+     "todoTask"                                    : {
+      "payOrder"                                    : {
+       "shelves"                                     : [
+        "raffle"
+       ],
+       "priceDiamond"                                : {
+        "count"                                       : 80,
+        "minCount"                                    : 0,
+        "maxCount"                                    : -1
+       },
+       "buyTypes"                                    : [
+        "direct",
+        "consume"
+       ]
+      },
+      "typeId"                                      : "todotask.payOrder"
+     },
+     "URL"                                         : "${http_download}/hall/act/complete/general_btn/buy_button_3.7.png"
+    },
+    "bgURL"                                       : "${http_download}/hall/act/complete/general_btn/act_majiang_8_gift_1015.jpg"
+   }
+  }
+ },
+ "modules"                                     : { }
+}

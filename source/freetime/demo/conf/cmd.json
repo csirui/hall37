@@ -1,0 +1,6 @@
+{
+    "UT":["get_items","set_items"], 
+    "RO":["quick_start"],
+    "GA":["send_card"]
+}
+    

@@ -1,0 +1,113 @@
+{
+ "games"            : [
+  {
+   "versions"         : [
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1.山西_干瞪眼3.9013"
+     ],
+     "md5"              : "9a98ce6594c63c3057cbaacddd8afc7e",
+     "ver"              : "3.9013",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/shanxi_gdy_3.9013_2.13_3.zip",
+     "size"             : "2.2M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1.山西_干瞪眼3.9014"
+     ],
+     "md5"              : "8b4543941c0233f3a0332ce35fe5eb02",
+     "ver"              : "3.9014",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/shanxi_gdy_3.9014_2.14_1.zip",
+     "size"             : "2.2M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1.山西_干瞪眼3.9015"
+     ],
+     "md5"              : "00886fd1d082eeba373f696df3321978",
+     "ver"              : "3.9015",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/shanxi_gdy_3.9015_2.16_1.zip",
+     "size"             : "2.2M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1.山西_干瞪眼3.9016"
+     ],
+     "md5"              : "b594c022149d9a172cfba7561030a1c3",
+     "ver"              : "3.9016",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/shanxi_gdy_3.9016_2.16_2.zip",
+     "size"             : "2.2M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1.山西_干瞪眼3.9017"
+     ],
+     "md5"              : "c53eed8994fc7e964dc9c943f2a7d272",
+     "ver"              : "3.9017",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/shanxi_gdy_3.9017_2.16_3.zip",
+     "size"             : "2M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1.山西_干瞪眼3.9018"
+     ],
+     "md5"              : "77faebea22ed54a15d8a1d1e41537de1",
+     "ver"              : "3.9018",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/shanxi_gdy_3.9018_2.16_4.zip",
+     "size"             : "2M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1.山西_干瞪眼3.9019"
+     ],
+     "md5"              : "3de1fa1a9f07538f6c607fd5058e8200",
+     "ver"              : "3.9019",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/shanxi_gdy_3.9019_2.16_5.zip",
+     "size"             : "2M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1.山西_干瞪眼3.9020"
+     ],
+     "md5"              : "2d5366ebd82c1e43d18f3a1ba932faed",
+     "ver"              : "3.9020",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/shanxi_gdy_3.9020_2.16_6.zip",
+     "size"             : "2.2M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1.山西__干瞪眼3.9021"
+     ],
+     "md5"              : "ae714493334420ca38e3d47d5a441333",
+     "ver"              : "3.9021",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/shanxi_gdy_3.9021_2.16_7.zip",
+     "size"             : "2.2M"
+    }
+   ],
+   "description"      : [
+    "1、山西干瞪眼"
+   ],
+   "gameId"           : 155,
+   "gameMark"         : "shanxigdy"
+  }
+ ],
+ "templates"        : [ ]
+}

@@ -1,0 +1,19 @@
+{
+ "templates"                     : {
+  "king27_v3.90_AI_youle_erqiwang": {
+   "interval"                      : 5,
+   "name"                          : "king27_v3.90_AI_youle_erqiwang",
+   "ads"                           : [
+    9999120701
+   ]
+  },
+  "tsk_v3.901_AI__youle_eqw"      : {
+   "interval"                      : 5,
+   "name"                          : "tsk_v3.901_AI__youle_eqw",
+   "ads"                           : [
+    9999120701
+   ]
+  }
+ },
+ "ads"                           : [ ]
+}

@@ -1,0 +1,32 @@
+{
+  "buyinchip" : 0,
+  "dummyUserCount" : 0,
+  "gameRule" : "classic",
+  "hasrobot" : 1,
+  "iscreate" : 1,
+  "create_item": 6001,
+  "ismatch" : 0,
+  "level" : "junior",
+  "matchConf" : null,
+  "maxCoin" : -1,
+  "maxCoinQS" : 50000,
+  "maxLevel" : -1,
+  "minCoin" : 0,
+  "minCoinQS" : 0,
+  "name" : "自建桌",
+  "playMode" : "poyang",
+  "tableConf" : {
+    "base_chip" : 1,
+    "big_degree_fee" : [],
+    "create_user_score" : 0,
+    "good_tile_chance" : 0,
+    "leave_vote_num" : {"4":3},
+    "maxSeatN" : 4,
+    "play_timeout" : 12,
+    "room_coefficient" : 1,
+    "service_fee" : 0,
+    "trustee_timeout" : 86400,
+    "ready_max_timeout": 3600
+  },
+  "typeName" : "normal"
+}

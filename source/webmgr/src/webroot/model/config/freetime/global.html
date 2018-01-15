@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>服务管理</title>
+
+	<!-- Bootstrap -->
+    <link rel="stylesheet" href="./../../../third/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./../../../third/css/docs.min.css">
+    <link rel="stylesheet" href="./../../../third/css/buttons.css">
+    <link rel="stylesheet" href="./../../../third/css/main.css">
+
+    <script src="./../../../third/js/jquery.min.js"></script>
+    <script src="./../../../third/js/bootstrap.min.js"></script>
+    <script src="./../../../third/js/vue.min.js"></script>
+
+    <script src="./../../../js/lib/base.js"></script>
+
+    <script src="global.js"></script>
+  
+</head>
+<body>
+	<div id="dataContent">
+		<table class="table table-bordered bs-docs-section">
+			<tr>
+				<td colspan="3">
+					<button type="button" class="btn btn-success" v-on="click: reset">重 置</button>
+					<button type="button" class="btn btn-success" v-on="click: submit" >保 存</button>
+					<b>freetime/global.json 游戏服务全局定义内容</b>
+				</td>
+			</tr>
+			<tr>
+				<th>日志路径</th><th>log_path</th><td><input type="text" v-model="log_path"></td>
+			</tr>
+			<tr>
+				<th>日志级别(0~3)</th><th>log_level</th><td><input type="text" v-model="log_level | superInt"></td>
+			</tr>
+			<tr>
+				<th>BI日志服务(HTTP)</th><th>log_server</th><td><input type="text" v-model="log_server"></td>
+			</tr>
+		</table>
+	<div>
+</body>
+</html>
+
+

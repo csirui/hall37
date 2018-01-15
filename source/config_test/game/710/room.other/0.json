@@ -1,0 +1,351 @@
+{
+    "configDesc": "麻将房间其他相关配置,例如:比赛的标签配置,自建桌",
+    "create_table_config": {
+        "harbin": {
+            "playModeDesc": "哈尔滨麻将",
+            "paramType": {
+                "cardCount4": "选择圈数",
+                "cardCount3": "选择局数",
+                "cardCount2": "选择局数",
+                "playerType": "选择人数",
+                "chunJia": "不夹不胡",
+                "hongZhongBao": "红中宝",
+                "guaDaFeng": "刮大风",
+				"magicHide": "暗宝",
+                "sanQiBian": "三七边算夹",
+                "duiBao": "漏胡(对宝)",
+                "danDiaoJia": "单吊算夹",
+                "wanFa": "可选玩法"
+            },
+            "wanFa": [
+                {
+                    "id": "chunJia",
+                    "desc": "不夹不胡",
+                    "default": 0
+                },
+                {
+                    "id": "hongZhongBao",
+                    "desc": "红中宝",
+                    "default": 1
+                },
+                {
+                    "id": "guaDaFeng",
+                    "desc": "刮大风",
+                    "default": 1
+                },
+                {
+                    "id": "magicHide",
+                    "desc": "暗宝",
+                    "default": 0
+                },
+                {
+                    "id": "sanQiBian",
+                    "desc": "三七边算夹",
+                    "default": 1
+                },
+                {
+                    "id": "duiBao",
+                    "desc": "漏胡(对宝)",
+                    "default": 1
+                },
+                {
+                    "id": "danDiaoJia",
+                    "desc": "单吊算夹",
+                    "default": 1
+                }
+            ],
+            "cardCount4": [
+                {
+                    "id": 0,
+                    "value": 1,
+                    "desc": "1圈(2张房卡)",
+                    "default": 0,
+                    "fangka_count": 2,
+                    "type": "circle",
+                    "hasRobot": {
+                        "id": 0,
+                        "value": 4,
+                        "desc": "4局(练习)",
+                        "default": 0,
+                        "fangka_count": 0,
+                        "type": "round"
+                    }
+                },
+                {
+                    "id": 1,
+                    "value": 2,
+                    "desc": "2圈(3张房卡)",
+                    "default": 1,
+                    "fangka_count": 3,
+                    "type": "circle",
+                    "hasRobot": {
+                        "id": 1,
+                        "value": 8,
+                        "desc": "8局(练习)",
+                        "default": 1,
+                        "fangka_count": 0,
+                        "type": "round"
+                    }
+                },
+                {
+                    "id": 2,
+                    "value": 4,
+                    "desc": "4圈(6张房卡)",
+                    "default": 0,
+                    "fangka_count": 6,
+                    "type": "circle",
+                    "hasRobot": {
+                        "id": 2,
+                        "value": 16,
+                        "desc": "16局(练习)",
+                        "default": 0,
+                        "fangka_count": 0,
+                        "type": "round"
+                    }
+                }
+            ],
+            "cardCount3": [
+                {
+                    "id": 0,
+                    "value": 12,
+                    "desc": "12局(4张房卡)",
+                    "default": 0,
+                    "fangka_count": 4,
+                    "type": "round",
+                    "hasRobot": {
+                        "id": 0,
+                        "value": 4,
+                        "desc": "4局(练习)",
+                        "default": 0,
+                        "fangka_count": 0,
+                        "type": "round"
+                    }
+                },
+                {
+                    "id": 1,
+                    "value": 20,
+                    "desc": "20局(6张房卡)",
+                    "default": 1,
+                    "fangka_count": 6,
+                    "type": "round",
+                    "hasRobot": {
+                        "id": 1,
+                        "value": 8,
+                        "desc": "8局(练习)",
+                        "default": 1,
+                        "fangka_count": 0,
+                        "type": "round"
+                    }
+                },
+                {
+                    "id": 2,
+                    "value": 40,
+                    "desc": "40局(12张房卡)",
+                    "default": 0,
+                    "fangka_count": 12,
+                    "type": "round",
+                    "hasRobot": {
+                        "id": 2,
+                        "value": 16,
+                        "desc": "16局(练习)",
+                        "default": 0,
+                        "fangka_count": 0,
+                        "type": "round"
+                    }
+                }
+            ],
+            "cardCount2": [
+                {
+                    "id": 0,
+                    "value": 15,
+                    "desc": "15局(4张房卡)",
+                    "default": 0,
+                    "fangka_count": 4,
+                    "type": "round",
+                    "hasRobot": {
+                        "id": 0,
+                        "value": 4,
+                        "desc": "4局(练习)",
+                        "default": 0,
+                        "fangka_count": 0,
+                        "type": "round"
+                    }
+                },
+                {
+                    "id": 1,
+                    "value": 25,
+                    "desc": "25局(6张房卡)",
+                    "default": 1,
+                    "fangka_count": 6,
+                    "type": "round",
+                    "hasRobot": {
+                        "id": 1,
+                        "value": 8,
+                        "desc": "8局(练习)",
+                        "default": 1,
+                        "fangka_count": 0,
+                        "type": "round"
+                    }
+                },
+                {
+                    "id": 2,
+                    "value": 50,
+                    "desc": "50局(12张房卡)",
+                    "default": 0,
+                    "fangka_count": 12,
+                    "type": "round",
+                    "hasRobot": {
+                        "id": 2,
+                        "value": 16,
+                        "desc": "16局(练习)",
+                        "fangka_count": 0,
+                        "default": 0,
+                        "type": "round"
+                    }
+                }
+            ],
+            "playerType": [
+                {
+                    "id": 1,
+                    "desc": "4人",
+                    "default": 1,
+                    "count": 4,
+                    "cardCount": "cardCount4"
+                },
+                {
+                    "id": 2,
+                    "desc": "3人",
+                    "default": 0,
+                    "count": 3,
+                    "cardCount": "cardCount3"
+                },
+                {
+                    "id": 3,
+                    "desc": "2人",
+                    "default": 0,
+                    "count": 2,
+                    "cardCount": "cardCount2"
+                }
+            ],
+            "chunJia": [
+                {
+                    "id": 1,
+                    "desc": "不夹不胡",
+                    "min_multi": 1,
+                    "default": 1
+                },
+                {
+                    "id": 0,
+                    "desc": "其他起步",
+                    "min_multi": 0,
+                    "default": 0
+                }            
+            ],
+            "hongZhongBao": [
+                {
+                    "id": 1,
+                    "desc": "红中宝",
+                    "hong_zhong_bao": 1,
+                    "default": 1
+                },
+                {
+                    "id": 0,
+                    "desc": "红中不算宝",
+                    "hong_zhong_bao": 0,
+                    "default": 0
+                }
+            ],
+            "guaDaFeng": [
+                {
+                    "id": 1,
+                    "desc": "刮大风",
+                    "gua_da_feng": 1,
+                    "default": 1
+                },
+                {
+                    "id": 0,
+                    "desc": "无刮大风",
+                    "gua_da_feng": 0,
+                    "default": 0
+                }            
+            ],
+            "magicHide": [
+                {
+                    "id": 0,
+                    "desc": "明宝",
+                    "magic_hide": 0,
+                    "default": 0
+                },
+                {
+                    "id": 1,
+                    "desc": "暗宝",
+                    "magic_hide": 1,
+                    "default": 1
+                }            
+            ],
+            "sanQiBian": [
+                {
+                    "id": 0,
+                    "desc": "三七边不算夹",
+                    "bian_multi": 0,
+                    "default": 0
+                },
+                {
+                    "id": 1,
+                    "desc": "三七边算夹",
+                    "bian_multi": 1,
+                    "default": 1
+                }        
+            ],
+            "duiBao": [
+                {
+                    "id": 1,
+                    "desc": "漏胡(对宝)",
+                    "dui_bao": 1,
+                    "default": 0
+                },
+                {
+                    "id": 0,
+                    "desc": "无对宝",
+                    "dui_bao": 0,
+                    "default": 1
+                }        
+            ],
+            "danDiaoJia": [
+                {
+                    "id": 0,
+                    "desc": "单吊不算夹",
+                    "dan_diao_jia": 0,
+                    "default": 0
+                },
+                {
+                    "id": 1,
+                    "desc": "单吊算夹",
+                    "dan_diao_jia": 1,
+                    "default": 1
+                }            
+            ]
+        }
+    },
+    "create_table_weixin_inivite_desc_key": [
+        "cardCount4",
+        "cardCount3",
+        "cardCount2",
+        "chunJia",
+        "hongZhongBao",
+        "guaDaFeng",
+        "magicHide",
+        "sanQiBian",
+        "duiBao",
+        "danDiaoJia"
+    ],
+    "leave_countdown": 2,
+    "create_table_leave_success": "解散牌桌成功",
+    "create_table_leave_failure": "解散牌桌失败，继续游戏",
+    "create_table_init_fangka": 12,
+    "create_table_countdown": 60,
+    "playmode_forbid_return_fanka": [],
+    "playmode_desc_map": {
+        "harbin": "哈尔滨麻将"
+    }
+}

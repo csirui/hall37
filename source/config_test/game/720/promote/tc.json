@@ -1,0 +1,244 @@
+{
+ "templates"   : [
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 9999120201,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    }
+   ],
+   "name"        : "shanximj_v3.902_shanximj"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 720122601,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 720111201,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 720020901,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 720011701,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    }
+   ],
+   "name"        : "shanximj_v3.90_AI_sahnximjtest"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 720111201,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 720122601,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 720020901,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 720011701,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    }
+   ],
+   "name"        : "shanximj_v3.90_AI_shanximj"
+  }
+ ],
+ "promotions"  : [
+  {
+   "promotionId" : 720111201,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "typeId"      : "todotask.showInfo",
+     "info"        : "购买房卡请联系所在群主\n代理咨询请联系微信客服 jpzj365或QQ客服 3257781066"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "山西麻将",
+   "url"         : "${http_download}/majiang/difang/act/icon_tgw_mfk.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 720111501,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "tasks"       : [
+        {
+         "action"      : "pop_create_room_invite",
+         "params"      : { }
+        }
+       ]
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 720,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "山西邀请赠房卡测试",
+   "url"         : "${http_download}/majiang/images/act/icon_tgw_mffk.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 720111801,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "shareId"     : 7010,
+     "typeId"      : "todotask.sharegift.with.shareId"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "山西麻将红包集赞",
+   "url"         : "${http_download}/hall/promote/imgs/share_icon.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 720121201,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "tasks"       : [
+        {
+         "action"      : "wechat_share",
+         "params"      : {
+          "content"     : "独乐乐不如众乐乐\n快快邀请好友来一起游戏吧",
+          "title"       : "太行山西麻将",
+          "desc"        : "最好玩的自建桌麻将，和亲朋好友一起游戏的地方麻将游戏",
+          "buttons"     : [
+           {
+            "content"     : "好友",
+            "tasks"       : [ ],
+            "type"        : "1"
+           },
+           {
+            "content"     : "朋友圈",
+            "tasks"       : [ ],
+            "type"        : "0"
+           }
+          ],
+          "url"         : "http://www.shediao.com/landing/sxth.html"
+         }
+        }
+       ]
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 720,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "山西麻将分享链接",
+   "url"         : "${http_download}/hall/promote/imgs/share_icon.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 720122601,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "todotask.simple.invite"
+    }
+   ],
+   "redPoint"    : [
+    {
+     "typeId"      : "user.cond.HasFreeMark"
+    }
+   ],
+   "displayName" : "山西麻将邀请有礼",
+   "url"         : "${http_download}/hall/promote/imgs/icon_tgw_mffk.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 720011701,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.goto.free"
+    }
+   ],
+   "redPoint"    : [
+    {
+     "typeId"      : "user.cond.HasFreeMark"
+    }
+   ],
+   "displayName" : "山西麻新春福利",
+   "url"         : "${http_download}/majiang/difang/icon/shanxi_chunjie.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 720020901,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.goto.lottery"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "山西幸运抽奖",
+   "url"         : "${http_download}/hall/promote/imgs/standard_promote_roulette_0820.png",
+   "defaultRes"  : ""
+  }
+ ]
+}

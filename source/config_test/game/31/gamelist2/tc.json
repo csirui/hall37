@@ -1,0 +1,50 @@
+{
+ "games"            : [
+  {
+   "versions"         : [
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "1、轻松押注新水果",
+      "2、开开心心赢大奖"
+     ],
+     "md5"              : "f2b440eb3c98983d401973934e1f432a",
+     "ver"              : "3.801",
+     "url"              : "${http_download}/hall/plugin/game/newfruit_release_v3.8011.zip",
+     "size"             : "3.5"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "1、轻松押注新水果",
+      "2、开开心心赢大奖"
+     ],
+     "md5"              : "6518fff98e5451369cc2c04d6a09978a",
+     "ver"              : "3.803",
+     "url"              : "${http_download}/hall/plugin/game/newfruit_release_v3.803.zip",
+     "size"             : "3.50"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "哈麻水果机3.901插件"
+     ],
+     "md5"              : "7c55136d6412868decfc6806834b56bc",
+     "ver"              : "3.901",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/newfruit_3.901_difang.zip",
+     "size"             : "2"
+    }
+   ],
+   "description"      : [
+    "1、轻松押注新水果",
+    "2、开开心心赢大奖"
+   ],
+   "gameId"           : 31,
+   "gameMark"         : "newfruit"
+  }
+ ],
+ "templates"        : [ ]
+}

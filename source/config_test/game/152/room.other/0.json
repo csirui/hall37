@@ -1,0 +1,20 @@
+{
+    "friendTableConfig": {
+        "biga": {
+            "playModeDesc": "内蒙古大A",
+            "consumeFangkaCount": [0, 1, 1, 2, 2, 2, 3, 3, 3],
+            "tableInfo": {
+                "5_2": {
+                    "playCount": 5,
+                    "desc": "5局(免费)",
+                    "fangkaCount": 0
+                },
+                "8_3": {
+                    "playCount": 8,
+                    "desc": "8局(免费)",
+                    "fangkaCount": 0
+                }
+            }
+        }
+    }
+}

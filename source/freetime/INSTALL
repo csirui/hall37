@@ -1,0 +1,15 @@
+                  ==FreeTime运行依赖==
+
+* 推荐运行在linux环境中(CentOS release 6.4 Final x86-64)
+
+* 安装pypy2.5以及Twisted等python模块 
+  编译安装详细步骤：
+      deps/install-pypy25-with-package.txt
+  预编译的二进制包：
+      deps/pypy_with_deps-2.5-linux-binary-x86-64.tar.bz2
+  
+* 安装redis和mysql
+  redis2.8.19版本(http://redis.io)
+  mysql5.1.4(http://www.mysql.com)
+  mysql-mmm(http://mysql-mmm.org)
+

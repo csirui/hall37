@@ -1,0 +1,279 @@
+{
+	"activities":[
+        {
+            "actId":"act1",
+            "typeId":"ddz.act.buy_send_prize",
+            "intActId":60002,
+            "limitCount":1,
+            "limitTimeCycle":{
+                "typeId":"perDay"
+            },
+            "hallGameIds":[6],
+            "startTime":"2016-07-06 00:00:00",
+            "endTime":"2016-07-14 00:00:00",
+            "mail":"您购买暑期特惠礼包，获得\\${rewardContent}，快去报名参加暑期特惠大奖赛吧",
+            "prizes":[
+                {
+                    "payOrder":{
+                        "productId":"TY9999D0002001"
+                    },
+                    "content":{
+                        "typeId": "FixedContent",
+                        "items": [
+                            {
+                                "itemId": "item:2003",
+                                "count": 2
+                            },
+                            {
+                                "itemId": "item:4168",
+                                "count": 1
+                            },
+                            {
+                                "itemId": "item:4342",
+                                "count": 1
+                            }
+                        ]
+                    }
+                },
+                {
+                    "payOrder":{
+                        "productId":"TY9999D0001002"
+                    },
+                    "content":{
+                        "typeId": "FixedContent",
+                        "items": [
+                            {
+                                "itemId": "item:2003",
+                                "count": 1
+                            },
+                            {
+                                "itemId": "item:4168",
+                                "count": 1
+                            },
+                            {
+                                "itemId": "item:4342",
+                                "count": 1
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "actId":"act2",
+            "typeId":"ddz.act.tuihuigift_new",
+            "intActId":60003,
+            "startTime":"2016-07-12 00:00:00",
+            "endTime":"2020-07-25 00:00:00",
+            "mail":"恭喜您获得\\${rewardContent}特惠礼包奖励！",
+            "gifts": [
+            	{"itemId":"item:4347", "rmb":30, "reward":{"itemId":"user:chip", "count":200000, "desc":"20万金币"} },
+            	{"itemId":"item:4348", "rmb":100, "reward":{"itemId":"user:chip", "count":500000, "desc":"50万金币"} },
+            	{"itemId":"item:4349", "rmb":300, "reward":{"itemId":"user:chip", "count":1000000, "desc":"100万金币"} }
+            ]
+        },
+        {
+            "actId":"vip_giftbox",
+            "typeId":"ddz.act.vip_giftbox",
+            "intActId":60004,
+            "startTime":"2016-07-12 00:00:00",
+            "endTime":"2016-07-21 00:00:00",
+            "mail":"恭喜您获得\\${rewardContent}，有效期为24小时，请尽快在背包中打开。！",
+            "vipgifts": [
+            	{"vipFloor":1, "vipCeil":2, "reward":{"itemId":"item:4350", "count":1, "desc":"初级VIP首日礼包"} },
+            	{"vipFloor":3, "vipCeil":4,  "reward":{"itemId":"item:4353", "count":1, "desc":"中级VIP首日礼包"} },
+            	{"vipFloor":5, "reward":{"itemId":"item:4356", "count":1, "desc":"高级VIP首日礼包"} }
+            ]
+        },
+        {
+            "actId":"act4",
+            "typeId":"ddz.act.buy_send_prize",
+            "intActId":60005,
+            "limitCount":1,
+            "limitTimeCycle":{
+                "typeId":"perDay"
+            },
+            "hallGameIds":[6],
+            "startTime":"2016-07-20 00:00:00",
+            "endTime":"2016-07-28 00:00:00",
+            "mail":"您购买盛夏特惠礼包，获得\\${rewardContent}，快去报名参加盛夏特惠大奖赛吧",
+            "prizes":[
+                {
+                    "payOrder":{
+                        "productId":"TY9999D0002001"
+                    },
+                    "content":{
+                        "typeId": "FixedContent",
+                        "items": [
+                            {
+                                "itemId": "item:2003",
+                                "count": 2
+                            },
+                            {
+                                "itemId": "item:4168",
+                                "count": 1
+                            },
+                            {
+                                "itemId": "item:4360",
+                                "count": 1
+                            }
+                        ]
+                    }
+                },
+                {
+                    "payOrder":{
+                        "productId":"TY9999D0001002"
+                    },
+                    "content":{
+                        "typeId": "FixedContent",
+                        "items": [
+                            {
+                                "itemId": "item:2003",
+                                "count": 1
+                            },
+                            {
+                                "itemId": "item:4168",
+                                "count": 1
+                            },
+                            {
+                                "itemId": "item:4360",
+                                "count": 1
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "actId":"act5",
+            "typeId":"ddz.act.buy_send_prize",
+            "intActId":60006,
+            "limitCount":1,
+            "limitTimeCycle":{
+                "typeId":"perDay"
+            },
+            "hallGameIds":[6],
+            "startTime":"2016-07-27 00:00:00",
+            "endTime":"2016-08-11 00:00:00",
+            "mail":"您购买盛夏特惠礼包，获得\\${rewardContent}，快去报名参加盛夏特惠大奖赛吧",
+            "prizes":[
+                {
+                    "payOrder":{
+                        "productId":"TY9999D0002006"
+                    },
+                    "content":{
+                        "typeId": "FixedContent",
+                        "items": [
+                            {
+                                "itemId": "item:2003",
+                                "count": 2
+                            },
+                            {
+                                "itemId": "item:4363",
+                                "count": 1
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "actId":"act_20160810",
+            "typeId":"ddz.act.buy_send_prize",
+            "intActId":60008,
+            "limitCount":2,
+            "limitTimeCycle":{
+                "typeId":"perDay"
+            },
+            "hallGameIds":[],
+            "startTime":"2016-07-27 00:00:00",
+            "endTime":"2016-08-18 05:00:00",
+            "mail":"您购买了本周特惠商品，额外获得\\${rewardContent}，祝您游戏愉快~",
+            "prizes":[
+                {
+                    "payOrder":{
+                        "productId":"TY9999D0100001"
+                    },
+                    "content":{
+                        "typeId": "FixedContent",
+                        "items": [
+                            {
+                                "itemId": "user:chip",
+                                "count": 200000
+                            }
+                        ]
+                    }
+                },
+                {
+                    "payOrder":{
+                        "productId":"TY9999D0098001"
+                    },
+                    "content":{
+                        "typeId": "FixedContent",
+                        "items": [
+                            {
+                                "itemId": "user:chip",
+                                "count": 200000
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "actId":"max_charge_recorder",
+            "typeId":"ddz.act.max_charge_recorder",
+            "intActId":60007,
+            "startTime":"2016-08-02 00:00:00",
+            "endTime":"2016-09-01 00:00:00"
+        },
+        {
+            "actId":"charge_send_present_num",
+            "typeId":"ddz.act.charge_send_present_num",
+            "presentNumActId":"activity_ddz_aoyunjifen_0810",
+            "intActId":60013,
+            "startTime":"2016-08-11 00:00:00",
+            "endTime":"2016-08-18 00:00:00",
+            "rate":1,
+            "hallGameIds":[6]
+        },
+        {
+        	"actId":"play_game_todotask1",
+        	"typeId":"ddz.act.play_game_todotask",
+        	"intActId":60017,
+		    "cycle":{
+		        "typeId":"life"
+		    },
+		    "condition":{
+		        "typeId":"user.cond.and",
+		        "list":[
+		            {
+		                "typeId":"user.cond.registerDays",
+		                "startDays":30,
+		                "stopDays":-1
+		            },
+		            {
+		                "typeId":"user.cond.payCount",
+		                "minPayCount":0,
+		                "maxPayCount":1
+		            },
+		            {
+		                "typeId":"user.cond.share.count",
+		                "start":0,
+		                "stop":1
+		            }
+		        ]
+		    },
+		    "playRounds":[
+		        {
+		            "playRound":1,
+		            "todotask":{
+		            	"typeId":"todotask.showInfo.with.share",
+                        "shareId":200
+		            }
+		        }
+		    ],
+		    "hallGameIds":[6]
+		}
+    ]
+}

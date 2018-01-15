@@ -1,0 +1,62 @@
+{
+    "templates"  : [
+        {
+            "name"       : "mudanjiang_AI_mdjall",
+            "shelves"    : [
+                {
+                    "displayName": "房卡换金币",
+                    "iconType"   : "diamond",
+                    "name"       : "fangka_exchange_coin_haerbin",
+                    "products"   : [
+                        "HRBFK1",
+                        "HRBFK10",
+                        "HRBFK100"
+                    ],
+                    "sort"       : 1,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "金币换房卡",
+                    "iconType"   : "coin",
+                    "name"       : "coin_exchange_fangka_haerbin",
+                    "products"   : [
+                        "HRB10000",
+                        "HRB100000",
+                        "HRB1000000"
+                    ],
+                    "sort"       : 0,
+                    "visible"    : 1
+                }
+            ]
+        },
+        {
+            "name"       : "mudanjiang_v3.902_AI_mdjcoin",
+            "shelves"    : [
+                {
+                    "displayName": "房卡换金币",
+                    "iconType"   : "diamond",
+                    "name"       : "fangka_exchange_coin_haerbin",
+                    "products"   : [
+                        "HRBFK1",
+                        "HRBFK10",
+                        "HRBFK100"
+                    ],
+                    "sort"       : 0,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "金币换房卡",
+                    "iconType"   : "coin",
+                    "name"       : "coin_exchange_fangka_haerbin",
+                    "products"   : [
+                        "HRB10000",
+                        "HRB100000",
+                        "HRB1000000"
+                    ],
+                    "sort"       : 1,
+                    "visible"    : 1
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,184 @@
+{
+ "games"            : [
+  {
+   "versions"         : [
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、3.9023版本增加牌局回放"
+     ],
+     "md5"              : "256ff5ab1a413e1e44e4f99f029c2486",
+     "ver"              : "3.9023",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/pdk_3.9023_1202.zip",
+     "size"             : "6.21M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、3.9025修复炸弹分数错误"
+     ],
+     "md5"              : "c9512b399b66aabe15f832120a936f51",
+     "ver"              : "3.9025",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/pdk_3.9025_1215_03.zip",
+     "size"             : "6.1M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、3.9026修复卡桌问题"
+     ],
+     "md5"              : "254e7c43f7204e99f67ee5a9b0ed93ca",
+     "ver"              : "3.9026",
+     "url"              : "http://ddz.dl.tuyoo.com/cdn37/majiang/difang/plugin/pdk_3.9026_1222.zip",
+     "size"             : "6.27M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、3.9027版本修复游戏问题"
+     ],
+     "md5"              : "f6fa218150d7f5de1acf695226107049",
+     "ver"              : "3.9027",
+     "url"              : "http://df.dl.shediao.com/cdn37/paohuzi/apk/pdk3.9027_1228.zip",
+     "size"             : "6.22M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、3.9028版本修复用户体验"
+     ],
+     "md5"              : "521a86c57215b1eb56a118317dea3bb2",
+     "ver"              : "3.9028",
+     "url"              : "http://ddz.dl.tuyoo.com/cdn37/majiang/difang/plugin/3.9028pdkcj_0120.zip",
+     "size"             : "6.23M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、3.9029版本修复用户体验~"
+     ],
+     "md5"              : "7d702e58712319248e9b1f010b1ecf44",
+     "ver"              : "3.9029",
+     "url"              : "http://ddz.dl.tuyoo.com/cdn37/majiang/difang/plugin/pdk39028_0209.zip",
+     "size"             : "6.01M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "[1、3.9030版本修复用户体验~"
+     ],
+     "md5"              : "c3f3c3a3040d136f8a0af19378010cd7",
+     "ver"              : "3.9030",
+     "url"              : "http://ddz.dl.tuyoo.com/cdn37/majiang/difang/plugin/pdk39030_0210.zip",
+     "size"             : "6.12M"
+    }
+   ],
+   "description"      : [
+    "1、正宗跑得快"
+   ],
+   "gameId"           : 150,
+   "gameMark"         : "pdk"
+  }
+ ],
+ "templates"        : [
+  {
+   "des"              : "跑得快默认",
+   "name"             : "paodekuai_v3.901_AI_paodekuai",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameArgs"         : "pdk",
+         "gameType"         : "custom"
+        },
+        "nameUrl"          : "",
+        "gameId"           : 150,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "跑得快",
+        "quitAlertName"    : "",
+        "version"          : "3.9030",
+        "defaultRes"       : "MaJiangBigCreateRoom"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangBigEnterRoom"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "ios提审专用模板仅包含跑得快",
+   "name"             : "pdk_v3.901_AI_ios_tishen",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameArgs"         : "pdk",
+         "gameType"         : "custom"
+        },
+        "nameUrl"          : "",
+        "gameId"           : 150,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "跑得快",
+        "quitAlertName"    : "",
+        "version"          : "3.9030",
+        "defaultRes"       : "MaJiangBigCreateRoom"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangBigEnterRoom"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

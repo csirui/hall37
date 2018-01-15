@@ -1,0 +1,625 @@
+{
+ "templates"   : [
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 21071901,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 21120701,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 21120702,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    }
+   ],
+   "name"        : "phz_AI_zijianzhuo_test"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 21071901,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 21010401,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    }
+   ],
+   "name"        : "phz_v3.783_AI_zijianzhuo"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 21100801,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 21010402,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    }
+   ],
+   "name"        : "phz_v3.788_AI_sqy_hnphz"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 21112501,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 21120701,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    }
+   ],
+   "name"        : "phz_v3.900_AI_sqy_glzp_gx"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 21100801,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 21080101,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    }
+   ],
+   "name"        : "phz_v3.901_AI_diandianhnphz"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 21071901,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 21120701,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 21010401,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    }
+   ],
+   "name"        : "phz_v3.901_AI_newphz"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 21100801,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 21120701,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 21010402,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    }
+   ],
+   "name"        : "phz_v3.901_AI_newsqyphz"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 21120601,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 21120701,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    }
+   ],
+   "name"        : "phz_v3.901_AI_youle_glphz"
+  }
+ ],
+ "promotions"  : [
+  {
+   "promotionId" : 21042001,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "gameType"    : "tutorial"
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 21,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "新手教程",
+   "url"         : "${http_download}/hall/promote/imgs/phz_tutorial.png",
+   "defaultRes"  : "PromoteTutorial"
+  },
+  {
+   "promotionId" : 21042002,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.goto.checkin"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "30日签到",
+   "url"         : "${http_download}/hall/promote/imgs/hall_promoteloc_icon_sign_in.qingchunban.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 21042003,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.goto.lottery"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "幸运抽奖",
+   "url"         : "${http_download}/hall/promote/imgs/hall_promoteloc_icon_lucky.qingchunban.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 21071901,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "todotask.showInfo",
+     "info"        : "买卡联系:youle1199（微信）\n诚招代理:youle1188（微信）\n举报:2162952363（QQ）"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "优乐跑胡子商城",
+   "url"         : "${http_download}/hall/promote/imgs/texas_store.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 21072101,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "tasks"       : [
+        {
+         "action"      : "wechat_share",
+         "params"      : {
+          "content"     : "独乐乐不如众乐乐\n快快邀请好友来一起游戏吧",
+          "title"       : "优乐跑胡子",
+          "desc"        : "最好玩的自建桌跑胡子，和亲朋好友一起游戏的跑胡子游戏",
+          "buttons"     : [
+           {
+            "content"     : "好友",
+            "tasks"       : [ ],
+            "type"        : "1"
+           },
+           {
+            "content"     : "朋友圈",
+            "tasks"       : [ ],
+            "type"        : "0"
+           }
+          ],
+          "url"         : "http://www.shediao.com/youle/gamelist.html"
+         }
+        }
+       ]
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 21,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "分享弹窗",
+   "url"         : "${http_download}/hall/promote/imgs/share_icon.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 21072701,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.goto.free"
+    }
+   ],
+   "redPoint"    : [
+    {
+     "typeId"      : "user.cond.HasFreeMark"
+    }
+   ],
+   "displayName" : "免费福利",
+   "url"         : "${http_download}/hall/promote/imgs/icon_free.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 21080101,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "tasks"       : [
+        {
+         "action"      : "pop_create_room_invite",
+         "params"      : { }
+        }
+       ]
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 21,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "phz免费房卡",
+   "url"         : "${http_download}/majiang/images/act/icon_tgw_mffk.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 21091901,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "todotask.showInfo",
+     "info"        : "优惠买卡:DDGFDL1（微信）\n诚招代理:MISSKISS-SIYU（微信）\n"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "跑胡子点点商城",
+   "url"         : "${http_download}/majiang/difang/act/icon_tgw_mfk.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 21091902,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "tasks"       : [
+        {
+         "action"      : "wechat_share",
+         "params"      : {
+          "content"     : "独乐乐不如众乐乐\n快快邀请好友来一起游戏吧",
+          "title"       : "点点跑胡子",
+          "desc"        : "最好玩的自建桌跑胡子，和亲朋好友一起游戏的跑胡子游戏",
+          "buttons"     : [
+           {
+            "content"     : "好友",
+            "tasks"       : [ ],
+            "type"        : "1"
+           },
+           {
+            "content"     : "朋友圈",
+            "tasks"       : [ ],
+            "type"        : "0"
+           }
+          ],
+          "url"         : "http://www.shediao.com/diandian/gamelist_dd.html"
+         }
+        }
+       ]
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 21,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "跑胡子点点分享",
+   "url"         : "${http_download}/hall/promote/imgs/share_icon.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 21091903,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "typeId"      : "todotask.showInfo",
+     "info"        : "优惠买卡:aijiaxin880（微信）\n诚招代理:sqymj001（微信）\n"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "三缺一跑胡子商城",
+   "url"         : "${http_download}/majiang/difang/act/icon_tgw_mfk.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 21091904,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "tasks"       : [
+        {
+         "action"      : "wechat_share",
+         "params"      : {
+          "content"     : "独乐乐不如众乐乐\n快快邀请好友来一起游戏吧",
+          "title"       : "三缺一跑胡子",
+          "desc"        : "熟人跑胡子必须三缺一，三缺一倾心打造熟人棋牌第一品牌",
+          "buttons"     : [
+           {
+            "content"     : "好友",
+            "tasks"       : [ ],
+            "type"        : "1"
+           },
+           {
+            "content"     : "朋友圈",
+            "tasks"       : [ ],
+            "type"        : "0"
+           }
+          ],
+          "url"         : "http://www.shediao.com/sqy/gamelist_sqy.html"
+         }
+        }
+       ]
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 21,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "三缺一跑胡子分享",
+   "url"         : "${http_download}/hall/promote/imgs/share_icon.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 21100801,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "todotask.showInfo",
+     "info"        : "优惠买卡:sqyyy100（微信）\n诚招代理（微信）:\nsqyyy100"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "三缺一跑胡子",
+   "url"         : "${http_download}/majiang/difang/act/icon_tgw_mfk.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 21112501,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "typeId"      : "todotask.showInfo",
+     "info"        : "购卡咨询:sqyyl02（微信）\n优惠活动（微信）:\nsanqueyi200"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "三缺一桂林字牌",
+   "url"         : "${http_download}/majiang/difang/act/icon_tgw_mfk.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 21113001,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "subCmd"      : {
+      "shareId"     : 7010,
+      "typeId"      : "todotask.sharegift.with.shareId"
+     },
+     "typeId"      : "todotask.showInfo",
+     "info"        : "转发微信集满五赞，即可获得最低价值3元奖品！"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "phz集赞红包功能",
+   "url"         : "${http_download}/hall/promote/imgs/icon_tgw_wxhb.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 21120601,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "todotask.showInfo",
+     "info"        : "买卡联系: youle0088（微信）\n诚招代理: youle0088（微信）\n举报:2162952363（QQ）"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "优乐广西字牌",
+   "url"         : "${http_download}/majiang/difang/act/icon_tgw_mfk.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 21120701,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "todotask.simple.invite"
+    }
+   ],
+   "redPoint"    : [
+    {
+     "typeId"      : "user.cond.HasFreeMark"
+    }
+   ],
+   "displayName" : "跑胡子邀请有礼",
+   "url"         : "${http_download}/hall/promote/imgs/icon_tgw_mffk.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 21120702,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.goto.free"
+    }
+   ],
+   "redPoint"    : [
+    {
+     "typeId"      : "user.cond.HasFreeMark"
+    }
+   ],
+   "displayName" : "跑胡子天天福利",
+   "url"         : "${http_download}/hall/promote/imgs/icon_tgw_ttfl.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 21010401,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "subTextExt"  : "好友",
+     "subText"     : "朋友圈",
+     "subCmd"      : {
+      "shareId"     : 21099,
+      "typeId"      : "todotask.sharegift.with.shareId"
+     },
+     "subCmdExt"   : {
+      "shareId"     : 21098,
+      "typeId"      : "todotask.sharegift.with.shareId"
+     },
+     "allowClose"  : true,
+     "typeId"      : "todotask.showInfo",
+     "info"        : "正宗跑胡子游戏\n喝杯白酒，邀请朋友~"
+    }
+   ],
+   "redPoint"    : [
+    {
+     "typeId"      : "user.cond.HasFreeMark"
+    }
+   ],
+   "displayName" : "优乐跑胡子分享推广位",
+   "url"         : "${http_download}/hall/promote/imgs/share_icon_df_fenxiang_wx.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 21010402,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "subTextExt"  : "好友",
+     "subText"     : "朋友圈",
+     "subCmd"      : {
+      "shareId"     : 21097,
+      "typeId"      : "todotask.sharegift.with.shareId"
+     },
+     "subCmdExt"   : {
+      "shareId"     : 21096,
+      "typeId"      : "todotask.sharegift.with.shareId"
+     },
+     "allowClose"  : true,
+     "typeId"      : "todotask.showInfo",
+     "info"        : "正宗跑胡子游戏\n喝杯白酒，邀请朋友~"
+    }
+   ],
+   "redPoint"    : [
+    {
+     "typeId"      : "user.cond.HasFreeMark"
+    }
+   ],
+   "displayName" : "三缺一跑胡子分享",
+   "url"         : "${http_download}/hall/promote/imgs/share_icon_df_fenxiang_wx.png",
+   "defaultRes"  : ""
+  }
+ ]
+}

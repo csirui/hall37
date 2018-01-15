@@ -1,0 +1,165 @@
+{
+    "rewards": [
+        {
+            "conditions": [
+                {
+                    "typeId": "user.cond.return.time",
+                    "endTime": -1,
+                    "startTime": 2592000
+                },
+                {
+                    "typeId": "user.cond.play.time",
+                    "endTime": -1,
+                    "startTime": 3600
+                },
+                {
+                    "typeId": "user.cond.isMyGameid",
+                    "myGameId": 21
+                }
+            ],
+            "rewardContent": {
+                "items": [
+                    {
+                        "count": 20,
+                        "itemId": "item:6002"
+                    }
+                ],
+                "typeId": "FixedContent"
+            },
+            "mail": "欢迎回来，我的老朋友，送你20张房卡，略表情意，祝你玩得开心！"
+        },
+        {
+            "conditions": [
+                {
+                    "typeId": "user.cond.return.time",
+                    "endTime": -1,
+                    "startTime": 2592000
+                },
+                {
+                    "typeId": "user.cond.play.time",
+                    "endTime": -1,
+                    "startTime": 3600
+                },
+                {
+                    "typeId": "user.cond.isMyGameid",
+                    "myGameId": 150
+                }
+            ],
+            "rewardContent": {
+                "items": [
+                    {
+                        "count": 20,
+                        "itemId": "item:6002"
+                    }
+                ],
+                "typeId": "FixedContent"
+            },
+            "mail": "欢迎回来，我的老朋友，送你20张房卡，略表情意，祝你玩得开心！"
+        },
+        {
+            "conditions": [
+               {
+                    "typeId": "user.cond.isMyGameid",
+                    "myGameId": 7
+               },
+               {
+                    "typeId": "user.cond.datetime",
+                    "start": "2017-01-19 00:00:00",
+                    "end": "2017-01-27 23:59:59",
+                    "format": "%Y-%m-%d %H:%M:%S"
+                },
+                {   
+                    "typeId": "user.cond.in.clientIds",
+                    "clientIds": [17491, 17492, 17528]
+                }
+            ],
+            "rewardContent": {
+                "items": [
+                    {
+                        "count": 2,
+                        "itemId": "item:6001"
+                    }
+                ],
+                "typeId": "FixedContent"
+            },
+            "mail": "今日登录2张房卡已到账，1月20日-1月27日每天首次登录新版优乐麻将即送2张江西麻将房卡正在进行中",
+            "desc": "华中区江西麻将每日登录活动，引导用户从3.776版本转到3.9版本，活动时间：1.20（小年）- 1.27（除夕）"
+        },
+        {
+            "conditions": [
+               {
+                    "typeId": "user.cond.isMyGameid",
+                    "myGameId": 153
+               }
+            ],
+            "rewardContent": {
+                "items": [
+                    {
+                        "count": 12,
+                        "itemId": "item:7012"
+                    }
+                ],
+                "typeId": "FixedContent"
+            },
+            "mail": "2.14-2.16送甜蜜情人巧克力，打开可获得最高100张房卡，已经放入您的背包快去打开吧！",
+            "desc": "干瞪眼情人节 推广活动"
+        },
+        {
+            "conditions": [
+               {
+                    "typeId": "user.cond.isMyGameid",
+                    "myGameId": 21
+               }
+            ],
+            "rewardContent": {
+                "items": [
+                    {
+                        "count": 1,
+                        "itemId": "item:7012"
+                    }
+                ],
+                "typeId": "FixedContent"
+            },
+            "mail": "2.14-2.16送甜蜜情人巧克力，打开可获得最高100张房卡，已经放入您的背包快去打开吧！",
+            "desc": "跑胡子情人节活动"
+        },
+        {
+            "conditions": [
+               {
+                    "typeId": "user.cond.isMyGameid",
+                    "myGameId": 153
+               }
+            ],
+            "rewardContent": {
+                "items": [
+                    {
+                        "count": 1,
+                        "itemId": "item:7013"
+                    }
+                ],
+                "typeId": "FixedContent"
+            },
+            "mail": "2.14-2.16送甜蜜情人巧克力，打开可获得最高100张房卡，已经放入您的背包快去打开吧！",
+            "desc": "跑胡子情人节活动"
+        },
+        {
+            "conditions": [
+               {
+                    "typeId": "user.cond.isMyGameid",
+                    "myGameId": 150
+               }
+            ],
+            "rewardContent": {
+                "items": [
+                    {
+                        "count": 1,
+                        "itemId": "item:7012"
+                    }
+                ],
+                "typeId": "FixedContent"
+            },
+            "mail": "2.14-2.16送甜蜜情人巧克力，打开可获得最高100张房卡，已经放入您的背包快去打开吧！",
+            "desc": "跑得快情人节活动"
+        }
+    ]
+}

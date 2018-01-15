@@ -1,0 +1,33 @@
+{
+ "templates"                  : {
+  "baicheng_v3.901_AI_hrbtishen": {
+   "interval"                   : 5,
+   "name"                       : "baicheng_v3.901_AI_hrbtishen",
+   "ads"                        : [
+    7071605
+   ]
+  },
+  "baicheng_v3.90_AI_baichengmj" : {
+   "interval"                   : 5,
+   "name"                       : "baicheng_v3.90_AI_baichengmj",
+   "ads"                        : [
+    718112101
+   ]
+  }
+ },
+ "ads"                        : [
+  {
+   "startTime"                  : "2016-11-21 00:00:00",
+   "id"                         : 718112101,
+   "todotasks"                  : [
+    {
+     "actId"                      : "activity_mj_df_jiankang",
+     "typeId"                     : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                  : 1,
+   "pic"                        : "${http_download}/paohuzi/ads/imgs/phzzjz_jkx.jpg",
+   "endTime"                    : "2016-11-28 00:00:00"
+  }
+ ]
+}

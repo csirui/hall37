@@ -1,0 +1,182 @@
+{
+ "games"            : [
+  {
+   "versions"         : [
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、内蒙打大A插件模板]"
+     ],
+     "md5"              : "5299e292f78545873bc8b6d3953d19a2",
+     "ver"              : "3.9001",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/biga_3.9001_1.20_1.zip",
+     "size"             : "2M"
+    }
+   ],
+   "description"      : [
+    "1、内蒙打大A"
+   ],
+   "gameId"           : 152,
+   "gameMark"         : "biga"
+  }
+ ],
+ "templates"        : [
+  {
+   "des"              : "内蒙大赢家_ios提审模板",
+   "name"             : "biga_v3.901_AI_biga",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "parentGameId"     : 9999,
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 152,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "大赢家棋牌",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9001",
+        "defaultRes"       : "MaJiangBigCreateRoom"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangBigEnterRoom"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "内蒙大赢家_测试模板",
+   "name"             : "biga_v3.901_AI_nmdyj",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "parentGameId"     : 9999,
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 152,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "大赢家棋牌",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9001",
+        "defaultRes"       : "MaJiangBigCreateRoom"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangBigEnterRoom"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "内蒙大赢家_线上包",
+   "name"             : "biga_v3.901_AI_nmdyj_biga",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "parentGameId"     : 9999,
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 152,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "大赢家棋牌",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9001",
+        "defaultRes"       : "MaJiangBigCreateRoom"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangBigEnterRoom"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

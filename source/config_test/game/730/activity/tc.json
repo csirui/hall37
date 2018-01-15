@@ -1,0 +1,44 @@
+{
+ "templates"            : {
+  "pingdu_v3.902_AI_pdmj": {
+   "desc"                 : "平度麻将提审活动",
+   "activities"           : [
+    "activity_mj_df_jiankang"
+   ]
+  }
+ },
+ "activities"           : {
+  "pdzdl"                : {
+   "id"                   : "pdzdl",
+   "des"                  : "平度麻将招代理",
+   "moduleId"             : "notice_img",
+   "typeid"               : 1,
+   "name"                 : "招募代理",
+   "server_config"        : {
+    "start"                : "2017-02-20 00:00:00",
+    "end"                  : "2018-02-28 00:00:00"
+   },
+   "config"               : {
+    "firstButton"          : {
+     "visible"              : 0,
+     "action"               : "",
+     "params"               : {
+      "duration"             : 2,
+      "text"                 : "确定"
+     }
+    },
+    "secondButton"         : {
+     "visible"              : 0,
+     "action"               : "",
+     "params"               : {
+      "duration"             : 2,
+      "text"                 : "确定"
+     }
+    },
+    "bgURL"                : "${http_download}/majiang/difang/act/pingduzdl.jpg"
+   },
+   "url"                  : ""
+  }
+ },
+ "modules"              : { }
+}

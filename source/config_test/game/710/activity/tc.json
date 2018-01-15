@@ -1,0 +1,50 @@
+{
+ "templates"                  : {
+  "haerbin_v3.901_AI_hrbtishen": {
+   "desc"                       : "哈尔滨麻将提审模板",
+   "activities"                 : [
+    "activity_mj_df_jiankang"
+   ]
+  },
+  "haerbin_v3.90_AI_haerbinmj" : {
+   "desc"                       : "哈尔滨麻将活动模板",
+   "activities"                 : [
+    "zhaojidaili_1220"
+   ]
+  }
+ },
+ "activities"                 : {
+  "zhaojidaili_1220"           : {
+   "id"                         : "zhaojidaili_1220",
+   "des"                        : "代理招募活动",
+   "moduleId"                   : "notice_img",
+   "typeid"                     : 1,
+   "name"                       : "招募代理",
+   "server_config"              : {
+    "start"                      : "2016-12-20 00:00:00",
+    "end"                        : "2017-12-31 00:00:00"
+   },
+   "config"                     : {
+    "firstButton"                : {
+     "visible"                    : 0,
+     "action"                     : "",
+     "params"                     : {
+      "duration"                   : 2,
+      "text"                       : "确定"
+     }
+    },
+    "secondButton"               : {
+     "visible"                    : 0,
+     "action"                     : "",
+     "params"                     : {
+      "duration"                   : 2,
+      "text"                       : "确定"
+     }
+    },
+    "bgURL"                      : "${http_download}/majiang/difang/act/dailizhaojiling.jpg"
+   },
+   "url"                        : ""
+  }
+ },
+ "modules"                    : { }
+}

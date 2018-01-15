@@ -1,0 +1,699 @@
+{
+	"configDesc":"麻将房间其他相关配置,例如:比赛的标签配置,自建桌。房卡免费单独玩法配置，请参考南昌玩法",
+	"room_tabs": ["all","hot","free"],
+	"table_start_led_match_ids": [7355, 7356, 7363, 7364, 7365, 7367],
+	"bigmatch_champion_led_match_ids":[7350, 7351, 7354, 7355, 7356, 7361, 7362, 7363, 7364, 7365, 7366, 7367],
+	"create_table_config": {
+			"guobiao": {
+					"playModeDesc": "国标麻将",
+					"cardCount":[
+						{"id": 0, "value":5, "desc":"5局(限时免费)", "default": 0, "fangka_count": 0},
+						{"id": 1, "value":8, "desc":"8局(限时免费)", "default": 1, "fangka_count": 0},
+						{"id": 2, "value":12, "desc":"12局(限时免费)", "default": 0, "fangka_count": 0},
+						{"id": 3, "value":18, "desc":"18局(限时免费)", "default": 0, "fangka_count": 0}
+						]
+			},
+			"guobiao2ren": {
+					"playModeDesc": "国标麻将",
+					"cardCount":[
+						{"id": 0, "value":5, "desc":"5局(限时免费)", "default": 0, "fangka_count": 0},
+						{"id": 1, "value":8, "desc":"8局(限时免费)", "default": 1, "fangka_count": 0},
+						{"id": 2, "value":12, "desc":"12局(限时免费)", "default": 0, "fangka_count": 0},
+						{"id": 3, "value":18, "desc":"18局(限时免费)", "default": 0, "fangka_count": 0}
+						]
+			},
+			"sichuan_conf": {
+					"playModeDesc": "四川麻将",
+					"paramType":{"cardCount": "游戏局数", "maxDegreee":"封顶番数", "playType": "玩法选择", "playerType": "人数", "decideAbsence": "定缺", "change3Tiles": "换三张", "menQing":"门清中张", "ziMoType":"自摸"},
+					"cardCount":[
+						{"id": 0, "value":5, "desc":"5局(限时免费)", "default": 0, "fangka_count": 0},
+						{"id": 1, "value":8, "desc":"8局(限时免费)", "default": 1, "fangka_count": 0},
+						{"id": 2, "value":12, "desc":"12局(限时免费)", "default": 0, "fangka_count": 0},
+						{"id": 3, "value":18, "desc":"18局(限时免费)", "default": 0, "fangka_count": 0}
+						],
+					"maxDegreee":[
+						{"id":1, "desc":"3番封顶", "default": 1, "value": 3},
+						{"id":2, "desc":"4番封顶", "default": 0, "value": 4},
+						{"id":3, "desc":"5番封顶", "default": 0, "value": 5},
+						{"id":4, "desc":"不封顶", "default": 0, "value": 100}
+						],
+					"playType":[
+						{"id":1, "desc":"血战到底", "default": 1},
+						{"id":2, "desc":"血流成河", "default": 0}
+						],
+					"playerType":[
+						{"id":1, "desc":"4人", "default": 1},
+						{"id":2, "desc":"3人2门", "default": 0, "reset":{"decideAbsence":2}}
+						],
+					"decideAbsence":[
+						{"id":1, "desc":"定缺", "default": 1},
+						{"id":2, "desc":"不定缺", "default": 0}
+						],
+					"change3Tiles":[
+						{"id":1, "desc":"不同花色换三张", "default": 0},
+						{"id":2, "desc":"不换三张", "default": 1},
+						{"id":3, "desc":"同花色换三张", "default": 0}
+						],
+					"menQing":[
+						{"id":1, "desc":"包含", "default": 1},
+						{"id":2, "desc":"不包含", "default": 0}
+						],
+					"ziMoType":[
+						{"id": 1, "desc": "自摸加底", "default": 0},
+						{"id": 2, "desc": "自摸加番", "default": 1}
+						]
+			},
+			"zhuanzhuan":{
+				"playModeDesc": "转转麻将",
+				"paramType":{"cardCount": "游戏局数", "huWay": "玩法选择", "zhaNiao":"扎鸟"},
+				"cardCount":[
+					{"id": 1, "value":8, "desc":"8局(2张房卡)", "default": 1, "fangka_count": 2},
+					{"id": 2, "value":12, "desc":"12局(3张房卡)", "default": 0, "fangka_count": 3},
+					{"id": 3, "value":18, "desc":"16局(4张房卡)", "default": 0, "fangka_count": 4}
+					],
+				"huWay":[
+						{"id":1, "desc":"可点炮", "default": 1},
+						{"id":2, "desc":"自摸胡", "default": 0}
+					],
+				"zhaNiao":[
+					{"id": 0, "value":0, "desc":"扎0鸟", "default": 0},
+					{"id": 1, "value":2, "desc":"扎2鸟", "default": 1},
+					{"id": 2, "value":4, "desc":"扎4鸟", "default": 0},
+					{"id": 3, "value":6, "desc":"扎6鸟", "default": 0}
+				]
+			},
+			"hongzhong":{
+				"playModeDesc": "红中麻将",
+				"paramType":{"cardCount": "游戏局数","huWay": "玩法选择","zhaNiao":"扎鸟"},
+				"cardCount":[
+					{"id": 1, "value":8, "desc":"8局(2张房卡)", "default": 1, "fangka_count": 2},
+					{"id": 2, "value":12, "desc":"12局(3张房卡)", "default": 0, "fangka_count": 3},
+					{"id": 3, "value":18, "desc":"16局(4张房卡)", "default": 0, "fangka_count": 4}
+					],
+				"huWay":[
+						{"id":1, "desc":"可点炮", "default": 1},
+						{"id":2, "desc":"自摸胡", "default": 0}
+					],
+				"zhaNiao":[
+					{"id": 0, "value":0, "desc":"扎0鸟", "default": 0},
+					{"id": 1, "value":2, "desc":"扎2鸟", "default": 1},
+					{"id": 2, "value":4, "desc":"扎4鸟", "default": 0},
+					{"id": 3, "value":6, "desc":"扎6鸟", "default": 0}
+				]
+			},
+			"guiyang_zhuoji":{
+				"playModeDesc": "贵阳捉鸡",
+				"paramType":{"cardCount": "游戏局数"},
+				"cardCount":[
+					{"id": 0, "value":5, "desc":"5局(2张房卡)", "default": 0, "fangka_count": 2},
+					{"id": 1, "value":8, "desc":"8局(3张房卡)", "default": 1, "fangka_count": 3},
+					{"id": 2, "value":12, "desc":"12局(4张房卡)", "default": 0, "fangka_count": 4},
+					{"id": 3, "value":18, "desc":"18局(6张房卡)", "default": 0, "fangka_count": 6}
+					]
+			},
+			"nanchang":{
+				"playModeDesc": "南昌麻将",
+				"paramType":{"cardCount": "游戏局数", "playerType": "人数", "paLou": "爬楼", "huiTouYiXiao": "回头一笑", "xiaJingWanFa": "下精玩法", "huWay": "平胡", "gangJing": "杠精玩法", "chaoZhuang": "抄庄"},
+				"freeConf":{
+				    "open": 0,
+				    "free_desc": "限时免费",
+				    "free_time":{
+						"date": ["2017-02-04", "2017-02-04"],
+						"time": ["00:00:00", "23:59:59"]
+					}
+				},
+				"cardCount":[
+						{"id": 0, "value":8, "desc":"8局(3张房卡)", "default": 0, "fangka_count": 3},
+						{"id": 1, "value":16, "desc":"16局(6张房卡)", "default": 1, "fangka_count": 6},
+						{"id": 2, "value":24, "desc":"24局(9张房卡)", "default": 0, "fangka_count": 9},
+						{"id": 3, "value":32, "desc":"32局(12张房卡)", "default": 0, "fangka_count": 12}
+						],
+				"playerType":[
+						{"id":1, "desc":"4人", "default": 1},
+						{"id":2, "desc":"3人", "default": 0}
+						],
+				"paLou":[
+						{"id":2, "desc":"牌爬精不爬(逐层下)", "default": 0},
+						{"id":3, "desc":"牌爬精不爬(快速下)", "default": 0},
+						{"id":1, "desc":"不爬楼", "default": 1, "share_visible": 0}
+					],
+				"huiTouYiXiao":[
+						{"id":3, "desc":"上下回头", "default": 1},
+						{"id":1, "desc":"上回头", "default": 0},
+						{"id":2, "desc":"不回头", "default": 0, "share_visible": 0}
+					],
+				"xiaJingWanFa":[
+						{"id":6, "desc":"同一首歌(弃牌也算)", "default": 1},
+						{"id":5, "desc":"同一首歌(弃牌不算)", "default": 0},
+						{"id":4, "desc":"埋地雷(弃牌也算)", "default": 0},
+						{"id":2, "desc":"埋地雷(弃牌不算)", "default": 0},
+						{"id":1, "desc":"翻下精", "default": 0},
+						{"id":3, "desc":"无下精", "default": 0}
+					],
+				"huWay":[
+						{"id":1, "desc":"有精点炮可平胡", "default": 1},
+						{"id":2, "desc":"有精点炮不能平胡", "default": 0}
+					],
+				"gangJing":[
+						{"id":1, "desc":"有杠精", "default": 1},
+						{"id":2, "desc":"无杠精", "default": 0}
+					],
+				"chaoZhuang":[
+						{"id":1, "desc":"抄庄", "default": 1},
+						{"id":2, "desc":"不抄庄", "default": 0, "share_visible": 0}
+					]
+			},
+			"changsha":{
+				"playModeDesc": "长沙麻将",
+				"paramType":{"cardCount": "游戏局数", "zhaNiao":"扎鸟", "quanQiuRen": "全求人"},
+				"cardCount":[
+					{"id": 0, "value":5, "desc":"5局(2张房卡)", "default": 0, "fangka_count": 2},
+					{"id": 1, "value":8, "desc":"8局(3张房卡)", "default": 1, "fangka_count": 3},
+					{"id": 2, "value":12, "desc":"12局(4张房卡)", "default": 0, "fangka_count": 4},
+					{"id": 3, "value":18, "desc":"18局(6张房卡)", "default": 0, "fangka_count": 6}
+					],
+				"zhaNiao":[
+					{"id": 0, "value":0, "desc":"扎0鸟", "default": 0},
+					{"id": 1, "value":2, "desc":"扎2鸟", "default": 1},
+					{"id": 2, "value":4, "desc":"扎4鸟", "default": 0},
+					{"id": 3, "value":6, "desc":"扎6鸟", "default": 0}
+				],
+				"quanQiuRen": [
+					{"id": 0, "desc":"全求人可自摸", "default": 1},
+					{"id": 1, "desc":"全求人不可自摸", "default": 0}
+				]
+			},
+			"deguo": {
+					"playModeDesc": "德国麻将",
+					"paramType":{"cardCount": "游戏局数", "huWay":"玩法选择", "jiangMa":"奖马", "blind":"底数"},
+					"cardCount":[
+						{"id": 0, "value":5, "desc":"5局(2张房卡)", "default": 0, "fangka_count": 2},
+						{"id": 1, "value":8, "desc":"8局(3张房卡)", "default": 1, "fangka_count": 3},
+						{"id": 2, "value":16, "desc":"16局(6张房卡)", "default": 0, "fangka_count": 6},
+						{"id": 3, "value":24, "desc":"24局(9张房卡)", "default": 0, "fangka_count": 9}
+						],
+					"huWay":[
+						{"id":1, "desc":"可点炮", "default": 0},
+						{"id":2, "desc":"自摸胡", "default": 1}
+					],
+					"jiangMa":[
+						{"id": 0, "value":0, "desc":"奖0马", "default": 0},
+						{"id": 1, "value":2, "desc":"奖2马", "default": 1},
+						{"id": 2, "value":4, "desc":"奖4马", "default": 0},
+						{"id": 3, "value":6, "desc":"奖6马", "default": 0}
+					],
+					"blind": [
+						{"id": 2, "value": 2, "desc":"一番2底","default":0},
+						{"id": 3, "value": 3, "desc":"一番3底","default":1}
+					]
+			},
+			"fuzhou": {
+					"playModeDesc": "抚州麻将",
+					"paramType":{"cardCount": "游戏局数", "shaoZhuang":"烧庄", "maxDegreee":"封顶番数", "tianDiHu":"天地胡","jiangMa":"奖马"},
+					"cardCount":[
+						{"id": 0, "value":5, "desc":"5局(2张房卡)", "default": 0, "fangka_count": 2},
+						{"id": 1, "value":8, "desc":"8局(3张房卡)", "default": 1, "fangka_count": 3},
+						{"id": 2, "value":16, "desc":"16局(6张房卡)", "default": 0, "fangka_count": 6},
+						{"id": 3, "value":24, "desc":"24局(9张房卡)", "default": 0, "fangka_count": 9}
+						],
+					"shaoZhuang": [
+						{"id":1, "desc":"不烧庄", "default": 0, "share_visible": 0},
+						{"id":2, "desc":"烧庄", "default": 1}
+					],
+					"tianDiHu": [
+						{"id":1, "desc":"天地胡玩法", "default": 0},
+						{"id":2, "desc":"没有天地胡", "default": 1}
+					],
+					"maxDegreee": [
+						{"id":1, "desc":"封顶21炮", "default": 1, "value": 21},
+						{"id":2, "desc":"封顶11炮", "default": 0, "value": 11},
+						{"id":5, "desc":"不封顶", "default": 0, "value": -1}
+					],
+					"jiangMa":[
+						{"id": 0, "value":0, "desc":"不奖马", "default": 0, "share_visible": 0},
+						{"id": 1, "value":1, "desc":"奖1马", "default": 1},
+						{"id": 2, "value":2, "desc":"奖2马", "default": 0},
+						{"id": 3, "value":3, "desc":"奖3马", "default": 0}
+					]
+			},
+			"le_an": {
+					"playModeDesc": "乐安麻将",
+					"paramType":{"cardCount": "游戏局数", "shaoZhuang":"烧庄","biZiMo":"自摸配置","maxDegreee":"封顶番数", "jiangMa":"奖马"},
+					"cardCount":[
+						{"id": 0, "value":5, "desc":"5局(2张房卡)", "default": 0, "fangka_count": 2},
+						{"id": 1, "value":8, "desc":"8局(3张房卡)", "default": 1, "fangka_count": 3},
+						{"id": 2, "value":16, "desc":"16局(6张房卡)", "default": 0, "fangka_count": 6},
+						{"id": 3, "value":24, "desc":"24局(9张房卡)", "default": 0, "fangka_count": 9}
+						],
+					"shaoZhuang": [
+						{"id":1, "desc":"不烧庄", "default": 0, "share_visible": 0},
+						{"id":2, "desc":"烧庄", "default": 1}
+					],
+					"biZiMo":[
+						{"id":1, "desc":"可点炮,可自摸", "default": 1},
+						{"id":2, "desc":"必须自摸", "default": 0}
+					],
+					"maxDegreee": [
+						{"id":1, "desc":"封顶20炮", "default": 0, "value": 20},
+						{"id":2, "desc":"封顶10炮", "default": 0, "value": 10},
+						{"id":3, "desc":"不封顶", "default": 0, "value": -1}
+					],
+					"jiangMa":[
+						{"id": 0, "value":0, "desc":"不奖马", "default": 0, "share_visible": 0},
+						{"id": 1, "value":1, "desc":"奖1马", "default": 1},
+						{"id": 2, "value":2, "desc":"奖2马", "default": 0},
+						{"id": 3, "value":3, "desc":"奖3马", "default": 0}
+					]
+			},
+			"yihuang": {
+					"playModeDesc": "宜黄麻将",
+					"paramType":{"cardCount": "游戏局数", "shaoZhuang":"烧庄", "maxDegreee":"封顶番数", "jiangMa":"奖马","diHu":"地胡","youGangYouHu":"又杠又胡","bangYiPao":"绑一炮"},
+					"cardCount":[
+						{"id": 0, "value":5, "desc":"5局(2张房卡)", "default": 0, "fangka_count": 2},
+						{"id": 1, "value":8, "desc":"8局(3张房卡)", "default": 1, "fangka_count": 3},
+						{"id": 2, "value":16, "desc":"16局(6张房卡)", "default": 0, "fangka_count": 6},
+						{"id": 3, "value":24, "desc":"24局(9张房卡)", "default": 0, "fangka_count": 9}
+						],
+					"shaoZhuang": [
+						{"id":1, "desc":"不烧庄", "default": 0, "share_visible": 0},
+						{"id":2, "desc":"烧庄", "default": 1}
+					],
+					"maxDegreee": [
+						{"id":1, "desc":"封顶20炮", "default": 1, "value": 20},
+						{"id":2, "desc":"封顶10炮", "default": 0, "value": 10},
+						{"id":3, "desc":"不封顶", "default": 0, "value": -1}
+					],
+					"diHu":[
+						{"id":1, "desc":"庄10闲5", "default": 0},
+						{"id":2, "desc":"庄闲都是5", "default": 1}
+					],
+					"youGangYouHu":[
+						{"id":1, "desc":"算杠分", "default": 0},
+						{"id":2, "desc":"不算杠分", "default": 1}
+					],
+					"bangYiPao":[
+						{"id":1, "desc":"买马不绑一炮", "default": 1},
+						{"id":2, "desc":"绑一炮", "default": 0},
+						{"id":3, "desc":"不绑炮", "default": 0}
+					],
+					"jiangMa":[
+						{"id": 0, "value":0, "desc":"不奖马", "default": 0, "share_visible": 0},
+						{"id": 1, "value":2, "desc":"奖2马", "default": 1},
+						{"id": 2, "value":4, "desc":"奖4马", "default": 0},
+						{"id": 3, "value":6, "desc":"奖6马", "default": 0}
+					]
+			},
+			"jinxi": {
+					"playModeDesc": "金溪麻将",
+					"paramType":{"cardCount": "游戏局数", "maxDegreee":"封顶番数", "jiangMa":"奖马"},
+					"cardCount":[
+						{"id": 0, "value":5, "desc":"5局(2张房卡)", "default": 0, "fangka_count": 2},
+						{"id": 1, "value":8, "desc":"8局(3张房卡)", "default": 1, "fangka_count": 3},
+						{"id": 2, "value":16, "desc":"16局(6张房卡)", "default": 0, "fangka_count": 6},
+						{"id": 3, "value":24, "desc":"24局(9张房卡)", "default": 0, "fangka_count": 9}
+						],
+					"maxDegreee": [
+						{"id":1, "desc":"封顶20炮", "default": 1, "value": 20},
+						{"id":2, "desc":"封顶10炮", "default": 0, "value": 10},
+						{"id":3, "desc":"不封顶", "default": 0, "value": -1}
+					],
+					"jiangMa":[
+						{"id": 0, "value":0, "desc":"不奖马", "default": 0, "share_visible": 0},
+						{"id": 1, "value":2, "desc":"奖2马", "default": 1},
+						{"id": 2, "value":4, "desc":"奖4马", "default": 0},
+						{"id": 3, "value":6, "desc":"奖6马", "default": 0}
+					]
+					
+			},
+			"lichuan": {
+					"playModeDesc": "黎川麻将",
+					"paramType":{"cardCount": "游戏局数"},
+					"cardCount":[
+						{"id": 0, "value":5, "desc":"5局(2张房卡)", "default": 0, "fangka_count": 2},
+						{"id": 1, "value":8, "desc":"8局(3张房卡)", "default": 1, "fangka_count": 3},
+						{"id": 2, "value":16, "desc":"16局(6张房卡)", "default": 0, "fangka_count": 6},
+						{"id": 3, "value":24, "desc":"24局(9张房卡)", "default": 0, "fangka_count": 9}
+					]
+			},
+			"chongren": {
+					"playModeDesc": "崇仁麻将",
+					"paramType":{"cardCount": "游戏局数", "shaoZhuang":"烧庄", "maxDegreee":"封顶番数","diHu":"地胡","zuoMa":"坐马"},
+					"cardCount":[
+						{"id": 0, "value":5, "desc":"5局(2张房卡)", "default": 0, "fangka_count": 2},
+						{"id": 1, "value":8, "desc":"8局(3张房卡)", "default": 1, "fangka_count": 3},
+						{"id": 2, "value":16, "desc":"16局(6张房卡)", "default": 0, "fangka_count": 6},
+						{"id": 3, "value":24, "desc":"24局(9张房卡)", "default": 0, "fangka_count": 9}
+						],
+					"shaoZhuang": [
+						{"id":1, "desc":"不烧庄", "default": 0, "share_visible": 0},
+						{"id":2, "desc":"烧庄", "default": 1}
+					],
+					"diHu":[
+						{"id":1, "desc":"地胡庄赔10", "default": 0},
+						{"id":2, "desc":"地胡庄闲都赔10", "default": 1}
+					],
+					"zuoMa":[
+						{"id":1, "desc":"庄家坐马", "default": 1},
+						{"id":2, "desc":"庄家不坐马", "default": 0}
+					],
+					"maxDegreee": [
+						{"id":2, "desc":"封顶10炮", "default": 0, "value": 10},
+						{"id":3, "desc":"不封顶", "default": 0, "value": -1}
+					]
+			},
+			"nancity": {
+					"playModeDesc": "南城麻将",
+					"paramType":{"cardCount": "游戏局数", "shaoZhuang":"烧庄", "maxDegreee":"封顶番数","jiaHu":"假胡","jiangMa":"奖马",
+								 "zhuanwan":"转弯","zuoMa":"坐马"
+					},
+					"cardCount":[
+						{"id": 0, "value":5, "desc":"5局(2张房卡)", "default": 0, "fangka_count": 2},
+						{"id": 1, "value":8, "desc":"8局(3张房卡)", "default": 1, "fangka_count": 3},
+						{"id": 2, "value":16, "desc":"16局(6张房卡)", "default": 0, "fangka_count": 6},
+						{"id": 3, "value":24, "desc":"24局(9张房卡)", "default": 0, "fangka_count": 9}
+						],
+					"shaoZhuang": [
+						{"id":1, "desc":"不烧庄", "default": 0, "share_visible": 0},
+						{"id":2, "desc":"烧庄", "default": 1}
+					],
+					"zuoMa":[
+						{"id":1, "desc":"庄家坐马", "default": 1},
+						{"id":2, "desc":"庄家不坐马", "default": 0}
+					],
+					"zhuanwan":[
+						{"id":1, "desc":"大转弯", "default": 0},
+						{"id":2, "desc":"小转弯", "default": 1}
+					],
+					"jiaHu":[
+						{"id":1, "desc":"算假胡", "default": 1},
+						{"id":2, "desc":"不算假胡", "default": 0}
+					],
+					"maxDegreee": [
+						{"id":2, "desc":"封顶20炮", "default": 0, "value": 20},
+						{"id":3, "desc":"不封顶", "default": 0, "value": -1}
+					],
+					"jiangMa":[
+						{"id": 0, "value":0, "desc":"不奖马", "default": 0, "share_visible": 0},
+						{"id": 1, "value":2, "desc":"奖2马", "default": 1},
+						{"id": 2, "value":4, "desc":"奖4马", "default": 0},
+						{"id": 3, "value":6, "desc":"奖6马", "default": 0}
+					]
+			},
+			"nanfeng": {
+                    "playModeDesc": "南丰麻将",
+                    "paramType":{"cardCount": "游戏局数", "maxDegreee":"封顶番数", "diHu":"地胡番数"},
+                    "cardCount":[
+                            {"id": 0, "value":5, "desc":"5局(免费试玩)", "default": 0, "fangka_count": 0},
+                            {"id": 1, "value":8, "desc":"8局(免费试玩)", "default": 1, "fangka_count": 0},
+                            {"id": 2, "value":12, "desc":"12局(免费试玩)", "default": 0, "fangka_count": 0},
+                            {"id": 3, "value":18, "desc":"18局(免费试玩)", "default": 0, "fangka_count": 0}
+                    ],
+                    "maxDegreee":[
+                            {"id":1, "desc":"8子封顶", "default": 1, "value": 8}
+                    ],
+                    "diHu":[
+                            {"id":1, "desc":"地胡8子", "default": 1, "value": 8},
+                            {"id":2, "desc":"地胡4子", "default": 0, "value": 4}
+                    ]
+            },
+			"jingdezhen":{
+					"playModeDesc": "景德镇麻将",
+					"paramType":{"cardCount": "游戏局数","lianHu":"连胡", "anGang":"暗杠", "daBaoXiaoBao":"大包小包","quanQiuRen":"不求人"},
+					"cardCount":[
+						{"id": 0, "value":5, "desc":"5局(免费试玩)", "default": 0, "fangka_count": 0},
+						{"id": 1, "value":8, "desc":"8局(免费试玩)", "default": 1, "fangka_count": 0},
+						{"id": 2, "value":16, "desc":"16局(免费试玩)", "default": 0, "fangka_count": 0},
+						{"id": 3, "value":24, "desc":"24局(免费试玩)", "default": 0, "fangka_count": 0}
+						],
+					"anGang":[
+						{"id":1, "desc":"暗杠2分", "default": 1},
+						{"id":2, "desc":"暗杠3分", "default": 0},
+						{"id":3, "desc":"暗杠4分", "default": 0}
+					],
+					"daBaoXiaoBao":[
+						{"id":1, "desc":"大包", "default": 1},
+						{"id":2, "desc":"小包", "default": 0}
+					],
+					"lianHu":[
+						{"id":1, "desc":"连胡5局10分", "default": 1},
+						{"id":2, "desc":"连胡6局10分", "default": 0}
+					],
+					"quanQiuRen":[
+						{"id":1, "desc":"不求人加1分", "default": 1},
+						{"id":2, "desc":"不求人不加分", "default": 0}
+					]
+			},
+			"ji_an":{
+				"playModeDesc": "吉安麻将",
+				"paramType":{"cardCount": "游戏局数", "jingLocateWay": "定精方式", "piaoJingCount": "飘精个数", "jingPlay": "精牌玩法", "deguoLimit": "德国玩法", 
+							 "sevenPairScore": "七对分数", "maxDegreee": "封顶", "gangJing": "杠精玩法", "chaoZhuang": "抄庄"
+				   },
+				"cardCount":[
+						{"id": 0, "value":8, "desc":"8局(3张房卡)", "default": 1, "fangka_count": 3},
+						{"id": 1, "value":16, "desc":"16局(6张房卡)", "default": 0, "fangka_count": 6},
+						{"id": 2, "value":24, "desc":"24局(9张房卡)", "default": 0, "fangka_count": 9},
+						{"id": 3, "value":32, "desc":"32局(12张房卡)", "default": 0, "fangka_count": 12}
+					],
+				"jingLocateWay":[
+						{"id":1, "desc":"推精", "default": 1},
+						{"id":2, "desc":"博精", "default": 0}
+					],
+				"piaoJingCount":[
+						{"id":0, "desc":"不飘精", "default": 0},
+						{"id":1, "desc":"必飘一个精", "default": 0},
+						{"id":2, "desc":"必飘一正精或两副精", "default": 1}
+					],
+				"jingPlay":[
+						{"id":1, "desc":"飘精可吃碰杠", "default": 1},
+						{"id":2, "desc":"飘精不可吃碰杠", "default": 0}
+					],
+				"deguoLimit":[
+						{"id":1, "desc":"飘不够德国可点炮", "default": 1},
+						{"id":2, "desc":"飘不够德国必自摸", "default": 0}
+					],
+				"maxDegreee":[
+						{"id":1, "desc":"不封顶", "default": 0, "value": -1},
+						{"id":2, "desc":"133封顶", "default": 1, "value": 133},
+						{"id":3, "desc":"256封顶", "default": 0, "value": 256},
+						{"id":4, "desc":"500封顶", "default": 0, "value": 500}
+					],
+				"sevenPairScore":[
+						{"id":1, "desc":"大七比小七多一倍", "default": 1},
+						{"id":2, "desc":"大七和小七分一样", "default": 0}
+					],
+				"gangJing":[
+						{"id":1, "desc":"有杠精", "default": 1},
+						{"id":2, "desc":"无杠精", "default": 0, "share_visible": 0}
+					],
+				"chaoZhuang":[
+						{"id":1, "desc":"抄庄", "default": 1},
+						{"id":2, "desc":"不抄庄", "default": 0, "share_visible": 0}
+					]
+			},
+			"taihe":{
+				"playModeDesc": "泰和麻将",
+				"paramType":{"cardCount": "游戏局数", "maxDegreee": "封顶", "piaoJingCount": "飘精个数", "sevenPairScore": "七对分数", "gangJing": "杠精玩法", "chaoZhuang": "抄庄"},
+				"cardCount":[
+						{"id": 0, "value":8, "desc":"8局(3张房卡)", "default": 1, "fangka_count": 3},
+						{"id": 1, "value":16, "desc":"16局(6张房卡)", "default": 0, "fangka_count": 6},
+						{"id": 2, "value":24, "desc":"24局(9张房卡)", "default": 0, "fangka_count": 9},
+						{"id": 3, "value":32, "desc":"32局(12张房卡)", "default": 0, "fangka_count": 12}
+					],
+				"maxDegreee":[
+						{"id":1, "desc":"不封顶", "default": 0, "value": -1},
+						{"id":2, "desc":"200封顶", "default": 1, "value": 200}
+					],
+				"piaoJingCount":[
+						{"id":1, "desc":"打出一个精", "default": 0},
+						{"id":2, "desc":"打出一正精或两副精", "default": 1}
+					],
+				"sevenPairScore":[
+						{"id":1, "desc":"大七比小七多一倍", "default": 1},
+						{"id":2, "desc":"大七和小七分一样", "default": 0}
+					],
+				"gangJing":[
+						{"id":1, "desc":"有杠精", "default": 1},
+						{"id":2, "desc":"无杠精", "default": 0, "share_visible": 0}
+					],
+				"chaoZhuang":[
+						{"id":1, "desc":"抄庄", "default": 1},
+						{"id":2, "desc":"不抄庄", "default": 0, "share_visible": 0}
+					]
+			},
+			"xingan_chongguan":{
+				"playModeDesc": "新干冲关",
+				"paramType":{"cardCount": "游戏局数", "huWay": "平胡", "gangJing": "杠精玩法", "chaoZhuang": "抄庄"},
+				"cardCount":[
+						{"id": 0, "value":8, "desc":"8局(免费试玩)", "default": 1, "fangka_count": 0},
+						{"id": 1, "value":16, "desc":"16局(免费试玩)", "default": 0, "fangka_count": 0},
+						{"id": 2, "value":24, "desc":"24局(免费试玩)", "default": 0, "fangka_count": 0},
+						{"id": 3, "value":32, "desc":"32局(免费试玩)", "default": 0, "fangka_count": 0}
+					],
+				"huWay":[
+						{"id":1, "desc":"有精点炮可平胡", "default": 1},
+						{"id":2, "desc":"有精点炮不能平胡", "default": 0}
+					],
+				"gangJing":[
+						{"id":1, "desc":"有杠精", "default": 1},
+						{"id":2, "desc":"无杠精", "default": 0, "share_visible": 0}
+					],
+				"chaoZhuang":[
+						{"id":1, "desc":"抄庄", "default": 1},
+						{"id":2, "desc":"不抄庄", "default": 0, "share_visible": 0}
+					]
+			},
+			"xingan_bojing":{
+				"playModeDesc": "新干博精",
+				"paramType":{"cardCount": "游戏局数", "maxDegreee": "封顶", "piaoJingCount": "飘精个数","gangJing": "杠精玩法", "chaoZhuang": "抄庄"},
+				"cardCount":[
+						{"id": 0, "value":8, "desc":"8局(免费试玩)", "default": 1, "fangka_count": 0},
+						{"id": 1, "value":16, "desc":"16局(免费试玩)", "default": 0, "fangka_count": 0},
+						{"id": 2, "value":24, "desc":"24局(免费试玩)", "default": 0, "fangka_count": 0},
+						{"id": 3, "value":32, "desc":"32局(免费试玩)", "default": 0, "fangka_count": 0}
+					],
+				"maxDegreee":[
+						{"id":1, "desc":"不封顶", "default": 0, "value": -1},
+						{"id":2, "desc":"200封顶", "default": 1, "value": 200},
+						{"id":3, "desc":"133封顶", "default": 0, "value": 133}
+					],
+				"piaoJingCount":[
+						{"id":0, "desc":"不飘精", "default": 0, "share_visible": 0},
+						{"id":1, "desc":"必飘一精", "default": 0},
+						{"id":2, "desc":"必飘一正精或两副精", "default": 1}
+					],
+				"gangJing":[
+						{"id":1, "desc":"有杠精", "default": 1},
+						{"id":2, "desc":"无杠精", "default": 0, "share_visible": 0}
+					],
+				"chaoZhuang":[
+						{"id":1, "desc":"抄庄", "default": 1},
+						{"id":2, "desc":"不抄庄", "default": 0, "share_visible": 0}
+					]
+			},
+			"ganzhou":{
+				"playModeDesc": "赣州麻将",
+				"paramType":{"cardCount": "游戏局数", "baseScore": "底分", "xiaJingWanFa": "玩法", "sevenPairScore": "七对分数", "huWay": "平胡",
+							 "zhuangJia":"庄家", "dingZhuang": "定庄", "chaoZhuang": "抄庄"},
+				"cardCount":[
+						{"id": 0, "value":8, "desc":"8局(免费试玩)", "default": 0, "fangka_count": 0},
+						{"id": 1, "value":16, "desc":"16局(免费试玩)", "default": 1, "fangka_count": 0},
+						{"id": 2, "value":24, "desc":"24局(免费试玩)", "default": 0, "fangka_count": 0},
+						{"id": 3, "value":32, "desc":"32局(免费试玩)", "default": 0, "fangka_count": 0}
+					],
+				"baseScore":[
+						{"id":1, "desc":"底分1分", "default": 1},
+						{"id":2, "desc":"底分2分", "default": 0},
+						{"id":5, "desc":"底分5分", "default": 0}
+					],
+				"xiaJingWanFa":[
+						{"id":4, "desc":"上下翻埋地雷", "default": 1},
+						{"id":7, "desc":"上下左右翻精", "default": 0},
+						{"id":8, "desc":"上下左右前后翻精", "default": 0}
+					],
+				"sevenPairScore":[
+						{"id":1, "desc":"大七比小七多一倍", "default": 1},
+						{"id":2, "desc":"大七和小七分一样", "default": 0}
+					],
+				"huWay":[
+						{"id":1, "desc":"有精平胡可点炮", "default": 1},
+						{"id":2, "desc":"有精点平胡必自摸", "default": 0},
+						{"id":3, "desc":"有精平胡必精吊", "default": 0}
+					],
+				"zhuangJia":[
+						{"id":1, "desc":"通庄", "default": 1},
+						{"id":2, "desc":"分庄闲(庄家翻倍)", "default": 0}
+					],
+				"dingZhuang":[
+						{"id":1, "desc":"有霸王庄", "default": 0},
+						{"id":2, "desc":"无霸王庄", "default": 1}
+					],
+				"chaoZhuang":[
+						{"id":1, "desc":"抄庄", "default": 1},
+						{"id":2, "desc":"不抄庄", "default": 0, "share_visible": 0}
+					]
+			},
+			"poyang": {
+				"playModeDesc": "鄱阳麻将",
+				"cardCount":[
+					{"id": 0, "value":5, "desc":"5局(免费试玩)", "default": 0, "fangka_count": 0},
+					{"id": 1, "value":8, "desc":"8局(免费试玩)", "default": 1, "fangka_count": 0},
+					{"id": 2, "value":12, "desc":"12局(免费试玩)", "default": 0, "fangka_count": 0},
+					{"id": 3, "value":18, "desc":"18局(免费试玩)", "default": 0, "fangka_count": 0}
+					]
+			},
+			"zixi": {
+				"playModeDesc": "资溪麻将",
+				"cardCount":[
+					{"id": 0, "value":5, "desc":"5局(免费试玩)", "default": 0, "fangka_count": 0},
+					{"id": 1, "value":8, "desc":"8局(免费试玩)", "default": 1, "fangka_count": 0},
+					{"id": 2, "value":12, "desc":"12局(免费试玩)", "default": 0, "fangka_count": 0},
+					{"id": 3, "value":18, "desc":"18局(免费试玩)", "default": 0, "fangka_count": 0}
+					]
+			}
+	},
+	"create_table_weixin_invite_info": {
+			"title": "三缺一，麻将找脚啦",
+			"des": "房间号：$##table_no##,$##play_mode##,$##card_count##局",
+			"url": "http://www.shediao.com/youle/gamelist.html",
+			"type": "1"
+	},
+	"create_table_weixin_inivite_desc_key":[
+											"huWay","zhaNiao","maxDegreee","playType","decideAbsence",
+											"change3Tiles","ziMoType", "huiTouYiXiao", "xiaJingWanFa", "gangJing", 
+											"chaoZhuang", "paLou", "playerType", "menQing","jiangMa", "blind",
+											"quanQiuRen", "shaoZhuang", "bangYiPao", "zhuangJia", "dingZhuang",
+											"baseScore", "youGangYouHu", "biZiMo", "diHu", "piaoJingCount", 
+											"jingLocateWay","daBaoXiaoBao","anGang","lianHu","jingPlay", "sevenPairScore", "zuoMa", "zhuanwan", 
+											"jiaHu", "tianDiHu","deguoLimit"
+											],
+	"leave_countdown": 2,
+	"create_table_leave_success": "解散牌桌成功",
+	"create_table_leave_failure": "解散牌桌失败，继续游戏",
+	"create_table_clientid":[
+		"Android_3.770_weixin.alipay.0-hall7.youle.scmj",
+		"IOS_3.781_weixin.appStore,weixinPay,alipay.0-hall7.appStore.youlescmj"
+	],
+	"create_table_init_fangka": 12,
+	"create_table_countdown": 60,
+	"create_table_suffix": [7, 8, 9],
+	"playmode_forbid_return_fanka": [],
+	"fangka_free_config":{
+	    "open": 0,
+	    "free_desc": "限时免费",
+	    "free_playmodes": ["nanchang", "deguo", "fuzhou", "le_an", "yihuang", "jinxi", "lichuan", "chongren", "nancity", "ji_an", "taihe"],
+	    "free_time":{
+			"date": ["2017-02-12", "2017-02-13"],
+			"time": ["00:00:00", "22:00:00"]
+		}
+	},
+	"playmode_desc_map":{
+                          "sichuan": "四川麻将",
+                          "guobiao": "疯狂麻将",
+                          "sichuan_dq": "血战麻将",
+                          "harbin": "哈尔滨麻将",
+                          "guobiao2ren": "二人麻将",
+                          "sichuan_xlch": "血流麻将",
+                          "sichuan_conf": "四川麻将",
+                          "zhuanzhuan": "转转麻将",
+                          "hongzhong": "红中麻将",
+                          "changsha": "长沙麻将",
+                          "nanchang": "南昌麻将",
+                          "deguo": "德国麻将",
+                          "ji_an": "吉安麻将",
+                          "taihe": "泰和麻将",
+                          "xingan_chongguan": "新干冲关麻将",
+                          "xingan_bojing": "新干博精麻将",
+                          "fuzhou": "抚州麻将",
+                          "chongren":"崇仁",
+                          "le_an": "乐安麻将",
+                          "jingdezhen":"景德镇麻将",
+                          "nancity":"南城麻将",
+                          "yihuang": "宜黄麻将",
+                          "jinxi": "金溪麻将",
+                          "lichuan":"黎川麻将",
+                          "ganzhou": "赣州麻将",
+                          "poyang": "鄱阳麻将",
+                          "zixi": "资溪麻将",
+                          "nanfeng": "南丰麻将"
+                         }
+}

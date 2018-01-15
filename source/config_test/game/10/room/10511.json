@@ -1,0 +1,57 @@
+{
+    "minCoin": 1,
+    "minCoinQS": 1,
+    "maxCoin": -1,
+    "maxCoinQS": -1,
+    "fullNum": 4,
+    "no.": 4,
+    "baseBets": [1000, 2000, 3500, 5000, 7000, 9500, 12000, 14000, 16000, 18000, 20000, 25000],
+    "baseBetIncrTimevalMinute": 3,
+    "baseBetNotifySecond": 30,
+    "signinFee": 0,
+    "initTChip": 10000,
+    "minTChipRate": 2,
+    "rewards": [
+        {"start": 1, "end": 1, "reward": {"itemId":"item:4233", "count":1}, "desc": "100元京东卡"},
+        {"start": 2, "end": 2, "reward": {"itemId":"user:chip", "count":600000}, "desc": "600000金币"},
+        {"start": 3, "end": 3, "reward": {"itemId":"user:chip", "count":300000}, "desc": "300000金币"},
+        {"start": 4, "end": 7, "reward": {"itemId":"user:chip", "count":200000}, "desc": "200000金币"},
+        {"start": 8, "end": 16, "reward": {"itemId":"user:chip", "count":100000}, "desc": "100000金币"}
+    ],
+    "matchRule": [
+        ["比赛时长:", "无限制"],
+        ["初始积分:", "10000"],
+        ["基数增长:", "1000/2000/3500/7000/9500/12000/14000/16000/18000/20000/25000"],
+        ["淘汰规则:", "桌面积分小于2倍基数"]
+    ],
+    "daojuScale": 10,
+    "name": "100元京东卡免费大奖赛",
+    "leftTip": "免费",
+    "rightTip": "11:50",
+    "invalidHourRange": [0, 7],
+    "hasrobot": 0,
+    "tableConf": {
+        "maxSeatN": 5
+    },
+    "playMode": 5,
+    "roomType": 2,
+    "matchKindId": 1,
+    "beginTime": [11, 50],
+    "notifyTime": 180,
+    "presetTime": 60,
+    "bufferTime": 300,
+    "mttBuyin": {
+        "rebuy": [
+            {"price": 10000, "added": 10000, "type": 0},
+            {"price": 10000, "added": 15000, "type": 0},
+            {"price": 10000, "added": 20000, "type": 0},
+            {"price": 10000, "added": 25000, "type": 0}
+        ],
+        "rebuyCount": 4,
+        "addon": [
+            {"price": 30000, "added": 80000, "type": 1}
+        ],
+        "addonCount": 1
+    },
+    "typeName": "dnMTT"
+}

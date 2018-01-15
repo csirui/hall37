@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>05-数据库命令</title>
+
+	<!-- Bootstrap -->
+    <link rel="stylesheet" href="./../../../third/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./../../../third/css/docs.min.css">
+    <link rel="stylesheet" href="./../../../third/css/buttons.css">
+    <link rel="stylesheet" href="./../../../third/css/main.css">
+
+    <script src="./../../../third/js/jquery.min.js"></script>
+    <script src="./../../../third/js/bootstrap.min.js"></script>
+    <script src="./../../../third/js/vue.min.js"></script>
+
+    <script src="./../../../js/lib/base.js"></script>
+    <script src="./../../../js/lib/model.js"></script>
+
+<script>
+var clines = "";
+var rcmds = [];
+
+function do_page_one_action(params){
+  $("#action_return").text("waitting ......");
+  SS.setData(SS.url.model.debug_action, params, function(da) {
+    if (da != undefined && da.result != undefined && da.result.text != undefined){
+    	$("#action_return").html(da.result.text);
+    }else{
+    	$("#action_return").text(JSON.stringify(da));
+    }
+  });
+}
+
+function do_redis_command(){
+  var params = {"action" : "redis_command",
+  				"userId" : $('#txtuserid').val(),
+  				"roomId" : $('#txtroomid').val(),
+  				"command" : JSON.stringify(rcmds),
+  				"redisalias" : $('input:radio[name="redisalias"]:checked').val()
+  				};
+  do_page_one_action(params);
+}
+
+function build_redis_cmd(){
+    var nlines = $("#txtcommand").val();
+    if (clines == nlines){
+        return;
+    }
+    clines = nlines;
+    var lines = clines.split("\n");
+    var cmd = "";
+    var cmds = [];
+    for(var i in lines){
+        var s = $.trim(lines[i]);
+        cmds.push(s);
+        s = '"' + s + '"';
+        if (i % 2 == 0){
+            cmd += "<span style=\"color:blue\">" + s + "</span>";
+        }else{
+            cmd += "<span style=\"color:green\">" + s + "</span>";
+        }
+        cmd += "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+    }
+    rcmds = cmds;
+    $("#commandline").html(cmd);
+}
+
+$(function() {
+	$("#txtcommand").change(build_redis_cmd);
+	$("#txtcommand").keyup(build_redis_cmd);
+	$("#txtcommand").mousedown(build_redis_cmd);
+	$("#txtcommand").blur(build_redis_cmd);
+})
+</script>
+
+</head>
+<body>
+	<div style="padding:20px;">
+        <table style="width:100%">
+            <tr><td><input  type="radio"  name="redisalias"  value="mix" checked >mix</td>
+                <td><input  type="radio"  name="redisalias"  value="keymap"      >keymap</td>
+                <td><input  type="radio"  name="redisalias"  value="config"      >config</td>
+                <td><input  type="radio"  name="redisalias"  value="bi"          >bi</td>
+                <td><input  type="radio"  name="redisalias"  value="geo"         >geo</td>
+                <td><input  type="radio"  name="redisalias"  value="friend"      >friend</td>
+                <td><input  type="radio"  name="redisalias"  value="paydata"     >paydata</td>
+                <td><input  type="radio"  name="redisalias"  value="avatar"      >avatar</td>
+                <td><input  type="radio"  name="redisalias"  value="locker"      >locker</td></tr>
+            <tr><td colspan="6">
+                    <input  type="radio"  name="redisalias"  value="user"      >
+            	    user&nbsp;&nbsp;&nbsp;&nbsp;userid: <input id="txtuserid" value="" size=10>
+            	</td></tr>
+            <tr><td colspan="6">
+                    <input  type="radio"  name="redisalias"  value="table"     > 
+                    table&nbsp;&nbsp;&nbsp;roomid: <input id="txtroomid" value="" size=10>
+                </td></tr>
+        </table>
+        <hr>
+        <button type="button" class="btn btn-success" onclick="do_redis_command()">执行</button>COMMAND:
+        <hr>
+        <b><div id="commandline"></div></b>
+        <hr>
+<textarea id="txtcommand" rows="8" style="width:90%">
+scan
+0
+count
+100</textarea>
+	<div>
+	<div id="action_return">
+	</div>
+</body>
+</html>
+
+

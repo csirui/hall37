@@ -1,0 +1,13 @@
+{
+    "actual":{
+        "youle.ncmj": "youle_nanchang",
+        "youle.iosncmj": "youle_nanchang",
+        "youle.fzmj": "youle_fuzhou",
+        "youle.iosfzmj": "youle_fuzhou",
+        "wyb.ioshn": "wanyiba_hunan",
+        "wyb.hn": "wanyiba_hunan",
+        "youle.pymj": "youle_poyang",
+        "youle.iospymj": "youle_poyang"
+    },
+    "default":"youle"
+}

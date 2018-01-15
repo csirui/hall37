@@ -1,0 +1,103 @@
+{
+ "templates"   : [
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 730021401,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 730021402,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 730021701,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    }
+   ],
+   "name"        : "pingdu_v3.902_AI_pdmjpro"
+  }
+ ],
+ "promotions"  : [
+  {
+   "promotionId" : 730021401,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "todotask.showInfo",
+     "info"        : "买卡联系所在群主  \n诚招代理微信:ylpdmj \n"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "平度麻将买房卡",
+   "url"         : "http://df.dl.shediao.com/cdn37/majiang/difang/icon/maifangka_90_90.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 730021402,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "gameType"    : 11,
+       "tasks"       : [
+        {
+         "action"      : "pop_create_room_jianyi",
+         "params"      : { }
+        }
+       ]
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 730,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "平度麻将建议收集",
+   "url"         : "http://df.dl.shediao.com/cdn37/majiang/difang/icon/tiyijian_90_90.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 730021701,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "subTextExt"  : "好友",
+     "subText"     : "朋友圈",
+     "subCmd"      : {
+      "shareId"     : 73099,
+      "typeId"      : "todotask.sharegift.with.shareId"
+     },
+     "subCmdExt"   : {
+      "shareId"     : 73098,
+      "typeId"      : "todotask.sharegift.with.shareId"
+     },
+     "allowClose"  : true,
+     "typeId"      : "todotask.showInfo",
+     "info"        : "最地道的平度麻将\n快来分享给好友吧"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "平度麻将分享",
+   "url"         : "${http_download}/majiang/difang/icon/fenxiang_hrb.png",
+   "defaultRes"  : ""
+  }
+ ]
+}

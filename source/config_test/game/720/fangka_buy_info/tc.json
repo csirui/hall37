@@ -1,0 +1,13 @@
+{
+    "templates": [
+        {
+            "name": "shanxi_fangka_buy_info",
+            "todotasks": [
+                {
+                    "typeId" : "todotask.showInfo",
+                    "info" : "购买房卡请联系所在群主\n代理咨询请联系微信客服\njpzj365或QQ客服3257781066"
+                }
+            ]
+        }
+    ]
+}

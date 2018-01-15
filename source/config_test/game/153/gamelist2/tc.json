@@ -1,0 +1,404 @@
+{
+ "games"            : [
+  {
+   "versions"         : [
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1.干瞪眼3.9004"
+     ],
+     "md5"              : "8c07664afac599c5dc355cb4e9e7dc41",
+     "ver"              : "3.9004",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/gdy.zip",
+     "size"             : "1.25M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1.干瞪眼3.9011"
+     ],
+     "md5"              : "8f2cf4230a3c5119ddab9225c3e3375c",
+     "ver"              : "3.9011",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/diandiangdy_1_19_3.9011.zip",
+     "size"             : "2.46M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1.山西_干瞪眼3.9012"
+     ],
+     "md5"              : "61bac08a2908babcfb155af157419144",
+     "ver"              : "3.9012",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/gdy_shanxi_3.9012_1.20_1.zip",
+     "size"             : "2.46M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      " [1.湖北干瞪眼3.9013"
+     ],
+     "md5"              : "8823e3f9c23c3c2f068887242d89371c",
+     "ver"              : "3.9013",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/hubeigdy_1_20_3.9013.zip",
+     "size"             : "2.46M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1.干瞪眼3.9014"
+     ],
+     "md5"              : "e2db2c17f750dc01a3e88e3c6a616619",
+     "ver"              : "3.9014",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/diandiangdy_1_22_3.9104.zip",
+     "size"             : "2.46M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1.干瞪眼3.9015"
+     ],
+     "md5"              : "d7382061091ac91c5cbbaa5a2aaa78f4",
+     "ver"              : "3.9015",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/diandiangdy_1_25_3.9015.zip",
+     "size"             : "2.46M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1.干瞪眼插件3.9016"
+     ],
+     "md5"              : "111a70c3c0eb62dab99f9aeac8dc994e",
+     "ver"              : "3.9016",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/diandiangdy_02_07_3.9016.zip",
+     "size"             : "2.48M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1.干瞪眼3.9017"
+     ],
+     "md5"              : "67cafc1e6aded66b95d7aee9b6abd0a4",
+     "ver"              : "3.9017",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/diandiangdy_02_07_3.9017.zip",
+     "size"             : "2.48M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1.干瞪眼的3.9018"
+     ],
+     "md5"              : " d02ac258c187ad9d1ef16a2ecff16976",
+     "ver"              : "3.9018",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/diandiangdy_02_08_3.9018.zip",
+     "size"             : "2.48M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1.干瞪眼3.9019"
+     ],
+     "md5"              : "dee31297b031296ff3cfd28da0904794",
+     "ver"              : "3.9019",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/diandiangdy_02_09_3.9019.zip",
+     "size"             : "2.48M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1.干瞪眼3.9020"
+     ],
+     "md5"              : " 9761ac276c8b9e0dc275bbd93c8fd946",
+     "ver"              : "3.9020",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/diandiangdy_02_10_3.9020.zip",
+     "size"             : "2.48M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1.新干瞪眼3.9021"
+     ],
+     "md5"              : "2fd42fb7e2d97783b18f6918026728fa",
+     "ver"              : "3.9021",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/gdy3.9021_0210.zip",
+     "size"             : "2.29M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1.山西_干瞪眼3.9022"
+     ],
+     "md5"              : "58f33d39f5df4f28924e7c690c04f98a",
+     "ver"              : "3.9022",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/shanxi_gdy_3.9022_2.13_2.zip",
+     "size"             : "2.29M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1.干瞪眼3.9023"
+     ],
+     "md5"              : "0551806b4dd5c480e4dac77c940e2621",
+     "ver"              : "3.9023",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/diandiangdy_02_16_3.9023.zip",
+     "size"             : "2.58M"
+    }
+   ],
+   "description"      : [
+    "1、干瞪眼"
+   ],
+   "gameId"           : 153,
+   "gameMark"         : "gdy"
+  }
+ ],
+ "templates"        : [
+  {
+   "des"              : "干瞪眼插件模板",
+   "name"             : "gdy_v3.901_AI_diandian",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "haerbin"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 153,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "干瞪眼",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9014",
+        "defaultRes"       : "MaJiangBigCreateRoom"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangBigEnterRoom"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "干瞪眼全集模板",
+   "name"             : "gdy_v3.901_AI_diandiangdy",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "haerbin"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 153,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/diandiangdytbhj.png",
+        "vipLevel"         : 0,
+        "gameName"         : "干瞪眼",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9023",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "hongzhong"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/xiuxianhongzhong.png",
+        "vipLevel"         : 0,
+        "gameName"         : "红中麻将",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9014",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameArgs"         : "pdk",
+         "gameType"         : "custom"
+        },
+        "nameUrl"          : "",
+        "gameId"           : 150,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/xiuxianpaodekuai.png",
+        "vipLevel"         : 0,
+        "gameName"         : "跑得快",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9030",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "zhuanzhuan"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 7,
+        "iconUrl"          : "${http_download}/majiang/difang/icon/xiuxianzhuanzhuan.png",
+        "vipLevel"         : 0,
+        "gameName"         : "转转麻将",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9014",
+        "defaultRes"       : ""
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "${http_download}/majiang/difang/icon/xiuxianjiarupaizhuo.png",
+        "vipLevel"         : 0,
+        "defaultRes"       : ""
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "干瞪眼提审专用模板",
+   "name"             : "gdy_v3.902_AI_diandiangdy",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "haerbin"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 153,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "干瞪眼",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9011",
+        "defaultRes"       : "MaJiangBigCreateRoom"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangBigEnterRoom"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

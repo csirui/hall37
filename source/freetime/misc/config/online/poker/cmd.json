@@ -1,0 +1,344 @@
+{
+    "GR" : {
+        "douniu" : {
+            "desc" : "\u539f\u670d\u52a1: game, \u5904\u7406:", 
+            "routeType" : 2
+        }, 
+        "fruit_game" : {
+            "desc" : "\u539f\u670d\u52a1: game, \u5904\u7406:", 
+            "routeType" : 2
+        }, 
+        "gbvip_room_info" : {
+            "desc" : "\u539f\u670d\u52a1: game, \u5904\u7406:", 
+            "routeType" : 2
+        }, 
+        "gs_quick_start" : {
+            "desc" : "\u539f\u670d\u52a1: game, \u5904\u7406:", 
+            "routeType" : 2
+        }, 
+        "m_des" : {
+            "desc" : "\u539f\u670d\u52a1: game, \u5904\u7406:", 
+            "routeType" : 2
+        }, 
+        "m_enter" : {
+            "desc" : "\u539f\u670d\u52a1: game, \u5904\u7406:", 
+            "routeType" : 2
+        }, 
+        "m_leave" : {
+            "desc" : "\u539f\u670d\u52a1: game, \u5904\u7406:", 
+            "routeType" : 2
+        }, 
+        "m_signin" : {
+            "desc" : "\u539f\u670d\u52a1: game, \u5904\u7406:", 
+            "routeType" : 2
+        }, 
+        "m_signout" : {
+            "desc" : "\u539f\u670d\u52a1: game, \u5904\u7406:", 
+            "routeType" : 2
+        }, 
+        "match_event" : {
+            "desc" : "\u539f\u670d\u52a1: game, \u5904\u7406:", 
+            "routeType" : 2
+        }, 
+        "match_rank_list" : {
+            "desc" : "\u539f\u670d\u52a1: game, \u5904\u7406:", 
+            "routeType" : 2
+        }, 
+        "match_result_list" : {
+            "desc" : "\u539f\u670d\u52a1: game, \u5904\u7406:", 
+            "routeType" : 2
+        }, 
+        "match_room_list" : {
+            "desc" : "\u539f\u670d\u52a1: game, \u5904\u7406:", 
+            "routeType" : 2
+        }, 
+        "room_enter" : {
+            "desc" : "\u539f\u670d\u52a1: game, \u5904\u7406:", 
+            "routeType" : 2
+        }, 
+        "room_leave" : {
+            "desc" : "\u539f\u670d\u52a1: game, \u5904\u7406:", 
+            "routeType" : 2
+        }, 
+        "room_list" : {
+            "desc" : "\u539f\u670d\u52a1: game, \u5904\u7406:", 
+            "routeType" : 2
+        }, 
+        "t3card" : {
+            "desc" : "\u539f\u670d\u52a1: game, \u5904\u7406:", 
+            "routeType" : 2
+        }, 
+        "t3card_vipTableList" : {
+            "desc" : "\u539f\u670d\u52a1: game, \u5904\u7406:", 
+            "routeType" : 2
+        }, 
+        "table_call" : {
+            "desc" : "\u539f\u670d\u52a1: game, \u5904\u7406:", 
+            "routeType" : 2
+        }, 
+        "texas" : {
+            "desc" : "\u539f\u670d\u52a1: game, \u5904\u7406:", 
+            "routeType" : 2
+        }
+    }, 
+    "GT" : {
+        "new_table_chat" : {
+            "desc" : "\u539f\u670d\u52a1: game, \u5904\u7406:", 
+            "routeType" : 2
+        }, 
+        "sit" : {
+            "desc" : "\u539f\u670d\u52a1: game, \u5904\u7406:", 
+            "routeType" : 2
+        }, 
+        "standup" : {
+            "desc" : "\u539f\u670d\u52a1: game, \u5904\u7406:", 
+            "routeType" : 2
+        }, 
+        "table_chat" : {
+            "desc" : "\u539f\u670d\u52a1: game, \u5904\u7406:", 
+            "routeType" : 2
+        }, 
+        "table_enter" : {
+            "desc" : "\u539f\u670d\u52a1: game, \u5904\u7406:", 
+            "routeType" : 2
+        }, 
+        "table_info" : {
+            "desc" : "\u539f\u670d\u52a1: game, \u5904\u7406:", 
+            "routeType" : 2
+        }, 
+        "table_leave" : {
+            "desc" : "\u539f\u670d\u52a1: game, \u5904\u7406:", 
+            "routeType" : 2
+        }
+    }, 
+    "UT" : {
+        "activity" : {
+            "desc" : "\u539f\u670d\u52a1: entity, \u5904\u7406: \u6d3b\u52a8\u7684\u6d88\u606f, \u4f7f\u7528: \u6597\u725b", 
+            "routeType" : 1
+        }, 
+        "activity_list" : {
+            "desc" : "\u539f\u670d\u52a1: entity, \u5904\u7406: \u53d6\u5f97\u6d3b\u52a8\u5217\u8868\u4fe1\u606f, \u4f7f\u7528: \u5927\u5385", 
+            "routeType" : 1
+        }, 
+        "activity_request" : {
+            "desc" : "\u539f\u670d\u52a1: entity, \u5904\u7406: \u6d3b\u52a8\u7684\u52a8\u4f5c, \u4f7f\u7528: \u5927\u5385", 
+            "routeType" : 1
+        }, 
+        "assistance" : {
+            "desc" : "\u539f\u670d\u52a1: entity, \u5904\u7406: \u6c5f\u6e56\u6551\u6025, \u4f7f\u7528: \u5927\u5385", 
+            "routeType" : 1
+        }, 
+        "bag" : {
+            "desc" : "\u539f\u670d\u52a1: entity, \u5904\u7406: \u80cc\u5305, \u4f7f\u7528: \u5168\u4f53", 
+            "routeType" : 1
+        }, 
+        "bind_game" : {
+            "desc" : "\u539f\u670d\u52a1: account, \u5904\u7406: \u73a9\u5bb6\u8fdb\u5165\u6e38\u620f, \u4f7f\u7528: \u5168\u4f53", 
+            "routeType" : 1
+        }, 
+        "bind_user" : {
+            "desc" : "\u539f\u670d\u52a1: account, \u5904\u7406: \u73a9\u5bb6\u5efa\u7acbTCP\u8fde\u63a5, \u4f7f\u7528: \u5168\u4f53", 
+            "routeType" : 1
+        }, 
+        "buy_prod" : {
+            "desc" : "\u539f\u670d\u52a1: entity, \u5904\u7406: \u8d2d\u4e70\u5546\u54c1(\u8001\u7248\u672c), \u4f7f\u7528: \u5927\u5385(\u901a\u7528)", 
+            "routeType" : 1
+        }, 
+        "custom_rank" : {
+            "desc" : "\u539f\u670d\u52a1: entity, \u5904\u7406: \u6392\u884c\u699c, \u4f7f\u7528: \u5927\u5385(\u901a\u7528)", 
+            "routeType" : 1
+        }, 
+        "decoration" : {
+            "desc" : "\u539f\u670d\u52a1: entity, \u5904\u7406: \u88c5\u9970\u7c7b\u7684\u9053\u5177, \u4f7f\u7528: \u5927\u5385(\u901a\u7528)", 
+            "routeType" : 1
+        }, 
+        "every_task" : {
+            "desc" : "\u539f\u670d\u52a1: entity, \u5904\u7406: \u6bcf\u65e5\u4efb\u52a1, \u4f7f\u7528: \u5168\u4f53", 
+            "routeType" : 1
+        }, 
+        "exchange" : {
+            "desc" : "\u539f\u670d\u52a1: entity, \u5904\u7406: \u5151\u6362\u5956\u5238, \u4f7f\u7528: \u5168\u4f53", 
+            "routeType" : 1
+        }, 
+        "five_star_rating" : {
+            "desc" : "\u539f\u670d\u52a1: account, \u5904\u7406: IOS5\u661f\u8bc4\u4ef7, \u4f7f\u7528: \u5168\u4f53", 
+            "routeType" : 1
+        }, 
+        "fixed_interval_reward" : {
+            "desc" : "\u539f\u670d\u52a1: entity, \u5904\u7406: \u5b9a\u65f6\u9886\u5956\u5956\u52b1, \u4f7f\u7528: \u6597\u725b", 
+            "routeType" : 1
+        }, 
+        "flip_card_luck" : {
+            "desc" : "\u539f\u670d\u52a1: entity, \u5904\u7406: \u5e78\u8fd0\u7ffb\u724c, \u4f7f\u7528: \u5927\u5385(\u901a\u7528)", 
+            "routeType" : 1
+        }, 
+        "friends" : {
+            "desc" : "\u539f\u670d\u52a1: account, \u5904\u7406: \u597d\u53cb\u5173\u7cfb, \u4f7f\u7528: \u4e09\u5f20", 
+            "routeType" : 1
+        }, 
+        "gain_nslogin_reward" : {
+            "desc" : "\u539f\u670d\u52a1: account, \u5904\u7406: \u8fde\u7eed\u767b\u9646\u5956\u52b1, \u4f7f\u7528: \u5168\u4f53", 
+            "routeType" : 1
+        }, 
+        "game_data" : {
+            "desc" : "\u539f\u670d\u52a1: account, \u5904\u7406: \u53d6\u5f97\u6e38\u620f\u6570\u636e, \u4f7f\u7528: \u5168\u4f53", 
+            "routeType" : 1
+        }, 
+        "get_activity_item" : {
+            "desc" : "\u539f\u670d\u52a1: entity, \u5904\u7406: \u83b7\u53d6\u6d3b\u52a8\u5217\u8868, \u4f7f\u7528: \u9ebb\u5c06", 
+            "routeType" : 1
+        }, 
+        "get_first_recharge" : {
+            "desc" : "\u539f\u670d\u52a1: entity, \u5904\u7406: \u9996\u5145\u793c\u5305\u9886\u5956, \u4f7f\u7528: \u5927\u5385", 
+            "routeType" : 1
+        }, 
+        "get_head_pics" : {
+            "desc" : "\u539f\u670d\u52a1: account, \u5904\u7406: \u53d6\u5f97\u6e38\u620f\u5934\u50cf\u5217\u8868, \u4f7f\u7528: \u5168\u4f53", 
+            "routeType" : 1
+        }, 
+        "get_more_games" : {
+            "desc" : "\u539f\u670d\u52a1: entity, \u5904\u7406: \u53d6\u5f97\u66f4\u591a\u6e38\u620f\u4fe1\u606f, \u4f7f\u7528: \u5927\u5385", 
+            "routeType" : 1
+        }, 
+        "get_pop_act" : {
+            "desc" : "\u539f\u670d\u52a1: account, \u5904\u7406: \u53d6\u5f97\u767b\u5f55\u5f39\u7a97\u4fe1\u606f, \u4f7f\u7528: \u5168\u4f53", 
+            "routeType" : 1
+        }, 
+        "get_raffle_item" : {
+            "desc" : "\u539f\u670d\u52a1: entity, \u5904\u7406: \u53d6\u5f97\u62bd\u5956\u4fe1\u606f, \u4f7f\u7528: \u5168\u4f53", 
+            "routeType" : 1
+        }, 
+        "get_rank_list" : {
+            "desc" : "\u539f\u670d\u52a1: entity, \u5904\u7406: \u53d6\u5f97\u6392\u884c\u699c\u4fe1\u606f, \u4f7f\u7528: \u5168\u4f53", 
+            "routeType" : 1
+        }, 
+        "hall_info" : {
+            "desc" : "\u539f\u670d\u52a1: entity, \u5904\u7406: \u53d6\u5f97\u5927\u5385\u4fe1\u606f, \u4f7f\u7528: \u5168\u4f53", 
+            "routeType" : 1
+        }, 
+        "htmls_info" : {
+            "desc" : "\u539f\u670d\u52a1: account, \u5904\u7406: \u53d6\u5f97HTML\u9875\u9762\u4fe1\u606f, \u4f7f\u7528: \u5168\u4f53", 
+            "routeType" : 1
+        }, 
+        "item_list" : {
+            "desc" : "\u539f\u670d\u52a1: entity, \u5904\u7406: \u53d6\u5f97\u9053\u5177\u4fe1\u606f, \u4f7f\u7528: \u5168\u4f53", 
+            "routeType" : 1
+        }, 
+        "login_reward" : {
+            "desc" : "\u539f\u670d\u52a1: entity, \u5904\u7406: \u8fde\u7eed\u767b\u9646\u5956\u52b12, \u4f7f\u7528: \u5168\u4f53", 
+            "routeType" : 1
+        }, 
+        "login_reward_flip_card" : {
+            "desc" : "\u539f\u670d\u52a1: entity, \u5904\u7406: \u767b\u9646\u5956\u52b1-\u7ffb\u724c, \u4f7f\u7528: \u5168\u4f53", 
+            "routeType" : 1
+        }, 
+        "login_reward_t3card" : {
+            "desc" : "\u539f\u670d\u52a1: entity, \u5904\u7406: \u8fde\u7eed\u767b\u9646\u5956\u52b13, \u4f7f\u7528: \u4e09\u5f20", 
+            "routeType" : 1
+        }, 
+        "m_signs" : {
+            "desc" : "\u539f\u670d\u52a1: heartbeat, \u5904\u7406: \u53d6\u5f97\u6bd4\u8d5b\u62a5\u540d\u4fe1\u606f, \u4f7f\u7528: \u5168\u4f53", 
+            "routeType" : 1
+        }, 
+        "master_score" : {
+            "desc" : "\u539f\u670d\u52a1: entity, \u5904\u7406: \u83b7\u53d6\u5927\u5e08\u5206\u4fe1\u606f, \u4f7f\u7528: \u6597\u725b", 
+            "routeType" : 1
+        }, 
+        "medal_info" : {
+            "desc" : "\u539f\u670d\u52a1: entity, \u5904\u7406: \u83b7\u53d6\u7528\u6237\u52cb\u7ae0\u4fe1\u606f, \u4f7f\u7528: \u5168\u4f53", 
+            "routeType" : 1
+        }, 
+        "medal_list" : {
+            "desc" : "\u539f\u670d\u52a1: entity, \u5904\u7406: \u83b7\u53d6\u6240\u6709\u52cb\u7ae0\u5217\u8868, \u4f7f\u7528: \u5168\u4f53", 
+            "routeType" : 1
+        }, 
+        "medal_reward" : {
+            "desc" : "\u539f\u670d\u52a1: entity, \u5904\u7406: \u5904\u7406\u52cb\u7ae0\u5956\u52b1, \u4f7f\u7528: \u5168\u4f53", 
+            "routeType" : 1
+        }, 
+        "message" : {
+            "desc" : "\u539f\u670d\u52a1: entity, \u5904\u7406: \u83b7\u53d6\u7528\u6237\u7684\u6d88\u606f\u5217\u8868, \u4f7f\u7528: \u5168\u4f53", 
+            "routeType" : 1
+        }, 
+        "module_tip" : {
+            "desc" : "\u539f\u670d\u52a1: entity, \u5904\u7406: \u6a21\u5757\u72b6\u6001\u901a\u77e5(\u80cc\u5305\u6216\u8005\u52cb\u7ae0\u83dc\u5355\u4e0a\u7684\u5c0f\u7ea2\u70b9), \u4f7f\u7528: \u5168\u4f53", 
+            "routeType" : 1
+        }, 
+        "modules_switch" : {
+            "desc" : "\u539f\u670d\u52a1: entity, \u5904\u7406: \u83b7\u53d6\u6a21\u5757\u7684\u5f00\u5173\u4fe1\u606f, \u4f7f\u7528: \u5168\u4f53", 
+            "routeType" : 1
+        }, 
+        "newvip" : {
+            "desc" : "\u539f\u670d\u52a1: entity, \u5904\u7406: \u5904\u7406VIP\u4fe1\u606f, \u4f7f\u7528: \u5168\u4f53", 
+            "routeType" : 1
+        }, 
+        "offline_geo" : {
+            "desc" : "\u539f\u670d\u52a1: account, \u5904\u7406: \u7528\u6237\u4e0b\u7ebf(TCP\u65ad\u5f00)\u5904\u7406, \u4f7f\u7528: \u5168\u4f53", 
+            "routeType" : 1
+        }, 
+        "online_state_change" : {
+            "desc" : "\u539f\u670d\u52a1: entity, \u5904\u7406: \u7528\u6237\u72b6\u6001(TCP\u94fe\u63a5/\u65ad\u5f00)\u5904\u7406, \u4f7f\u7528: \u5168\u4f53", 
+            "routeType" : 1
+        }, 
+        "prod_delivery" : {
+            "desc" : "\u539f\u670d\u52a1: entity, \u5904\u7406: \u7528\u6237\u8d2d\u4e70\u6295\u9012, \u4f7f\u7528: \u5168\u4f53", 
+            "routeType" : 1
+        }, 
+        "promote_info" : {
+            "desc" : "\u539f\u670d\u52a1: entity, \u5904\u7406: \u5185\u63a8\u5e7f\u5904\u7406, \u4f7f\u7528: \u5168\u4f53", 
+            "routeType" : 1
+        }, 
+        "promotion_loc" : {
+            "desc" : "\u539f\u670d\u52a1: entity, \u5904\u7406: \u63a8\u5e7f\u4f4d\u5904\u7406, \u4f7f\u7528: \u5168\u4f53", 
+            "routeType" : 1
+        }, 
+        "props_list" : {
+            "desc" : "\u539f\u670d\u52a1: entity, \u5904\u7406: \u7528\u6237\u9053\u5177\u5904\u7406, \u4f7f\u7528: \u9ebb\u5c06", 
+            "routeType" : 1
+        }, 
+        "quick_start" : {
+            "desc" : "\u539f\u670d\u52a1: quickstart, \u5904\u7406: \u6e38\u620f\u5feb\u901f\u5f00\u59cb, \u4f7f\u7528: \u5168\u4f53", 
+            "routeType" : 1
+        }, 
+        "quickbuy" : {
+            "desc" : "\u539f\u670d\u52a1: entity, \u5904\u7406: \u7528\u6237\u5feb\u901f\u8d2d\u4e70, \u4f7f\u7528: \u5168\u4f53", 
+            "routeType" : 1
+        }, 
+        "referrer" : {
+            "desc" : "\u539f\u670d\u52a1: account, \u5904\u7406: \u7528\u6237\u63a8\u8350\u5904\u7406, \u4f7f\u7528: \u5168\u4f53", 
+            "routeType" : 1
+        }, 
+        "send_led" : {
+            "desc" : "\u539f\u670d\u52a1: quickstart, \u5904\u7406: \u53d1\u9001\u7cfb\u7edfLED\u6d88\u606f, \u4f7f\u7528: \u5168\u4f53", 
+            "routeType" : 1
+        }, 
+        "set_game_user_head" : {
+            "desc" : "\u539f\u670d\u52a1: account, \u5904\u7406: \u8bbe\u7f6e\u7528\u6237\u6e38\u620f\u5934\u50cf, \u4f7f\u7528: \u5168\u4f53", 
+            "routeType" : 1
+        }, 
+        "set_star_id" : {
+            "desc" : "\u539f\u670d\u52a1: account, \u5904\u7406: \u8bbe\u7f6e\u660e\u661f\u6597\u5730\u4e3b\u7684\u660e\u661fID, \u4f7f\u7528: \u5730\u4e3b", 
+            "routeType" : 1
+        }, 
+        "set_user" : {
+            "desc" : "\u539f\u670d\u52a1: account, \u5904\u7406: \u8bbe\u7f6e\u7528\u6237\u4fe1\u606f, \u4f7f\u7528: \u5730\u4e3b", 
+            "routeType" : 1
+        }, 
+        "store_config" : {
+            "desc" : "\u539f\u670d\u52a1: entity, \u5904\u7406: \u5546\u5e97\u6d88\u606f\u5904\u7406, \u4f7f\u7528: \u5168\u4f53", 
+            "routeType" : 1
+        }, 
+        "todo_tasks" : {
+            "desc" : "\u539f\u670d\u52a1: entity, \u5904\u7406: \u6bcf\u65e5\u4efb\u52a1\u6d88\u606f\u5904\u7406, \u4f7f\u7528: \u5168\u4f53", 
+            "routeType" : 1
+        }, 
+        "user_heart_beat" : {
+            "desc" : "\u539f\u670d\u52a1: heartbeat, \u5904\u7406: \u7528\u6237\u5fc3\u8df3\u5904\u7406, \u4f7f\u7528: \u5168\u4f53", 
+            "routeType" : 1
+        }, 
+        "user_info" : {
+            "desc" : "\u539f\u670d\u52a1: account, \u5904\u7406: \u83b7\u53d6\u7528\u6237\u4fe1\u606f(\u8001\u7248\u672c\u7528\u6237TCP\u5efa\u7acb\u94fe\u63a5), \u4f7f\u7528: \u5730\u4e3b", 
+            "routeType" : 1
+        }
+    }
+}

@@ -1,0 +1,32 @@
+                       ==FreeTime概览==
+
+* FreeTime是基于pypy和Twisted的高性能分布式网络游戏服务器框架。
+  FreeTime起源于在线途游 (tuyoo.com)，借助FreeTime框架，途游用
+  20台普通服务器，支撑了百万online用户的网络棋牌业务。这个架构
+  特别适合长连接高并发的网络游戏，手游服务，也可以用来构建其他
+  互联网并发服务。
+
+* FreeTime为什么可以提供较高的并发业务处理性能？
+  －Twisted的异步reactor机制+pypy的stackless微线程，实现高并发
+  －采用redis存储线上业务数据，核心服务做到零磁盘I/O 
+  －pypy的jit优化带来的近似于c++的计算性能
+    (比cpython高近10倍的性能，参考测试代码misc/cpu/)
+
+* FreeTime分布式架构使系统可以线性扩充，适合高速成长的创业团队
+  - FreeTime service以多进程方式运行在多台主机上
+  - 服务间通过TcpAgent模块通信，合理的网络拓扑避免socket过多
+    (doc/architecture.pdf)
+  - 提供分布式同步机制RedisLock
+  - 使用paramiko管理运维分布在多台机器上的进程
+
+* 易于开发调试排查错误，使用FreeTime框架解放程序员的宝贵时间
+  - python语言简洁易上手，代码量不到c++或java的30%
+  - python语言通过traceback可以跟踪打印错误代码堆栈
+  - 封装好的底层api，屏蔽底层细节，程序员可以更关注业务逻辑
+
+* 丰富的周边系统，轻松解决海量用户存储，海量日志数据等实际问题
+  - 内置冷热数据交换机制和工具
+  - 提供一个基于定长文件纪录的高性能事件日志服务
+  - 基于json的配置管理系统
+
+

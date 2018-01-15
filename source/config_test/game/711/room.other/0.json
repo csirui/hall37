@@ -1,0 +1,172 @@
+{
+    "configDesc": "麻将房间其他相关配置,例如:比赛的标签配置,自建桌",
+    "create_table_config": {
+        "qujing": {
+            "playModeDesc": "曲靖麻将",
+            "paramType": {
+                "playerType":"人数",
+                "cardCount": "游戏局数",
+                "multiple": "结算倍数",
+                "chipengsetting": "玩法配置",
+                "QGHJiafan":"抢杠胡加番",
+                "QGHSanbei":"抢杠胡赔分",
+                "laiziDandiao":"小鸡单吊"
+            },
+            "playerType": [
+                {
+                    "id": 1,
+                    "desc": "4人",
+                    "default": 1,
+                    "count": 4
+                 },
+		{
+		    "id": 2,
+		    "desc": "2人",
+		    "default": 0,
+		    "count": 2
+		},
+                {
+                    "id": 3,
+                    "desc": "3人",
+                    "default": 0,
+                    "count": 3
+                }
+            ],
+            "cardCount": [
+                {
+                    "id": 0,
+                    "value": 5,
+                    "desc": "5局(2张房卡)",
+                    "default": 1,
+                    "fangka_count":0 
+                },
+                {
+                    "id": 1,
+                    "value": 8,
+                    "desc": "8局(3张房卡)",
+                    "default": 0,
+                    "fangka_count": 3
+                },
+                {
+                    "id": 2,
+                    "value": 12,
+                    "desc": "12局(4张房卡)",
+                    "default": 0,
+                    "fangka_count": 4
+                },
+                {
+                    "id": 3,
+                    "value": 18,
+                    "desc": "18局(6张房卡)",
+                    "default": 0,
+                    "fangka_count": 6
+                }
+            ],
+            "multiple": [
+                {
+                    "id": 1,
+                    "desc": "单倍房",
+                    "default": 1,
+                    "value": 1
+                },
+                {
+                    "id": 2,
+                    "desc": "双倍房",
+                    "default": 0,
+                    "value": 2
+                },
+                {
+                    "id": 4,
+                    "desc": "四倍房",
+                    "default": 0,
+                    "value": 4
+                },
+                {
+                    "id": 8,
+                    "desc": "八倍房",
+                    "default": 0,
+                    "value": 8
+                }
+            ],
+            "chipengsetting": [
+                {
+                    "id": 1,
+                    "desc": "可吃可碰",
+                    "default": 1
+                },
+                {
+                    "id": 2,
+                    "desc": "只碰不吃",
+                    "default": 0
+                }
+            ],
+            "QGHJiafan": [
+                {
+                    "id": 1,
+                    "desc": "抢杠胡不加番",
+                    "default": 1
+                },
+                {
+                    "id": 2,
+                    "desc": "抢杠胡加1番",
+                    "default": 0
+                }
+            ],
+            "QGHSanbei": [
+                {
+                    "id": 1,
+                    "desc": "抢杠胡包赔三家",
+                    "default": 1
+                },
+                {
+                    "id": 2,
+                    "desc": "抢杠胡不包三家",
+                    "default": 0
+                }
+            ],
+            "laiziDandiao": [
+                {
+                    "id": 1,
+                    "desc": "必须自摸",
+                    "default": 1
+                },
+                {
+                    "id": 2,
+                    "desc": "可以吃炮",
+                    "default": 0
+                }
+            ]
+        }
+    },
+    "create_table_weixin_invite_info": {
+        "title": "三缺一，麻将找脚啦",
+        "des": "房间号：$##table_no##,$##play_mode##,$##card_count##局",
+        "url": "http://www.shediao.com/youle/gamelist.html",
+        "type": "1"
+    },
+    "create_table_weixin_inivite_desc_key": [
+        "huWay",
+        "zhaNiao",
+        "maxDegreee",
+        "ziMoType",
+        "huiTouYiXiao",
+        "xiaJingWanFa",
+        "gangJing",
+        "chaoZhuang",
+        "paLou",
+        "playerType",
+        "jiangMa",
+        "blind",
+        "jingPlayType",
+        "quanQiuRen"
+    ],
+    "leave_countdown": 2,
+    "create_table_leave_success": "解散牌桌成功",
+    "create_table_leave_failure": "解散牌桌失败，继续游戏",
+    "create_table_init_fangka": 12,
+    "create_table_countdown": 60,
+    "playmode_forbid_return_fanka": [],
+    "playmode_desc_map": {
+        "qujing": "曲靖麻将"
+    }
+}

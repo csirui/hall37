@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>06-消息处理</title>
+
+	<!-- Bootstrap -->
+    <link rel="stylesheet" href="./../../../third/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./../../../third/css/docs.min.css">
+    <link rel="stylesheet" href="./../../../third/css/buttons.css">
+    <link rel="stylesheet" href="./../../../third/css/main.css">
+
+    <script src="./../../../third/js/jquery.min.js"></script>
+    <script src="./../../../third/js/bootstrap.min.js"></script>
+    <script src="./../../../third/js/vue.min.js"></script>
+
+    <script src="./../../../js/lib/base.js"></script>
+    <script src="./../../../js/lib/model.js"></script>
+
+<script>
+function do_page_one_action(params){
+  $("#action_return").text("waitting ......");
+  SS.setData(SS.url.model.debug_action, params, function(da) {
+    if (da != undefined && da.result != undefined && da.result.text != undefined){
+    	$("#action_return").html(da.result.text);
+    }else{
+    	$("#action_return").text(JSON.stringify(da));
+    }
+  });
+}
+
+function do_send_private(){
+  var params = {"action" : "putmsg",
+  				gameId : 9999, 
+  				fromUid : 0, 
+  				toUid : $('#txtuserid').val(), 
+  				mtype: 0, 
+  				msg : $('#txtmsgprivate').val()};
+  do_page_one_action(params);
+}
+
+function do_send_led(){
+  var params = {"action" : "putmsg",
+                gameId : $('#txtgameid').val(), 
+  				fromUid : 0, 
+  				toUid : 0, 
+  				mtype: 2, 
+  				msg : $('#txtmsgled').val()};
+  do_page_one_action(params);
+}
+
+</script>
+
+</head>
+<body>
+	<div style="padding:20px;">
+		TOUSERID: <input id="txtuserid"/> 私信内容:<input id="txtmsgprivate" size="60"/>
+		<button type="button" class="btn btn-success" onclick="do_send_private()">发送私信</button>
+	<div>
+	<div style="padding:20px;">
+		GAMEID: <input id="txtgameid"/> LED内容:<input id="txtmsgled" size="60"/>
+		<button type="button" class="btn btn-success" onclick="do_send_led()">发送LED</button>
+	<div>
+	<div id="action_return">
+	</div>
+</body>
+</html>
+
+

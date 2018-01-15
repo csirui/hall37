@@ -1,0 +1,138 @@
+{
+ "templates"  : [
+  {
+   "positions"  : [
+    {
+     "promotes"   : [
+      {
+       "promotionId": 711120501,
+       "conditions" : [ ]
+      }
+     ],
+     "pos"        : 1
+    },
+    {
+     "promotes"   : [
+      {
+       "promotionId": 711121602,
+       "conditions" : [ ]
+      }
+     ],
+     "pos"        : 4
+    },
+    {
+     "promotes"   : [
+      {
+       "promotionId": 711010401,
+       "conditions" : [ ]
+      }
+     ],
+     "pos"        : 2
+    },
+    {
+     "promotes"   : [
+      {
+       "promotionId": 711121601,
+       "conditions" : [ ]
+      }
+     ],
+     "pos"        : 5
+    }
+   ],
+   "name"       : "qujingmj_v3.90_AI_qujing"
+  }
+ ],
+ "promotions" : [
+  {
+   "promotionId": 711120201,
+   "animate"    : 0,
+   "todotasks"  : [
+    {
+     "typeId"     : "todotask.showInfo",
+     "info"       : "诚招代理(微信)aaqj999\n买卡联系代理商"
+    }
+   ],
+   "redPoint"   : [ ],
+   "displayName": "商城",
+   "url"        : "${http_download}/majiang/difang/act/icon_tgw_mfk.png",
+   "defaultRes" : ""
+  },
+  {
+   "promotionId": 711120501,
+   "animate"    : 0,
+   "todotasks"  : [
+    {
+     "typeId"     : "todotask.showInfo",
+     "info"       : "诚招代理(微信): aaqj999\n买卡联系代理商"
+    }
+   ],
+   "redPoint"   : [ ],
+   "displayName": "买房卡",
+   "url"        : "${http_download}/majiang/difang/act/icon_tgw_mfk.png",
+   "defaultRes" : ""
+  },
+  {
+   "promotionId": 711121601,
+   "animate"    : 0,
+   "todotasks"  : [
+    {
+     "typeId"     : "hall.goto.free"
+    }
+   ],
+   "redPoint"   : [
+    {
+     "typeId"     : "user.cond.HasFreeMark"
+    }
+   ],
+   "displayName": "曲靖飞小鸡天天福利",
+   "url"        : "http://df.dl.shediao.com/cdn37/hall/promote/imgs/icon_tgw_ttfl.png",
+   "defaultRes" : ""
+  },
+  {
+   "promotionId": 711121602,
+   "animate"    : 0,
+   "todotasks"  : [
+    {
+     "typeId"     : "todotask.simple.invite"
+    }
+   ],
+   "redPoint"   : [
+    {
+     "typeId"     : "user.cond.HasFreeMark"
+    }
+   ],
+   "displayName": "曲靖飞小鸡邀请有礼",
+   "url"        : "http://df.dl.shediao.com/cdn37/hall/promote/imgs/icon_tgw_mffk.png",
+   "defaultRes" : ""
+  },
+  {
+   "promotionId": 711010401,
+   "animate"    : 1,
+   "todotasks"  : [
+    {
+     "subTextExt" : "好友",
+     "subText"    : "朋友圈",
+     "subCmd"     : {
+      "shareId"    : 71199,
+      "typeId"     : "todotask.sharegift.with.shareId"
+     },
+     "subCmdExt"  : {
+      "shareId"    : 71198,
+      "typeId"     : "todotask.sharegift.with.shareId"
+     },
+     "allowClose" : true,
+     "typeId"     : "todotask.showInfo",
+     "info"       : "正宗飞小鸡\n快找朋友一起来几局吧~"
+    }
+   ],
+   "redPoint"   : [
+    {
+     "typeId"     : "user.cond.HasFreeMark"
+    }
+   ],
+   "displayName": "曲靖飞小鸡分享",
+   "url"        : "${http_download}/hall/promote/imgs/share_icon_df_fenxiang_wx.png",
+   "defaultRes" : ""
+  }
+ ]
+}

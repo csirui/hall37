@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>服务管理</title>
+    <link rel="stylesheet" href="third/css/bootstrap.min.css">
+    <link rel="stylesheet" href="third/css/docs.min.css">
+    <link rel="stylesheet" href="third/css/buttons.css">
+	<link rel="stylesheet" href="third/easyui/themes/default/easyui.css">
+	<link rel="stylesheet" href="third/easyui/themes/icon.css">
+	<link rel="stylesheet" href="third/css/main.css">
+    <script src="third/js/jquery.min.js"></script>
+    <script src="third/js/bootstrap.min.js"></script>
+    <script src="third/js/vue.min.js"></script>
+    <script src="third/easyui/jquery.easyui.min.js"></script>
+
+    <script src="js/lib/base.js"></script>
+
+    <script src="main.js"></script>
+</head>
+<body>
+    <div id="main_head" class="bg-info">
+		<span class="title_blue">管理器IP地址:</span>&nbsp;&nbsp;&nbsp;&nbsp;
+		<span class="title_red">{{localip}}</span><br>
+		<span class="title_blue">配置路径(poker_path):</span>&nbsp;&nbsp;&nbsp;&nbsp;
+		<span class="title_red">{{pokerpath}}</span>
+    </div>
+    <div id="main_content" class="easyui-layout" fit="true">
+        <div region="west" split="true" title="控制台" style="width:300px;">
+        	<ul id="main_menu"/>
+        </div>
+        <div region="east" split="true" title="啥？" style="width:250px;">
+        	<img src="imgs/east.jpg"/>
+        </div>
+        <div data-options="region:'south',border:false" style="height:60px;">
+        	<center>在线途游(北京)科技有限公司</center>
+        </div>
+        <div region="center" title="" style="padding:5px;background:#eee;">
+        	<div id="main_tabs" class="easyui-tabs" fit="true">
+        </div>
+        
+    </div>
+  </body>
+</html>
+

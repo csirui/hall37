@@ -1,0 +1,231 @@
+{
+	"fruits": [
+		{"id": 1, "name": "苹果", "times": 2},
+		{"id": 2, "name": "橘子", "times": 3},
+		{"id": 3, "name": "柠檬", "times": 5},
+		{"id": 4, "name": "草莓", "times": 8},
+		{"id": 5, "name": "葡萄", "times": 15},
+		{"id": 6, "name": "樱桃", "times": 20},
+		{"id": 7, "name": "西瓜", "times": 50},
+		{"id": 8, "name": "Num7", "times": 100}
+	],
+	"public": {
+		"ledBaseChip": 5000000,
+		"ledKingAtMinute": 3
+	},
+	"relatedGames": [
+		{"type": "game", "typeId": "clown", "gameId": 27, "vipLevel":0, "enter_param": {"gameType": 1}, "isOffline": 0},
+		{"type": "game", "typeId": "dragon", "gameId": 23, "vipLevel":0, "enter_param": {"gameType": 1}, "isOffline": 0},
+		{"type": "game", "typeId": "bairen", "gameId": 16, "vipLevel":0, "enter_param": {"gameType": 1}, "isOffline": 0},
+		{"type": "game", "typeId": "dog", "gameId": 19, "vipLevel":0, "enter_param": {"gameType": 1}, "isOffline": 0}
+	],
+	"bet": {
+		"vip_required_for_bet": 0,
+		"limit_chip": 20000,
+		"bet_range": [1000, 10000, 50000, 100000, 200000, 500000],
+		"default_bet_chip": 10000,
+		"vip_required_for_repeat_bet": 3,
+		"bet_chip_uplimit": 4000000,
+		"fruit_num_uplimit": 99,
+		"time_interval": {
+			"ready_bet": 27,
+			"red_begin": 5,
+			"seal": 3,
+			"lottery": 6,
+			"result": 5,
+			"luck_self": 2,
+			"luck_one": 1
+		},
+		"scale_display_betchip": {
+			"min_users": 5,
+			"scale_infos": [
+				{"chip": [1000, 100000], "scale": [1, 5]}
+			]
+		}
+	},
+	"open_rate": {
+		"profit_rate_limit": [
+			{"low_rate": 0, "up_rate": 8, "one": 100, "two": 0, "three": 0},
+			{"low_rate": 8, "up_rate": 10, "one": 96, "two": 3, "three": 1},
+			{"low_rate": 10, "up_rate": 13, "one": 93, "two": 5, "three": 2},
+			{"low_rate": 13, "up_rate": 16, "one": 88, "two": 9, "three": 3},
+			{"low_rate": 16, "up_rate": -1, "one": 55, "two": 30, "three": 15}
+		],
+		"max_reward_times": {
+			"normal_times": 24,
+			"Num7": {
+				"fruit_id": 8,
+				"exceed_hours": 3,
+				"temp_times": 30
+			}
+		},
+		"one_fruit": {"8": 0.77, "7": 1.53, "6": 3.83, "5": 5.11, "4": 9.58, "3": 15.33, "2": 25.54, "1": 38.31},
+		"two_fruits": {
+			"1": {"8": 0.77, "7": 1.55, "6": 3.91, "5": 5.24, "4": 10.01, "3": 16.45, "2": 29.02},
+			"2": {"8": 0.46, "7": 0.93, "6": 2.33, "5": 3.13, "4": 5.99, "3": 9.88},
+			"3": {"8": 0.26, "7": 0.52, "6": 1.30, "5": 1.75, "4": 3.36},
+			"4": {"8": 0.16, "7": 0.31, "6": 0.79, "5": 1.06},
+			"5": {"8": 0.08, "7": 0.16, "6": 0.41},
+			"6": {"8": 0.06, "7": 0.12}
+		},
+		"three_fruits": {
+			"1": {
+				"2": {"8": 1.19, "7": 2.39, "6": 6.06, "5": 8.19, "4": 16.13, "3": 27.77},
+				"3": {"8": 0.59, "7": 1.18, "6": 3.01, "5": 4.07, "4": 8.06},
+				"4": {"8": 0.34, "7": 0.68, "6": 1.73, "5": 2.34},
+				"5": {"8": 0.17, "7": 0.34, "6": 0.87},
+				"6": {"8": 0.13, "7": 0.25}
+			},
+			"2": {
+				"3": {"8": 0.31, "7": 0.61, "6": 1.56, "5": 2.11, "4": 4.16},
+				"4": {"8": 0.18, "7": 0.36, "6": 0.90, "5": 1.22},
+				"5": {"8": 0.09, "7": 0.18, "6": 0.46},
+				"6": {"8": 0.07, "7": 0.13}
+			},
+			"3": {
+				"4": {"8": 0.09, "7": 0.18, "6": 0.47, "5": 0.63},
+				"5": {"8": 0.05, "7": 0.09, "6": 0.24},
+				"6": {"8": 0.03, "7": 0.07}
+			},
+			"4": {
+				"5": {"8": 0.03, "7": 0.05, "6": 0.14},
+				"6": {"8": 0.02, "7": 0.04}
+			},
+			"5": {
+				"6": {"8": 0.01, "7": 0.02}
+			}
+		}
+	},
+	"fire": {
+		"user": {
+			"price": 100000,
+			"count": [1, 5, 10],
+			"basefee": [21888, 155200, 328200],
+			"rewards": [
+				{
+					"big": {"chip": 10000, "number": 1},
+					"small": {"chip": 688, "number": 99}
+				},
+				{
+					"big": {"chip": 38888, "number": 1},
+					"small": {"chip": 2888, "number": 99}
+				},
+				{
+					"big": {"chip": 88888, "number": 1},
+					"small": {"chip": 5888, "number": 99}
+				}
+			],
+			"broadcast_sys_msgs": [
+				"富农{name}放了10万大礼花!",
+				"土豪{name}放了50万大礼花!",
+				"惊呆了,超级土豪{name}放了一百万大礼花,赶紧膜拜吧!"
+			],
+			"reward_msgs": [
+				"恭喜您获得富农{name}的礼金{chip}金币!",
+				"恭喜您获得土豪{name}的礼金{chip}金币!",
+				"恭喜您获得超级土豪{name}的礼金{chip}金币!"
+			],
+			"msg_lable_types": [0, 0, 2]
+		},
+		"system": {
+			"begin": "2016-07-22 12:00:00",
+			"end": "2017-07-22 12:00:00",
+			"times_per_hour": 1,
+			"least_interval": 10,
+			"guixie_name": "系统",
+			"fire_index": 0,
+			"basefee": 31888,
+			"reward": {
+				"small": {"chip": 688, "number": 99}
+			},
+			"broadcast_sys_msg": "系统发放了1个大礼花!",
+			"reward_msg": "恭喜您获得系统发放的礼金{chip}金币!"
+		}
+	},
+	"pool": {
+		"choushui_rate": [
+			{"minChip": 3000000000, "maxChip": -1, "rate": 0.01},
+			{"minChip": 0, "maxChip": 3000000000, "rate": 0.05}
+		],
+		"init_chip": 3000000000,
+		"base_chip": 1000000000,
+		"trigger_condition": {
+			"8": {
+				"probability": 0.1,
+				"reward_times": 50
+			},
+			"7": {
+				"probability": 0.1,
+				"reward_times": 25
+			}
+		},
+		"pool_list_len": 20,
+		"guide": [
+			"1、押中7有机会触发彩池, 将给予押注50倍奖励。",
+			"2、押中西瓜有机会触发彩池, 将给予押注额25倍奖励。"
+		]
+	},
+	"history": {
+		"save_last_time_for_fruits": [7, 8],
+		"num": 20,
+		"simple_num": 9
+	},
+	"king": {
+		"today": {
+			"game_count": 20,
+			"bi_count": 30
+		},
+		"week": {
+			"day_count": 7
+		},
+		"reward": 1000000
+	},
+	"products": {
+		"androidVipTableBuyLeastChip": [
+			80000,
+			80000,
+			360000,
+			360000,
+			1500000,
+			1500000,
+			5000000,
+			20000000,
+			20000000,
+			20000000,
+			20000000
+		],
+		"iosVipTableBuyLeastChip": [
+			60000,
+			60000,
+			360000,
+			1400000,
+			3000000,
+			5500000,
+			12000000,
+			12000000,
+			12000000,
+			12000000,
+			12000000
+		]
+	},
+	"chat": {
+		"vip_required": 5,
+		"interval_chat": 10,
+		"period_after_guixie": 60,
+		"define_chat": [
+			"跪谢土豪",
+			"巨奖要爆炸啦,快上啊!",
+			"土豪是铁钱是钢,不放礼花憋得慌!",
+			"买房难,就业惨,押个西瓜当老板!",
+			"水果上弹钢琴,全买了!",
+			"赢那么多,放个礼花吧~",
+			"只押7,只押7,中个77买飞机!",
+			"听说放礼花会中巨奖?",
+			"押7易,中7难,且押且珍惜!",
+			"土豪放礼花,大家笑哈哈!"
+		],
+		"period_sysmsg": 600,
+		"game_define_sysmsg": [
+		]
+	}
+}

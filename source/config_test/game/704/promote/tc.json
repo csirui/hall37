@@ -1,0 +1,82 @@
+{
+ "templates"   : [
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 704112402,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 704111001,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    }
+   ],
+   "name"        : "poyangmj_v3.90_AI_youlepymj"
+  }
+ ],
+ "promotions"  : [
+  {
+   "promotionId" : 704111001,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "typeId"      : "todotask.showInfo",
+     "info"        : "买卡联系: yoole0088（微信）\n诚招代理:huazai778800（微信）\n举报:2162952363（QQ）"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "鄱阳麻将商城",
+   "url"         : "${http_download}/majiang/difang/act/icon_tgw_mfk.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 704112401,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "tasks"       : [
+        {
+         "action"      : "pop_create_room_invite",
+         "params"      : { }
+        }
+       ]
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 704,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "鄱阳麻将免费赠房卡",
+   "url"         : "${http_download}/majiang/images/act/icon_tgw_mffk.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 704112402,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "shareId"     : 103,
+     "typeId"      : "todotask.sharegift.with.shareId"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "鄱阳麻将分享",
+   "url"         : "${http_download}/hall/promote/imgs/share_icon.png",
+   "defaultRes"  : ""
+  }
+ ]
+}

@@ -1,0 +1,100 @@
+{
+ "games"            : [
+  {
+   "versions"         : [
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、平度麻将3.9001"
+     ],
+     "md5"              : "8cdc7b6ecab290a2053b5dea3baa0498",
+     "ver"              : "3.9001",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/pingdu_0210_3.9001.zip",
+     "size"             : "9M"
+    }
+   ],
+   "description"      : [
+    "1、平度麻将"
+   ],
+   "gameId"           : 730,
+   "gameMark"         : "pingdu"
+  }
+ ],
+ "templates"        : [
+  {
+   "des"              : "平度麻将",
+   "name"             : "pingdu_v3.902_AI_pingdumj",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "pingdu258"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : {
+            "hasRobot"         : 0
+           }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 730,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "平度麻将",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9001",
+        "defaultRes"       : "MaJiangBigCreateRoomSmall"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangBigEnterRoomSmall"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "todotask.showInfo",
+         "info"             : "敬请期待！！"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangBigJoyRoomSmall"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

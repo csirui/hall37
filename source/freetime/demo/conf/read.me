@@ -1,0 +1,16 @@
+                   ==FreeTime配置系统==
+
+* 采用json格式文件定义各种配置
+
+* 为了适应多机器访问配置的需要，采用一个redis进程作为配置中心
+  可以使用脚本json2redis.py把配置文件装载到redis中
+
+* FreeTime的各个服务进程，采用统一接口从redis配置中心取配置
+  ftsvr.getConf(confname, key, ...)
+
+* 为了降低redis配置中心负载，使用LFU Cache把常用配置项缓存到
+  内存里（如果配置数据量不大可以通过设置全部缓存）
+
+* server.json, db.json, global.json 是标准配置文件，框架的代码依赖这几个
+  配置，请参考demo下的具体实例进行配置
+

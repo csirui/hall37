@@ -1,0 +1,30 @@
+{
+    "handlers": [
+        {
+            "name": "custome_room_plugin",
+            "module": "gdy_shanxi.plugins.custom_room_plugin",
+            "object": "DiFangCustomRoomPlugin",
+            "handle": "event_handle"
+        },
+        {
+            "name": "table_chat_plugin",
+            "module": "difang.plugins.table_chat_plugin",
+            "object": "DiFangTabeChatPlugin",
+            "handle": "event_handle"
+        },
+        {
+            "name": "table_smilies_plugin",
+            "module": "difang.plugins.table_smilies_plugin",
+            "object": "DiFangTabeSmiliesPlugin",
+            "handle": "event_handle"
+        },
+        {
+            "name": "table_viewer",
+            "module": "difang.plugins.gm",
+            "object": "GM",
+            "handle": "event_handle"
+        }
+     ],
+    "event_seq": {
+    }
+}

@@ -1,0 +1,14 @@
+{
+ "templates"                     : {
+  "tsk_v3.901_AI__youle_eqwtishen": [
+   "activity",
+   "message",
+   "settings"
+  ],
+  "king27_v3.90_AI_youle_erqiwang": [
+   "activity",
+   "message",
+   "settings"
+  ]
+ }
+}

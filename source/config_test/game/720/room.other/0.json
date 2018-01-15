@@ -1,0 +1,167 @@
+{
+	"configDesc":"麻将房间其他相关配置,例如:自建桌,mainKeys:第一级字典key的list配置,新版本配置不在paramType添加",
+	"create_table_filter_keys":["notInParamTypeKeys","newParamType"],
+	"notInParamTypeKeys":["cardCount"],
+	"create_table_config": {
+			"tuidaohu":{
+                    "playModeDesc": "推倒胡",
+                    "paramType":{"cardCount": "游戏局数", "huWay": "玩法选择","kouTing":"是否报听","daiZiPai":"带字","daHu":"胡牌牌型"},
+                    "newParamType":{
+                    	"cardCount": {"desc": "游戏局数"},
+                    	"huWay":     {"desc": "可点炮", "selectId": 1, "unSelectId": 2},
+                    	"kouTing":   {"desc": "报听", "selectId": 1, "unSelectId": 2},
+                    	"daiZiPai":  {"desc": "带字牌", "selectId": 1, "unSelectId": 2},
+                    	"daHu":      {"desc": "可大胡", "selectId": 1, "unSelectId": 2}
+                    },
+                    "cardCount":[
+                        {"id": 0, "value":4, "fangkaDesc":"房卡X2", "desc":"4局(2张房卡)", "default": 0, "fangka_count": 2},
+                        {"id": 1, "value":8, "fangkaDesc":"房卡X3", "desc":"8局(3张房卡)", "default": 0, "fangka_count": 3},
+                        {"id": 2, "value":12,"fangkaDesc":"房卡X4", "desc":"12局(4张房卡)", "default": 1, "fangka_count": 4},
+                        {"id": 3, "value":16,"fangkaDesc":"房卡X5", "desc":"16局(5张房卡)", "default": 0, "fangka_count": 5}
+                        ],
+                    "huWay":[
+						{"id":1, "desc":"可点炮", "default": 1},
+						{"id":2, "desc":"自摸胡", "default": 0}
+					],
+					"daiZiPai":[
+						{"id":1, "desc":"带字牌", "default": 1},
+						{"id":2, "desc":"不带字牌", "default": 0}
+					],
+					"kouTing":[
+						{"id":1, "desc":"报听", "default": 1},
+						{"id":2, "desc":"不报听", "default": 0}
+					],
+					"daHu":[
+						{"id":1, "desc":"可大胡", "default": 1},
+						{"id":2, "desc":"只有平胡", "default": 0}
+					]
+            },
+             "koudian":{
+                    "playModeDesc": "扣点麻将",
+                    "paramType":{"cardCount": "游戏局数", "daHu":"胡牌牌型","baoTingDian":"报听"},
+                    "newParamType":{
+                    	"cardCount":  {"desc": "游戏局数"},
+                    	"daHu":       {"desc": "大胡加点","selectId": 1, "unSelectId": 3},
+                    	"baoTingDian":{"desc": "3点可听", "selectId": 1, "unSelectId": 2}
+                    },
+                    "cardCount":[
+                        {"id": 0, "value":4, "fangkaDesc":"房卡X2", "desc":"4局(2张房卡)", "default": 0, "fangka_count": 2},
+                        {"id": 1, "value":8, "fangkaDesc":"房卡X3", "desc":"8局(3张房卡)", "default": 0, "fangka_count": 3},
+                        {"id": 2, "value":12,"fangkaDesc":"房卡X4", "desc":"12局(4张房卡)", "default": 1, "fangka_count": 4},
+                        {"id": 3, "value":16,"fangkaDesc":"房卡X5", "desc":"16局(5张房卡)", "default": 0, "fangka_count": 5}
+                        ],
+                    "daHu":[
+						{"id":1, "desc":"大胡加10点", "default": 1},
+						{"id":3, "desc":"大胡加番", "default":0}
+					],
+					"baoTingDian":[
+						{"id":1, "desc":"3点可听,6点起胡", "default": 1},
+						{"id":2, "desc":"至少6点可听", "default": 0}
+					]
+            },
+            "yingsanzu":{
+                    "playModeDesc": "硬三组麻将",
+                    "paramType":{"cardCount": "游戏局数"},
+                    "newParamType":{
+                    	"cardCount":  {"desc": "游戏局数"}
+                    },
+                    "cardCount":[
+                        {"id": 0, "value":4, "fangkaDesc":"房卡X2", "desc":"4局(2张房卡)", "default": 0, "fangka_count": 2},
+                        {"id": 1, "value":8, "fangkaDesc":"房卡X3", "desc":"8局(3张房卡)", "default": 0, "fangka_count": 3},
+                        {"id": 2, "value":12,"fangkaDesc":"房卡X4", "desc":"12局(4张房卡)", "default": 1, "fangka_count": 4},
+                        {"id": 3, "value":16,"fangkaDesc":"房卡X5", "desc":"16局(5张房卡)", "default": 0, "fangka_count": 5}
+                        ]
+            },
+            "changzhi":{
+                    "playModeDesc": "长治推倒胡",
+                    "paramType":{"cardCount": "游戏局数", "zhuangJiaBei": "庄家结算", "zhuangRule":"庄位", "daiZiPai":"带字"},
+                    "newParamType":{
+                    	"cardCount":    {"desc": "游戏局数"},
+                    	"daiZiPai":     {"desc": "带字牌", "selectId": 1, "unSelectId": 2},
+                    	"zhuangJiaBei": {"desc": "庄家翻倍","selectId": 1, "unSelectId": 2},
+                    	"zhuangRule":   {"desc": "轮庄",    "selectId": 2, "unSelectId": 1}
+                    },
+                    "cardCount":[
+                        {"id": 0, "value":4, "fangkaDesc":"房卡X2", "desc":"4局(2张房卡)", "default": 0, "fangka_count": 2},
+                        {"id": 1, "value":8, "fangkaDesc":"房卡X3", "desc":"8局(3张房卡)", "default": 0, "fangka_count": 3},
+                        {"id": 2, "value":12,"fangkaDesc":"房卡X4", "desc":"12局(4张房卡)", "default": 1, "fangka_count": 4},
+                        {"id": 3, "value":16,"fangkaDesc":"房卡X5", "desc":"16局(5张房卡)", "default": 0, "fangka_count": 5}
+                        ],
+                    "daiZiPai":[
+						{"id":1, "desc":"带字牌", "default": 1},
+						{"id":2, "desc":"不带字牌", "default": 0}
+					],
+                    "zhuangJiaBei": [
+                    	{"id":1, "desc":"庄家翻倍", "default": 1},
+						{"id":2, "desc":"庄家不翻倍", "default": 0}
+                    ],
+                    "zhuangRule": [
+                    	{"id":1, "desc":"赢家做庄", "default": 1},
+						{"id":2, "desc":"轮庄", "default": 0}
+                    ]
+            },
+            "hongtong": {
+            		"playModeDesc": "洪洞麻将",
+                    "paramType":{"cardCount": "游戏局数"},
+                    "newParamType":{
+                    	"cardCount":  {"desc": "游戏局数"}
+                    },
+                    "cardCount":[
+                        {"id": 0, "value":4, "fangkaDesc":"房卡X2", "desc":"4局(2张房卡)", "default": 0, "fangka_count": 2},
+                        {"id": 1, "value":8, "fangkaDesc":"房卡X3", "desc":"8局(3张房卡)", "default": 0, "fangka_count": 3},
+                        {"id": 2, "value":12,"fangkaDesc":"房卡X4", "desc":"12局(4张房卡)", "default": 1, "fangka_count": 4},
+                        {"id": 3, "value":16,"fangkaDesc":"房卡X5", "desc":"16局(5张房卡)", "default": 0, "fangka_count": 5}
+                        ]
+            },
+            "tiejin": {
+                    "playModeDesc": "贴金麻将",
+                    "paramType":{"cardCount": "游戏局数"},
+                    "newParamType":{
+                        "cardCount":  {"desc": "游戏局数"},
+                        "daHu":      {"desc": "可大胡", "selectId": 1, "unSelectId": 2},
+                        "addGold": {"desc": "加4金",    "selectId": 1, "unSelectId": 2}
+                    },
+                    "cardCount":[
+                        {"id": 0, "value":4, "fangkaDesc":"房卡X2", "desc":"4局(2张房卡)", "default": 0, "fangka_count": 2},
+                        {"id": 1, "value":8, "fangkaDesc":"房卡X3", "desc":"8局(3张房卡)", "default": 0, "fangka_count": 3},
+                        {"id": 2, "value":12,"fangkaDesc":"房卡X4", "desc":"12局(4张房卡)", "default": 1, "fangka_count": 4},
+                        {"id": 3, "value":16,"fangkaDesc":"房卡X5", "desc":"16局(5张房卡)", "default": 0, "fangka_count": 5}
+                    ],
+                    "daHu":[
+                        {"id":1, "desc":"可大胡", "default": 1},
+                        {"id":2, "desc":"只有平胡", "default": 0}
+                    ],
+                    "addGold":[
+                        {"id":1, "desc":"8张金", "default": 1},
+                        {"id":2, "desc":"4张金", "default": 0}
+                    ]
+            }
+	},
+	"create_table_weixin_invite_info": {
+			"title": "三缺一，麻将找脚啦",
+			"des": "房间号：$##table_no##,$##play_mode##,$##card_count##局",
+			"url": "http://www.shediao.com/youle/gamelist.html",
+			"type": "1"
+	},
+	"create_table_weixin_inivite_desc_key":[
+											"huWay","kouTing","daiZiPai","daHu","baoTingDian","zhuangJiaBei","zhuangRule"
+											],
+	"leave_countdown": 2,
+	"create_table_leave_success": "解散牌桌成功",
+	"create_table_leave_failure": "解散牌桌失败，继续游戏",
+	"create_table_countdown": 180,
+	"budget_pattern_order": {
+		"yingsanzu": ["3y4f", "3y3f", "z1s", "q7d", "ql","hh7xd", "q1s", "1tl", "7xd",
+					  "3f4f", "3y2f", "3f3f", "3f2f", "q2m", "3y1f", "q1m", "3f1f", "dd",
+					  "1zy", "gj", "mq"]
+	},
+	"budget_statistics_order": {"max_degree":100, "zimo":80, "minggang":60, "angang":40, "dianpao":20},
+	"playmode_forbid_return_fanka": [],
+	"playmode_desc_map":{
+                          "tuidaohu": "推倒胡麻将",
+                          "koudian": "扣点麻将",
+                          "yingsanzu": "硬三组麻将",
+                          "changzhi": "长治麻将",
+                          "hongtong": "洪洞麻将"
+                         }
+}

@@ -1,0 +1,14 @@
+{
+ "templates"                                    : {
+  "qujingmj_v3.90_AI_qujingmj_v3.90_AI_feixiaoji": [
+   "activity",
+   "message",
+   "settings"
+  ],
+  "qujingmj_v3.90_AI_qujingfeixiaoji"            : [
+   "activity",
+   "message",
+   "settings"
+  ]
+ }
+}

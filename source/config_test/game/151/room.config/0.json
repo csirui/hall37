@@ -1,0 +1,58 @@
+{
+    "configDesc":"二七王房间其他相关配置,例如:自建桌",
+    "room_tabs":[
+        "优乐二七王"
+    ],
+    "create_table_config":{
+        "27king":{
+            "playModeDesc":"南昌二七王",
+            "myCustomConf":{
+                "totalPlayNum":15,
+                "maxSeatN":3
+            },
+            "maxSeatN":[
+                {
+                    "id":0,
+                    "value":3,
+                    "desc":"3人",
+                    "default":1
+                }
+            ],
+            "cardCount":[
+                {
+                    "id":0,
+                    "value":10,
+                    "desc":"10 局(免费试玩)",
+                    "default":0,
+                    "fangka_count":0
+                },
+                {
+                    "id":1,
+                    "value":15,
+                    "desc":"15 局(免费试玩)",
+                    "default":0,
+                    "fangka_count":0
+                },
+                {
+                    "id":2,
+                    "value":20,
+                    "desc":"20 局(免费试玩)",
+                    "default":0,
+                    "fangka_count":0
+                }
+            ]
+        }
+    },
+    "create_table_weixin_invite_info":{
+        "title":"房间号：$##table_no##，快来玩",
+        "des":"优乐二七王，共$##card_count##局，最地道的南昌二七王",
+        "url":"http://www.shediao.com/landing/erqiwang.html",
+        "type":"1"
+    },
+    "errormsginfos":{
+        "1":"房卡不足，请购买",
+        "2":"创建房间失败",
+        "3":"房间号错误",
+        "4":"房间已满"
+    }
+}

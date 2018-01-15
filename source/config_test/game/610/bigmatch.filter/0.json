@@ -1,0 +1,66 @@
+{
+
+	"6804":{
+		"failure":"二打一大师分",
+		"condition":{
+			"typeId":"user.cond.or",
+		    "desc":"二打一大师分",
+			"list":[
+				{
+					"typeId":"user.cond.erdayi.masterscore",
+					"minScoreG": 0,
+					"maxScoreG": 0,
+					"minScoreS": 0,
+					"minScoreR": 100
+				}
+			]
+		}
+	},
+
+	"6062":{
+		"failure":"VIP3以上或斗地主25段以上才能进入该比赛",
+		"condition":{
+			"typeId":"user.cond.or",
+		    "desc":"VIP3或大师25段",
+			"list":[
+				{
+					"typeId":"user.cond.dizhu.dashifen",
+					"minScore":6525,
+					"maxScore":-1
+				},
+				{
+					"typeId":"user.cond.vipLevel",
+					"startLevel":3,
+					"stopLevel":-1
+				}
+			]
+		}
+	},
+
+    "6063":{
+        "failure":"VIP3以上或斗地主25段以上才能进入该比赛",
+		"condition":{
+			"typeId":"user.cond.or",
+		    "desc":"VIP3或大师25段",
+			"list":[
+				{
+					"typeId":"user.cond.dizhu.dashifen",
+					"minScore":6525,
+					"maxScore":-1
+				},
+				{
+					"typeId":"user.cond.vipLevel",
+					"startLevel":3,
+					"stopLevel":-1
+				}
+			]
+		}
+    },
+	"6805":{
+		"failure":"本比赛暂未开启",
+		"condition":{
+			"typeId":"user.cond.false"
+		}
+	}
+}
+

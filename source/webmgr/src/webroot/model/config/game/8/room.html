@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>房间配置</title>
+
+	<!-- Bootstrap -->
+    <link rel="stylesheet" href="./../../../../third/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./../../../../third/css/docs.min.css">
+    <link rel="stylesheet" href="./../../../../third/css/buttons.css">
+    <link rel="stylesheet" href="./../../../../third/css/main.css">
+
+	<link rel="stylesheet" href="./../../../../third/easyui/themes/default/easyui.css">
+	<link rel="stylesheet" href="./../../../../third/easyui/themes/icon.css">
+
+    <script src="./../../../../third/js/jquery.min.js"></script>
+    <script src="./../../../../third/js/bootstrap.min.js"></script>
+    <script src="./../../../../third/js/vue.min.js"></script>
+	<script src="./../../../../third/easyui/jquery.easyui.min.js"></script>
+
+    <script src="./../../../../js/lib/base.js"></script>
+    <script src="./../../../../js/lib/model.js"></script>
+
+    <script src="room.js"></script>
+	<style>
+	.margin1 {
+		margin : 2px;
+	}
+	</style>
+</head>
+<body>
+    <div id="log_content" class="easyui-layout" fit="true">
+		<div region="north" split="false" style="height:40px;padding:5px;">
+			<button type="button" class="btn-success" onclick="generate_json();">更新Excel生成配置文件</button>
+			<span>=></span>
+			<button type="button" class="btn-success" onclick="check_match_start_time();">查看开赛时间</button>
+			<span>=></span>
+			<button type="button" class="btn-success" onclick="commit_testing();">提交testing</button>
+			<span>=></span>
+			("运行管理->更新运行配置"后测试)
+			<span>=></span>
+			<button type="button" class="btn-success" onclick="commit_release();">提交release</button>
+			<!--button type="button" class="btn-success" onclick="commitRelease(this);">提交到release</button>
+			<button type="button" class="btn-success" onclick="jsonDiff(this);">对比JSON配置内容</button-->
+        </div>
+
+        <div id="center_div" region="center" style="padding:5px;width:100%;height:100%;">
+        </div>
+    </div>
+</body>
+</html>
+
+
+

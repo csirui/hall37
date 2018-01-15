@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>服务管理</title>
+
+	<!-- Bootstrap -->
+    <link rel="stylesheet" href="./../../third/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./../../third/css/docs.min.css">
+    <link rel="stylesheet" href="./../../third/css/buttons.css">
+    <link rel="stylesheet" href="./../../third/css/main.css">
+
+	<link rel="stylesheet" href="./../../third/easyui/themes/default/easyui.css">
+	<link rel="stylesheet" href="./../../third/easyui/themes/icon.css">
+
+    <script src="./../../third/js/jquery.min.js"></script>
+    <script src="./../../third/js/bootstrap.min.js"></script>
+    <script src="./../../third/js/vue.min.js"></script>
+	<script src="./../../third/easyui/jquery.easyui.min.js"></script>
+
+    <script src="./../../js/lib/base.js"></script>
+    <script src="./../../js/lib/model.js"></script>
+
+    <script src="logview.js"></script>
+    <script src="action.js"></script>
+  	<style>
+  	.margin1 {
+  		margin : 2px;
+  	}
+  	</style>
+</head>
+<body>
+    <div id="log_content" class="easyui-layout" fit="true">
+    	<div region="north" split="false" style="height:140px;padding:5px;">
+			<button type="button" class="margin1 btn btn-success btn-danger" onclick="svnUpdateAll(this);">全量SVN更新</button>
+			<button type="button" class="margin1 btn btn-success" onclick="compileProject(this);">编译代码</button>
+			<button type="button" class="margin1 btn btn-success" onclick="checkConfig(this);">编译配置</button>
+            <button type="button" class="margin1 btn btn-success btn-danger" onclick="configCompileStart(this);">配置编译启动</button>
+			<button type="button" class="margin1 btn btn-success btn-danger" onclick="stopAllProcess(this);">停止所有进程</button>
+            <button type="button" class="margin1 btn btn-success btn-danger" onclick="resetSelectedProcess(this);">启动选中的进程</button>
+			<button type="button" class="margin1 btn btn-success btn-warning" onclick="removeAllLogs(this);">清理日志</button>
+            <button type="button" class="margin1 btn btn-success" onclick="deleteActionLogs(this);">删除操作日志</button>
+			<br>
+	    	<button type="button" class="margin1 btn btn-success" onclick="reloadPage(this);">重置页面</button>
+			<button type="button" class="margin1 btn btn-success btn-warning" onclick="restartMgr(this);">重新启动管理器</button>
+            <button type="button" class="margin1 btn btn-success btn-warning" onclick="pushCode(this);">推送代码</button>
+            <button type="button" class="margin1 btn btn-success btn-warning" onclick="pushWeb(this);">推送WEB</button>
+            <br>
+            <button type="button" class="margin1 btn btn-success btn-danger" onclick="svnUpdateConfig(this);">更新配置SVN</button>
+            <button type="button" class="margin1 btn btn-success btn-warning" onclick="configUpdate(this);">更新运营配置</button>         
+        </div>
+        <div region="west" split="true" style="width:300px;">
+        	<div id="loglefttabs" class="easyui-tabs"  fit="true"> 
+        		<div title="操作日志"> 
+        			<ul id="logfile_menu"/>
+        		</div>
+        		<div title="进程列表" data-options="tools:'#p-tools'" style="padding:10px"> 
+        			<ul id="process_ids"/>
+        		</div>
+        	</div>
+        </div>
+		<div id="p-tools">
+			<a href="javascript:void(0)" class="icon-mini-refresh" onclick="reloadProcessList()"></a>
+			<a href="javascript:void(0)" class="icon-mini-add" onclick="revertSelectedProcs()"></a>
+		</div>
+        <div id="action_log_div" region="center" style="padding:5px;background:#eee;">
+			<div id="action_info">
+				<div>ActionUUID:<span id="action_uuid"></span></div>
+				<div>ActionTime:<span id="action_time"></span></div>
+				<div>ActionUser:<span id="action_user"></span></div>
+				<div>ActionName:<span id="action_actname"></span></div>
+			</div>
+			<div id="action_log">
+			</div>
+        </div>
+    </div>
+	<div id="actdlg">
+		<table>
+			<tr><td class="acttip1" align="right">您正在进行:</td>
+				<td class="acttip2"><b><span id="actname"></span></b></td></tr>
+			<tr><td class="acttip1" align="right">操作服务器:</td>
+				<td class="acttip2"><b><span id="actip"></span></b></td></tr>
+			<tr><td class="acttip1" align="right">操作确认码:</td>
+				<td class="acttip2"><b><span id="actcode1"></span></b></td></tr>
+			<tr><td class="acttip1" align="right">请输入确认码:</td>
+				<td class="acttip2"><b><input id="actcode2" value="" size="6"/></b></td></tr>
+		</table>
+    </div>
+	<div id="actsvndlg">
+		<table>
+			<tr><td class="acttip1" align="right">您正在进行:</td>
+				<td class="acttip2"><b><span id="svnactname"></span></b></td></tr>
+			<tr><td class="acttip1" align="right">操作服务器:</td>
+				<td class="acttip2"><b><span id="svnactip"></span></b></td></tr>
+			<tr><td class="acttip1" align="right">SVN用户名:</td>
+				<td class="acttip2"><b><input  type="text" id="svnuser" value="" size="12"/></span></b></td></tr>
+			<tr><td class="acttip1" align="right">SVN密码:</td>
+				<td class="acttip2"><b><input  type="password" id="svnpwd" value="" size="12"/></b></td></tr>
+		</table>
+    </div>
+</body>
+</html>
+
+

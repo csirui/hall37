@@ -1,0 +1,10 @@
+{
+ "templates"                 : {
+  "pdk_v3.901_AI_common_nobag": [
+   "activity",
+   "message",
+   "bag",
+   "settings"
+  ]
+ }
+}

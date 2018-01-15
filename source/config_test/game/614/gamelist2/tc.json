@@ -1,0 +1,25 @@
+{
+ "games"            : [
+  {
+   "versions"         : [
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、鸡西斗地主插件模板"
+     ],
+     "md5"              : "332b5784938b916c00fb593908718790",
+     "ver"              : "3.901",
+     "url"              : "https://df.dl.shediao.com/cdn37/majiang/difang/plugin/jixiddz_v3.901_1221.zip",
+     "size"             : "12M"
+    }
+   ],
+   "description"      : [
+    "1、鸡西斗地主"
+   ],
+   "gameId"           : 614,
+   "gameMark"         : "jixiddz"
+  }
+ ],
+ "templates"        : [ ]
+}

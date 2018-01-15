@@ -1,0 +1,23 @@
+{
+    "actual": {
+        "youle.ncmj" : 6001,
+        "youle.iosncmj" : 6001,
+        "youle.pymj" : 6001,
+        "youle.iospymj" : 6001,
+        "diandian.pymj" : 6001,
+        "sqy.pymj" : 6001,
+        "youle.hnmj" : 6002,
+        "diandian.hnmj" : 6002,
+        "sqy.hnmj" : 6002,
+        "sqy.ioshnmj" : 6002,
+        "appStore.youlehnmj" : 6002,
+        "youle.scmj" : 6003,
+        "youle.scmjqq" : 6003,
+        "youle.sc" : 6003,
+        "appStore.youlescmj" : 6003,
+        "sqy.scmj" : 6003,
+        "sqy.iosscmj" : 6003,
+        "diandian.scmj" : 6003
+    },
+    "default": 4346
+}

@@ -1,0 +1,1029 @@
+[
+  {
+    "type": "AG",
+    "id": "01",
+    "ip": "127.0.0.1",
+    "protocols": {
+      "server": {
+        "a2a": 11001,
+        "a2s": 12001
+      }
+    }
+  },
+  {
+    "type": "AG",
+    "id": "02",
+    "ip": "127.0.0.1",
+    "protocols": {
+      "server": {
+        "a2a": 11002,
+        "a2s": 12002
+      }
+    }
+  },
+  {
+    "type": "AG",
+    "id": "03",
+    "ip": "127.0.0.1",
+    "protocols": {
+      "server": {
+        "a2a": 11003,
+        "a2s": 12003
+      }
+    }
+  },
+  {
+    "type": "AG",
+    "id": "04",
+    "ip": "127.0.0.1",
+    "protocols": {
+      "server": {
+        "a2a": 11004,
+        "a2s": 12004
+      }
+    }
+  },
+  {
+    "type": "AG",
+    "id": "05",
+    "ip": "127.0.0.1",
+    "protocols": {
+      "server": {
+        "a2a": 11005,
+        "a2s": 12005
+      }
+    }
+  },
+  {
+    "type": "AG",
+    "id": "06",
+    "ip": "127.0.0.1",
+    "protocols": {
+      "server": {
+        "a2a": 11006,
+        "a2s": 12006
+      }
+    }
+  },
+  {
+    "type": "LI",
+    "id": "01",
+    "ip": "127.0.0.1",
+    "agent": "AG01",
+    "writer": [
+      "LW01"
+    ],
+    "protocols": {
+      "server": {
+        "indexer-http": 10001
+      }
+    },
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  },
+  {
+    "type": "LI",
+    "id": "02",
+    "ip": "127.0.0.1",
+    "agent": "AG01",
+    "writer": [
+      "LW02"
+    ],
+    "protocols": {
+      "server": {
+        "indexer-http": 10002
+      }
+    },
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  },
+  {
+    "type": "LI",
+    "id": "03",
+    "ip": "127.0.0.1",
+    "agent": "AG01",
+    "writer": [
+      "LW03"
+    ],
+    "protocols": {
+      "server": {
+        "indexer-http": 10003
+      }
+    },
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  },
+  {
+    "type": "LI",
+    "id": "04",
+    "ip": "127.0.0.1",
+    "agent": "AG01",
+    "writer": [
+      "LW04"
+    ],
+    "protocols": {
+      "server": {
+        "indexer-http": 10004
+      }
+    },
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  },
+  {
+    "type": "LI",
+    "id": "05",
+    "ip": "127.0.0.1",
+    "agent": "AG02",
+    "writer": [
+      "LW05"
+    ],
+    "protocols": {
+      "server": {
+        "indexer-http": 10005
+      }
+    },
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  },
+  {
+    "type": "LI",
+    "id": "06",
+    "ip": "127.0.0.1",
+    "agent": "AG02",
+    "writer": [
+      "LW06"
+    ],
+    "protocols": {
+      "server": {
+        "indexer-http": 10006
+      }
+    },
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  },
+  {
+    "type": "LI",
+    "id": "07",
+    "ip": "127.0.0.1",
+    "agent": "AG02",
+    "writer": [
+      "LW07"
+    ],
+    "protocols": {
+      "server": {
+        "indexer-http": 10007
+      }
+    },
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  },
+  {
+    "type": "LI",
+    "id": "08",
+    "ip": "127.0.0.1",
+    "agent": "AG02",
+    "writer": [
+      "LW08"
+    ],
+    "protocols": {
+      "server": {
+        "indexer-http": 10008
+      }
+    },
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  },
+  {
+    "type": "LI",
+    "id": "09",
+    "ip": "127.0.0.1",
+    "agent": "AG03",
+    "writer": [
+      "LW09"
+    ],
+    "protocols": {
+      "server": {
+        "indexer-http": 10009
+      }
+    },
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  },
+  {
+    "type": "LI",
+    "id": "10",
+    "ip": "127.0.0.1",
+    "agent": "AG03",
+    "writer": [
+      "LW10"
+    ],
+    "protocols": {
+      "server": {
+        "indexer-http": 10010
+      }
+    },
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  },
+  {
+    "type": "LI",
+    "id": "11",
+    "ip": "127.0.0.1",
+    "agent": "AG03",
+    "writer": [
+      "LW11"
+    ],
+    "protocols": {
+      "server": {
+        "indexer-http": 10011
+      }
+    },
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  },
+  {
+    "type": "LI",
+    "id": "12",
+    "ip": "127.0.0.1",
+    "agent": "AG03",
+    "writer": [
+      "LW12"
+    ],
+    "protocols": {
+      "server": {
+        "indexer-http": 10012
+      }
+    },
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  },
+  {
+    "type": "LI",
+    "id": "13",
+    "ip": "127.0.0.1",
+    "agent": "AG04",
+    "writer": [
+      "LW13"
+    ],
+    "protocols": {
+      "server": {
+        "indexer-http": 10013
+      }
+    },
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  },
+  {
+    "type": "LI",
+    "id": "14",
+    "ip": "127.0.0.1",
+    "agent": "AG04",
+    "writer": [
+      "LW14"
+    ],
+    "protocols": {
+      "server": {
+        "indexer-http": 10014
+      }
+    },
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  },
+  {
+    "type": "LI",
+    "id": "15",
+    "ip": "127.0.0.1",
+    "agent": "AG04",
+    "writer": [
+      "LW15"
+    ],
+    "protocols": {
+      "server": {
+        "indexer-http": 10015
+      }
+    },
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  },
+  {
+    "type": "LI",
+    "id": "16",
+    "ip": "127.0.0.1",
+    "agent": "AG04",
+    "writer": [
+      "LW16"
+    ],
+    "protocols": {
+      "server": {
+        "indexer-http": 10016
+      }
+    },
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  },
+  {
+    "type": "LI",
+    "id": "17",
+    "ip": "127.0.0.1",
+    "agent": "AG05",
+    "writer": [
+      "LW17"
+    ],
+    "protocols": {
+      "server": {
+        "indexer-http": 10017
+      }
+    },
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  },
+  {
+    "type": "LI",
+    "id": "18",
+    "ip": "127.0.0.1",
+    "agent": "AG05",
+    "writer": [
+      "LW18"
+    ],
+    "protocols": {
+      "server": {
+        "indexer-http": 10018
+      }
+    },
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  },
+  {
+    "type": "LI",
+    "id": "19",
+    "ip": "127.0.0.1",
+    "agent": "AG05",
+    "writer": [
+      "LW19"
+    ],
+    "protocols": {
+      "server": {
+        "indexer-http": 10019
+      }
+    },
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  },
+  {
+    "type": "LI",
+    "id": "20",
+    "ip": "127.0.0.1",
+    "agent": "AG05",
+    "writer": [
+      "LW20"
+    ],
+    "protocols": {
+      "server": {
+        "indexer-http": 10020
+      }
+    },
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  },
+  {
+    "type": "LI",
+    "id": "21",
+    "ip": "127.0.0.1",
+    "agent": "AG06",
+    "writer": [
+      "LW21"
+    ],
+    "protocols": {
+      "server": {
+        "indexer-http": 10021
+      }
+    },
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  },
+  {
+    "type": "LI",
+    "id": "22",
+    "ip": "127.0.0.1",
+    "agent": "AG06",
+    "writer": [
+      "LW22"
+    ],
+    "protocols": {
+      "server": {
+        "indexer-http": 10022
+      }
+    },
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  },
+  {
+    "type": "LI",
+    "id": "23",
+    "ip": "127.0.0.1",
+    "agent": "AG06",
+    "writer": [
+      "LW23"
+    ],
+    "protocols": {
+      "server": {
+        "indexer-http": 10023
+      }
+    },
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  },
+  {
+    "type": "LI",
+    "id": "24",
+    "ip": "127.0.0.1",
+    "agent": "AG06",
+    "writer": [
+      "LW24"
+    ],
+    "protocols": {
+      "server": {
+        "indexer-http": 10024
+      }
+    },
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  },
+  {
+    "type": "LW",
+    "id": "01",
+    "ip": "127.0.0.1",
+    "agent": "AG01",
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  },
+  {
+    "type": "LW",
+    "id": "02",
+    "ip": "127.0.0.1",
+    "agent": "AG01",
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  },
+  {
+    "type": "LW",
+    "id": "03",
+    "ip": "127.0.0.1",
+    "agent": "AG01",
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  },
+  {
+    "type": "LW",
+    "id": "04",
+    "ip": "127.0.0.1",
+    "agent": "AG01",
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  },
+  {
+    "type": "LW",
+    "id": "05",
+    "ip": "127.0.0.1",
+    "agent": "AG02",
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  },
+  {
+    "type": "LW",
+    "id": "06",
+    "ip": "127.0.0.1",
+    "agent": "AG02",
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  },
+  {
+    "type": "LW",
+    "id": "07",
+    "ip": "127.0.0.1",
+    "agent": "AG02",
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  },
+  {
+    "type": "LW",
+    "id": "08",
+    "ip": "127.0.0.1",
+    "agent": "AG02",
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  },
+  {
+    "type": "LW",
+    "id": "09",
+    "ip": "127.0.0.1",
+    "agent": "AG03",
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  },
+  {
+    "type": "LW",
+    "id": "10",
+    "ip": "127.0.0.1",
+    "agent": "AG03",
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  },
+  {
+    "type": "LW",
+    "id": "11",
+    "ip": "127.0.0.1",
+    "agent": "AG03",
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  },
+  {
+    "type": "LW",
+    "id": "12",
+    "ip": "127.0.0.1",
+    "agent": "AG03",
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  },
+  {
+    "type": "LW",
+    "id": "13",
+    "ip": "127.0.0.1",
+    "agent": "AG04",
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  },
+  {
+    "type": "LW",
+    "id": "14",
+    "ip": "127.0.0.1",
+    "agent": "AG04",
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  },
+  {
+    "type": "LW",
+    "id": "15",
+    "ip": "127.0.0.1",
+    "agent": "AG04",
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  },
+  {
+    "type": "LW",
+    "id": "16",
+    "ip": "127.0.0.1",
+    "agent": "AG04",
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  },
+  {
+    "type": "LW",
+    "id": "17",
+    "ip": "127.0.0.1",
+    "agent": "AG05",
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  },
+  {
+    "type": "LW",
+    "id": "18",
+    "ip": "127.0.0.1",
+    "agent": "AG05",
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  },
+  {
+    "type": "LW",
+    "id": "19",
+    "ip": "127.0.0.1",
+    "agent": "AG05",
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  },
+  {
+    "type": "LW",
+    "id": "20",
+    "ip": "127.0.0.1",
+    "agent": "AG05",
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  },
+  {
+    "type": "LW",
+    "id": "21",
+    "ip": "127.0.0.1",
+    "agent": "AG06",
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  },
+  {
+    "type": "LW",
+    "id": "22",
+    "ip": "127.0.0.1",
+    "agent": "AG06",
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  },
+  {
+    "type": "LW",
+    "id": "23",
+    "ip": "127.0.0.1",
+    "agent": "AG06",
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  },
+  {
+    "type": "LW",
+    "id": "24",
+    "ip": "127.0.0.1",
+    "agent": "AG06",
+    "redis": [
+      "user0",
+      "user1",
+      "user2",
+      "user3",
+      "user4",
+      "user5",
+      "user6",
+      "user7"
+    ]
+  }
+]
+

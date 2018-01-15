@@ -1,0 +1,69 @@
+{
+ "templates"                    : {
+  "shanximj_v3.902_AI_shanximj"  : {
+   "desc"                         : "山西麻将IOS提审模板",
+   "activities"                   : [
+    "yitiao_sxmj_jiankangyouxi1124"
+   ]
+  },
+  "shanximj_v3.90_AI_shanximj"   : {
+   "desc"                         : "山西麻将专用模板",
+   "activities"                   : [
+    "taihang_shanxi_choujiang"
+   ]
+  }
+ },
+ "activities"                   : {
+  "yitiao_sxmj_jiankangyouxi1124": {
+   "id"                           : "yitiao_sxmj_jiankangyouxi1124",
+   "des"                          : "健康游戏公告",
+   "moduleId"                     : "notice_img",
+   "typeid"                       : 1,
+   "name"                         : "健康游戏公告",
+   "server_config"                : {
+    "start"                        : "2016-11-25 00:00:00",
+    "end"                          : "2019-12-04 00:00:00"
+   },
+   "config"                       : {
+    "firstButton"                  : {
+     "visible"                      : 0,
+     "action"                       : "",
+     "params"                       : {
+      "duration"                     : 2,
+      "text"                         : "确定"
+     }
+    },
+    "secondButton"                 : {
+     "visible"                      : 0,
+     "action"                       : "",
+     "params"                       : {
+      "duration"                     : 2,
+      "text"                         : "确定"
+     }
+    },
+    "bgURL"                        : "${http_download}/majiang/images/ads/mjdf_jkd.jpg"
+   },
+   "url"                          : ""
+  },
+  "taihang_shanxi_choujiang"     : {
+   "id"                           : "taihang_shanxi_choujiang",
+   "des"                          : "每玩够制定局数的麻将游戏，即可获得抽奖机会，赢取实物大奖！\n活动时间：2月11日至25日",
+   "moduleId"                     : "general_btn",
+   "typeid"                       : 1,
+   "name"                         : "元宵节大抽奖",
+   "server_config"                : {
+    "start"                        : "2017-02-10 00:00:00",
+    "end"                          : "2017-02-26 00:00:00"
+   },
+   "config"                       : {
+    "button"                       : {
+     "visible"                      : "true",
+     "todoTask"                     : "",
+     "URL"                          : ""
+    },
+    "bgURL"                        : "${http_download}/majiang/difang/act/shanxi_choujiang_act_0210_1.jpg"
+   }
+  }
+ },
+ "modules"                      : { }
+}

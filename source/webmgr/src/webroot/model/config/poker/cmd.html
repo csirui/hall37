@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>服务管理</title>
+
+	<!-- Bootstrap -->
+    <link rel="stylesheet" href="./../../../third/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./../../../third/css/docs.min.css">
+    <link rel="stylesheet" href="./../../../third/css/buttons.css">
+    <link rel="stylesheet" href="./../../../third/css/main.css">
+
+    <script src="./../../../third/js/jquery.min.js"></script>
+    <script src="./../../../third/js/bootstrap.min.js"></script>
+    <script src="./../../../third/js/vue.min.js"></script>
+
+    <script src="./../../../js/lib/base.js"></script>
+    <script src="./../../../js/lib/model.js"></script>
+
+    <script src="cmd.js"></script>
+  
+</head>
+<body>
+	<div id="dataContent">
+		<table class="table table-bordered bs-docs-section">
+			<tr>
+				<td colspan="3">
+					<button type="button" class="btn btn-success" v-on="click: reset">重 置</button>
+					<button type="button" class="btn btn-success" v-on="click: submit" >保 存</button>
+					<b>poker/cmd.json 命令路由定义</b>
+				</td>
+			</tr>
+		</table>
+		<table class="table table-bordered bs-docs-section">
+			<tr class="bg-info">
+				<th width="40px"><button type="button" class="btn btn-info" v-on="click: addData('UT')">+UT</button></th>
+				<th>COMMAND</th>
+				<th>说明</th>
+			</tr>
+			<tr v-repeat="UT">
+				<th width="40px"><button type="button" class="btn btn-warning" v-on="click: removeData('UT', $index)">-</button></th>
+				<td><input type="text" v-model="cmd"></td>
+				<td><input type="text" v-model="desc"></td>
+			</tr>
+		</table>
+		<table class="table table-bordered bs-docs-section">
+			<tr class="bg-info">
+				<th width="40px"><button type="button" class="btn btn-info" v-on="click: addData('GR')">+GR</button></th>
+				<th>COMMAND</th>
+				<th>说明</th>
+			</tr>
+			<tr v-repeat="GR">
+				<th width="40px"><button type="button" class="btn btn-warning" v-on="click: removeData('GR', $index)">-</button></th>
+				<td><input type="text" v-model="cmd"></td>
+				<td><input type="text" v-model="desc"></td>
+			</tr>
+		</table>
+		<table class="table table-bordered bs-docs-section">
+			<tr class="bg-info">
+				<th width="40px"><button type="button" class="btn btn-info" v-on="click: addData('GT')">+GT</button></th>
+				<th>COMMAND</th>
+				<th>说明</th>
+			</tr>
+			<tr v-repeat="GT">
+				<th width="40px"><button type="button" class="btn btn-warning" v-on="click: removeData('GT', $index)">-</button></th>
+				<td><input type="text" v-model="cmd"></td>
+				<td><input type="text" v-model="desc"></td>
+			</tr>
+		</table>
+	<div>
+</body>
+</html>
+
+

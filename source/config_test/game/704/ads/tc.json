@@ -1,0 +1,67 @@
+{
+ "templates"                  : {
+  "poyangmj_v3.90_AI_pymj"     : {
+   "interval"                   : 5,
+   "name"                       : "poyangmj_v3.90_AI_pymj",
+   "ads"                        : [
+    704112402,
+    704112401
+   ]
+  },
+  "poyangmj_v3.91_AI_poyangmj" : {
+   "interval"                   : 5,
+   "name"                       : "poyangmj_v3.91_AI_poyangmj",
+   "ads"                        : [
+    7071605
+   ]
+  },
+  "poyangmj_v3.90_AI_youlepymj": {
+   "interval"                   : 5,
+   "name"                       : "poyangmj_v3.90_AI_youlepymj",
+   "ads"                        : [
+    704111001
+   ]
+  }
+ },
+ "ads"                        : [
+  {
+   "startTime"                  : "2016-11-10 00:00:00",
+   "id"                         : 704111001,
+   "todotasks"                  : [
+    {
+     "actId"                      : "youle_nc_1111free1109",
+     "typeId"                     : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                  : 1,
+   "pic"                        : "${http_download}/majiang/difang/ads/1111free1109_icon.jpg",
+   "endTime"                    : "2016-11-17 00:00:00"
+  },
+  {
+   "startTime"                  : "2016-11-24 00:00:00",
+   "id"                         : 704112401,
+   "todotasks"                  : [
+    {
+     "actId"                      : "youle_nc_jb",
+     "typeId"                     : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                  : 1,
+   "pic"                        : "${http_download}/majiang/difang/ads/ads_jb_11013.jpg",
+   "endTime"                    : "2016-12-01 00:00:00"
+  },
+  {
+   "startTime"                  : "2016-11-24 00:00:00",
+   "id"                         : 704112402,
+   "todotasks"                  : [
+    {
+     "actId"                      : "activity_mj_df_jiankang",
+     "typeId"                     : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                  : 1,
+   "pic"                        : "${http_download}/majiang/images/ads/mjdf_jkx.jpg",
+   "endTime"                    : "2016-12-01 00:00:00"
+  }
+ ]
+}

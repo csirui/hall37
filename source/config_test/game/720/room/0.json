@@ -1,0 +1,32 @@
+{
+  "720001" : {
+    "controlServerCount" : 1,
+    "controlTableCount" : 0,
+    "gameServerCount" : 4,
+    "gameTableCount" : 500
+  },
+  "720002" : {
+    "controlServerCount" : 1,
+    "controlTableCount" : 0,
+    "gameServerCount" : 8,
+    "gameTableCount" : 500
+  },
+  "720003" : {
+    "controlServerCount" : 1,
+    "controlTableCount" : 0,
+    "gameServerCount" : 12,
+    "gameTableCount" : 500
+  },
+  "720004" : {
+    "controlServerCount" : 1,
+    "controlTableCount" : 0,
+    "gameServerCount" : 4,
+    "gameTableCount" : 500
+  },
+  "720005" : {
+    "controlServerCount" : 1,
+    "controlTableCount" : 0,
+    "gameServerCount" : 4,
+    "gameTableCount" : 500
+  }
+}

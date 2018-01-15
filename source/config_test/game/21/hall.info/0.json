@@ -1,0 +1,407 @@
+{
+  "room_items" : {
+    "jd10" : {
+      "id" : 21011,
+      "name" : "经典新手场",
+      "basebet": 30,
+      "mincoin": 400,
+      "maxcoin": 25000,
+      "entry" : "底注30金币",
+      "config" : 0,
+      "condition" : "大于400金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdxsc.png"
+    },
+    "jd20" : {
+      "id" : 21012,
+      "name" : "经典中级场",
+      "basebet": 200,
+      "mincoin": 2000,
+      "maxcoin": 200000,
+      "entry" : "底注200金币",
+      "config" : 0,
+      "condition" : "大于2000金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdzjc.png"
+    },
+    "jd30" : {
+      "id" : 21013,
+      "name" : "经典高级场",
+      "basebet": 1000,
+      "mincoin": 20000,
+      "maxcoin": 400000,
+      "entry" : "底注1000金币",
+      "config" : 0,
+      "condition" : "大于2万金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdgjc.png"
+    },
+    "jd40" : {
+      "id" : 21014,
+      "name" : "经典大师场",
+      "basebet": 5000,
+      "mincoin": 60000,
+      "maxcoin": -1,
+      "entry" : "底注5000金币",
+      "config" : 0,
+      "condition" : "大于6万金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jddsc.png"
+    },
+
+    "fp10" : {
+      "id" : 21021,
+      "name" : "放炮新手场",
+      "basebet": 30,
+      "mincoin": 400,
+      "maxcoin": 25000,
+      "entry" : "底注30金币",
+      "config" : 0,
+      "condition" : "大于400金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdxsc.png"
+    },
+    "fp20" : {
+      "id" : 21022,
+      "name" : "放炮中级场",
+      "basebet": 200,
+      "mincoin": 2000,
+      "maxcoin": 200000,
+      "entry" : "底注200金币",
+      "config" : 0,
+      "condition" : "大于2000金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdzjc.png"
+    },
+    "fp30" : {
+      "id" : 21023,
+      "name" : "放炮高级场",
+      "basebet": 1000,
+      "mincoin": 20000,
+      "maxcoin": 400000,
+      "entry" : "底注1000金币",
+      "config" : 0,
+      "condition" : "大于2万金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdgjc.png"
+    },
+    "fp40" : {
+      "id" : 21024,
+      "name" : "放炮大师场",
+      "basebet": 5000,
+      "mincoin": 60000,
+      "maxcoin": -1,
+      "entry" : "底注5000金币",
+      "config" : 0,
+      "condition" : "大于6万金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jddsc.png"
+    },
+
+    "fd10" : {
+      "id" : 21031,
+      "name" : "亲友新手场",
+      "basebet": 30,
+      "mincoin": 400,
+      "maxcoin": 25000,
+      "entry" : "底注30金币",
+      "config" : 0,
+      "condition" : "跑胡子3级\n大于400金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdxsc.png"
+    },
+    "fd20" : {
+      "id" : 21032,
+      "name" : "亲友中级场",
+      "basebet": 200,
+      "mincoin": 2000,
+      "maxcoin": 200000,
+      "entry" : "底注200金币",
+      "config" : 0,
+      "condition" : "跑胡子4级\n大于2000金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdzjc.png"
+    },
+    "fd30" : {
+      "id" : 21033,
+      "name" : "亲友高级场",
+      "basebet": 1000,
+      "mincoin": 20000,
+      "maxcoin": 400000,
+      "entry" : "底注1000金币",
+      "config" : 0,
+      "condition" : "跑胡子5级\n大于2万金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdgjc.png"
+    },
+    "fd40" : {
+      "id" : 21034,
+      "name" : "亲友大师场",
+      "basebet": 5000,
+      "mincoin": 60000,
+      "maxcoin": -1,
+      "entry" : "底注5000金币",
+      "config" : 0,
+      "condition" : "跑胡子6级\n大于6万金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jddsc.png"
+    },
+    "p210" : {
+      "id" : 21061,
+      "name" : "二人新手场",
+      "basebet": 30,
+      "mincoin": 400,
+      "maxcoin": 25000,
+      "entry" : "底注30金币",
+      "config" : 0,
+      "condition" : "大于400金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdxsc.png"
+    },
+    "p220" : {
+      "id" : 21062,
+      "name" : "二人中级场",
+      "basebet": 200,
+      "mincoin": 2000,
+      "maxcoin": 200000,
+      "entry" : "底注200金币",
+      "config" : 0,
+      "condition" : "大于2000金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdzjc.png"
+    },
+    "p230" : {
+      "id" : 21063,
+      "name" : "二人高级场",
+      "basebet": 1000,
+      "mincoin": 20000,
+      "maxcoin": 400000,
+      "entry" : "底注1000金币",
+      "config" : 0,
+      "condition" : "大于2万金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdgjc.png"
+    },
+    "p240" : {
+      "id" : 21064,
+      "name" : "二人大师场",
+      "basebet": 5000,
+      "mincoin": 60000,
+      "maxcoin": -1,
+      "entry" : "底注5000金币",
+      "config" : 0,
+      "condition" : "大于6万金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jddsc.png"
+    },
+    "bmt10" : {
+      "id" : 21071,
+      "name" : "半名堂新手场",
+      "basebet": 30,
+      "mincoin": 400,
+      "maxcoin": 25000,
+      "entry" : "底注30金币",
+      "config" : 0,
+      "condition" : "大于400金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdxsc.png"
+    },
+    "bmt20" : {
+      "id" : 21072,
+      "name" : "半名堂中级场",
+      "basebet": 200,
+      "mincoin": 2000,
+      "maxcoin": 200000,
+      "entry" : "底注200金币",
+      "config" : 0,
+      "condition" : "大于2000金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdzjc.png"
+    },
+    "bmt30" : {
+      "id" : 21073,
+      "name" : "半名堂高级场",
+      "basebet": 1000,
+      "mincoin": 20000,
+      "maxcoin": 400000,
+      "entry" : "底注1000金币",
+      "config" : 0,
+      "condition" : "大于2万金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdgjc.png"
+    },
+    "bmt40" : {
+      "id" : 21074,
+      "name" : "半名堂大师场",
+      "basebet": 5000,
+      "mincoin": 60000,
+      "maxcoin": -1,
+      "entry" : "底注5000金币",
+      "config" : 0,
+      "condition" : "大于6万金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jddsc.png"
+    },
+    "fan81010" : {
+      "id" : 21081,
+      "name" : "八十番新手场",
+      "basebet": 30,
+      "mincoin": 400,
+      "maxcoin": 25000,
+      "entry" : "底注30金币",
+      "config" : 0,
+      "condition" : "大于400金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdxsc.png"
+    },
+    "fan81020" : {
+      "id" : 21082,
+      "name" : "八十番中级场",
+      "basebet": 200,
+      "mincoin": 2000,
+      "maxcoin": 200000,
+      "entry" : "底注200金币",
+      "config" : 0,
+      "condition" : "大于2000金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdzjc.png"
+    },
+    "fan81030" : {
+      "id" : 21083,
+      "name" : "八十番高级场",
+      "basebet": 1000,
+      "mincoin": 20000,
+      "maxcoin": 400000,
+      "entry" : "底注1000金币",
+      "config" : 0,
+      "condition" : "大于2万金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdgjc.png"
+    },
+    "fan81040" : {
+      "id" : 21084,
+      "name" : "八十番大师场",
+      "basebet": 5000,
+      "mincoin": 60000,
+      "maxcoin": -1,
+      "entry" : "底注5000金币",
+      "config" : 0,
+      "condition" : "大于6万金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jddsc.png"
+    },
+
+    "mt20" : {
+      "id" : 21045,
+      "name" : "免费百元话费赛",
+      "least" : 0,
+      "entry" : "报名费:免费",
+      "config" : 4,
+      "condition" : "时长35分",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "mt30" : {
+      "id" : 21044,
+      "name" : "2元话费赛",
+      "least" : 0,
+      "entry" : "报名费:1张参赛券",
+      "config" : 6,
+      "condition" : "时长30分",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "mt40" : {
+      "id" : 21041,
+      "name" : "新手免费快速赛",
+      "least" : 0,
+      "entry" : "报名费:免费",
+      "config" : 6,
+      "condition" : "9人开赛",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "mt50" : {
+      "id" : 21042,
+      "name" : "六人快速赛",
+      "least" : 3000,
+      "entry" : "报名费:3000金币",
+      "config" : 6,
+      "condition" : "6人开赛",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "mt60" : {
+      "id" : 21043,
+      "name" : "三人超快赛",
+      "least" : 5000,
+      "entry" : "报名费:5000金币",
+      "config" : 4,
+      "condition" : "3人开赛",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "mt70" : {
+      "id" : 21051,
+      "name" : "免费百元话费赛",
+      "least" : 0,
+      "entry" : "报名费:1张参赛券",
+      "config" : 4,
+      "condition" : "21:00",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "mt80" : {
+      "id" : 21052,
+      "name" : "免费十元话费赛",
+      "least" : 0,
+      "entry" : "报名费:免费",
+      "config" : 4,
+      "condition" : "每日50场",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "mt90" : {
+      "id" : 21053,
+      "name" : "新春比赛赢手机",
+      "least" : 0,
+      "entry" : "报名费:免费",
+      "config" : 4,
+      "condition" : "开赛日22点",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "mt100" : {
+      "id" : 21054,
+      "name" : "十元京东卡赛",
+      "least" : 0,
+      "entry" : "报名费:1张参赛券",
+      "config" : 4,
+      "condition" : "每日1场",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    }
+  },
+  "session_items" : {
+    "jd" : {
+      "session" : "经典场",
+      "match" : 0,
+      "new" : 0,
+      "rooms" : ["jd10", "jd20", "jd30", "jd40"],
+      "description" : ["1、最正宗的经典玩法，考验技巧，百玩不腻；"]
+    },
+    "fangpao" : {
+      "session" : "放炮罚",
+      "match" : 0,
+      "new" : 0,
+      "rooms" : ["fp10", "fp20", "fp30", "fp40"],
+      "description" : ["1、最正宗的经典玩法，考验技巧，百玩不腻；"]
+    },
+    "p2" : {
+      "session" : "二人场",
+      "match" : 0,
+      "new" : 0,
+      "rooms" : ["p210", "p220", "p230", "p240"],
+      "description" : ["1、最正宗的经典玩法，考验技巧，百玩不腻；"]
+    },
+    "bmt" : {
+      "session" : "半名堂",
+      "match" : 0,
+      "new" : 0,
+      "rooms" : ["bmt10", "bmt20", "bmt30", "bmt40"],
+      "description" : ["1、最正宗的经典玩法，考验技巧，百玩不腻；"]
+    },
+    "fan810" : {
+      "session" : "八十番",
+      "match" : 0,
+      "new" : 0,
+      "rooms" : ["fan81010", "fan81020", "fan81030", "fan81040"],
+      "description" : ["1、最正宗的经典玩法，考验技巧，百玩不腻；"]
+    },
+    "mt" : {
+      "session" : "比赛场",
+      "match" : 1,
+      "new" : 1,
+      "rooms" : ["mt70", "mt80", "mt100", "mt40", "mt50", "mt60"],
+      "description" : ["1、比赛需交报名费（有些为免费），结束后按名次发奖励。", "2、为保证公平，一些比赛隐藏了对手信息。"]
+    },
+    "friends" : {
+      "session" : "亲友场",
+      "match" : 0,
+      "s_type" : 2,
+      "new" : 0,
+      "rooms" : ["fd10","fd20","fd30","fd40"],
+      "description" : ["1、最正宗的经典玩法，考验技巧，百玩不腻；"]
+    }
+  },
+  "templates" : {
+    "default" : ["jd", "fangpao", "mt", "friends", "p2", "bmt", "fan810"]
+  }
+}

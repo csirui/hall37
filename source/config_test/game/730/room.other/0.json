@@ -1,0 +1,344 @@
+{
+    "configDesc": "麻将房间其他相关配置,例如:比赛的标签配置,自建桌",
+    "create_table_config": {
+        "pingdu": {
+            "playModeDesc": "平度麻将",
+            "paramType": {
+                "cardCount4": "选择局数",
+                "cardCount3": "选择局数",
+                "playerType": "选择人数",
+                "allowChi": "是否可吃",
+                "wanFa": "可选玩法"
+            },
+            "wanFa": [
+                {
+                    "id": "allowChi",
+                    "desc": "可以吃",
+                    "default": 1
+                }
+            ],
+            "cardCount4": [
+                {
+                    "id": 0,
+                    "value": 8,
+                    "desc": "8局(测试免费)",
+                    "default": 0,
+                    "fangka_count": 0,
+                    "type": "round"
+                },
+                {
+                    "id": 1,
+                    "value": 12,
+                    "desc": "12局(测试免费)",
+                    "default": 1,
+                    "fangka_count": 0,
+                    "type": "round"
+                },
+                {
+                    "id": 2,
+                    "value": 18,
+                    "desc": "18(测试免费)",
+                    "default": 0,
+                    "fangka_count": 0,
+                    "type": "round"
+                }
+            ],
+            "cardCount3": [
+                {
+                    "id": 0,
+                    "value": 12,
+                    "desc": "12局(测试免费)",
+                    "default": 0,
+                    "fangka_count": 0,
+                    "type": "round"
+                },
+                {
+                    "id": 1,
+                    "value": 20,
+                    "desc": "20局(测试免费)",
+                    "default": 1,
+                    "fangka_count": 0,
+                    "type": "round"
+                },
+                {
+                    "id": 2,
+                    "value": 40,
+                    "desc": "40局(测试免费)",
+                    "default": 0,
+                    "fangka_count": 0,
+                    "type": "round"
+                }
+            ],
+            "playerType": [
+                {
+                    "id": 1,
+                    "desc": "4人",
+                    "default": 1,
+                    "count": 4,
+                    "cardCount": "cardCount4"
+                },
+                {
+                    "id": 2,
+                    "desc": "3人",
+                    "default": 0,
+                    "count": 3,
+                    "cardCount": "cardCount3"
+                }
+            ],
+            "allowChi": [
+                {
+                    "id": 0,
+                    "desc": "不可以吃",
+                    "chipengsetting": 1,
+                    "default": 0
+                },
+                {
+                    "id": 1,
+                    "desc": "可以吃",
+                    "chipengsetting": 2,
+                    "default": 1
+                }        
+            ]
+        },
+        "pingdu258": {
+            "playModeDesc": "平度麻将",
+            "paramType": {
+                "cardCount4": "选择局数",
+                "cardCount3": "选择局数",
+                "playerType": "选择人数",
+                "allowChi": "是否可吃",
+                "wanFa": "可选玩法"
+            },
+            "wanFa": [
+                {
+                    "id": "allowChi",
+                    "desc": "可以吃",
+                    "default": 1
+                }
+            ],
+            "cardCount4": [
+                {
+                    "id": 0,
+                    "value": 8,
+                    "desc": "8局(测试免费)",
+                    "default": 0,
+                    "fangka_count": 0,
+                    "type": "round"
+                },
+                {
+                    "id": 1,
+                    "value": 12,
+                    "desc": "12局(测试免费)",
+                    "default": 1,
+                    "fangka_count": 0,
+                    "type": "round"
+                },
+                {
+                    "id": 2,
+                    "value": 18,
+                    "desc": "18(测试免费)",
+                    "default": 0,
+                    "fangka_count": 0,
+                    "type": "round"
+                }
+            ],
+            "cardCount3": [
+                {
+                    "id": 0,
+                    "value": 12,
+                    "desc": "12局(测试免费)",
+                    "default": 0,
+                    "fangka_count": 0,
+                    "type": "round"
+                },
+                {
+                    "id": 1,
+                    "value": 20,
+                    "desc": "20局(测试免费)",
+                    "default": 1,
+                    "fangka_count": 0,
+                    "type": "round"
+                },
+                {
+                    "id": 2,
+                    "value": 40,
+                    "desc": "40局(测试免费)",
+                    "default": 0,
+                    "fangka_count": 0,
+                    "type": "round"
+                }
+            ],
+            "playerType": [
+                {
+                    "id": 1,
+                    "desc": "4人",
+                    "default": 1,
+                    "count": 4,
+                    "cardCount": "cardCount4"
+                },
+                {
+                    "id": 2,
+                    "desc": "3人",
+                    "default": 0,
+                    "count": 3,
+                    "cardCount": "cardCount3"
+                }
+            ],
+            "allowChi": [
+                {
+                    "id": 0,
+                    "desc": "不可以吃",
+                    "chipengsetting": 1,
+                    "default": 0
+                },
+                {
+                    "id": 1,
+                    "desc": "可以吃",
+                    "chipengsetting": 2,
+                    "default": 1
+                }        
+            ]
+        },
+        "weihai": {
+            "playModeDesc": "威海麻将",
+            "paramType": {
+                "cardCount4": "选择局数",
+                "cardCount3": "选择局数",
+                "playerType": "选择人数",
+                "mustPiao": "必漂分值",
+                "allowChi": "是否可吃",
+                "wanFa": "可选玩法"
+            },
+            "wanFa": [
+                {
+                    "id": "allowChi",
+                    "desc": "可以吃",
+                    "default": 1
+                }
+            ],
+            "cardCount4": [
+                {
+                    "id": 0,
+                    "value": 8,
+                    "desc": "8局(测试免费)",
+                    "default": 0,
+                    "fangka_count": 0,
+                    "type": "round"
+                },
+                {
+                    "id": 1,
+                    "value": 12,
+                    "desc": "12局(测试免费)",
+                    "default": 1,
+                    "fangka_count": 0,
+                    "type": "round"
+                },
+                {
+                    "id": 2,
+                    "value": 18,
+                    "desc": "18(测试免费)",
+                    "default": 0,
+                    "fangka_count": 0,
+                    "type": "round"
+                }
+            ],
+            "cardCount3": [
+                {
+                    "id": 0,
+                    "value": 12,
+                    "desc": "12局(测试免费)",
+                    "default": 0,
+                    "fangka_count": 0,
+                    "type": "round"
+                },
+                {
+                    "id": 1,
+                    "value": 20,
+                    "desc": "20局(测试免费)",
+                    "default": 1,
+                    "fangka_count": 0,
+                    "type": "round"
+                },
+                {
+                    "id": 2,
+                    "value": 40,
+                    "desc": "40局(测试免费)",
+                    "default": 0,
+                    "fangka_count": 0,
+                    "type": "round"
+                }
+            ],
+            "mustPiao": [
+                {
+                    "id": 0,
+                    "desc": "不必漂",
+                    "default": 0,
+                    "value": 0
+                },
+                {
+                    "id": 1,
+                    "desc": "必漂1分",
+                    "default": 1,
+                    "value": 1
+                },
+                {
+                    "id": 2,
+                    "desc": "必漂2分",
+                    "default": 0,
+                    "value": 2
+                },
+                {
+                    "id": 3,
+                    "desc": "必漂5分",
+                    "default": 0,
+                    "value": 5
+                }
+            ],
+            "playerType": [
+                {
+                    "id": 1,
+                    "desc": "4人",
+                    "default": 1,
+                    "count": 4,
+                    "cardCount": "cardCount4"
+                },
+                {
+                    "id": 2,
+                    "desc": "3人",
+                    "default": 0,
+                    "count": 3,
+                    "cardCount": "cardCount3"
+                }
+            ],
+            "allowChi": [
+                {
+                    "id": 0,
+                    "desc": "不可以吃",
+                    "chipengsetting": 1,
+                    "default": 0
+                },
+                {
+                    "id": 1,
+                    "desc": "可以吃",
+                    "chipengsetting": 2,
+                    "default": 1
+                }        
+            ]
+        }
+    },
+    "create_table_weixin_inivite_desc_key": [
+        "cardCount4",
+        "cardCount3",
+        "allowChi",
+        "mustPiao"
+    ],
+    "leave_countdown": 2,
+    "create_table_leave_success": "解散牌桌成功",
+    "create_table_leave_failure": "解散牌桌失败，继续游戏",
+    "create_table_init_fangka": 12,
+    "create_table_countdown": 60,
+    "playmode_forbid_return_fanka": [],
+    "playmode_desc_map": {
+        "pingdu": "平度麻将"
+    }
+}

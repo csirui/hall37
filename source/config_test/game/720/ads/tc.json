@@ -1,0 +1,59 @@
+{
+ "templates"                  : {
+  "shanximj_v3.902_AI_shanximj": {
+   "interval"                   : 5,
+   "name"                       : "shanximj_v3.902_AI_shanximj",
+   "ads"                        : [
+    720112901
+   ]
+  },
+  "shanximj_v3.90_AI_shanximj" : {
+   "interval"                   : 5,
+   "name"                       : "shanximj_v3.90_AI_shanximj",
+   "ads"                        : [
+    720120701
+   ]
+  }
+ },
+ "ads"                        : [
+  {
+   "startTime"                  : "2016-11-12 00:00:00",
+   "id"                         : 720111201,
+   "todotasks"                  : [
+    {
+     "actId"                      : "youle_mj_songxianjin1111",
+     "typeId"                     : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                  : 1,
+   "pic"                        : "${http_download}/majiang/difang/ads/songxianjin1111_icon1.jpg",
+   "endTime"                    : "2016-11-19 00:00:00"
+  },
+  {
+   "startTime"                  : "2016-11-29 00:00:00",
+   "id"                         : 720112901,
+   "todotasks"                  : [
+    {
+     "actId"                      : "yitiao_sxmj_jiankangyouxi1124",
+     "typeId"                     : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                  : 1,
+   "pic"                        : "${http_download}/paohuzi/ads/imgs/phzzjz_jkx.jpg",
+   "endTime"                    : "2019-12-01 00:00:00"
+  },
+  {
+   "startTime"                  : "2016-12-07 00:00:00",
+   "id"                         : 720120701,
+   "todotasks"                  : [
+    {
+     "actId"                      : "yitiao_sxmj_jiankangyouxi1124",
+     "typeId"                     : "hall.goto.activity.byid"
+    }
+   ],
+   "clickable"                  : 1,
+   "pic"                        : "${http_download}/paohuzi/ads/imgs/phzzjz_jkx.jpg",
+   "endTime"                    : "2019-12-01 00:00:00"
+  }
+ ]
+}

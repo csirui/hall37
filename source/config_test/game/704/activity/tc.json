@@ -1,0 +1,138 @@
+{
+ "templates"                         : {
+  "poyangmj_v3.90_AI_pymjhuodongmuban": {
+   "desc"                              : "鄱阳麻将活动模板",
+   "activities"                        : [
+    "act-jiankangyouxi-pymjnew",
+    "act-jubao-pymj"
+   ]
+  },
+  "poyangmj_v3.91_AI_poyangmj"        : {
+   "desc"                              : "鄱阳麻将提审",
+   "activities"                        : [
+    "activity_mj_df_jiankang"
+   ]
+  },
+  "poyangmj_v3.90_AI_youlepymj"       : {
+   "desc"                              : "鄱阳麻将模板",
+   "activities"                        : [
+    "majiang_3_71_Android_3"
+   ]
+  }
+ },
+ "activities"                        : {
+  "act-jiankangyouxi-pymj"            : {
+   "id"                                : "act-jiankangyouxi-pymj",
+   "des"                               : "健康游戏公告",
+   "moduleId"                          : "notice_img",
+   "typeid"                            : 1,
+   "name"                              : "健康游戏公告",
+   "server_config"                     : {
+    "start"                             : "2016-02-01 00:00:00",
+    "end"                               : "2017-01-06 00:00:00"
+   },
+   "config"                            : {
+    "firstButton"                       : {
+     "visible"                           : 0,
+     "action"                            : "",
+     "params"                            : {
+      "duration"                          : 2,
+      "text"                              : "确定"
+     }
+    },
+    "secondButton"                      : {
+     "visible"                           : 0,
+     "action"                            : "",
+     "params"                            : {
+      "duration"                          : 2,
+      "text"                              : "确定"
+     }
+    },
+    "bgURL"                             : "${http_download}/hall/act/complete/notice_img/shenhegonggao.png"
+   },
+   "url"                               : ""
+  },
+  "act-jiankangyouxi-pymjnew"         : {
+   "id"                                : "act-jiankangyouxi-pymjnew",
+   "des"                               : "合理休闲娱乐，远离非法赌博",
+   "moduleId"                          : "notice_img",
+   "typeid"                            : 1,
+   "name"                              : "健康游戏提示",
+   "server_config"                     : {
+    "start"                             : "2016-07-16 00:00:00",
+    "end"                               : "2019-07-25 00:00:00"
+   },
+   "config"                            : {
+    "firstButton"                       : {
+     "visible"                           : 0,
+     "action"                            : "",
+     "params"                            : {
+      "duration"                          : 2,
+      "text"                              : "确定"
+     }
+    },
+    "secondButton"                      : {
+     "visible"                           : 0,
+     "action"                            : "",
+     "params"                            : {
+      "duration"                          : 2,
+      "text"                              : "确定"
+     }
+    },
+    "bgURL"                             : "${http_download}/majiang/images/ads/mjdf_jkd.jpg"
+   },
+   "url"                               : ""
+  },
+  "act-jubao-pymj"                    : {
+   "id"                                : "act-jubao-pymj",
+   "des"                               : "让我们一起维护健康的游戏环境！",
+   "moduleId"                          : "notice_img",
+   "typeid"                            : 1,
+   "name"                              : "举报有奖",
+   "server_config"                     : {
+    "start"                             : "2016-07-16 00:00:00",
+    "end"                               : "2019-07-25 00:00:00"
+   },
+   "config"                            : {
+    "firstButton"                       : {
+     "visible"                           : 0,
+     "action"                            : "",
+     "params"                            : {
+      "duration"                          : 2,
+      "text"                              : "确定"
+     }
+    },
+    "secondButton"                      : {
+     "visible"                           : 0,
+     "action"                            : "",
+     "params"                            : {
+      "duration"                          : 2,
+      "text"                              : "确定"
+     }
+    },
+    "bgURL"                             : "${http_download}/majiang/images/ads/5.jpg"
+   },
+   "url"                               : ""
+  },
+  "youle_pymj_1111free1109"           : {
+   "id"                                : "youle_pymj_1111free1109",
+   "des"                               : "双十一冬日温暖大回馈，11月10日至11月11日晚19点-24点，登录游戏即可免费开房，爽玩至凌晨！时间有限，不容错过~",
+   "moduleId"                          : "general_btn",
+   "typeid"                            : 1,
+   "name"                              : "双十一免费玩",
+   "server_config"                     : {
+    "start"                             : "2016-11-09 00:00:00",
+    "end"                               : "2016-11-16 00:00:00"
+   },
+   "config"                            : {
+    "button"                            : {
+     "visible"                           : "true",
+     "todoTask"                          : "",
+     "URL"                               : ""
+    },
+    "bgURL"                             : "${http_download}/majiang/difang/act/ceshi1109.jpg"
+   }
+  }
+ },
+ "modules"                           : { }
+}

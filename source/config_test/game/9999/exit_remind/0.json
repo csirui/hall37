@@ -1,0 +1,20 @@
+{
+    "7": [
+        {
+            "name": "game",
+            "button": "",
+            "tips": "和亲朋好友一起玩游戏\n更有家乡的味道",
+            "conditions": [],
+            "todotasks" : []
+        },
+        {
+            "name": "match",
+            "button": "去比赛",
+            "tips": "亲~我会想你的，记得明天再来哦~",
+            "conditions": [],
+            "todotasks" : [
+                {"gameId": 7, "typeId": "hall.goto.enter.game", "enter_param": {"type": "roomlist", "pluginParams": {"gameType": 3}}}
+            ]
+        }
+    ]
+}

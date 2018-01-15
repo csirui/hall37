@@ -1,0 +1,33 @@
+{
+    "templates"  : [
+        {
+            "name"       : "baicheng_v3.902_AI_baichengmall",
+            "shelves"    : [
+                {
+                    "displayName": "房卡换金币",
+                    "iconType"   : "diamond",
+                    "name"       : "fangka_exchange_coin_baicheng",
+                    "products"   : [
+                        "JXFK1",
+                        "JXFK10",
+                        "JXFK100"
+                    ],
+                    "sort"       : 0,
+                    "visible"    : 1
+                },
+                {
+                    "displayName": "金币换房卡",
+                    "iconType"   : "coin",
+                    "name"       : "coin_exchange_fangka_baicheng",
+                    "products"   : [
+                        "JX10000",
+                        "JX100000",
+                        "JX1000000"
+                    ],
+                    "sort"       : 1,
+                    "visible"    : 1
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+ "games"            : [
+  {
+   "versions"         : [
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "1、跑狗更新版本",
+      "中彩池的概率更高了噢",
+      "2、开开心心赢大奖"
+     ],
+     "md5"              : "e76ac2982c30a2f6892f93314a6e50eb",
+     "ver"              : "3.709",
+     "url"              : "${http_download}/hall/plugin/game/dog_release_v3.735.zip",
+     "size"             : "1.4M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "1、跑狗更新版本",
+      "中彩池的概率更高了噢",
+      "2、开开心心赢大奖"
+     ],
+     "md5"              : "4d485d445c36edb8963f1cd700ecf5b1",
+     "ver"              : "3.710",
+     "url"              : "${http_download}/hall/plugin/game/dog_release_v3.736.zip",
+     "size"             : "1.4M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "1、轻松押注跑狗",
+      "2、开开心心赢大奖"
+     ],
+     "md5"              : "e0136da8f67c4af65603b008181fedab",
+     "ver"              : "3.711",
+     "url"              : "${http_download}/hall/plugin/game/dog_release_v3.739.zip",
+     "size"             : "2.40M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 0,
+     "changelogs"       : [
+      "哈尔滨跑狗3.901"
+     ],
+     "md5"              : "971184e1701e2a77bd3569bed645587c",
+     "ver"              : "3.901",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/dog_v3.901_difang_1.zip",
+     "size"             : "2M"
+    }
+   ],
+   "description"      : [
+    "1、轻松押注跑狗",
+    "2、开开心心赢大奖"
+   ],
+   "gameId"           : 19,
+   "gameMark"         : "dog"
+  }
+ ],
+ "templates"        : [ ]
+}

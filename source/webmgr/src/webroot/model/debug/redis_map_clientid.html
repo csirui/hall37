@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>11-GDSS数据列表</title>
+
+	<!-- Bootstrap -->
+    <link rel="stylesheet" href="./../../../third/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./../../../third/css/docs.min.css">
+    <link rel="stylesheet" href="./../../../third/css/buttons.css">
+    <link rel="stylesheet" href="./../../../third/css/main.css">
+
+    <script src="./../../../third/js/jquery.min.js"></script>
+    <script src="./../../../third/js/bootstrap.min.js"></script>
+    <script src="./../../../third/js/vue.min.js"></script>
+
+    <script src="./../../../js/lib/base.js"></script>
+    <script src="./../../../js/lib/model.js"></script>
+
+<script>
+function do_page_one_action(params){
+  $("#action_return").text("waitting ......");
+  SS.setData(SS.url.model.debug_action, params, function(da) {
+    if (da != undefined && da.result != undefined && da.result.text != undefined){
+    	$("#action_return").html(da.result.text);
+    }else{
+    	$("#action_return").text(JSON.stringify(da));
+    }
+  });
+}
+function do_map_configure(act){
+  var params = {"action" : act};
+  do_page_one_action(params);
+}
+
+</script>
+
+</head>
+<body>
+	<div style="padding:20px;">
+		<button type="button" class="btn btn-success" onclick="do_map_configure('redis_get_map_clientid')">ClientId列表</button>
+		<button type="button" class="btn btn-success" onclick="do_map_configure('redis_get_map_productid')">ProductId列表</button>
+		<button type="button" class="btn btn-success" onclick="do_map_configure('redis_get_map_activityid')">ActivityId列表</button>
+		<button type="button" class="btn btn-success" onclick="do_map_configure('redis_get_map_evnetid')">EventIdId列表</button>
+	</div>
+	<div id="action_return">
+	</div>
+</body>
+</html>
+
+

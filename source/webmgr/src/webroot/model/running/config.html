@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>服务管理</title>
+
+
+	<!-- Bootstrap -->
+    <link rel="stylesheet" href="./../../third/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./../../third/css/docs.min.css">
+    <link rel="stylesheet" href="./../../third/css/buttons.css">
+    <link rel="stylesheet" href="./../../third/css/main.css">
+
+	<link rel="stylesheet" href="./../../third/easyui/themes/default/easyui.css">
+	<link rel="stylesheet" href="./../../third/easyui/themes/icon.css">
+
+    <script src="./../../third/js/jquery.min.js"></script>
+    <script src="./../../third/js/bootstrap.min.js"></script>
+    <script src="./../../third/js/vue.min.js"></script>
+	<script src="./../../third/easyui/jquery.easyui.min.js"></script>
+
+    <script src="./../../js/lib/base.js"></script>
+    <script src="./../../js/lib/model.js"></script>
+
+    <script src="config.js"></script>
+  
+</head>
+<body>
+	<div class="bs-docs-container" id="dataContent">
+        <table class="table table-bordered bs-docs-section">
+			<tr>
+				<td colspan="3">
+					<button type="button" class="btn btn-success" onclick="reloadPage()">重 置</button>
+					<button type="button" class="btn btn-success btn-danger" onclick="svnUpdateAll();">全量SVN更新</button>
+					<button type="button" class="btn btn-success" onclick="checkConfig();">检查配置</button>
+					<button type="button" class="btn btn-success btn-warning" onclick="updateConfig();">更新配置</button>
+				</td>
+			</tr>
+		</table>
+        <div class="col-md-12">
+        	<table class="table table-bordered bs-docs-section">
+        		<!--
+        		<tr>
+        			<td>所有配置项目</td>
+        			<td>
+        				<button type="button" class="btn btn-success" onclick="checkConfig('_all_');">检查配置</button>
+        			</td>
+        		</tr>
+        		--!>
+        		<tr>
+        			<td>Freetime,Poker配置</td>
+        			<!--
+        			<td>
+        				<button type="button" class="btn btn-success" onclick="checkConfig('_base_');">检查配置</button>
+        			</td>
+        			--!>
+        		</tr>
+        		<tr id="firstpackage" v-repeat="projpkgs">
+        			<td>游戏工程 {{pkgname}} 配置</td>
+        			<!--
+        			<td>
+        				<button type="button" class="btn btn-success" onclick="checkConfig('{{pkgname}}');">检查配置</button>
+        			</td>
+        			--!>
+        		</tr>
+		</div>
+	</div>
+</body>
+</html>
+
+

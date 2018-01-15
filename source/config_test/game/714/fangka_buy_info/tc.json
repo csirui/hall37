@@ -1,0 +1,22 @@
+{
+    "templates": [
+        {
+            "name": "jixi_fangka_buy_info",
+            "todotasks": [
+                {
+                    "typeId" : "todotask.showInfo",
+                    "info" : "买卡加微信: ddjxmj01  \n诚招代理微信:ddjxmj01 \n"
+                }
+            ]
+        },
+		{
+            "name": "jixi_tishen_fangka_buy_info",
+            "todotasks": [
+                {
+                    "typeId" : "todotask.showInfo",
+                    "info" : "每天第一次登陆赠送12张房卡"
+                }
+            ]
+        }
+    ]
+}

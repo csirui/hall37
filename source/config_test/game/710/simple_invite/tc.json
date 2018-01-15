@@ -1,0 +1,17 @@
+{
+    "templates": [
+        {
+        	"name": "haerbin",
+            "inviteRewardItem": {
+                "itemId": "item:6006",
+                "count": 12
+            },
+            "gotoTitle": "体验游戏送房卡啦",
+            "gotoDesc": "要至少体验一把游戏才有房卡送哦，快和我一起来游戏吧。",
+            "gotoUrl": "http://www.shediao.com/landing/ytmj.html",
+            "inviteTitle": "一条麻将免费送房卡啦！！！",
+            "inviteDesc": "玩一条哈尔滨麻将，报我ID(\\${rewardContent})就领取12张房卡",
+            "inviteUrl": "http://www.shediao.com/landing/ytmj.html"
+        }
+    ]
+}

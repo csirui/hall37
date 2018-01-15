@@ -1,0 +1,15 @@
+{
+ "templates"                : {
+  "gdy_v3.901_AI_diandiangdy": [
+   "activity",
+   "message",
+   "bag",
+   "settings"
+  ],
+  "gdy_v3.901_AI_gdy"        : [
+   "activity",
+   "message",
+   "settings"
+  ]
+ }
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>服务管理</title>
+
+	<!-- Bootstrap -->
+    <link rel="stylesheet" href="./../../../../third/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./../../../../third/css/docs.min.css">
+    <link rel="stylesheet" href="./../../../../third/css/buttons.css">
+    <link rel="stylesheet" href="./../../../../third/css/main.css">
+
+    <script src="./../../../../third/js/jquery.min.js"></script>
+    <script src="./../../../../third/js/bootstrap.min.js"></script>
+    <script src="./../../../../third/js/vue.min.js"></script>
+
+    <script src="./../../../../js/lib/base.js"></script>
+    <script src="./../../../../js/lib/model.js"></script>
+
+    <script src="menulist.js"></script>
+</head>
+<body>
+	<div id="dataContent" style="overflow-x:auto; width:1000px;">
+		<table class="table table-bordered bs-docs-section"">
+			<tr>
+				<td colspan="20">
+					<button type="button" class="btn btn-success" v-on="click: reset">重新加载</button>
+					<button type="button" class="btn btn-success" v-on="click: submit">保存</button>
+					<b>game/9999/menulist/0.json 游戏服务器定义</b>
+				</td>
+			</tr>
+			<tr class="bg-info">
+				<th width="40px"><button type="button" class="btn btn-info" v-on="click: addData">+</button></th>
+				<th>模板名称</th>
+				<th>模板内容</th>
+			</tr>
+			<tr v-repeat="menulists">
+				<th class="bg-info" width="40px"><button type="button" class="btn btn-warning" v-on="click: removeData($index)">-</button></th>
+				<td width="40px"><input type="text" v-model="template"></td>
+				<td width="240px"><input type="text" v-model="content"></td>
+			</tr>
+		</table>
+	<div>
+</body>
+</html>
+
+

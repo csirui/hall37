@@ -1,0 +1,44 @@
+{
+ "templates"                            : {
+  "mudanjiang_v3.902_AI_mudanjiangtishen": {
+   "desc"                                 : "牡丹江提审",
+   "activities"                           : [
+    "mdjzdl"
+   ]
+  }
+ },
+ "activities"                           : {
+  "mdjzdl"                               : {
+   "id"                                   : "mdjzdl",
+   "des"                                  : "牡丹江招代理活动图",
+   "moduleId"                             : "notice_img",
+   "typeid"                               : 1,
+   "name"                                 : "招募代理",
+   "server_config"                        : {
+    "start"                                : "2017-02-20 00:00:00",
+    "end"                                  : "2018-02-28 00:00:00"
+   },
+   "config"                               : {
+    "firstButton"                          : {
+     "visible"                              : 0,
+     "action"                               : "",
+     "params"                               : {
+      "duration"                             : 2,
+      "text"                                 : "确定"
+     }
+    },
+    "secondButton"                         : {
+     "visible"                              : 0,
+     "action"                               : "",
+     "params"                               : {
+      "duration"                             : 2,
+      "text"                                 : "确定"
+     }
+    },
+    "bgURL"                                : "${http_download}/majiang/difang/act/mdjzdl.jpg"
+   },
+   "url"                                  : ""
+  }
+ },
+ "modules"                              : { }
+}

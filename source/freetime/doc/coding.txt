@@ -1,0 +1,35 @@
+FreeTime编码Tips
+
+* 务求简洁的代码，符合python语言的审美
+
+* 大量使用模块方法实现单例
+
+* 类使用首字母大写驼峰:FTTasklet
+  模块使用小写名字:freetime.util.service
+  暴露公开的api方法，使用首字母小写驼峰:getConf()
+
+* _xx表示内部变量和方法:_initConf()
+  xx_用于绕开系统名字:cffi_
+  __xx用于无法被子类继承的私有变量:__serverid
+  __xxx__是python系统名，不要自定义这种名字
+
+* 使用4空格作为tab,类或者模块的方法之间用双空行分隔
+  类之间用双空行分隔，方法内部最好不要有双空行
+
+* 推荐的编码习惯:
+  对于编程中最常用的几个类，建议使用如下约定:
+  import freetime.entity.service as ftsvr
+  import freetime.util.log as ftlog
+  import freetime.entity.config as ftcon
+  import freetime.support.tcpagent.wrapper as ftagent
+  ftsvr.doRedis("user01", "set", "global.id", 1)
+  ftlog.info("log info...")
+  ftcon.getConf("redis")
+  ftagent.query("GA01", "Hello")
+
+* 避免系统框架层和业务逻辑的混杂，剥离业务层面的逻辑
+
+* 精简，再精简!每个模块完成好自己的功能，写好自己的
+  返回值，多余功能尽量去掉，要严格检查输入输出，但不
+  要试图为其他模块弥补错误，让错误暴露出来
+  

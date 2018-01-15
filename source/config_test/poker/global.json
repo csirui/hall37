@@ -1,0 +1,71 @@
+{
+  "bireportgroup": {
+    "card": {
+      "count": 8,
+      "name": "user"
+    },
+    "chip": {
+      "count": 8,
+      "name": "user"
+    },
+    "client_event": {
+      "count": 8,
+      "name": "user"
+    },
+    "game": {
+      "count": 8,
+      "name": "user"
+    },
+    "login": {
+      "count": 8,
+      "name": "user"
+    },
+    "pay": {
+      "count": 8,
+      "name": "user"
+    }
+  },
+  "center_server_logic": {
+    "CT001": [
+      "hall.entity.hallled",
+      "hall.entity.halllottery",
+      "hall.entity.hallranking"
+    ]
+  },
+  "config_redis": "redis.dayun-app.com:${port_redis}:0",
+  "conn_logout_error_msg_1": "请重新登录",
+  "conn_logout_error_msg_2": "请重新登录",
+  "conn_logout_error_msg_3": "请重新登录",
+  "conn_logout_error_msg_4": "请重新登录",
+  "conn_logout_error_msg_5": "请重新登录",
+  "conn_logout_error_msg_6": "请重新登录",
+  "conn_logout_error_msg_7": "请重新登录",
+  "corporation": "tuyoo",
+  "enable_test_html": 1,
+  "game_packages": [
+    "hall",
+    "dizhu",
+    "majiang"
+  ],
+  "http_avatar": "http://ddz.image.tuyoo.com/avatar",
+  "http_bilog": "",
+  "http_download": "http://${local_internet}:${port_http}",
+  "http_game": "http://server.dayun-app.com:9440",
+  "http_gdss": "http://gdss.df.shediao.com",
+  "http_sdk": "http://hall0.dayun-app.com:8010",
+  "http_sdk_inner": "http://hall0.dayun-app.com:8010",
+  "id": 9999,
+  "local_internet": "s1.majiang.tapecloud.cc",
+  "local_intranet": "127.0.0.1",
+  "match_360kp": {
+    "key": "thekey",
+    "matchResultCallbackUrl": "http://111.203.187.150:8040/match_result",
+    "signinCallbackUrl": "http://111.203.187.150:8040/regist"
+  },
+  "mode": 4,
+  "name": "tyhall",
+  "output_path": "${poker_path}/../../run",
+  "port_http": 9440,
+  "port_redis": 7379,
+  "projects_path": "${poker_path}/../"
+}

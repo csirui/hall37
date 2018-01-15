@@ -1,0 +1,489 @@
+[
+    {
+        "agent": "AG001", 
+        "id": "001", 
+        "ip": "${{vm1.intranet}}", 
+        "mysql": "${{db.mysql.all}}", 
+        "protocols": {
+            "server": {
+                "ht-http": "${{port_http++}}"
+            }
+        }, 
+        "redis": "${{db.redis.all}}", 
+        "type": "HT"
+    }, 
+    {
+        "id": "001", 
+        "ip": "${{vm1.intranet}}", 
+        "protocols": {
+            "server": {
+                "a2a": "${{port_http++}}", 
+                "a2s": "${{port_http++}}"
+            }
+        }, 
+        "type": "AG"
+    }, 
+    {
+        "agent": "AG001", 
+        "id": "001", 
+        "ip": "${{vm1.intranet}}", 
+        "mysql": "${{db.mysql.all}}", 
+        "protocols": {
+            "server": {
+                "co-tcp": "${{port_http++}}"
+            }
+        }, 
+        "redis": "${{db.redis.all}}", 
+        "type": "CO"
+    }, 
+    {
+        "agent": "AG001", 
+        "id": "001", 
+        "ip": "${{vm1.intranet}}", 
+        "redis": "${{db.redis.all}}", 
+        "type": "RB"
+    }, 
+    {
+        "agent": "AG001", 
+        "id": "001", 
+        "ip": "${{vm1.intranet}}", 
+        "mysql": "${{db.mysql.all}}", 
+        "redis": "${{db.redis.all}}", 
+        "type": "CT"
+    }, 
+    {
+        "agent": "AG001", 
+        "id": "001", 
+        "ip": "${{vm1.intranet}}", 
+        "mysql": "", 
+        "redis": "${{db.redis.all}}", 
+        "type": "UT"
+    }, 
+    {
+        "agent": "AG001", 
+        "id": "17-001-004-1", 
+        "ip": "${{vm1.intranet}}", 
+        "mysql": "", 
+        "redis": "${{db.redis.all}}", 
+        "type": "GR"
+    }, 
+    {
+        "agent": "AG001", 
+        "id": "17-101-104-1", 
+        "ip": "${{vm1.intranet}}", 
+        "mysql": "", 
+        "redis": "${{db.redis.all}}", 
+        "type": "GR"
+    }, 
+    {
+        "agent": "AG001", 
+        "id": "17-201-204-1", 
+        "ip": "${{vm1.intranet}}", 
+        "mysql": "", 
+        "redis": "${{db.redis.all}}", 
+        "type": "GR"
+    }, 
+    {
+        "agent": "AG001", 
+        "id": "17-301-304-1", 
+        "ip": "${{vm1.intranet}}", 
+        "mysql": "", 
+        "redis": "${{db.redis.all}}", 
+        "type": "GR"
+    }, 
+    {
+        "agent": "AG001",
+        "id": "17-401-403-1",
+        "ip": "${{vm1.intranet}}",
+        "mysql": "",
+        "redis": "${{db.redis.all}}",
+        "type": "GR"
+    },
+    {
+        "agent": "AG001", 
+        "id": "21-011-014-1", 
+        "ip": "${{vm1.intranet}}", 
+        "mysql": "", 
+        "redis": "${{db.redis.all}}", 
+        "type": "GR"
+    }, 
+    {
+        "agent": "AG001", 
+        "id": "6-001-004-1", 
+        "ip": "${{vm1.intranet}}", 
+        "redis": "${{db.redis.all}}", 
+        "type": "GR"
+    }, 
+    {
+        "agent": "AG001", 
+        "id": "6-011-015-1", 
+        "ip": "${{vm1.intranet}}", 
+        "redis": "${{db.redis.all}}", 
+        "type": "GR"
+    }, 
+    {
+        "agent": "AG001", 
+        "id": "6-021-024-1", 
+        "ip": "${{vm1.intranet}}", 
+        "redis": "${{db.redis.all}}", 
+        "type": "GR"
+    }, 
+    {
+        "agent": "AG001", 
+        "id": "6-031-034-1", 
+        "ip": "${{vm1.intranet}}", 
+        "redis": "${{db.redis.all}}", 
+        "type": "GR"
+    }, 
+    {
+        "agent": "AG001", 
+        "id": "6-041-047-1", 
+        "ip": "${{vm1.intranet}}", 
+        "redis": "${{db.redis.all}}", 
+        "type": "GR"
+    }, 
+    {
+        "agent": "AG001", 
+        "id": "61011", 
+        "ip": "${{vm1.intranet}}", 
+        "mysql": "", 
+        "redis": "${{db.redis.all}}", 
+        "type": "GR"
+    },
+    {
+        "agent": "AG001", 
+        "id": "6-051-057-1", 
+        "ip": "${{vm1.intranet}}", 
+        "mysql": "", 
+        "redis": "${{db.redis.all}}", 
+        "type": "GR"
+    }, 
+    {
+        "agent": "AG001", 
+        "id": "17-001-004-1", 
+        "ip": "${{vm1.intranet}}", 
+        "mysql": "", 
+        "redis": "${{db.redis.all}}", 
+        "type": "GT"
+    }, 
+    {
+        "agent": "AG001", 
+        "id": "17-101-104-1", 
+        "ip": "${{vm1.intranet}}", 
+        "mysql": "", 
+        "redis": "${{db.redis.all}}", 
+        "type": "GT"
+    }, 
+    {
+        "agent": "AG001", 
+        "id": "17-201-204-1", 
+        "ip": "${{vm1.intranet}}", 
+        "mysql": "", 
+        "redis": "${{db.redis.all}}", 
+        "type": "GT"
+    }, 
+    {
+        "agent": "AG001", 
+        "id": "17-301-304-1", 
+        "ip": "${{vm1.intranet}}", 
+        "mysql": "", 
+        "redis": "${{db.redis.all}}", 
+        "type": "GT"
+    }, 
+    {
+        "agent": "AG001", 
+        "id": "17-401-403-1", 
+        "ip": "${{vm1.intranet}}", 
+        "mysql": "", 
+        "redis": "${{db.redis.all}}", 
+        "type": "GT"
+    }, 
+    {
+        "agent": "AG001", 
+        "id": "21-011-014-1", 
+        "ip": "${{vm1.intranet}}", 
+        "mysql": "", 
+        "redis": "${{db.redis.all}}", 
+        "type": "GT"
+    }, 
+    {
+        "agent": "AG001", 
+        "id": "6-001-004-1", 
+        "ip": "${{vm1.intranet}}", 
+        "redis": "${{db.redis.all}}", 
+        "type": "GT"
+    }, 
+    {
+        "agent": "AG001", 
+        "id": "6-011-015-1", 
+        "ip": "${{vm1.intranet}}", 
+        "redis": "${{db.redis.all}}", 
+        "type": "GT"
+    }, 
+    {
+        "agent": "AG001", 
+        "id": "6-021-024-1", 
+        "ip": "${{vm1.intranet}}", 
+        "redis": "${{db.redis.all}}", 
+        "type": "GT"
+    }, 
+    {
+        "agent": "AG001", 
+        "id": "6-031-034-1", 
+        "ip": "${{vm1.intranet}}", 
+        "redis": "${{db.redis.all}}", 
+        "type": "GT"
+    }, 
+    {
+        "agent": "AG001", 
+        "id": "6-041-047-1", 
+        "ip": "${{vm1.intranet}}", 
+        "redis": "${{db.redis.all}}", 
+        "type": "GT"
+    }, 
+    {
+        "agent": "AG001", 
+        "id": "61011001", 
+        "ip": "${{vm1.intranet}}", 
+        "mysql": "", 
+        "redis": "${{db.redis.all}}", 
+        "type": "GT"
+    }, 
+    {
+        "agent": "AG001", 
+        "id": "61011002", 
+        "ip": "${{vm1.intranet}}", 
+        "mysql": "", 
+        "redis": "${{db.redis.all}}", 
+        "type": "GT"
+    }, 
+    {
+        "agent": "AG001", 
+        "id": "6-051-057-1", 
+        "ip": "${{vm1.intranet}}", 
+        "mysql": "", 
+        "redis": "${{db.redis.all}}", 
+        "type": "GT"
+    }, 
+    {
+        "agent": "AG001", 
+        "id": "8-101-104-1", 
+        "ip": "${{vm1.intranet}}", 
+        "mysql": "", 
+        "redis": "${{db.redis.all}}", 
+        "type": "GR"
+    }, 
+    {
+        "agent": "AG001", 
+        "id": "8-130-139-1", 
+        "ip": "${{vm1.intranet}}", 
+        "mysql": "", 
+        "redis": "${{db.redis.all}}", 
+        "type": "GR"
+    }, 
+    {
+        "agent": "AG001", 
+        "id": "8-140-141-1", 
+        "ip": "${{vm1.intranet}}", 
+        "mysql": "", 
+        "redis": "${{db.redis.all}}", 
+        "type": "GR"
+    }, 
+    {
+        "agent": "AG001", 
+        "id": "8-150-159-1", 
+        "ip": "${{vm1.intranet}}", 
+        "mysql": "", 
+        "redis": "${{db.redis.all}}", 
+        "type": "GR"
+    }, 
+    {
+        "agent": "AG001", 
+        "id": "8-200-399-1", 
+        "ip": "${{vm1.intranet}}", 
+        "mysql": "", 
+        "redis": "${{db.redis.all}}", 
+        "type": "GR"
+    }, 
+    {
+        "agent": "AG001", 
+        "id": "81601", 
+        "ip": "${{vm1.intranet}}", 
+        "mysql": "", 
+        "redis": "${{db.redis.all}}", 
+        "type": "GR"
+    }, 
+    {
+        "agent": "AG001", 
+        "id": "8-161-199-1", 
+        "ip": "${{vm1.intranet}}", 
+        "mysql": "", 
+        "redis": "${{db.redis.all}}", 
+        "type": "GR"
+    }, 
+    {
+        "agent": "AG001", 
+        "id": "8-101-104-1", 
+        "ip": "${{vm1.intranet}}", 
+        "redis": "${{db.redis.all}}", 
+        "type": "GT"
+    }, 
+    {
+        "agent": "AG001", 
+        "id": "8-130-139-1", 
+        "ip": "${{vm1.intranet}}", 
+        "redis": "${{db.redis.all}}", 
+        "type": "GT"
+    }, 
+    {
+        "agent": "AG001", 
+        "id": "8-140-141-1", 
+        "ip": "${{vm1.intranet}}", 
+        "redis": "${{db.redis.all}}", 
+        "type": "GT"
+    }, 
+    {
+        "agent": "AG001", 
+        "id": "8-150-159-1", 
+        "ip": "${{vm1.intranet}}", 
+        "redis": "${{db.redis.all}}", 
+        "type": "GT"
+    }, 
+    {
+        "agent": "AG001", 
+        "id": "8-200-399-1", 
+        "ip": "${{vm1.intranet}}", 
+        "mysql": "", 
+        "redis": "${{db.redis.all}}", 
+        "type": "GT"
+    }, 
+    {
+        "agent": "AG001", 
+        "id": "81601001", 
+        "ip": "${{vm1.intranet}}", 
+        "redis": "${{db.redis.all}}", 
+        "type": "GT"
+    }, 
+    {
+        "agent": "AG001", 
+        "id": "8-161-199-1", 
+        "ip": "${{vm1.intranet}}", 
+        "redis": "${{db.redis.all}}", 
+        "type": "GT"
+    },
+  {
+    "agent" : "AG001",
+    "id" : "7-101-104-1",
+    "ip" : "${{vm1.intranet}}",
+    "redis" : "${{db.redis.all}}",
+    "type" : "GR"
+  },
+  {
+    "agent" : "AG001",
+    "id" : "7-101-104-1",
+    "ip" : "${{vm1.intranet}}",
+    "redis" : "${{db.redis.all}}",
+    "type" : "GT"
+  },
+  {
+    "agent" : "AG001",
+    "id" : "7-001-004-1",
+    "ip" : "${{vm1.intranet}}",
+    "redis" : "${{db.redis.all}}",
+    "type" : "GR"
+  },
+  {
+    "agent" : "AG001",
+    "id" : "7-001-004-1",
+    "ip" : "${{vm1.intranet}}",
+    "redis" : "${{db.redis.all}}",
+    "type" : "GT"
+  },
+  {
+    "agent" : "AG001",
+    "id" : "7-401-404-1",
+    "ip" : "${{vm1.intranet}}",
+    "redis" : "${{db.redis.all}}",
+    "type" : "GR"
+  },
+  {
+    "agent" : "AG001",
+    "id" : "7-401-404-1",
+    "ip" : "${{vm1.intranet}}",
+    "redis" : "${{db.redis.all}}",
+    "type" : "GT"
+  },
+  {
+    "agent" : "AG001",
+    "id" : "7-501-504-1",
+    "ip" : "${{vm1.intranet}}",
+    "redis" : "${{db.redis.all}}",
+    "type" : "GR"
+  },
+  {
+    "agent" : "AG001",
+    "id" : "7-501-504-1",
+    "ip" : "${{vm1.intranet}}",
+    "redis" : "${{db.redis.all}}",
+    "type" : "GT"
+  },
+  {
+    "agent" : "AG001",
+    "id" : "7-601-604-1",
+    "ip" : "${{vm1.intranet}}",
+    "redis" : "${{db.redis.all}}",
+    "type" : "GR"
+  },
+  {
+    "agent" : "AG001",
+    "id" : "7-601-604-1",
+    "ip" : "${{vm1.intranet}}",
+    "redis" : "${{db.redis.all}}",
+    "type" : "GT"
+  },
+  {
+    "agent" : "AG001",
+    "id" : "7-701-704-1",
+    "ip" : "${{vm1.intranet}}",
+    "redis" : "${{db.redis.all}}",
+    "type" : "GR"
+  },
+  {
+    "agent" : "AG001",
+    "id" : "7-701-704-1",
+    "ip" : "${{vm1.intranet}}",
+    "redis" : "${{db.redis.all}}",
+    "type" : "GT"
+  },
+  {
+    "agent" : "AG001",
+    "id" : "7-301-314-1",
+    "ip" : "${{vm1.intranet}}",
+    "mysql" : "",
+    "redis" : "${{db.redis.all}}",
+    "type" : "GR"
+  },
+  
+  {
+    "agent" : "AG001",
+    "id" : "7-301-314-1",
+    "ip" : "${{vm1.intranet}}",
+    "redis" : "${{db.redis.all}}",
+    "type" : "GT"
+  },
+  {
+    "agent" : "AG001",
+    "id" : "220011",
+    "ip" : "${{vm1.intranet}}",
+    "redis" : "${{db.redis.all}}",
+    "type" : "GR"
+  },
+  {
+    "agent" : "AG001",
+    "id" : "220011001",
+    "ip" : "${{vm1.intranet}}",
+    "redis" : "${{db.redis.all}}",
+    "type" : "GT"
+  }  
+  
+]

@@ -1,0 +1,1042 @@
+{
+    "ad_notify_play_count": 2, 
+    "buyin": {
+        "start_version": 3.7200000000000002, 
+        "tip": "客官，此房间最多允许带入{BUYIN_CHIP}金币哦!", 
+        "tip_auto": "系统自动为您补充了金币", 
+        "tip_auto_all": "您的金币已经全部带入啦!", 
+        "tip_auto_all_next": "客官，您的金币已经全部带入啦!"
+    }, 
+    "change_nickname_level": 3, 
+    "cloudUploadPath": "cdn37/paohuzi/difang/", 
+    "customRoomCardValue": {
+        "gao": {
+            "1": 1, 
+            "2": 2, 
+            "3": 3
+        }, 
+        "normal": {
+            "12": 2, 
+            "20": 3, 
+            "6": 1
+        }
+    }, 
+    "roomCardFreeTime": {
+        "date": ["2017-01-12", "2017-02-13"],
+        "time": ["15:00:00", "22:00:00"]
+    }, 
+    "customRoomConf": {
+        "changde": {
+            "fangpao": 0, 
+            "playMode": [
+                {
+                    "maxSeatN": [
+                        {
+                            "num": 3, 
+                            "winPoint": [
+                                {
+                                    "num": 15, 
+                                    "xiTun": [
+                                        3, 
+                                        1
+                                    ]
+                                }, 
+                                {
+                                    "num": 10, 
+                                    "xiTun": [
+                                        3, 
+                                        1
+                                    ]
+                                }
+                            ]
+                        }
+                    ], 
+                    "name": "bmt", 
+                    "roomId": 21101, 
+                    "tianDiHu": 1
+                }, 
+                {
+                    "maxSeatN": [
+                        {
+                            "num": 3, 
+                            "winPoint": [
+                                {
+                                    "num": 15, 
+                                    "xiTun": [
+                                        3, 
+                                        1
+                                    ]
+                                }
+                            ]
+                        }
+                    ], 
+                    "roomId": 21101, 
+                    "name": "fan810"
+                }, 
+                {
+                    "maxSeatN": [
+                        {
+                            "num": 2, 
+                            "winPoint": [
+                                {
+                                    "num": 15, 
+                                    "xiTun": [
+                                        3, 
+                                        1
+                                    ]
+                                }
+                            ]
+                        }, 
+                        {
+                            "num": 3, 
+                            "winPoint": [
+                                {
+                                    "num": 15, 
+                                    "xiTun": [
+                                        3, 
+                                        1
+                                    ]
+                                }, 
+                                {
+                                    "num": 10, 
+                                    "xiTun": [
+                                        3, 
+                                        1
+                                    ]
+                                }
+                            ]
+                        }
+                    ], 
+                    "roomId": 21101, 
+                    "name": "jd"
+                }
+            ], 
+            "roomCardValue": {
+                "12": 3, 
+                "20": 4, 
+                "8": 2
+            }, 
+            "roomCardFreeTime": {
+                "date": ["2017-01-09", "2017-01-10"],
+                "time": ["15:00:00", "18:00:00"]
+            }, 
+            "ziMoFan": -1
+        }, 
+        "chenzhou": {
+            "biHu": [0, 1, 2], 
+            "fangpao": -1, 
+            "playMode": [
+                {
+                    "maxSeatN": [
+                        {
+                            "num": 3, 
+                            "winPoint": [
+                                {
+                                    "num": 9, 
+                                    "xiTun": [
+                                        3, 
+                                        1
+                                    ]
+                                }
+                            ]
+                        }, 
+                        {
+                            "num": 4, 
+                            "winPoint": [
+                                {
+                                    "num": 3, 
+                                    "xiTun": [
+                                        3, 
+                                        1
+                                    ]
+                                }, 
+                                {
+                                    "num": 6, 
+                                    "xiTun": [
+                                        3, 
+                                        1
+                                    ]
+                                }
+                            ]
+                        }
+                    ], 
+                    "roomId": 21101, 
+                    "name": "chenzhou"
+                }
+            ], 
+            "roomCardValue": {
+                "12": 3, 
+                "20": 4, 
+                "8": 2
+            }, 
+            "roomCardFreeTime": {
+                "date": ["2017-01-09", "2017-01-10"],
+                "time": ["15:00:00", "18:00:00"]
+            }, 
+            "redBlackHu": 0, 
+            "ziMoFan": 1
+        }, 
+        "yizhang": {
+            "biHu": [0, 1, 2], 
+            "fangpao": -1, 
+            "playMode": [
+                {
+                    "maxSeatN": [
+                        {
+                            "num": 3, 
+                            "winPoint": [
+                                {
+                                    "num": 15, 
+                                    "xiTun": [
+                                        3, 
+                                        1
+                                    ]
+                                }
+                            ]
+                        }
+                    ], 
+                    "roomId": 21102, 
+                    "name": "yizhang"
+                }
+            ], 
+            "roomCardValue": {
+                "12": 3, 
+                "20": 4, 
+                "8": 2
+            }, 
+            "roomCardFreeTime": {
+                "date": ["2017-01-09", "2017-01-10"],
+                "time": ["15:00:00", "18:00:00"]
+            }, 
+            "redBlackHu": 1, 
+            "ziMoFan": 1
+        }, 
+        "gao": {
+            "fangpao": -1, 
+            "playMode": [
+                {
+                    "maxSeatN": [
+                        {
+                            "num": 3, 
+                            "winPoint": [
+                                {
+                                    "num": 15, 
+                                    "xiTun": []
+                                }, 
+                                {
+                                    "num": 12, 
+                                    "xiTun": []
+                                }
+                            ]
+                        }
+                    ], 
+                    "roomId": 21101, 
+                    "name": "gao"
+                }
+            ], 
+            "roomCardValue": {
+                "1": 2
+            }, 
+            "roomCardFreeTime": {
+                "date": ["2017-01-09", "2017-01-10"],
+                "time": ["15:00:00", "18:00:00"]
+            }, 
+            "ziMoFan": -1
+        }, 
+        "guilin": {
+            "biHu": [0, 1, 2], 
+            "fanXing": [1, 2, 3],
+            "fangpao": -1, 
+            "playMode": [
+                {
+                    "maxSeatN": [
+                        {
+                            "num": 3, 
+                            "winPoint": [
+                                {
+                                    "num": 10, 
+                                    "xiTun": [
+                                        3, 5
+                                    ]
+                                }, 
+                                {
+                                    "num": 15, 
+                                    "xiTun": [
+                                        3, 5
+                                    ]
+                                }
+                            ]
+                        }
+                    ], 
+                    "roomId": 21102, 
+                    "name": "guilin"
+                }
+            ], 
+            "roomCardValue": {
+                "12": 3, 
+                "20": 4, 
+                "8": 2
+            }, 
+            "roomCardFreeTime": {
+                "date": ["2017-01-09", "2017-01-10"],
+                "time": ["15:00:00", "18:00:00"]
+            }, 
+            "ziMoFan": 1,
+            "ziMoAdd": 1
+        }, 
+        "hechi": {
+            "biHu": [0, 1, 2], 
+            "fanXing": [1, 2, 3],
+            "fangpao": -1, 
+            "playMode": [
+                {
+                    "maxSeatN": [
+                        {
+                            "num": 3, 
+                            "winPoint": [
+                                {
+                                    "num": 10, 
+                                    "xiTun": [
+                                        3, 5
+                                    ]
+                                }, 
+                                {
+                                    "num": 15, 
+                                    "xiTun": [
+                                        3, 5
+                                    ]
+                                }
+                            ]
+                        }
+                    ], 
+                    "roomId": 21102, 
+                    "name": "hechi"
+                }
+            ], 
+            "roomCardValue": {
+                "12": 3, 
+                "20": 4, 
+                "8": 2
+            }, 
+            "roomCardFreeTime": {
+                "date": ["2017-01-09", "2017-01-10"],
+                "time": ["15:00:00", "18:00:00"]
+            }, 
+            "ziMoFan": 1,
+            "ziMoAdd": 1
+        }, 
+        "huaihua": {
+            "fangpao": -1, 
+            "playMode": [
+                {
+                    "maxSeatN": [
+                        {
+                            "num": 3, 
+                            "winPoint": [
+                                {
+                                    "num": 15, 
+                                    "xiTun": [
+                                        3
+                                    ]
+                                }
+                            ]
+                        }
+                    ], 
+                    "roomId": 21101, 
+                    "name": "huaihua"
+                }
+            ], 
+            "roomCardValue": {
+                "12": 3, 
+                "20": 4, 
+                "8": 2
+            }, 
+            "roomCardFreeTime": {
+                "date": ["2017-01-09", "2017-01-10"],
+                "time": ["15:00:00", "18:00:00"]
+            }, 
+            "ziMoFan": 1
+        }, 
+        "loudi": {
+            "endScore": [
+                {
+                    "endScore": 100, 
+                    "roomCardNum": 1, 
+                    "topScore": 200
+                }, 
+                {
+                    "endScore": 200, 
+                    "roomCardNum": 2, 
+                    "topScore": 400
+                }, 
+                {
+                    "endScore": 500, 
+                    "roomCardNum": 4, 
+                    "topScore": 800
+                }
+            ], 
+            "roomCardFreeTime": {
+                "date": ["2017-01-09", "2017-01-10"],
+                "time": ["15:00:00", "18:00:00"]
+            }, 
+            "fangpao": -1, 
+            "playMode": [
+                {
+                    "maxSeatN": [
+                        {
+                            "num": 3, 
+                            "winPoint": [
+                                {
+                                    "num": 15, 
+                                    "xiTun": []
+                                }
+                            ]
+                        }
+                    ], 
+                    "roomId": 21101, 
+                    "name": "loudi"
+                }
+            ], 
+            "ziMoFan": -1
+        }, 
+        "s6": {
+            "baseChip": [
+                1, 
+                2
+            ], 
+            "biHu": [0, 1, 2], 
+            "fanXing": 1, 
+            "fangpao": -1, 
+            "playMode": [
+                {
+                    "maxSeatN": [
+                        {
+                            "num": 3, 
+                            "winPoint": [
+                                {
+                                    "num": 6, 
+                                    "xiTun": [
+                                        3, 
+                                        1
+                                    ]
+                                }, 
+                                {
+                                    "num": 9, 
+                                    "xiTun": [
+                                        3, 
+                                        1
+                                    ]
+                                }, 
+                                {
+                                    "num": 10, 
+                                    "xiTun": [
+                                        3, 
+                                        1
+                                    ]
+                                }
+                            ]
+                        }, 
+                        {
+                            "num": 4, 
+                            "winPoint": [
+                                {
+                                    "num": 6, 
+                                    "xiTun": [
+                                        3, 
+                                        1
+                                    ]
+                                }, 
+                                {
+                                    "num": 9, 
+                                    "xiTun": [
+                                        3, 
+                                        1
+                                    ]
+                                }, 
+                                {
+                                    "num": 10, 
+                                    "xiTun": [
+                                        3, 
+                                        1
+                                    ]
+                                }
+                            ]
+                        }
+                    ], 
+                    "roomId": 21101, 
+                    "name": "s6"
+                }
+            ], 
+            "redBlackHu": 1, 
+            "roomCardValue": {
+                "12": 3, 
+                "20": 4, 
+                "8": 2
+            }, 
+            "roomCardFreeTime": {
+                "date": ["2017-01-09", "2017-01-10"],
+                "time": ["15:00:00", "18:00:00"]
+            }, 
+            "suiXing": 1, 
+            "ziMoFan": 1
+        }, 
+        "s10": {
+            "biHu": [0, 1, 2], 
+            "fangpao": -1, 
+            "playMode": [
+                {
+                    "maxSeatN": [
+                        {
+                            "num": 3, 
+                            "winPoint": [
+                                {
+                                    "num": 10, 
+                                    "xiTun": [
+                                        3, 
+                                        1
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "roomId": 21102, 
+                    "name": "s10"
+                }
+            ], 
+            "redBlackHu": 1, 
+            "roomCardValue": {
+                "12": 3, 
+                "20": 4, 
+                "8": 2
+            }, 
+            "roomCardFreeTime": {
+                "date": ["2017-01-09", "2017-01-10"],
+                "time": ["15:00:00", "18:00:00"]
+            }, 
+            "suiXing": 1, 
+            "ziMoFan": 1
+        }, 
+        "shaobo": {
+            "playMode": [
+                {
+                    "maxSeatN": [
+                        {
+                            "num": 3, 
+                            "winPoint": [
+                                {
+                                    "num": 10, 
+                                    "xiTun": []
+                                }
+                            ]
+                        }
+                    ], 
+                    "roomId": 21101, 
+                    "name": "shaobo"
+                }
+            ], 
+            "roomCardValue": {
+                "1": 2
+            },
+            "roomCardFreeTime": {
+                "date": ["2017-01-09", "2017-01-10"],
+                "time": ["15:00:00", "18:00:00"]
+            }, 
+            "tianDiHu": 1
+        }, 
+        "shaozi": {
+            "biHu": [0, 1, 2], 
+            "fangpao": 0, 
+            "playMode": [
+                {
+                    "maxSeatN": [
+                        {
+                            "num": 3, 
+                            "winPoint": [
+                                {
+                                    "num": 10, 
+                                    "xiTun": [
+                                        3, 
+                                        5
+                                    ]
+                                }
+                            ]
+                        }, 
+                        {
+                            "num": 4, 
+                            "winPoint": [
+                                {
+                                    "num": 6, 
+                                    "xiTun": [
+                                        3, 
+                                        1
+                                    ]
+                                }
+                            ]
+                        }
+                    ], 
+                    "roomId": 21101, 
+                    "name": "shaozi"
+                }
+            ], 
+            "redBlackHu": 1, 
+            "roomCardValue": {
+                "12": 3, 
+                "20": 4, 
+                "8": 2
+            }, 
+            "roomCardFreeTime": {
+                "date": ["2017-01-09", "2017-01-10"],
+                "time": ["15:00:00", "18:00:00"]
+            }, 
+            "ziMoFan": 0,
+            "ziMoAdd": 1
+        },
+        "anhua": {
+            "playMode": [
+                {
+                    "maxSeatN": [
+                        {
+                            "num": 3, 
+                            "winPoint": [
+                                {
+                                    "num": 15, 
+                                    "xiTun": [
+                                        3, 
+                                        1
+                                    ]
+                                }
+                            ]
+                        }
+                    ], 
+                    "roomId": 21101, 
+                    "name": "anhua"
+                }
+            ], 
+            "roomCardValue": {
+                "12": 3, 
+                "20": 4, 
+                "8": 2
+            }, 
+            "roomCardFreeTime": {
+                "date": ["2017-01-09", "2017-01-10"],
+                "time": ["15:00:00", "18:00:00"]
+            }, 
+            "ziMoFan": 1,
+            "ziMoAdd": 1,
+            "sanTiWuKan": 1
+        }, 
+        "youxian": {
+            "playMode": [
+                {
+                    "maxSeatN": [
+                        {
+                            "num": 4
+                        }
+                    ], 
+                    "roomId": 21102, 
+                    "name": "youxian"
+                }
+            ], 
+            "roomCardValue": {
+                "12": 3, 
+                "20": 4, 
+                "8": 2
+            },
+            "roomCardFreeTime": {
+                "date": ["2017-02-09", "2017-02-17"],
+                "time": ["00:00:00", "20:00:00"]
+            },
+            "lianBossType": [1, 2]
+        }, 
+        "zhuzhou": {
+            "playMode": [
+                {
+                    "maxSeatN": [
+                        {
+                            "num": 4
+                        }
+                    ], 
+                    "roomId": 21102, 
+                    "name": "zhuzhou"
+                }
+            ], 
+            "roomCardValue": {
+                "12": 3, 
+                "20": 4, 
+                "8": 2
+            },
+            "roomCardFreeTime": {
+                "date": ["2017-02-09", "2017-02-17"],
+                "time": ["00:00:00", "20:00:00"]
+            },
+            "lianBossType": [1, 2]
+        }, 
+        "yongzhou": {
+            "playMode": [
+                {
+                    "maxSeatN": [
+                        {
+                            "num": 3, 
+                            "winPoint": [
+                                {
+                                    "num": 6, 
+                                    "xiTun": [
+                                        3, 
+                                        1
+                                    ]
+                                }, 
+                                {
+                                    "num": 9, 
+                                    "xiTun": [
+                                        3, 
+                                        1
+                                    ]
+                                }, 
+                                {
+                                    "num": 10, 
+                                    "xiTun": [
+                                        3, 
+                                        1
+                                    ]
+                                }
+                            ]
+                        }, 
+                        {
+                            "num": 4, 
+                            "winPoint": [
+                                {
+                                    "num": 6, 
+                                    "xiTun": [
+                                        3, 
+                                        1
+                                    ]
+                                }, 
+                                {
+                                    "num": 9, 
+                                    "xiTun": [
+                                        3, 
+                                        1
+                                    ]
+                                }, 
+                                {
+                                    "num": 10, 
+                                    "xiTun": [
+                                        3, 
+                                        1
+                                    ]
+                                }
+                            ]
+                        }
+                    ], 
+                    "roomId": 21101, 
+                    "name": "yongzhou"
+                }
+            ], 
+            "roomCardValue": {
+                "12": 3, 
+                "20": 4, 
+                "8": 2
+            }, 
+            "roomCardFreeTime": {
+                "date": ["2017-01-09", "2017-01-10"],
+                "time": ["15:00:00", "18:00:00"]
+            }, 
+            "fanXing": 1, 
+            "suiXing": 1, 
+            "fangpao": -1
+        }
+    }, 
+    "customRoomConfVer": 29, 
+    "customRoomDefaultConf": {
+        "changde": [
+            {
+                "fangpao": 0, 
+                "maxSeatN": 3, 
+                "playMode": "bmt", 
+                "tianDiHu": 0, 
+                "totalPlayNum": 8, 
+                "winPoint": 15, 
+                "xiTun": 3
+            }, 
+            {
+                "fangpao": 0, 
+                "maxSeatN": 3, 
+                "playMode": "fan810", 
+                "totalPlayNum": 8, 
+                "winPoint": 15, 
+                "xiTun": 3
+            }, 
+            {
+                "fangpao": 0, 
+                "maxSeatN": 3, 
+                "playMode": "jd", 
+                "totalPlayNum": 8, 
+                "winPoint": 15, 
+                "xiTun": 3
+            }
+        ], 
+        "chenzhou": [
+            {
+                "fangpao": 1, 
+                "maxSeatN": 3, 
+                "playMode": "chenzhou", 
+                "totalPlayNum": 8, 
+                "winPoint": 9, 
+                "xiTun": 3, 
+                "biHu": 1, 
+                "redBlackHu": 0, 
+                "ziMoFan": 1
+            }
+        ], 
+        "yizhang": [
+            {
+                "fangpao": 1, 
+                "maxSeatN": 3, 
+                "playMode": "yizhang", 
+                "totalPlayNum": 8, 
+                "winPoint": 15, 
+                "xiTun": 3, 
+                "biHu": 1, 
+                "redBlackHu": 0, 
+                "ziMoFan": 1
+            }
+        ], 
+        "gao": [
+            {
+                "fangpao": 1, 
+                "maxSeatN": 3, 
+                "playMode": "gao", 
+                "totalPlayNum": 1, 
+                "winPoint": 15, 
+                "xiTun": 0
+            }
+        ], 
+        "guilin": [
+            {
+                "fangpao": 1, 
+                "biHu": 1, 
+                "maxSeatN": 3, 
+                "playMode": "guilin", 
+                "fanXing": [1, 3], 
+                "totalPlayNum": 8, 
+                "winPoint": 10, 
+                "xiTun": 5, 
+                "ziMoFan": 1,
+                "ziMoAdd": 0
+            }
+        ], 
+        "hechi": [
+            {
+                "fangpao": 1, 
+                "biHu": 1, 
+                "maxSeatN": 3, 
+                "playMode": "hechi", 
+                "fanXing": [1, 3], 
+                "totalPlayNum": 8, 
+                "winPoint": 10, 
+                "xiTun": 5, 
+                "ziMoFan": 1,
+                "ziMoAdd": 0
+            }
+        ], 
+        "huaihua": [
+            {
+                "fangpao": 1, 
+                "maxSeatN": 3, 
+                "playMode": "huaihua", 
+                "totalPlayNum": 8, 
+                "winPoint": 15, 
+                "xiTun": 3, 
+                "ziMoFan": 1
+            }
+        ], 
+        "loudi": [
+            {
+                "endScore": 100, 
+                "fangpao": 1, 
+                "maxSeatN": 3, 
+                "playMode": "loudi", 
+                "totalPlayNum": 1, 
+                "winPoint": 15, 
+                "xiTun": 0, 
+                "ziMoFan": 1
+            }
+        ], 
+        "s6": [
+            {
+                "baseChip": 1, 
+                "biHu": 1, 
+                "fanXing": 0, 
+                "fangpao": 1, 
+                "maxSeatN": 4, 
+                "playMode": "s6", 
+                "redBlackHu": 0, 
+                "suiXing": 0, 
+                "totalPlayNum": 8, 
+                "winPoint": 6, 
+                "xiTun": 3, 
+                "ziMoFan": 1
+            }
+        ], 
+        "s10": [
+            {
+                "baseChip": 1, 
+                "biHu": 1, 
+                "fangpao": 1, 
+                "maxSeatN": 4, 
+                "playMode": "s10", 
+                "redBlackHu": 0, 
+                "totalPlayNum": 8, 
+                "winPoint": 10, 
+                "xiTun": 3, 
+                "ziMoFan": 1
+            }
+        ], 
+        "shaobo": [
+            {
+                "fangpao": 0, 
+                "maxSeatN": 3, 
+                "playMode": "shaobo", 
+                "totalPlayNum": 1, 
+                "redBlackHu": 0, 
+                "tianDiHu": 1,
+                "winPoint": 10
+            }
+        ], 
+        "shaozi": [
+            {
+                "biHu": 1, 
+                "fangpao": 1, 
+                "maxSeatN": 3, 
+                "playMode": "shaozi", 
+                "redBlackHu": 0, 
+                "totalPlayNum": 8, 
+                "winPoint": 10, 
+                "xiTun": 3, 
+                "ziMoFan": 0,
+                "ziMoAdd": 1
+            }
+        ],
+        "anhua": [
+            {
+                "fangpao": 0, 
+                "maxSeatN": 3, 
+                "playMode": "anhua", 
+                "totalPlayNum": 8, 
+                "winPoint": 15, 
+                "xiTun": 3, 
+                "ziMoFan": 1,
+                "ziMoAdd": 0,
+                "sanTiWuKan": 1
+            }
+        ],
+        "youxian": [
+            {
+                "fangpao": 1, 
+                "maxSeatN": 4, 
+                "playMode": "youxian", 
+                "totalPlayNum": 8,
+                "lianBossType": 1
+            }
+        ],
+        "zhuzhou": [
+            {
+                "fangpao": 1, 
+                "maxSeatN": 4, 
+                "playMode": "zhuzhou", 
+                "totalPlayNum": 8,
+                "lianBossType": 1
+            }
+        ],
+        "yongzhou": [
+            {
+                "fanXing": 0, 
+                "maxSeatN": 3, 
+                "playMode": "yongzhou", 
+                "suiXing": 0, 
+                "totalPlayNum": 8, 
+                "winPoint": 15, 
+                "fangpao": 0,
+                "xiTun": 3
+            }
+        ] 
+    }, 
+    "customRoomNoGameID": [
+        0, 
+        1
+    ], 
+    "custom_table_errinfo": {
+        "1": "房卡不足，请到商城购买房卡", 
+        "2": "不支持当前局数设定，请更新到最新游戏!", 
+        "3": "房间号不正确，请重新输入", 
+        "4": "房间已满, 请确认房间号！"
+    }, 
+    "enableLogChatMsg": 1, 
+    "enable_test_robot": 0, 
+    "http_download_default": "${http_game}/6/", 
+    "http_download_html": "${http_game}/dizhu/", 
+    "http_download_pic": "${http_download}/6/", 
+    "max_table_robot_count": 3, 
+    "nextmatchtime": {
+        "coinRoomShowDayInfo": 0, 
+        "dayInfo0": "", 
+        "dayInfo1": "明天", 
+        "dayInfo2": "后天", 
+        "dayInfoCnt": 1, 
+        "other": "\\${month}月\\${day}日\n", 
+        "today": ""
+    }, 
+    "optimedis": "您的上家网络不好，等他一会儿吧", 
+    "quick_start_errinfo": {
+        "1": "您正在玩另一个途游游戏,请稍后再试", 
+        "10": "服务器内部错误,请退出客户端,重新登录", 
+        "11": "亲~您的VIP等级不够哦", 
+        "12": "亲~您的大师分级别不够哦，去经典场练练级吧！", 
+        "13": "该房间本时段未开放。", 
+        "2": "服务器内部错误,请稍后再试", 
+        "3": "当前房间已满,请选择其他房间进行游戏", 
+        "4": "您的金币不足无法进入此房间，赶紧充值吧！", 
+        "5": "亲~您太富有了，该去更高级的房间战斗啦！", 
+        "6": "亲~您太富有了，没有房间可以玩啦！", 
+        "7": "当前房间已满,请稍后再试", 
+        "8": "亲~比赛时间未到哦", 
+        "9": "亲~您没有资格进入此房间哦"
+    }, 
+    "referrer_switch": 1, 
+    "roomfee_conf": {
+        "basic": 0.59999999999999998, 
+        "fee_multi": 2.0, 
+        "high_multi": 32, 
+        "winner_chip": 0.029999999999999999
+    }, 
+    "use_momo_ranking": 0, 
+    "use_tuyou_ranking": 1, 
+    "vip_special_right": {
+        "dashifen": [
+            {
+                "desc": "大师分获取增加20%", 
+                "level": 2, 
+                "rate": 0.20000000000000001
+            }
+        ]
+    }, 
+    "virtual_online_player_num": {
+        "bottom_num": 15, 
+        "percent": 0.29999999999999999
+    }, 
+    "weixindesc": "速度加入", 
+    "weixintitle": "优乐湖南跑胡子", 
+    "weixinurl": "http://www.shediao.com/youle/gamelist.html",
+    "roadInfo": [
+        "可通过牌桌上设置选项对字牌的样式进行更改",
+        "点击设置可选择牌桌护眼模式，可根据爱好对颜色进行调整",
+        "点击排序按钮会自动重新排列您手中的字牌",
+        "结算以及牌局详情中，虚线右侧的牌为该用户的手牌",
+        "按住语音按钮就可以给牌桌上的朋友发语音聊天",
+        "点击头像可以向牌友发送免费互动表情，多发送鲜花，钻石会增加游戏乐趣呦",
+        "双击字牌和将字牌拖拽到牌桌中间都可以打出你想出的牌",
+        "点击战绩分享可以将您当局的优异表现分享给好友",
+        "选择更多局数可以消耗更少的房卡"
+    ],
+    "compressVideoVer": 4.0
+}

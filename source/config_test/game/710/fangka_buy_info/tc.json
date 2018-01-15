@@ -1,0 +1,22 @@
+{
+    "templates": [
+        {
+            "name": "haerbin_fangka_buy_info",
+            "todotasks": [
+                {
+                    "typeId" : "todotask.showInfo",
+                    "info" : "买卡加微信: hljmj01,hljmj02  \n诚招代理微信:hljmj01,hljmj02 \n举报QQ:2934626207"
+                }
+            ]
+        },
+		{
+            "name": "haerbin_tishen_fangka_buy_info",
+            "todotasks": [
+                {
+                    "typeId" : "todotask.showInfo",
+                    "info" : "每天第一次登陆赠送12张房卡"
+                }
+            ]
+        }
+    ]
+}

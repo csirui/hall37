@@ -1,0 +1,992 @@
+{
+ "games"            : [
+  {
+   "versions"         : [
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、山西麻将插件模板"
+     ],
+     "md5"              : "907e6ca38d1816a3227c546464bfe5cc",
+     "ver"              : "3.7796",
+     "url"              : "${http_download}/majiang/difang/plugin/shanximajiang_37796_1112.zip",
+     "size"             : "6M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、山西麻将插件模板"
+     ],
+     "md5"              : "f8fbb6fb854b96ef2090ba21f3da99aa",
+     "ver"              : "3.9001",
+     "url"              : "${http_download}/majiang/difang/plugin/1129shanximajiang39001.zip",
+     "size"             : "5.79M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、山西麻将插件模板"
+     ],
+     "md5"              : "5e3e083ff1994e42038b4befbe6e0434",
+     "ver"              : "3.9002",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/shanximj_3.9002_1216_5.zip",
+     "size"             : "6M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、山西麻将插件模板"
+     ],
+     "md5"              : "2b7fe0868f1bda192223ecc058e5d967",
+     "ver"              : "3.9003",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/shanximj_3.9003_1223_2.zip",
+     "size"             : "6M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、山西麻将插件模板"
+     ],
+     "md5"              : "e0f1462dc876ab9c41a4a8bfca6b14da",
+     "ver"              : "3.9004",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/shanximj_3.9004_1.7_2.zip",
+     "size"             : "6M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、山西麻将插件模板"
+     ],
+     "md5"              : "fc3ceb107d8ae5ad4141c5e630bf05ff",
+     "ver"              : "3.9005",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/shanximj_3.9005_1.13_2.zip",
+     "size"             : "6M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、山西麻将插件模板"
+     ],
+     "md5"              : "0ae03a3609ecf4920172fdda2b52c36b",
+     "ver"              : "3.9007",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/shanximj_3.9007_1.19_3.zip",
+     "size"             : "6M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、山西麻将插件模板"
+     ],
+     "md5"              : "0e67f466fb91d1ef35e0c127379f5671",
+     "ver"              : "3.9008",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/shanximj_3.9008_1.23_2.zip",
+     "size"             : "6M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、山西麻将插件模板"
+     ],
+     "md5"              : "176b3b542a793868924abd6161de547a",
+     "ver"              : "3.9009",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/shanximj_3.9009_1.25_1.zip",
+     "size"             : "6M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、山西麻将插件模板"
+     ],
+     "md5"              : "79e29375ebe4c46f5410607343002926",
+     "ver"              : "3.9010",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/shanximj_3.9010_2.4_1.zip",
+     "size"             : "6M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、山西麻将插件模板"
+     ],
+     "md5"              : "8bb01595ebe269d3040c9a8bb4eec2be",
+     "ver"              : "3.9011",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/shanximj_3.9011_2.15_1.zip",
+     "size"             : "6M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、山西麻将插件模板"
+     ],
+     "md5"              : "ad5ed524ef6f31ebd3550214df94ab87",
+     "ver"              : "3.9012",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/shanximj_3.9012_2.16_1.zip",
+     "size"             : "6M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、山西麻将插件模板"
+     ],
+     "md5"              : "589f20aa686ec2e3af7641feef3502f4",
+     "ver"              : "3.9013",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/shanximj_3.9013_2.20_1.zip",
+     "size"             : "6M"
+    }
+   ],
+   "description"      : [
+    "1、正宗山西麻将"
+   ],
+   "gameId"           : 720,
+   "gameMark"         : "shanximj"
+  }
+ ],
+ "templates"        : [
+  {
+   "des"              : "山西麻将线上包模板",
+   "name"             : "shanximj_v3.90_AI_shanximj",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "tuidaohu",
+          "changzhi"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 720,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "推到胡",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9010",
+        "defaultRes"       : "MaJiangTuiDaoHu"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 9,
+         "action"           : "create"
+        },
+        "nameUrl"          : "",
+        "gameId"           : 620,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "斗地主",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9003",
+        "defaultRes"       : "MaJiangDouDiZhu"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "koudian"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 720,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "扣点",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9010",
+        "defaultRes"       : "MaJiangKouDian"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "haerbin"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 155,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "山西干瞪眼",
+        "quitAlertName"    : "",
+        "version"          : "3.9021",
+        "defaultRes"       : "MaJiangGanDengYan"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangEnterRoom"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "yingsanzu"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 720,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "硬三组",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9010",
+        "defaultRes"       : "MaJiangYingSanZu"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "山西麻将提审ios模板",
+   "name"             : "shanximj_v3.901_AI_shanximjtishen",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "tuidaohu"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 720,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "推倒胡",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9003",
+        "defaultRes"       : "MaJiangBigCreateRoom"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangBigEnterRoom"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "山西麻将_测试模板",
+   "name"             : "shanximj_v3.902_AI_shanximj",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "tuidaohu",
+          "changzhi"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 720,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "推到胡",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9013",
+        "defaultRes"       : "MaJiangTuiDaoHu"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 9,
+         "action"           : "create"
+        },
+        "nameUrl"          : "",
+        "gameId"           : 620,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "斗地主",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9003",
+        "defaultRes"       : "MaJiangDouDiZhu"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "koudian"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 720,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "扣点",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9013",
+        "defaultRes"       : "MaJiangKouDian"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "haerbin"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 155,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "山西干瞪眼",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9021",
+        "defaultRes"       : "MaJiangGanDengYan"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangEnterRoom"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "yingsanzu"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 720,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "硬三组",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9013",
+        "defaultRes"       : "MaJiangYingSanZu"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      }
+     ]
+    },
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "hongtong"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 720,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "洪洞麻将",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9013",
+        "defaultRes"       : "MaJiangHongTong"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "tiejin"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 720,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "运城贴金",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9013",
+        "defaultRes"       : "MaJiangYunChengTieJin"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "山西麻将线上包测试模板",
+   "name"             : "shanximj_v3.903_AI_shanximj",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "tuidaohu"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 720,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "推到胡",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9003",
+        "defaultRes"       : "MaJiangTuiDaoHu"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 9,
+         "action"           : "create"
+        },
+        "nameUrl"          : "",
+        "gameId"           : 6,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "斗地主",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.820",
+        "defaultRes"       : "MaJiangDouDiZhu"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "koudian"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 720,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "扣点",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9003",
+        "defaultRes"       : "MaJiangKouDian"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "todotask.showInfo",
+         "info"             : "敬请期待！！"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangLiSi"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangEnterRoom"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "yingsanzu"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 720,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "硬三组",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9003",
+        "defaultRes"       : "MaJiangYingSanZu"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "山西斗地主测试模板",
+   "name"             : "shanximj_v3.903_AI_shanxiddz",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "ddz"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 6,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "斗地主",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.820",
+        "defaultRes"       : "MaJiangBigCreateRoom"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangBigEnterRoom"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "山西麻将_前端测试",
+   "name"             : "shanximj_v3.904_AI_shanximj",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "tuidaohu",
+          "changzhi"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 720,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "推到胡",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9013",
+        "defaultRes"       : "MaJiangTuiDaoHu"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 9,
+         "action"           : "create"
+        },
+        "nameUrl"          : "",
+        "gameId"           : 620,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "斗地主",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9003",
+        "defaultRes"       : "MaJiangDouDiZhu"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "koudian"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 720,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "扣点",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9013",
+        "defaultRes"       : "MaJiangKouDian"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "haerbin"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 155,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "山西干瞪眼",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9021",
+        "defaultRes"       : "MaJiangGanDengYan"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangEnterRoom"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "yingsanzu"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 720,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "硬三组",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9013",
+        "defaultRes"       : "MaJiangYingSanZu"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      }
+     ]
+    },
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "hongtong"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 720,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "洪洞麻将",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9013",
+        "defaultRes"       : "MaJiangHongTong"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "tiejin"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 720,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "运城贴金",
+        "quitAlertName"    : "（当quitAlert=1时有效）",
+        "version"          : "3.9013",
+        "defaultRes"       : "MaJiangYunChengTieJin"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

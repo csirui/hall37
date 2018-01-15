@@ -1,0 +1,245 @@
+/***** 
+ @ authon: wenshan 
+ @ data: 20141203
+ */
+
+
+
+
+body {
+	font-family: Roboto,sans-serif;
+	padding-bottom: 40px;
+}
+li {
+	list-style: none;
+}
+.btn-default {
+	background-image: linear-gradient(to bottom,rgb(255, 255, 255) 0,rgb(224, 224, 224) 100%);
+}
+.bs-docs-nav {
+	background: #015066;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+	font-size: 120%;
+}
+.bs-docs-nav .navbar-nav>li>a {
+	color: #fff;
+}
+.bs-docs-sidebar .nav .nav {
+	display: block;
+}
+.bs-docs-sidebar.affix {
+	top: 80px;
+	padding-left: 0;
+}
+.table-bordered input {
+	width: 100%;
+	border: none;
+}
+.table-bordered .active input {
+	background: #f5f5f5;
+}
+.shenheTable textarea {
+	border: none;
+}
+.table input[type="text"] {
+	height: 100%;
+}
+.checkbox {
+	margin: 0;
+}
+.table>tbody+tbody {
+	border-top: none;
+}
+.glyphicon-cog {
+	padding: 2px;
+	margin-left: 10px;
+}
+.table>tbody>tr>td.btnPadding {
+	padding: 5px 8px;
+}
+.table>tbody>tr>td .btn {
+	padding: 3px 12px;
+	margin-right: 5px;
+}
+.plugNewTd {
+	padding-left: 40px;
+}
+.plugNewVersions td {
+	width: 15%;
+	text-align: right;
+}
+.plugNewVersions td:nth-child(2) {
+	width: 10%;
+}
+
+.radio {
+	margin: 0 0;
+}
+
+
+.headerNav {
+	padding-left: 16px;
+}
+.button-circle.button-big,
+.button-box.button-big,
+.button-square.button-big {
+	width: 140px;
+	height: 140px;
+	padding: 30px !important;
+	margin-top: 50px;
+	line-height: 30px;
+	font-size: 20px;
+}
+.glyphicon {
+	float: right;
+	cursor: pointer;
+    margin: 0 0 0 7px;
+}
+.sidebar {
+	background: #f1fafd;
+	border-right: 1px solid #d3edf4;
+	padding-top: 20px;
+}
+.sidebar .list-group {
+	margin-top: 60px;
+}
+.groupContrast .panel-body {
+	max-width: 400px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.groupContrast .list-group-item .glyphicon {
+	width: 20px;
+}
+.bs-docs-section {
+	margin-bottom: 20px;
+}
+.edit .modal-dialog {
+	width: 900px;
+}
+.edit .list-group {
+	margin-top: 50px;
+}
+.tableGreen {
+	background: #f4fdef;
+}
+.table .tableGreenChild {
+	background: #e6fddc;
+}
+.radio-inline input {
+	width: 20%;
+}
+.tableWidth50 {
+	width: 50%;
+}
+.tableWidth80 {
+	width: 80%;
+}
+.tableWidth90 {
+	width: 90%;
+	margin: 20px auto;
+}
+.editTitle {
+	margin: 20px;
+}
+.editTitle button {
+	margin-right: 20px;
+}
+.sidebar .dropdown-menu {
+	max-height: 500px;
+	overflow: auto;
+}
+.sidebar .input-group {
+	position: relative;
+}
+.sidebar .searchingClose {
+	position: absolute;
+	top: 10px;
+	right: 55px;
+	width: 18px;
+  	height: 15px;
+	z-index: 10;
+	font-size: 1px;
+	outline: none;
+	background: url('../img/select2.png') right 2px no-repeat #fff;
+	cursor: pointer;
+}
+.sidebar .showNum a {
+	display: block;
+	width: 300px;
+	overflow: hidden;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-decoration: none;
+}
+.modelGroup {
+	max-width: 400px;
+	overflow: auto;
+	float: left;
+	margin: 0 10px 0 0;
+}
+#modelContent,
+#editPlugDefinition,
+#editShop,
+#editBilling,
+#modelDialog,
+#dialogClientidData,
+#form-inline {
+	display: none;
+}
+#editBilling input[type="text"] {
+	background: rgb(217, 242, 206);
+	border: 1px solid rgb(175, 207, 161);
+	line-height: 26px;
+}
+#editBilling input.form-control {
+	background: #fff;
+}
+.ydmmSearch,
+.woSearch {
+	position: relative;
+}
+#modelDialog .input-group {
+	float: left;
+	margin-right: 20px;
+}
+.bs-docs-section:last-child {
+	margin-bottom: 65px; 
+}
+
+#footer {
+	position: fixed;
+	bottom: 0;
+	margin: 0 auto;
+	background: #eefffe;
+	border: 1px solid #ccc;
+	border: 1px solid #c5c5c5;
+	width: 100%;
+	padding: 3px 0;
+	display: none;
+}
+
+.title_red {
+	color: #f00;
+}
+
+.title_blue {
+	color: #00f;
+}
+
+.title_yellow {
+	color: #ff0;
+}
+
+.acttip1 {
+	color: #00f;
+	padding: 4px 0;
+	font-size: 12pt;
+}
+
+.acttip2 {
+	color: #f00;
+	padding: 4px 0;
+	font-size: 12pt;
+}

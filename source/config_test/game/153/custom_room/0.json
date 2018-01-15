@@ -1,0 +1,101 @@
+{
+    "ver": 2,
+    "oneRoomCardGameRoundN": 0,
+    "roomCardNCost": {
+            "8": 2,
+            "16": 4
+    },
+    "options": [
+                {
+                    "key": "maxSeatN",
+                    "title": "游戏人数",
+                    "names": [
+                        "3人",
+                        "4人",
+                        "5人"
+                    ],
+                    "values": [
+                        3,
+                        4,
+                        5
+                    ]
+                },
+                {
+                    "key": "gameRoundN",
+                    "title": "游戏局数",
+                    "names": [
+                        "8局(2张)",
+                        "16局(4张)"
+                    ],
+                    "values": [
+                        8,
+                        16
+                    ]
+                },
+                {
+                    "key":"bankerRule",
+                    "title": "坐庄规则",
+                    "names": [
+                        "随机庄",
+                        "赢家坐庄"
+                    ],
+                    "values": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "key":"bombMultipleType",
+                    "title": "炸弹倍数",
+                    "names": [
+                        "固定两倍",
+                        "随炸翻倍"
+                    ],
+                    "values": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "key":"bombMultipleMax",
+                    "title": "炸弹封顶倍数",
+                    "names": [
+                        "8倍封顶",
+                        "16倍封顶",
+                        "32倍封顶",
+                        "不封顶"
+                    ],
+                    "values": [
+                        8,
+                        16,
+                        32,
+                        0
+                    ]
+                },
+                {
+                    "key":"laiZiN",
+                    "title": "癞子数",
+                    "names": [
+                        "2癞",
+                        "5癞",
+                        "6癞",
+                        "8癞"
+                    ],
+                    "values": [
+                        2,
+                        5,
+                        6,
+                        8
+                    ]
+                }
+    ],
+    "defaultSelectedOptions":  {
+                "maxSeatN": 3,
+                "gameRoundN": 8,
+                "bankerRule": 1,
+                "bombMultipleType": 1,
+                "bombMultipleMax": 0,
+                "laiZiN": 5
+    }
+
+}

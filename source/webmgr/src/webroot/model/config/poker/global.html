@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>服务管理</title>
+
+	<!-- Bootstrap -->
+    <link rel="stylesheet" href="./../../../third/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./../../../third/css/docs.min.css">
+    <link rel="stylesheet" href="./../../../third/css/buttons.css">
+    <link rel="stylesheet" href="./../../../third/css/main.css">
+
+    <script src="./../../../third/js/jquery.min.js"></script>
+    <script src="./../../../third/js/bootstrap.min.js"></script>
+    <script src="./../../../third/js/vue.min.js"></script>
+
+    <script src="./../../../js/lib/base.js"></script>
+    <script src="./../../../js/lib/model.js"></script>
+
+    <script src="global.js"></script>
+  
+</head>
+<body>
+	<div id="dataContent">
+		<table class="table table-bordered bs-docs-section">
+			<tr>
+				<td colspan="3">
+					<button type="button" class="btn btn-success" v-on="click: reset">重 置</button>
+					<button type="button" class="btn btn-success" v-on="click: submit" >保 存</button>
+					<b>poker/global.json 游戏服务整体基本定义内容</b>
+				</td>
+			</tr>
+			<tr class="bg-info">
+				<th>游戏ID</th><th>id</th><td><input type="text" v-model="id | superInt"></td>
+			</tr>
+			<tr class="bg-info">
+				<th>游戏名称</th><th>name</th><td><input type="text" v-model="name"></td>
+			</tr>
+			<tr class="bg-info">
+				<th>运行模式</th><th>mode</th><td><input type="text" v-model="mode | superInt"></td>
+			</tr>
+			<tr class="bg-info">
+				<th>H5网页服务</th><th>is_h5</th><td><input type="text" v-model="is_h5 | superInt"></td>
+			</tr>
+			<tr class="bg-info">
+				<th>公司标记</th><th>corporation</th><td><input type="text" v-model="corporation"></td>
+			</tr>
+			<tr class="bg-info">
+				<th>启用测试代码</th><th>enable_test_html</th><td><input type="text" v-model="enable_test_html | superInt"></td>
+			</tr>
+			<tr class="bg-info">
+				<th>缺省REDIS端口号</th><th>port_redis</th><td><input type="text" v-model="port_redis | superInt"></td>
+			</tr>
+			<tr class="bg-info">
+				<th>缺省外网地址</th><th>local_internet</th><td><input type="text" v-model="local_internet"></td>
+			</tr>
+			<tr>
+				<th>缺省内网地址</th><th>local_intranet</th><td><input type="text" v-model="local_intranet"></td>
+			</tr>
+			<tr>
+				<th>源代码工程路径</th><th>projects_path</th><td><input type="text" v-model="projects_path"></td>
+			</tr>
+			<tr>
+				<th>运行路径</th><th>output_path</th><td><input type="text" v-model="output_path"></td>
+			</tr>
+			<tr>
+				<th>配置REDIS地址</th><th>config_redis</th><td><input type="text" v-model="config_redis"></td>
+			</tr>
+			<tr>
+				<th>起始端口号(HTTP)</th><th>port_http</th><td><input type="text" v-model="port_http | superInt"></td>
+			</tr>
+			<tr>
+				<th>SDK的HTTP外网地址</th><th>http_sdk</th><td><input type="text" v-model="http_sdk"></td>
+			</tr>
+			<tr>
+				<th>SDK的HTTP内网地址</th><th>http_sdk_inner</th><td><input type="text" v-model="http_sdk_inner"></td>
+			</tr>
+			<tr>
+				<th>游戏的HTTP外网地址</th><th>http_game</th><td><input type="text" v-model="http_game"></td>
+			</tr>
+			<tr>
+				<th>游戏的HTTP外网CDN地址</th><th>http_download</th><td><input type="text" v-model="http_download"></td>
+			</tr>
+			<tr>
+				<th>游戏的头像地址</th><th>http_avatar</th><td><input type="text" v-model="http_avatar"></td>
+			</tr>
+			<tr>
+				<th>GDSS地址</th><th>http_gdss</th><td><input type="text" v-model="http_gdss"></td>
+			</tr>
+		</table>
+	<div>
+</body>
+</html>
+
+

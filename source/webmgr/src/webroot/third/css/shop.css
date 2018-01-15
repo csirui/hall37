@@ -1,0 +1,61 @@
+.sidebar .clientIds a {
+	display: block;
+	/* width: 170px; */
+	overflow: hidden;
+	white-space: pre-wrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-decoration: none;
+	word-break: break-all;
+}
+
+.sidebar .showNum a {
+	white-space: pre-wrap;
+    width: auto;
+    word-break: break-all;
+}
+
+.sidebar .list-group {
+    margin-top: 20px;
+}
+
+#showList .text-right {
+    margin-top: 10px;
+}
+
+.modelGroup .panel-default {
+    border-color: #ddd;
+    /*height: 400px;*/
+    overflow-y: auto;
+}
+
+.modelGroup {
+  max-width: 500px;
+  /* overflow: auto; */
+  /* float: left; */
+  margin: 0 10px 0 0;
+  display: inline-block;
+  position: relative;
+  top: 0;
+}
+
+.modelContent {
+     overflow-y: auto;
+}
+
+.col-md-12 {
+    padding: 0;
+}
+
+.btn-toolbar {
+    padding: 4px;
+}
+
+input[type=radio] {
+    width: 40px;
+}
+
+.ui-dialog {
+    position: fixed;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}

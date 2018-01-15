@@ -1,0 +1,386 @@
+{
+ "games"            : [
+  {
+   "versions"         : [
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "[1.1.1、哈尔滨麻将插件模板"
+     ],
+     "md5"              : "999f49e4c3c162aa67bb634edf655cc1",
+     "ver"              : "3.9003",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/haerbin39003_1210.zip",
+     "size"             : "6.42M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1、哈尔滨麻将插件新模板"
+     ],
+     "md5"              : "711b7336d06fe315ae88690e9ff94513",
+     "ver"              : "3.9004",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/hrb_3.902_3.9004.zip",
+     "size"             : "6.21M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "2.哈尔滨麻将0106插件模板"
+     ],
+     "md5"              : "266f557d9e836a16515a9cef9e7c18fd",
+     "ver"              : "3.9005",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/haerbin_0106.zip",
+     "size"             : "8M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "3、哈尔滨麻将插件0211"
+     ],
+     "md5"              : "16abfd5b051e89df5b3e007ec84701f4",
+     "ver"              : "3.9009",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/haerbin0211.zip",
+     "size"             : "11M"
+    }
+   ],
+   "description"      : [
+    "1、哈尔滨麻将"
+   ],
+   "gameId"           : 710,
+   "gameMark"         : "haerbin"
+  }
+ ],
+ "templates"        : [
+  {
+   "des"              : "哈尔滨麻将插件模板1",
+   "name"             : "haerbin_v3.90_AI_haerbinmj",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "params"           : {
+        "pluginParams"     : {
+         "gameType"         : 10,
+         "create_play_modes": [
+          "haerbin"
+         ],
+         "tasks"            : [
+          {
+           "action"           : "pop_create_room_create",
+           "params"           : { }
+          }
+         ]
+        },
+        "nameUrl"          : "",
+        "gameId"           : 710,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "哈尔滨麻将",
+        "quitAlertName"    : "",
+        "version"          : "3.9009",
+        "defaultRes"       : "MaJiangBigCreateRoom"
+       },
+       "type"             : "roomlist",
+       "typeId"           : "hall.gamenode.normal"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangBigEnterRoom"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "哈尔滨麻将",
+   "name"             : "haerbin_AI_haerbinmj",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "nodes"            : [
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "haerbin"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 710,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "哈尔滨麻将",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9009",
+          "defaultRes"       : "MaJiangHaerbin"
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 9,
+           "action"           : "create"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 610,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "哈尔滨斗地主",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.901",
+          "defaultRes"       : "MaJiangExtendsDouDiZhu"
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "haerbin"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : {
+              "hasRobot"         : 1
+             }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 710,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "哈尔滨麻将",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9009",
+          "defaultRes"       : "MaJiangExtendsGeRenLianXiChang"
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        }
+       ],
+       "params"           : {
+        "gameId"           : 0,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "哈尔滨麻将",
+        "version"          : "3.9004",
+        "defaultRes"       : "MaJiangBigCreateRoomSmall"
+       },
+       "type"             : "package",
+       "typeId"           : "hall.gamenode.package"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangBigEnterRoomSmall"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      },
+      {
+       "conditions"       : [ ],
+       "nodes"            : [
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 1
+          },
+          "nameUrl"          : "",
+          "gameId"           : 31,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "哈尔滨水果机",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.901",
+          "defaultRes"       : "YuleShuiGuo"
+         },
+         "type"             : "game",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 1
+          },
+          "nameUrl"          : "",
+          "gameId"           : 19,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "跑狗",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.901",
+          "defaultRes"       : "YulePaoGou"
+         },
+         "type"             : "game",
+         "typeId"           : "hall.gamenode.normal"
+        }
+       ],
+       "params"           : {
+        "gameId"           : 0,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangBigJoyRoomSmall"
+       },
+       "type"             : "package",
+       "typeId"           : "hall.gamenode.package"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "des"              : "哈尔滨麻将",
+   "name"             : "haerbin_v3.901_AI_haerbinmj",
+   "pages"            : [
+    {
+     "nodes"            : [
+      {
+       "conditions"       : [ ],
+       "nodes"            : [
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 10,
+           "create_play_modes": [
+            "haerbin"
+           ],
+           "tasks"            : [
+            {
+             "action"           : "pop_create_room_create",
+             "params"           : { }
+            }
+           ]
+          },
+          "nameUrl"          : "",
+          "gameId"           : 710,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "哈尔滨麻将",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.9009",
+          "defaultRes"       : "MaJiangHaerbin"
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 9,
+           "action"           : "create"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 610,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "哈尔滨斗地主",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.901",
+          "defaultRes"       : "MaJiangExtendsDouDiZhu"
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        },
+        {
+         "conditions"       : [ ],
+         "params"           : {
+          "pluginParams"     : {
+           "gameType"         : 9,
+           "action"           : "create"
+          },
+          "nameUrl"          : "",
+          "gameId"           : 610,
+          "iconUrl"          : "",
+          "vipLevel"         : 0,
+          "gameName"         : "哈尔滨斗地主",
+          "quitAlertName"    : "（当quitAlert=1时有效）",
+          "version"          : "3.901",
+          "defaultRes"       : "MaJiangExtendsDouDiZhu"
+         },
+         "type"             : "roomlist",
+         "typeId"           : "hall.gamenode.normal"
+        }
+       ],
+       "params"           : {
+        "gameId"           : 0,
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "gameName"         : "哈尔滨麻将",
+        "version"          : "3.9003",
+        "defaultRes"       : "MaJiangBigCreateRoomSmall"
+       },
+       "type"             : "package",
+       "typeId"           : "hall.gamenode.package"
+      },
+      {
+       "conditions"       : [ ],
+       "todotasks"        : [
+        {
+         "typeId"           : "hall.enter.friendTable"
+        }
+       ],
+       "nodes"            : [ ],
+       "params"           : {
+        "nameUrl"          : "",
+        "iconUrl"          : "",
+        "vipLevel"         : 0,
+        "defaultRes"       : "MaJiangBigEnterRoomSmall"
+       },
+       "type"             : "todo_task",
+       "typeId"           : "hall.gamenode.todotask"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

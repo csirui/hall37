@@ -1,0 +1,8 @@
+{
+  "150001" : {
+    "controlServerCount" : 1,
+    "controlTableCount" : 0,
+    "gameServerCount" : 1,
+    "gameTableCount" : 1500
+  }
+}

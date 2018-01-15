@@ -1,0 +1,47 @@
+{
+ "games"            : [
+  {
+   "versions"         : [
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1.斗地主插件模板"
+     ],
+     "md5"              : "e6311033eac4395b7bcd4af0b9c02b82",
+     "ver"              : "3.9001",
+     "url"              : "https://df.dl.shediao.com/cdn37/majiang/difang/plugin/shanxiddz_3.9001_1228_6.zip",
+     "size"             : "21M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1.斗地主插件模板"
+     ],
+     "md5"              : "bce187868e8dd8a39b09c29255afcb52",
+     "ver"              : "3.9002",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/shanxiddz_3.9002_1228_4.zip",
+     "size"             : "21M"
+    },
+    {
+     "hall_min_required": 6,
+     "autoDownload"     : 4,
+     "changelogs"       : [
+      "1.斗地主插件模板_1.7"
+     ],
+     "md5"              : "3bcd50bcb1d25ffac643b44336d07d25",
+     "ver"              : "3.9003",
+     "url"              : "http://df.dl.shediao.com/cdn37/majiang/difang/plugin/shanxiddz_3.9003_1.7_1.zip",
+     "size"             : "21M"
+    }
+   ],
+   "description"      : [
+    "1、山西斗地主"
+   ],
+   "gameId"           : 620,
+   "gameMark"         : "shanxiddz"
+  }
+ ],
+ "templates"        : [ ]
+}

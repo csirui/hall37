@@ -1,0 +1,1492 @@
+{
+  "room_items" : {
+    "ed10" : {
+      "condition" : "400~7999金币准入",
+      "config" : 0,
+      "entry" : "底注120金币",
+      "id" : 6031,
+      "least" : 120,
+      "name" : "二人新手场",
+      "showInfo" : {
+          "name":"新手场(底注120)",
+          "playerCntKind":"playerCnt",
+          "gameDes" : "新手场没有奖券奖励哟",
+          "extendInfo" : "金币桌"
+        },
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "ed10_tishen" : {
+      "condition" : "400~7999金币准入",
+      "config" : 0,
+      "entry" : "底注120金币",
+      "id" : 6031,
+      "least" : 120,
+      "name" : "二人新手场",
+      "showInfo" : {
+          "name":"新手场(底注120)",
+          "playerCntKind":"playerCnt",
+          "gameDes" : "",
+          "extendInfo" : "金币桌"
+        },
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "ed20" : {
+      "condition" : "6000~10万金币准入",
+      "config" : 0,
+      "entry" : "底注600金币",
+      "id" : 6032,
+      "least" : 600,
+      "name" : "二人中级场",
+      "showInfo" : {
+        "name":"中级场(底注600)",
+        "playerCntKind":"playerCnt",
+        "gameDes" : "玩6局可得1奖券",
+        "extendInfo" : "金币桌"
+      },
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "ed20_tishen" : {
+      "condition" : "6000~10万金币准入",
+      "config" : 0,
+      "entry" : "底注600金币",
+      "id" : 6032,
+      "least" : 600,
+      "name" : "二人中级场",
+      "showInfo" : {
+        "name":"中级场(底注600)",
+        "playerCntKind":"playerCnt",
+        "gameDes" : "",
+        "extendInfo" : "金币桌"
+      },
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "ed30" : {
+      "condition" : "3万~40万金币准入",
+      "config" : 2,
+      "entry" : "底注3000金币",
+      "id" : 6033,
+      "least" : 3000,
+      "name" : "二人高级场",
+      "showInfo" : {
+        "name":"高级场(底注3000)",
+        "playerCntKind":"playerCnt",
+        "gameDes" : "玩6局可得3奖券",
+        "extendInfo" : "金币桌"
+      },
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "ed30_tishen" : {
+      "condition" : "3万~40万金币准入",
+      "config" : 2,
+      "entry" : "底注3000金币",
+      "id" : 6033,
+      "least" : 3000,
+      "name" : "二人高级场",
+      "showInfo" : {
+        "name":"高级场(底注3000)",
+        "playerCntKind":"playerCnt",
+        "gameDes" : "",
+        "extendInfo" : "金币桌"
+      },
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "ed40" : {
+      "condition" : "大于5万金币准入",
+      "config" : 2,
+      "entry" : "底注12000金币",
+      "id" : 6034,
+      "least" : 12000,
+      "name" : "二人大师场",
+      "showInfo" : {
+        "name":"大师场(底注1.2万)",
+        "playerCntKind":"playerCnt",
+        "gameDes" : "玩6局可得6奖券",
+        "extendInfo" : "金币桌"
+      },
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "ed40_tishen" : {
+      "condition" : "大于5万金币准入",
+      "config" : 2,
+      "entry" : "底注12000金币",
+      "id" : 6034,
+      "least" : 12000,
+      "name" : "二人大师场",
+      "showInfo" : {
+        "name":"大师场(底注1.2万)",
+        "playerCntKind":"playerCnt",
+        "gameDes" : "",
+        "extendInfo" : "金币桌"
+      },
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+	"ed50" : {
+      "condition" : "大于50万金币准入",
+      "config" :  2,
+      "entry" : "底注50000金币",
+      "id" : 6035,
+      "least" : 50000,
+      "name" : "二人星耀大师场",
+      "showInfo" : {
+          "name" : "星耀大师场(底注5万)",
+          "playerCntKind":"playerCnt",
+          "gameDes" : "6局得20奖券(5倍活动现得100)",
+          "extendInfo" : "金币桌"
+      },
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "ed50_tishen" : {
+      "condition" : "大于50万金币准入",
+      "config" :  2,
+      "entry" : "底注50000金币",
+      "id" : 6035,
+      "least" : 50000,
+      "name" : "二人星耀大师场",
+      "showInfo" : {
+          "name" : "星耀大师场(底注5万)",
+          "playerCntKind":"playerCnt",
+          "gameDes" : "",
+          "extendInfo" : "金币桌"
+      },
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "fruit" : {
+      "condition" : "",
+      "config" : 0,
+      "entry" : "",
+      "id" : 11001,
+      "least" : 0,
+      "name" : "水果大亨",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "hl10" : {
+      "condition" : "400~7999金币准入",
+      "config" : 0,
+      "entry" : "底注30金币",
+      "id" : 6001,
+      "least" : 30,
+      "name" : "欢乐新手场",
+      "showInfo" : {
+        "name" : "新手场(底注30)",
+        "playerCntKind":"playerCnt",
+        "gameDes" : "新手场没有奖券奖励哟",
+        "extendInfo" : "金币桌"
+      },
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "hl10_tishen" : {
+      "condition" : "400~7999金币准入",
+      "config" : 0,
+      "entry" : "底注30金币",
+      "id" : 6001,
+      "least" : 30,
+      "name" : "欢乐新手场",
+      "showInfo" : {
+        "name" : "新手场(底注30)",
+        "playerCntKind":"playerCnt",
+        "gameDes" : "",
+        "extendInfo" : "金币桌"
+      },
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+
+    "hl20" : {
+      "condition" : "4000~10万金币准入",
+      "config" : 2,
+      "entry" : "底注200金币",
+      "id" : 6002,
+      "least" : 200,
+      "name" : "欢乐中级场",
+      "showInfo" : {
+        "name" : "中级场(底注200)",
+        "playerCntKind":"playerCnt",
+        "gameDes" : "玩6局可得1奖券",
+        "extendInfo" : "金币桌"
+      },
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlzjc.png"
+    },
+    "hl20_tishen" : {
+      "condition" : "4000~10万金币准入",
+      "config" : 2,
+      "entry" : "底注200金币",
+      "id" : 6002,
+      "least" : 200,
+      "name" : "欢乐中级场",
+        "showInfo" : {
+          "name" : "中级场(底注200)",
+          "playerCntKind":"playerCnt",
+          "gameDes" : "",
+          "extendInfo" : "金币桌"
+        },
+        "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlzjc.png"
+    },
+    "hl30" : {
+      "condition" : "2万~30万金币准入",
+      "config" : 2,
+      "entry" : "底注1500金币",
+      "id" : 6003,
+      "least" : 1500,
+      "name" : "欢乐高级场",
+      "showInfo" : {
+        "name" : "高级场(底注1500)",
+        "playerCntKind":"playerCnt",
+        "gameDes" : "玩6局可得3奖券",
+        "extendInfo" : "金币桌"
+      },
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlgjc.png"
+    },
+    "hl30_tishen" : {
+        "condition" : "2万~30万金币准入",
+        "config" : 2,
+        "entry" : "底注1500金币",
+        "id" : 6003,
+        "least" : 1500,
+        "name" : "欢乐高级场",
+        "showInfo" : {
+          "name" : "高级场(底注1500)",
+          "playerCntKind":"playerCnt",
+          "gameDes" : "",
+          "extendInfo" : "金币桌"
+        },
+        "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlgjc.png"
+    },
+    "hl40" : {
+      "condition" : "8万~999999金币准入",
+      "config" : 6,
+      "entry" : "底注6000金币",
+      "id" : 6004,
+      "least" : 6000,
+      "name" : "欢乐大师场",
+      "showInfo" : {
+        "name" : "大师场(底注6000)",
+        "playerCntKind":"playerCnt",
+        "gameDes" : "玩6局可得6奖券",
+        "extendInfo" : "金币桌"
+      },
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hldsc.png"
+    },
+    "hl40_tishen" : {
+      "condition" : "8万~999999金币准入",
+      "config" : 6,
+      "entry" : "底注6000金币",
+        "id" : 6004,
+        "least" : 6000,
+        "name" : "欢乐大师场",
+        "showInfo" : {
+          "name" : "大师场(底注6000)",
+          "playerCntKind":"playerCnt",
+          "gameDes" : "",
+          "extendInfo" : "金币桌"
+        },
+        "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hldsc.png"
+    },
+    "hl50" : {
+      "condition" : "大于50万金币准入",
+      "config" : 6,
+      "entry" : "底注20000金币",
+      "id" : 6005,
+      "least" : 20000,
+      "name" : "欢乐星耀大师场",
+      "showInfo" : {
+          "name" : "星耀大师场(底注2万)",
+          "playerCntKind":"playerCnt",
+          "gameDes" : "6局得20奖券(5倍活动现得100)",
+          "extendInfo" : "金币桌"
+      },
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hldsc.png"
+    },
+    "hl50_tishen" : {
+      "condition" : "大于50万金币准入",
+      "config" : 6,
+      "entry" : "底注20000金币",
+      "id" : 6005,
+      "least" : 20000,
+      "name" : "欢乐星耀大师场",
+      "showInfo" : {
+          "name" : "星耀大师场(底注2万)",
+          "playerCntKind":"playerCnt",
+          "gameDes" : "",
+          "extendInfo" : "金币桌"
+      },
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hldsc.png"
+    },
+    "jd10" : {
+      "condition" : "400~7999金币准入",
+      "config" : 0,
+      "entry" : "底注30金币",
+      "id" : 6011,
+      "least" : 30,
+      "name" : "经典新手场",
+      "showInfo" : {
+        "name" : "新手场(底注30)",
+        "playerCntKind":"playerCnt",
+        "gameDes" : "新手场没有奖券奖励哟",
+        "extendInfo" : "金币桌"
+      },
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdxsc.png"
+    },
+    "jd10_tishen" : {
+      "condition" : "400~7999金币准入",
+      "config" : 0,
+      "entry" : "底注30金币",
+      "id" : 6011,
+      "least" : 30,
+      "name" : "经典新手场",
+      "showInfo" : {
+        "name" : "新手场(底注30)",
+        "playerCntKind":"playerCnt",
+        "gameDes" : "",
+        "extendInfo" : "金币桌"
+      },
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdxsc.png"
+    },
+    "jd20" : {
+      "condition" : "4000~10万金币准入",
+      "config" : 0,
+      "entry" : "底注200金币",
+      "id" : 6012,
+      "least" : 200,
+      "name" : "经典中级场",
+      "showInfo" : {
+          "name" : "中级场(底注200)",
+          "playerCntKind":"playerCnt",
+          "gameDes" : "玩6局可得1奖券",
+          "extendInfo" : "金币桌"
+        },
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdzjc.png"
+    },
+    "jd20_tishen" : {
+        "condition" : "4000~10万金币准入",
+        "config" : 0,
+        "entry" : "底注200金币",
+        "id" : 6012,
+        "least" : 200,
+        "name" : "经典中级场",
+        "showInfo" : {
+            "name" : "中级场(底注200)",
+            "playerCntKind":"playerCnt",
+            "gameDes" : "",
+            "extendInfo" : "金币桌"
+          },
+        "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdzjc.png"
+    },
+    "jd30" : {
+      "condition" : "2万~40万金币准入",
+      "config" : 2,
+      "entry" : "底注1200金币",
+      "id" : 6013,
+      "least" : 1200,
+      "name" : "经典高级场",
+      "showInfo" : {
+          "name" : "高级场(底注1200)",
+          "playerCntKind":"playerCnt",
+          "gameDes" : "玩6局可得3奖券",
+          "extendInfo" : "金币桌"
+        },
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdgjc.png"
+    },
+    "jd30_tishen" : {
+        "condition" : "2万~40万金币准入",
+        "config" : 2,
+        "entry" : "底注1200金币",
+        "id" : 6013,
+        "least" : 1200,
+        "name" : "经典高级场",
+        "showInfo" : {
+            "name" : "高级场(底注1200)",
+            "playerCntKind":"playerCnt",
+            "gameDes" : "",
+            "extendInfo" : "金币桌"
+          },
+        "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdgjc.png"
+    },
+    "jd40" : {
+      "condition" : "大于8万金币准入",
+      "config" : 2,
+      "entry" : "底注6000金币",
+      "id" : 6014,
+      "least" : 6000,
+      "name" : "经典大师场",
+      "showInfo" : {
+          "name" : "大师场(底注6000)",
+          "playerCntKind":"playerCnt",
+          "gameDes" : "玩6局可得6奖券",
+          "extendInfo" : "金币桌"
+        },
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jddsc.png"
+    },
+    "jd40_tishen" : {
+        "condition" : "大于8万金币准入",
+        "config" : 2,
+        "entry" : "底注6000金币",
+        "id" : 6014,
+        "least" : 6000,
+        "name" : "经典大师场",
+        "showInfo" : {
+            "name" : "大师场(底注6000)",
+            "playerCntKind":"playerCnt",
+            "gameDes" : "",
+            "extendInfo" : "金币桌"
+          },
+        "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jddsc.png"
+    },
+    "jd50" : {
+      "id" : 6015,
+      "name" : "星耀大师场",
+      "least" : 20000,
+      "entry" : "底注20000金币",
+      "config" : 2,
+      "condition" : "大于50万金币准入",
+      "showInfo" : {
+          "name" : "星耀大师场(底注2万)",
+          "playerCntKind":"playerCnt",
+          "gameDes" : "6局得20奖券(5倍活动现得100)",
+          "extendInfo" : "金币桌"
+        },
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jddsc.png"
+    },
+    "lz10" : {
+      "condition" : "400~7999金币准入",
+      "config" : 0,
+      "entry" : "底注20金币",
+      "id" : 6021,
+      "least" : 20,
+      "name" : "癞子新手场",
+      "showInfo" : {
+        "name" : "新手场(底注20)",
+        "playerCntKind":"playerCnt",
+        "gameDes" : "新手场没有奖券奖励哟",
+        "extendInfo" : "金币桌"
+      },
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_lzxsc.png"
+    },
+    "lz10_tishen" : {
+      "condition" : "400~7999金币准入",
+      "config" : 0,
+      "entry" : "底注20金币",
+      "id" : 6021,
+      "least" : 20,
+      "name" : "癞子新手场",
+      "showInfo" : {
+        "name" : "新手场(底注20))",
+        "playerCntKind":"playerCnt",
+        "gameDes" : "",
+        "extendInfo" : "金币桌"
+      },
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_lzxsc.png"
+    },
+    "lz20" : {
+      "condition" : "6000~10万金币准入",
+      "config" : 0,
+      "entry" : "底注200金币",
+      "id" : 6022,
+      "least" : 200,
+      "name" : "癞子中级场",
+      "showInfo" : {
+        "name" : "中级场(底注200)",
+        "playerCntKind":"playerCnt",
+        "gameDes" : "玩6局可得1奖券",
+        "extendInfo" : "金币桌"
+      },
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_lzzjc.png"
+    },
+    "lz20_tishen" : {
+        "condition" : "6000~10万金币准入",
+        "config" : 0,
+        "entry" : "底注200金币",
+        "id" : 6022,
+        "least" : 200,
+        "name" : "癞子中级场",
+        "showInfo" : {
+          "name" : "中级场(底注200)",
+          "playerCntKind":"playerCnt",
+          "gameDes" : "",
+          "extendInfo" : "金币桌"
+        },
+        "nameurl" : "${http_download}/dizhu/room/imgs/room_name_lzzjc.png"
+    },
+    "lz30" : {
+      "condition" : "3万~40万金币准入",
+      "config" : 2,
+      "entry" : "底注1000金币",
+      "id" : 6023,
+      "least" : 1000,
+      "name" : "癞子高级场",
+      "showInfo" : {
+        "name" : "高级场(底注1000)",
+        "playerCntKind":"playerCnt",
+        "gameDes" : "玩6局可得3奖券",
+        "extendInfo" : "金币桌"
+      },
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_lzgjc.png"
+    },
+    "lz30_tishen" : {
+      "condition" : "3万~40万金币准入",
+      "config" : 2,
+      "entry" : "底注1000金币",
+      "id" : 6023,
+      "least" : 1000,
+      "name" : "癞子高级场",
+      "showInfo" : {
+        "name" : "高级场(底注1000)",
+        "playerCntKind":"playerCnt",
+        "gameDes" : "",
+        "extendInfo" : "金币桌"
+      },
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_lzgjc.png"
+    },
+    "lz40" : {
+      "condition" : "10万~1200000金币准入",
+      "config" : 2,
+      "entry" : "底注5000金币",
+      "id" : 6024,
+      "least" : 5000,
+      "name" : "癞子大师场",
+      "showInfo" : {
+        "name" : "大师场(底注5000)",
+        "playerCntKind":"playerCnt",
+        "gameDes" : "玩6局可得6奖券",
+        "extendInfo" : "金币桌"
+      },
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_lzdsc.png"
+    },
+    "lz40_tishen" : {
+      "condition" : "10万~120万金币准入",
+      "config" : 2,
+      "entry" : "底注5000金币",
+      "id" : 6024,
+      "least" : 5000,
+      "name" : "癞子大师场",
+      "showInfo" : {
+        "name" : "大师场(底注5000))",
+        "playerCntKind":"playerCnt",
+        "gameDes" : "",
+        "extendInfo" : "金币桌"
+      },
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_lzdsc.png"
+    },
+    "lz50" : {
+      "condition" : "大于50万金币准入",
+      "config" :  2,
+      "entry" : "底注20000金币",
+      "id" : 6025,
+      "least" : 20000,
+      "name" : "癞子星耀大师场",
+      "showInfo" : {
+          "name" : "星耀大师场(底注2万)",
+          "playerCntKind":"playerCnt",
+          "gameDes" : "6局得20奖券(10倍活动现得200)",
+          "extendInfo" : "金币桌"
+      },
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_lzdsc.png"
+    },
+    "lz50_tishen" : {
+      "condition" : "大于50万金币准入",
+      "config" :  2,
+      "entry" : "底注20000金币",
+      "id" : 6025,
+      "least" : 20000,
+      "name" : "癞子星耀大师场",
+      "showInfo" : {
+          "name" : "星耀大师场(底注2万)",
+          "playerCntKind":"playerCnt",
+          "gameDes" : "",
+          "extendInfo" : "金币桌"
+      },
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_lzdsc.png"
+    },
+
+    "mt50" : {
+      "avator": "${http_download}/dizhu/room/imgs/itemicon_jiangquan1.png",
+      "avatorDefault":"",
+      "signupFee": {
+          "icon":"${http_download}/dizhu/room/imgs/match_signup_cond_chip.png",
+          "desc":"5000"
+       },
+      "matchCondition": {
+          "type":"static",
+          "top":"不限时",
+          "bottom":"满9人开赛"
+      },
+      "countdownTime": 600,
+      "secondAlarmTime" : 60,
+
+      "condition" : "时长15分",
+      "config" : 6,
+      "entry" : "报名费:5000金币",
+      "id" : 6042,
+      "least" : 5000,
+      "name" : "九人快速赛",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "mt64" : {
+      "avator": "http://ddz.dl.tuyoo.com/cdn37/hall/item/imgs/10yuanbisailiebiao.png",
+      "avatorDefault":"hf:10",
+      "signupFee": {
+          "desc":"1张参赛券"
+       },
+      "matchCondition": {
+          "type":"datetime"
+      },
+      "countdownTime": 600,
+      "secondAlarmTime" : 60,
+
+      "condition" : "每十分钟一场",
+      "config" : 4,
+      "entry" : "报名费:1张参赛券",
+      "id" : 6054,
+      "least" : 0,
+      "name" : "欢乐10元红包赛",
+      "showInfo" : {
+        "name":"欢乐10元红包赛",
+        "playerCntKind":"playerCnt",
+        "gameDes" : "第1名奖励10元红包",
+        "extendInfo" : "满90人开赛"
+      },
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "mt68" : {
+      "avator": "http://ddz.dl.tuyoo.com/cdn37/hall/item/imgs/1yuanbisailiebiao.png",
+      "avatorDefault":"hf:1",
+      "signupFee": {
+          "desc":"免费"
+       },
+      "matchCondition": {
+          "type":"static",
+          "top":"不限时",
+          "bottom":"满90人开赛"
+      },
+      "countdownTime": 600,
+      "secondAlarmTime" : 60,
+
+      "condition" : "90人开赛",
+      "config" : 4,
+      "entry" : "报名费:免费",
+      "id" : 6058,
+      "least" : 0,
+      "name" : "经典1元红包赛",
+      "showInfo" : {
+        "name":"经典1元红包赛(免费)",
+        "playerCntKind":"playerCnt",
+        "gameDes" : "第1名奖励1元红包",
+        "extendInfo" : "满90人开赛"
+      },
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "mt69" : {
+      "avator": "http://ddz.dl.tuyoo.com/cdn37/hall/item/imgs/1yuanbisailiebiao.png",
+      "avatorDefault":"hf:1",
+      "signupFee": {
+          "desc":"免费"
+       },
+      "matchCondition": {
+          "type":"static",
+          "top":"不限时",
+          "bottom":"满90人开赛"
+      },
+      "countdownTime": 600,
+      "secondAlarmTime" : 60,
+
+      "condition" : "90人开赛",
+      "config" : 4,
+      "entry" : "报名费:免费",
+      "id" : 6059,
+      "least" : 0,
+      "name" : "欢乐1元红包赛",
+      "showInfo" : {
+        "name":"欢乐1元红包赛(免费)",
+        "playerCntKind":"playerCnt",
+        "gameDes" : "第1名奖励1元红包",
+        "extendInfo" : "满90人开赛"
+      },
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "mt70" : {
+      "avator": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+      "avatorDefault":"chip",
+      "signupFee": {
+          "desc":"免费"
+       },
+      "matchCondition": {
+          "type":"datetime"
+      },
+      "countdownTime": 600,
+      "secondAlarmTime" : 60,
+
+      "condition" : "每日21:00",
+      "config" : 4,
+      "entry" : "报名费:免费",
+      "id" : 6998,
+      "least" : 0,
+      "name" : "TUPT日海选赛",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "mt71" : {
+      "avator": "http://ddz.dl.tuyoo.com/cdn37/dizhu2/images/match_list_20160629_JDcard.png",
+      "avatorDefault":"entity",
+      "signupFee": {
+          "desc":"免费"
+       },
+       "matchCondition": {
+          "type":"datetime"
+      },
+      "countdownTime": 600,
+      "secondAlarmTime" : 60,
+
+      "condition" : "每日三场",
+      "config" : 4,
+      "entry" : "报名费:免费",
+      "id" : 6060,
+      "least" : 0,
+      "name" : "100元京东卡赛",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "mt72" : {
+      "avator": "http://ddz.dl.tuyoo.com/cdn37/dizhu2/images/match_list_20160629_JDcard.png",
+      "avatorDefault":"entity",
+      "signupFee": {
+          "desc":"免费"
+       },
+       "matchCondition": {
+          "type":"datetime"
+      },
+      "countdownTime": 600,
+      "secondAlarmTime" : 60,
+
+      "condition" : "每日三场",
+      "config" : 4,
+      "entry" : "报名费:免费",
+      "id" : 6061,
+      "least" : 0,
+      "name" : "100元京东卡赛",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "mt73" : {
+      "avator": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+      "avatorDefault":"chip",
+      "signupFee": {
+          "desc":"免费"
+       },
+       "matchCondition": {
+          "type":"datetime"
+      },
+      "countdownTime": 600,
+      "secondAlarmTime" : 60,
+
+      "condition" : "每日22:00",
+      "config" : 4,
+      "entry" : "25段或VIP3准入",
+      "id" : 6062,
+      "least" : 0,
+      "name" : "尊贵大师每日赛",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "mt74" : {
+      "avator": "entity",
+      "avatorDefault":"entity",
+      "signupFee": {
+          "desc":"1张英雄帖"
+       },
+       "matchCondition": {
+          "type":"datetime"
+      },
+      "countdownTime": 600,
+      "secondAlarmTime" : 60,
+
+      "condition" : "每日21:30",
+      "config" : 4,
+      "entry" : "报名费:1张英雄帖",
+      "id" : 6997,
+      "least" : 0,
+      "name" : "京东英雄每日赛",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "mt76" : {
+      "avator": "entity",
+      "avatorDefault":"entity",
+      "signupFee": {
+          "desc":"免费"
+       },
+       "matchCondition": {
+          "type":"datetime"
+      },
+      "countdownTime": 600,
+      "secondAlarmTime" : 60,
+
+      "condition" : "周日21:10",
+      "config" : 4,
+      "entry" : "报名费:免费",
+      "id" : 6995,
+      "least" : 0,
+      "name" : "千元奖券周日赛",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "mt77" : {
+      "avator": "${http_download}/hall/pdt/imgs/goods_t300k_2.png",
+      "avatorDefault":"chip",
+      "signupFee": {
+          "desc":"免费"
+       },
+       "matchCondition": {
+          "type":"datetime"
+      },
+      "countdownTime": 600,
+      "secondAlarmTime" : 60,
+
+      "condition" : "周日22:00",
+      "config" : 4,
+      "entry" : "25段或VIP3以上",
+      "id" : 6063,
+      "least" : 0,
+      "name" : "TUPT周大师赛",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "mt78" : {
+      "avator": "http://ddz.dl.tuyoo.com/cdn37/dizhu2/images/match_list_20160629_jiangbei.png",
+      "avatorDefault":"chip",
+      "signupFee": {
+          "desc":"1张TUPT\n周决选赛门票"
+       },
+       "matchCondition": {
+          "type":"datetime"
+      },
+      "countdownTime": 600,
+      "secondAlarmTime" : 60,
+
+      "condition" : "周日21:00",
+      "config" : 4,
+      "entry" : "报名费:周决选赛门票1张",
+      "id" : 6996,
+      "least" : 0,
+      "name" : "TUPT周决选赛",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "mt79" : {
+      "avator": "http://ddz.dl.tuyoo.com/cdn37/hall/item/imgs/10yuanbisailiebiao.png",
+      "avatorDefault":"hf:10",
+      "signupFee": {
+          "desc":"1张参赛券"
+       },
+       "matchCondition": {
+          "type":"datetime"
+      },
+      "countdownTime": 600,
+      "secondAlarmTime" : 60,
+
+      "condition" : "每十分钟一场",
+      "config" : 4,
+      "entry" : "报名费:1张参赛券",
+      "id" : 6064,
+      "least" : 0,
+      "name" : "经典10元红包赛",
+      "showInfo" : {
+        "name":"经典10元红包赛",
+        "playerCntKind":"playerCnt",
+        "gameDes" : "第1名奖励10元红包",
+        "extendInfo" : "满90人开赛"
+      },
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+      "mt80" : {
+      "avator": "entity",
+      "avatorDefault":"entity",
+      "signupFee": {
+          "desc":"1张TUPT\n月复活赛门票"
+       },
+       "matchCondition": {
+          "type":"datetime"
+      },
+      "countdownTime": 600,
+      "secondAlarmTime" : 60,
+
+      "condition" : "21:00",
+      "config" : 4,
+      "entry" : "报名费:月复活赛门票",
+      "id" : 6065,
+      "least" : 0,
+      "name" : "TUPT7月复活赛",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "mt81" : {
+      "avator": "entity",
+      "avatorDefault":"entity",
+      "signupFee": {
+          "desc":"免费"
+       },
+       "matchCondition": {
+          "type":"datetime"
+      },
+      "countdownTime": 600,
+      "secondAlarmTime" : 60,
+
+      "condition" : "20:40",
+      "config" : 4,
+      "entry" : "报名费:免费",
+      "id" : 6066,
+      "least" : 0,
+      "name" : "金立金刚手机赛",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "mt82" : {
+      "avator": "entity",
+      "avatorDefault":"entity",
+      "signupFee": {
+          "desc":"免费"
+       },
+       "matchCondition": {
+          "type":"datetime"
+      },
+      "countdownTime": 600,
+      "secondAlarmTime" : 60,
+
+      "condition" : "每日21:00",
+      "config" : 4,
+      "entry" : "报名费:免费",
+      "id" : 6994,
+      "least" : 0,
+      "name" : "端午节电视赛",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+     },
+    "mt83": {
+        "avator": "${http_download}/hall/item/imgs/TUPT_liebiao.png",
+        "avatorDefault": "",
+        "signupFee": {
+            "desc": "1张TUPT\n总决赛邀请函"
+        },
+        "matchCondition": {
+            "type": "datetime"
+        },
+        "countdownTime": 600,
+        "secondAlarmTime": 60,
+        "condition": "21:00",
+        "config": 4,
+        "entry": "报名费:TUPT总决赛邀请函",
+        "id": 6068,
+        "least": 0,
+        "name": "TUPT总决赛",
+        "nameurl": "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+	"mt84" : {
+      "avator": "entity",
+      "avatorDefault":"entity",
+      "signupFee": {
+          "desc":"免费"
+       },
+       "matchCondition": {
+          "type":"datetime"
+      },
+      "countdownTime": 600,
+      "secondAlarmTime" : 120,
+
+      "condition" : "20:40",
+      "config" : 4,
+      "entry" : "报名费:免费",
+      "id" : 6069,
+      "least" : 0,
+      "name" : "联想ZUK2手机赛",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+	"mt85" : {
+      "avator": "entity",
+      "avatorDefault":"entity",
+      "signupFee": {
+          "desc":"盛夏大奖赛\n门票1张"
+       },
+       "matchCondition": {
+          "type":"datetime"
+      },
+      "countdownTime": 600,
+      "secondAlarmTime" : 120,
+
+      "condition" : "20:40",
+      "config" : 4,
+      "entry" : "报名费:盛夏大奖赛门票",
+      "id" : 6991,
+      "least" : 0,
+      "name" : "盛夏特惠大奖赛",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    }
+  },
+  "session_items" : {
+    "fruit" : {
+      "description" : [],
+      "fruit" : 1,
+      "match" : 0,
+      "rooms" : [
+        "fruit"
+      ],
+      "session" : "水果大亨"
+    },
+    "hl" : {
+      "description" : [
+        "1、炸弹、明牌、抢地主、特殊底牌全翻倍；",
+        "2、每人可抢一次地主，最后抢地主的人当地主。"
+      ],
+      "match" : 0,
+      "new" : 0,
+      "rooms" : [
+        "mt69",
+        "hl10",
+        "hl20",
+        "hl30",
+        "hl40",
+        "hl50"
+      ],
+      "session" : "欢乐场",
+      "showFT" : 1
+    },
+    "hl_tishen" : {
+      "description" : [
+        "1、炸弹、明牌、抢地主、特殊底牌全翻倍；",
+        "2、每人可抢一次地主，最后抢地主的人当地主。"
+      ],
+      "match" : 0,
+      "new" : 0,
+      "rooms" : [
+        "hl10_tishen",
+        "hl20_tishen",
+        "hl30_tishen",
+        "hl40_tishen"
+      ],
+      "session" : "欢乐场"
+    },
+    "jd" : {
+      "description" : [
+        "1、最正宗的经典玩法，考验技巧，百玩不腻；",
+        "2、发牌后按顺序叫分，叫3分者直接成为地主，输赢乘以所叫分的倍数。"
+      ],
+      "match" : 0,
+      "new" : 0,
+      "rooms" : [
+        "mt68",
+        "jd10",
+        "jd20",
+        "jd30",
+        "jd40",
+        "jd50"
+      ],
+      "session" : "经典场"
+    },
+    "jd_tishen" : {
+      "description" : [
+        "1、最正宗的经典玩法，考验技巧，百玩不腻；",
+        "2、发牌后按顺序叫分，叫3分者直接成为地主，输赢乘以所叫分的倍数。"
+      ],
+      "match" : 0,
+      "new" : 0,
+      "rooms" : [
+        "jd10_tishen",
+        "jd20_tishen",
+        "jd30_tishen",
+        "jd40_tishen"
+      ],
+      "session" : "经典场"
+    },
+    "lz" : {
+      "description" : [
+        "1、癞子牌可替代非王的任何牌，单出不能替牌；",
+        "2、叫地主后抽一张牌，相同数字的牌都是癞子牌；",
+        "3、火箭>全癞子炸弹>无癞子炸弹>带癞子炸弹。"
+      ],
+      "match" : 0,
+      "new" : 0,
+      "rooms" : [
+        "lz10",
+        "lz20",
+        "lz30",
+        "lz40",
+        "lz50"
+      ],
+      "session" : "癞子场"
+    },
+    "lz_tishen" : {
+      "description" : [
+        "1、癞子牌可替代非王的任何牌，单出不能替牌；",
+        "2、叫地主后抽一张牌，相同数字的牌都是癞子牌；",
+        "3、火箭>全癞子炸弹>无癞子炸弹>带癞子炸弹。"
+      ],
+      "match" : 0,
+      "new" : 0,
+      "rooms" : [
+        "lz10_tishen",
+        "lz20_tishen",
+        "lz30_tishen",
+        "lz40_tishen"
+      ],
+      "session" : "癞子场"
+    },
+    "mt" : {
+      "description" : [
+        "1、比赛需交报名费（有些为免费），结束后按名次发奖励。",
+        "2、为保证公平，一些比赛隐藏了对手信息。"
+      ],
+      "match" : 1,
+      "new" : 1,
+      "rooms" : [
+      	"mt85",
+        "mt83",
+      	"mt80",
+        "mt68",
+        "mt76",
+        "mt70",
+        "mt74",
+        "mt71",
+        "mt72",
+        "mt64",
+        "mt79",
+        "mt73",
+        "mt77",
+        "mt78",
+        "mt69",
+        "mt50"
+      ],
+      "session" : "比赛场"
+    },
+    "mt_ali" : {
+      "description" : [
+        "1、比赛需交报名费（有些为免费），结束后按名次发奖励。",
+        "2、为保证公平，一些比赛隐藏了对手信息。"
+      ],
+      "match" : 1,
+      "new" : 1,
+      "rooms" : [
+      	"mt82",
+      	"mt85",
+        "mt83",
+      	"mt80",
+        "mt68",
+        "mt76",
+        "mt70",
+        "mt74",
+        "mt71",
+        "mt72",
+        "mt64",
+        "mt79",
+        "mt73",
+        "mt77",
+        "mt78",
+        "mt69",
+        "mt50"
+      ],
+      "session" : "比赛场"
+    },
+    "mt_huawei" : {
+      "description" : [
+        "1、比赛需交报名费（有些为免费），结束后按名次发奖励。",
+        "2、为保证公平，一些比赛隐藏了对手信息。"
+      ],
+      "match" : 1,
+      "new" : 1,
+      "rooms" : [
+      	"mt85",
+        "mt83",
+      	"mt80",
+        "mt68",
+        "mt76",
+        "mt70",
+        "mt74",
+        "mt71",
+        "mt72",
+        "mt64",
+        "mt79",
+        "mt73",
+        "mt77",
+        "mt78",
+        "mt69",
+        "mt50"
+      ],
+      "session" : "比赛场"
+    },
+    "mt_jinli" : {
+      "description" : [
+        "1、比赛需交报名费（有些为免费），结束后按名次发奖励。",
+        "2、为保证公平，一些比赛隐藏了对手信息。"
+      ],
+      "match" : 1,
+      "new" : 1,
+      "rooms" : [
+      	"mt85",
+        "mt83",
+      	"mt81",
+      	"mt80",
+        "mt68",
+        "mt76",
+        "mt70",
+        "mt74",
+        "mt71",
+        "mt72",
+        "mt64",
+        "mt79",
+        "mt73",
+        "mt77",
+        "mt78",
+        "mt69",
+        "mt50"
+      ],
+      "session" : "比赛场"
+    },
+    "mt_lianxiang" : {
+      "description" : [
+        "1、比赛需交报名费（有些为免费），结束后按名次发奖励。",
+        "2、为保证公平，一些比赛隐藏了对手信息。"
+      ],
+      "match" : 1,
+      "new" : 1,
+      "rooms" : [
+      	"mt85",
+        "mt83",
+  	    "mt84",
+      	"mt80",
+        "mt68",
+        "mt76",
+        "mt70",
+        "mt74",
+        "mt71",
+        "mt72",
+        "mt64",
+        "mt79",
+        "mt73",
+        "mt77",
+        "mt78",
+        "mt69",
+        "mt50"
+      ],
+      "session" : "比赛场"
+    },
+    "mt_pc" : {
+      "description" : [
+        "1、比赛需交报名费（有些为免费），结束后按名次发奖励。",
+        "2、为保证公平，一些比赛隐藏了对手信息。"
+      ],
+      "match" : 1,
+      "new" : 1,
+      "rooms" : [
+      	"mt85",
+        "mt83",
+      	"mt80",
+        "mt68",
+        "mt76",
+        "mt70",
+        "mt74",
+        "mt71",
+        "mt72",
+        "mt64",
+        "mt79",
+        "mt73",
+        "mt77",
+        "mt78",
+        "mt69",
+        "mt50"
+      ],
+      "session" : "比赛场"
+    },
+    "mt_tishen" : {
+      "description" : [
+        "1、比赛需交报名费（有些为免费），结束后按名次发奖励。",
+        "2、为保证公平，一些比赛隐藏了对手信息。"
+      ],
+      "match" : 1,
+      "new" : 1,
+      "rooms" : [
+        "mt73"
+      ],
+      "session" : "比赛场"
+    },
+    "mt_TUPT" : {
+      "description" : [
+        "1、比赛需交报名费（有些为免费），结束后按名次发奖励。",
+        "2、为保证公平，一些比赛隐藏了对手信息。"
+      ],
+      "match" : 1,
+      "new" : 1,
+      "rooms" : [
+        "mt83",
+        "mt80",
+        "mt68",
+        "mt76",
+        "mt70",
+        "mt74",
+        "mt71",
+        "mt72",
+        "mt64",
+        "mt79",
+        "mt73",
+        "mt77",
+        "mt78",
+        "mt69",
+        "mt50"
+      ],
+      "session" : "比赛场"
+    },
+
+    "rd" : {
+      "description" : [
+        "1、二人斗地主，绝无作弊，高手对决的最佳选择；",
+        "2、每人17张牌，3张底牌，其它牌不要；",
+        "3、最多抢4次地主，抢几次地主就让农民几张牌。"
+      ],
+      "match" : 0,
+      "new" : 1,
+      "rooms" : [
+        "ed10",
+        "ed20",
+        "ed30",
+        "ed40",
+		"ed50"
+      ],
+      "session" : "二斗场"
+    },
+    "rd_tishen" : {
+      "description" : [
+        "1、二人斗地主，绝无作弊，高手对决的最佳选择；",
+        "2、每人17张牌，3张底牌，其它牌不要；",
+        "3、最多抢4次地主，抢几次地主就让农民几张牌。"
+      ],
+      "match" : 0,
+      "new" : 1,
+      "rooms" : [
+        "ed10_tishen",
+        "ed20_tishen",
+        "ed30_tishen",
+        "ed40_tishen"
+      ],
+      "session" : "二斗场"
+    },
+    "mt_arena" : {
+      "description" : [
+        "1、比赛需交报名费（有些为免费），结束后按名次发奖励。",
+          "mt68",
+          "mt64",
+        "2、为保证公平，一些比赛隐藏了对手信息。"
+      ],
+      "match" : 1,
+      "new" : 1,
+      "rooms" : [
+        "mt69",
+        "mt50"
+      ],
+      "session" : "比赛场"
+    },
+    "mt_no_iqiyi" : {
+      "description" : [
+        "1、比赛需交报名费（有些为免费），结束后按名次发奖励。",
+        "2、为保证公平，一些比赛隐藏了对手信息。"
+      ],
+      "match" : 1,
+      "new" : 1,
+      "rooms" : [
+      	"mt85",
+        "mt83",
+      	"mt80",
+        "mt68",
+        "mt76",
+        "mt70",
+        "mt71",
+        "mt72",
+        "mt64",
+        "mt79",
+        "mt73",
+        "mt77",
+        "mt78",
+        "mt69",
+        "mt50"
+      ],
+      "session" : "比赛场"
+    }
+  },
+  "templates" : {
+    "ali_match" : [
+      "jd",
+      "hl",
+      "mt_ali",
+      "lz",
+      "rd",
+      "fruit"
+    ],
+    "huawei_match" : [
+      "jd",
+      "hl",
+      "mt_huawei",
+      "lz",
+      "rd",
+      "fruit"
+    ],
+    "default" : [
+      "jd",
+      "hl",
+      "mt",
+      "lz",
+      "rd",
+      "fruit"
+    ],
+    "ios_tishen" : [
+      "jd_tishen",
+      "hl_tishen",
+      "mt_tishen",
+      "lz_tishen",
+      "rd_tishen"
+    ],
+    "jinli_match" : [
+      "jd",
+      "hl",
+      "mt_jinli",
+      "lz",
+      "rd",
+      "fruit"
+    ],
+    "nofruit" : [
+      "jd",
+      "hl",
+      "mt",
+      "lz",
+      "rd"
+    ],
+    "winpc_default" : [
+      "jd",
+      "hl",
+      "mt_pc",
+      "lz",
+      "rd",
+      "fruit"
+    ],
+    "mac_tishen" : [
+      "jd",
+      "hl",
+      "mt_tishen",
+      "lz",
+      "rd"
+    ],
+    "arena_test":[
+      "jd",
+      "hl",
+      "mt_arena",
+      "lz",
+      "rd",
+      "fruit"
+    ],
+    "no_iqiyi_match":[
+      "jd",
+      "hl",
+      "mt_no_iqiyi",
+      "lz",
+      "rd",
+      "fruit"
+    ],
+    "TUPT":[
+      "jd",
+      "hl",
+      "mt_TUPT",
+      "lz",
+      "rd",
+      "fruit"
+    ],
+	"lianxiang_match" : [
+      "jd",
+      "hl",
+      "mt_lianxiang",
+      "lz",
+      "rd",
+      "fruit"
+    ]
+  }
+}

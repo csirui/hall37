@@ -1,0 +1,309 @@
+{
+  "room_items" : {
+    "jd10" : {
+      "id" : 6011,
+      "name" : "经典新手场",
+      "least" : 80,
+      "entry" : "底注80金币",
+      "config" : 0,
+      "condition" : "400~2.5万金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdxsc.png"
+    },
+    "jd20" : {
+      "id" : 6012,
+      "name" : "经典中级场",
+      "least" : 250,
+      "entry" : "底注250金币",
+      "config" : 0,
+      "condition" : "2000~10万金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdzjc.png"
+    },
+    "jd30" : {
+      "id" : 6013,
+      "name" : "经典高级场",
+      "least" : 1000,
+      "entry" : "底注1000金币",
+      "config" : 2,
+      "condition" : "2万~40万金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jdgjc.png"
+    },
+    "jd40" : {
+      "id" : 6014,
+      "name" : "经典大师场",
+      "least" : 6000,
+      "entry" : "底注6000金币",
+      "config" : 2,
+      "condition" : "大于6万金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_jddsc.png"
+    },
+
+    "hl10" : {
+      "id" : 6001,
+      "name" : "欢乐新手场",
+      "least" : 60,
+      "entry" : "底注60金币",
+      "config" : 0,
+      "condition" : "400~2.5万金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "hl20" : {
+      "id" : 6002,
+      "name" : "欢乐中级场",
+      "least" : 250,
+      "entry" : "底注250金币",
+      "config" : 2,
+      "condition" : "2000~10万金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlzjc.png"
+    },
+    "hl30" : {
+      "id" : 6003,
+      "name" : "欢乐高级场",
+      "least" : 1500,
+      "entry" : "底注1500金币",
+      "config" : 2,
+      "condition" : "2万~40万金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlgjc.png"
+    },
+    "hl40" : {
+      "id" : 6004,
+      "name" : "欢乐大师场",
+      "least" : 8000,
+      "entry" : "底注8000金币",
+      "config" : 6,
+      "condition" : "大于6万金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hldsc.png"
+    },
+
+    "lz10" : {
+      "id" : 6021,
+      "name" : "癞子新手场",
+      "least" : 30,
+      "entry" : "底注30金币",
+      "config" : 0,
+      "condition" : "400~2.5万金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_lzxsc.png"
+    },
+    "lz20" : {
+      "id" : 6022,
+      "name" : "癞子中级场",
+      "least" : 120,
+      "entry" : "底注120金币",
+      "config" : 0,
+      "condition" : "2000~10万金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_lzzjc.png"
+    },
+    "lz30" : {
+      "id" : 6023,
+      "name" : "癞子高级场",
+      "least" : 800,
+      "entry" : "底注800金币",
+      "config" : 2,
+      "condition" : "2万~40万金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_lzgjc.png"
+    },
+    "lz40" : {
+      "id" : 6024,
+      "name" : "癞子大师场",
+      "least" : 3000,
+      "entry" : "底注3000金币",
+      "config" : 2,
+      "condition" : "大于6万金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_lzdsc.png"
+    },
+
+    "ed10" : {
+      "id" : 6031,
+      "name" : "二人新手场",
+      "least" : 120,
+      "entry" : "底注120金币",
+      "config" : 0,
+      "condition" : "400~2.5万金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "ed20" : {
+      "id" : 6032,
+      "name" : "二人中级场",
+      "least" : 500,
+      "entry" : "底注500金币",
+      "config" : 0,
+      "condition" : "2000~10万金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "ed30" : {
+      "id" : 6033,
+      "name" : "二人高级场",
+      "least" : 3500,
+      "entry" : "底注3500金币",
+      "config" : 2,
+      "condition" : "2万~40万金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "ed40" : {
+      "id" : 6034,
+      "name" : "二人大师场",
+      "least" : 12000,
+      "entry" : "底注12000金币",
+      "config" : 2,
+      "condition" : "大于6万金币准入",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+
+    "mt20" : {
+      "id" : 6047,
+      "name" : "免费百元话费赛",
+      "least" : 0,
+      "entry" : "报名费:免费",
+      "config" : 4,
+      "condition" : "时长35分",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "mt30" : {
+      "id" : 6044,
+      "name" : "2元话费赛",
+      "least" : 0,
+      "entry" : "报名费:1张参赛券",
+      "config" : 6,
+      "condition" : "时长30分",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "mt40" : {
+      "id" : 6041,
+      "name" : "新手免费快速赛",
+      "least" : 0,
+      "entry" : "报名费:免费",
+      "config" : 6,
+      "condition" : "时长15分",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "mt50" : {
+      "id" : 6042,
+      "name" : "九人快速赛",
+      "least" : 2000,
+      "entry" : "报名费:2000金币",
+      "config" : 6,
+      "condition" : "时长10分",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "mt60" : {
+      "id" : 6043,
+      "name" : "三人超快赛",
+      "least" : 5000,
+      "entry" : "报名费:5000金币",
+      "config" : 4,
+      "condition" : "时长3分",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "mt61" : {
+      "id" : 6051,
+      "name" : "VIP大奖赛",
+      "least" : 0,
+      "entry" : "报名费:免费",
+      "config" : 4,
+      "condition" : "21:30",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "mt62" : {
+      "id" : 6052,
+      "name" : "中扑赛预选赛",
+      "least" : 0,
+      "entry" : "报名费:免费",
+      "config" : 4,
+      "condition" : "21:00",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "mt63" : {
+      "id" : 6053,
+      "name" : "海马玩中扑赛预赛",
+      "least" : 0,
+      "entry" : "报名费:免费",
+      "config" : 4,
+      "condition" : "21:30",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "mt64" : {
+      "id" : 6054,
+      "name" : "10元话费赛",
+      "least" : 0,
+      "entry" : "报名费:免费",
+      "config" : 4,
+      "condition" : "21:30",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    },
+    "fruit" : {
+      "id" : 11001,
+      "name" : "水果大亨",
+      "least" : 0,
+      "entry" : "",
+      "config" : 0,
+      "condition" : "",
+      "nameurl" : "${http_download}/dizhu/room/imgs/room_name_hlxsc.png"
+    }
+  },
+  "session_items" : {
+    "jd" : {
+      "session" : "经典场",
+      "match" : 0,
+      "new" : 0,
+      "rooms" : ["jd10", "jd20", "jd30", "jd40"],
+      "description" : ["1、最正宗的经典玩法，考验技巧，百玩不腻；",
+          "2、发牌后按顺序叫分，叫3分者直接成为地主，输赢乘以所叫分的倍数。"]
+    },
+    "hl" : {
+      "session" : "欢乐场",
+      "match" : 0,
+      "new" : 0,
+      "rooms" : ["hl10", "hl20", "hl30", "hl40"],
+      "description" : ["1、炸弹、明牌、抢地主、特殊底牌全翻倍；", "2、每人可抢一次地主，最后抢地主的人当地主。"]
+    },
+    "mt" : {
+      "session" : "比赛场",
+      "match" : 1,
+      "new" : 1,
+      "rooms" : ["mt63", "mt62", "mt20", "mt30", "mt40", "mt50", "mt60"],
+      "description" : ["1、比赛需交报名费（有些为免费），结束后按名次发奖励。", "2、为保证公平，一些比赛隐藏了对手信息。"]
+    },
+    "mt_pc" : {
+      "session" : "比赛场",
+      "match" : 1,
+      "new" : 1,
+      "rooms" : ["mt64", "mt63", "mt62", "mt20", "mt30", "mt40", "mt50", "mt60"],
+      "description" : ["1、比赛需交报名费（有些为免费），结束后按名次发奖励。", "2、为保证公平，一些比赛隐藏了对手信息。"]
+    },
+    "mt_tishen" : {
+      "session" : "比赛场",
+      "match" : 1,
+      "new" : 1,
+      "rooms" : ["mt60"],
+      "description" : ["1、比赛需交报名费（有些为免费），结束后按名次发奖励。", "2、为保证公平，一些比赛隐藏了对手信息。"]
+    },
+    "lz" : {
+      "session" : "癞子场",
+      "match" : 0,
+      "new" : 0,
+      "rooms" : ["lz10", "lz20", "lz30", "lz40"],
+      "description" : ["1、癞子牌可替代非王的任何牌，单出不能替牌；", "2、叫地主后抽一张牌，相同数字的牌都是癞子牌；",
+          "3、火箭>全癞子炸弹>无癞子炸弹>带癞子炸弹。"]
+    },
+    "rd" : {
+      "session" : "二斗场",
+      "match" : 0,
+      "new" : 1,
+      "rooms" : ["ed10", "ed20", "ed30", "ed40"],
+      "description" : ["1、二人斗地主，绝无作弊，高手对决的最佳选择；", "2、每人17张牌，3张底牌，其它牌不要；",
+          "3、最多抢4次地主，抢几次地主就让农民几张牌。"]
+    },
+    "fruit" : {
+      "session" : "水果大亨",
+      "match" : 0,
+      "fruit" : 1,
+      "rooms" : ["fruit"],
+      "description" : []
+    }
+  },
+  "templates" : {
+    "default" : [],
+    "nofruit" : [],
+    "ios_tishen": [],
+    "winpc_default": ["jd", "hl", "mt_pc", "lz", "rd", "fruit"]
+  }
+}

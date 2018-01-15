@@ -1,0 +1,18 @@
+{
+    "config_redis" : "${local_intranet}:${port_redis}:0", 
+    "corporation" : "tuyoo", 
+    "http_bilog" : "http://${local_intranet}:${port_http+2}", 
+    "http_download" : "http://${local_internet}:${port_http+1}", 
+    "http_game" : "http://${local_internet}:${port_http+1}", 
+    "http_sdk" : "http://${local_internet}:${port_http}", 
+    "http_sdk_inner" : "http://${local_intranet}:${port_http}", 
+    "id" : 9999, 
+    "local_internet" : "192.168.56.101", 
+    "local_intranet" : "${local_internet}", 
+    "mode" : 3, 
+    "name" : "tyhall", 
+    "output_path" : "${poker_path}/../../../run", 
+    "port_http" : 8000, 
+    "port_redis" : 6379, 
+    "projects_path" : "${poker_path}/../../../"
+}

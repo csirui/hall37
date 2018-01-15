@@ -1,0 +1,1373 @@
+{
+ "templates"   : [
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 7091902,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 7091901,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    }
+   ],
+   "name"        : "majiang_AI_diandian"
+  },
+  {
+   "positions"   : [ ],
+   "name"        : "majiang_AI_tishen_allclosed"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 7092201,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 7071801,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    }
+   ],
+   "name"        : "majiang_AI_youle_gz"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 7071501,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 7071801,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    }
+   ],
+   "name"        : "majiang_v3.770_AI_difang"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 7080901,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 7071801,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    }
+   ],
+   "name"        : "majiang_v3.770_AI_difang_hn"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 7091001,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 7091401,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    }
+   ],
+   "name"        : "majiang_v3.770_AI_sqy_main"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 7111701,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 7111901,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    }
+   ],
+   "name"        : "majiang_v3.776_AI_sqygzmj"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 7092001,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 7093003,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 7091402,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    }
+   ],
+   "name"        : "majiang_v3.776_AI_youle_nc"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 7093002,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 7093001,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    }
+   ],
+   "name"        : "majiang_v3.777_AI_diandian_px"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 7100801,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 7091401,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    }
+   ],
+   "name"        : "majiang_v3.7883_AI_sqy_hnmj"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 7102801,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 7072901,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 6
+    }
+   ],
+   "name"        : "majiang_v3.900_AI_majiang_share_test"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 7102501,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 7102802,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    }
+   ],
+   "name"        : "majiang_v3.900_AI_syqsc"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 7011701,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 7011702,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    }
+   ],
+   "name"        : "majiang_v3.901_AI_wybhnqp"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 7113001,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 7113002,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 7072901,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    }
+   ],
+   "name"        : "majiang_v3.901_AI_xjmj"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 7092001,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 7093003,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 7010901,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 7072901,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    }
+   ],
+   "name"        : "majiang_v3.901_AI_youle_fzmj"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 7092001,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 7093003,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 7123001,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 7072901,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    }
+   ],
+   "name"        : "majiang_v3.901_AI_youle_jx"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 7020901,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 7093003,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 2
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 7012401,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 5
+    },
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 7072901,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 4
+    }
+   ],
+   "name"        : "majiang_v3.901_AI_youle_pymj"
+  },
+  {
+   "positions"   : [
+    {
+     "promotes"    : [
+      {
+       "promotionId" : 7092001,
+       "conditions"  : [ ]
+      }
+     ],
+     "pos"         : 1
+    }
+   ],
+   "name"        : "majiang_v3.96_AI_ddncmj"
+  }
+ ],
+ "promotions"  : [
+  {
+   "promotionId" : 70001,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "templateName": "firstRechargeTry"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "首充礼包",
+   "url"         : "${http_download}/hall/promote/imgs/promote_button_FirstRecharge_20160809.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 70002,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "desc"        : "恭喜您获得首充奖励大礼包！",
+     "typeId"      : "todotask.firstRechargeReward",
+     "url"         : "${http_download}/hall/promote/imgs/first_recharge_content.png"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "首充礼包奖励",
+   "url"         : "${http_download}/hall/promote/imgs/texas_unFirstRecharged.png"
+  },
+  {
+   "promotionId" : 70003,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "subStore"    : "coin",
+     "typeId"      : "hall.goto.shop"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "商城",
+   "url"         : "${http_download}/hall/promote/imgs/texas_store.png"
+  },
+  {
+   "promotionId" : 70004,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.goto.vip"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "VIP",
+   "url"         : "${http_download}/hall/promote/imgs/icon_vip_baohuang.png"
+  },
+  {
+   "promotionId" : 70005,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "templateName": "memberBuy2"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "会员",
+   "url"         : "${http_download}/hall/promote/imgs/texas_member.png"
+  },
+  {
+   "promotionId" : 70006,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "templateName": "firstRechargeTry"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "特惠充值",
+   "url"         : "${http_download}/majiang/images/others/everyday_icon_qg.png"
+  },
+  {
+   "promotionId" : 70007,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "tasks"       : [
+        {
+         "action"      : "pop_lucky_wheel",
+         "params"      : { }
+        }
+       ]
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 7,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "幸运大抽奖",
+   "url"         : "${http_download}/majiang/images/others/luckyroll_icon_ljb.png"
+  },
+  {
+   "promotionId" : 70008,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "tasks"       : [
+        {
+         "action"      : "pop_call_exchange",
+         "params"      : { }
+        }
+       ]
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 7,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "实物兑换",
+   "url"         : "${http_download}/majiang/images/others/huafei_exchange.png"
+  },
+  {
+   "promotionId" : 7071501,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "typeId"      : "todotask.showInfo",
+     "info"        : "买卡联系(微信):youle0088\n诚招代理(微信):youle0088\n举报(QQ):2162952363"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "优乐四川麻将商城",
+   "url"         : "${http_download}/majiang/difang/act/icon_tgw_mfk.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 7071601,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "shareId"     : 100,
+     "typeId"      : "todotask.sharegift.with.shareId"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "地方麻将分享",
+   "url"         : "${http_download}/hall/promote/imgs/share.png",
+   "defaultRes"  : "PromoteShare"
+  },
+  {
+   "promotionId" : 7071801,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "tasks"       : [
+        {
+         "action"      : "wechat_share",
+         "params"      : {
+          "content"     : "独乐乐不如众乐乐\n快快邀请好友来一起游戏吧",
+          "title"       : "优乐麻将",
+          "desc"        : "最好玩的自建桌麻将，和亲朋好友一起游戏的地方麻将游戏",
+          "buttons"     : [
+           {
+            "content"     : "好友",
+            "tasks"       : [ ],
+            "type"        : "1"
+           },
+           {
+            "content"     : "朋友圈",
+            "tasks"       : [ ],
+            "type"        : "0"
+           }
+          ],
+          "url"         : "http://www.shediao.com/landing/nanchang.html"
+         }
+        }
+       ]
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 7,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "优乐麻将分享弹窗",
+   "url"         : "${http_download}/hall/promote/imgs/share_icon.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 7072001,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "shareId"     : 102,
+     "typeId"      : "todotask.sharegift.with.shareId"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "单次分享",
+   "url"         : "${http_download}/hall/promote/imgs/share_icon.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 7072002,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "shareId"     : 103,
+     "typeId"      : "todotask.sharegift.with.shareId"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "多次分享",
+   "url"         : "${http_download}/hall/promote/imgs/share_icon.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 7072901,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "tasks"       : [
+        {
+         "action"      : "pop_create_room_invite",
+         "params"      : { }
+        }
+       ]
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 7,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "邀请赠房卡测试",
+   "url"         : "${http_download}/majiang/images/act/icon_tgw_mffk.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 7080901,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "typeId"      : "todotask.showInfo",
+     "info"        : "买卡联系: youle1218（微信）\n诚招代理:youle1199（微信）\n举报:2162952363（QQ）"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "优乐湖南麻将商城",
+   "url"         : "${http_download}/majiang/difang/act/icon_tgw_mfk.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 7082901,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "tasks"       : [
+        {
+         "action"      : "pop_exciting_activity_wnd",
+         "params"      : { }
+        }
+       ]
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 7,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "9yuehuodong",
+   "url"         : "${http_download}/majiang/difang/act/icon_tgw_gzsq.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 7091001,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "typeId"      : "todotask.showInfo",
+     "info"        : "优惠买卡:aijiaxin880（微信）\n诚招代理:sqymj001（微信）\n"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "三缺一商城",
+   "url"         : "${http_download}/majiang/difang/act/icon_tgw_mfk.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 7091401,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "tasks"       : [
+        {
+         "action"      : "wechat_share",
+         "params"      : {
+          "content"     : "独乐乐不如众乐乐\n快快邀请好友来一起游戏吧",
+          "title"       : "三缺一麻将",
+          "desc"        : "熟人棋牌必须三缺一，三缺一倾心打造熟人棋牌第一品牌",
+          "buttons"     : [
+           {
+            "content"     : "好友",
+            "tasks"       : [ ],
+            "type"        : "1"
+           },
+           {
+            "content"     : "朋友圈",
+            "tasks"       : [ ],
+            "type"        : "0"
+           }
+          ],
+          "url"         : "http://www.shediao.com/sqy/gamelist_sqy.html"
+         }
+        }
+       ]
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 7,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "三缺一麻将分享弹窗",
+   "url"         : "${http_download}/hall/promote/imgs/share_icon.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 7091402,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "tasks"       : [
+        {
+         "action"      : "wechat_share",
+         "params"      : {
+          "content"     : "终于发现正宗南昌麻将\n快快邀请好友来一起游戏吧",
+          "title"       : "优乐南昌麻将",
+          "desc"        : "最纯正的南昌麻将、抚州麻将、赣州麻将，各种玩法供你选择。规则可配,稳定安全！和亲朋好友一起游戏吧",
+          "buttons"     : [
+           {
+            "content"     : "好友",
+            "tasks"       : [ ],
+            "type"        : "1"
+           },
+           {
+            "content"     : "朋友圈",
+            "tasks"       : [ ],
+            "type"        : "0"
+           }
+          ],
+          "url"         : "http://www.shediao.com/landing/nanchang.html"
+         }
+        }
+       ]
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 7,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "优乐南昌麻将",
+   "url"         : "${http_download}/hall/promote/imgs/share_icon.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 7091901,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "tasks"       : [
+        {
+         "action"      : "wechat_share",
+         "params"      : {
+          "content"     : "朋友多一点点，快乐多一点点乐\n快快邀请好友来一起游戏吧！",
+          "title"       : "点点麻将",
+          "desc"        : "不出门和朋友玩本地麻将，稳定无比的自建桌棋牌游戏",
+          "buttons"     : [
+           {
+            "content"     : "好友",
+            "tasks"       : [ ],
+            "type"        : "1"
+           },
+           {
+            "content"     : "朋友圈",
+            "tasks"       : [ ],
+            "type"        : "0"
+           }
+          ],
+          "url"         : "http://www.shediao.com/diandian/gamelist_dd.html"
+         }
+        }
+       ]
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 7,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "点点麻将分享弹窗",
+   "url"         : "${http_download}/hall/promote/imgs/share_icon.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 7091902,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "typeId"      : "todotask.showInfo",
+     "info"        : "优惠买卡:DDGFDL1（微信）\n诚招代理:MISSKISS-SIYU（微信）\n"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "点点商城",
+   "url"         : "${http_download}/majiang/difang/act/icon_tgw_mfk.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 7092001,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "typeId"      : "todotask.showInfo",
+     "info"        : "代理及买卡联系：\n微信：youle139 或 youle239\n官方公众号：YLE555888"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "优乐南昌麻将商城",
+   "url"         : "${http_download}/majiang/difang/act/icon_tgw_mfk.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 7092201,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "typeId"      : "todotask.showInfo",
+     "info"        : "买卡联系:youle0088（微信）\n诚招代理:youle0088（微信）\n举报:2162952363（QQ）"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "优乐贵阳捉鸡",
+   "url"         : "${http_download}/majiang/difang/act/icon_tgw_mfk.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 7093001,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "typeId"      : "todotask.showInfo",
+     "info"        : "代理及买卡咨询：\nddadmin01（微信）"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "点点萍乡麻将",
+   "url"         : "${http_download}/majiang/difang/act/icon_tgw_mfk.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 7093002,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "tasks"       : [
+        {
+         "action"      : "wechat_share",
+         "params"      : {
+          "content"     : "萍乡人民的最爱\n正宗地道的萍乡麻将\n邀请好友一起玩吧",
+          "title"       : "点点萍乡麻将",
+          "desc"        : "多点点朋友多点点欢乐，点点萍乡麻将，萍乡百姓自己的麻将",
+          "buttons"     : [
+           {
+            "content"     : "好友",
+            "tasks"       : [ ],
+            "type"        : "1"
+           },
+           {
+            "content"     : "朋友圈",
+            "tasks"       : [ ],
+            "type"        : "0"
+           }
+          ],
+          "url"         : "http://www.shediao.com/diandian/gamelist_dd_px.html"
+         }
+        }
+       ]
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 7,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "点点萍乡麻将",
+   "url"         : "${http_download}/hall/promote/imgs/share_icon.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 7093003,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "hall.download",
+     "url"         : "http://www.shediao.com/youle/jx/gameGuide.html"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "help_youlenc",
+   "url"         : "${http_download}/majiang/difang/ads/icon_tgw_zenmewan.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 7100801,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "typeId"      : "todotask.showInfo",
+     "info"        : "购卡(微信):sqyyy100\n代理(微信):sqyyy100"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "三缺一湖南麻将",
+   "url"         : "${http_download}/majiang/difang/act/icon_tgw_mfk.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 7102501,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "typeId"      : "todotask.showInfo",
+     "info"        : "购卡/代理(微信): sanqueyixj\n客服（电话）:13325602627"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "三缺一四川麻将",
+   "url"         : "${http_download}/majiang/difang/act/icon_tgw_mfk.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 7102801,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "subCmd"      : {
+      "shareId"     : 7010,
+      "typeId"      : "todotask.sharegift.with.shareId"
+     },
+     "typeId"      : "todotask.showInfo",
+     "info"        : "转发微信集满五赞，即可获得3元微信红包！"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "通用红包分享集赞",
+   "url"         : "${http_download}/hall/promote/imgs/activity_button_20160614.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 7102802,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "tasks"       : [
+        {
+         "action"      : "wechat_share",
+         "params"      : {
+          "content"     : "独乐乐不如众乐乐\n快快邀请好友来一起游戏吧",
+          "title"       : "三缺一麻将",
+          "desc"        : "熟人棋牌必须三缺一，三缺一倾心打造熟人棋牌第一品牌",
+          "buttons"     : [
+           {
+            "content"     : "好友",
+            "tasks"       : [ ],
+            "type"        : "1"
+           },
+           {
+            "content"     : "朋友圈",
+            "tasks"       : [ ],
+            "type"        : "0"
+           }
+          ],
+          "url"         : "http://www.shediao.com/sqy/gamelist_sqy_sc.html"
+         }
+        }
+       ]
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 7,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "三缺一四川麻将",
+   "url"         : "${http_download}/hall/promote/imgs/share_icon.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 7111701,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "todotask.showInfo",
+     "info"        : "购卡(qq):164877385\n代理(qq):164877385"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "三缺一贵阳捉鸡",
+   "url"         : "${http_download}/majiang/difang/act/icon_tgw_mfk.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 7111901,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "tasks"       : [
+        {
+         "action"      : "wechat_share",
+         "params"      : {
+          "content"     : "独乐乐不如众乐乐\n快快邀请好友来一起游戏吧",
+          "title"       : "三缺一麻将",
+          "desc"        : "熟人棋牌必须三缺一，三缺一倾心打造熟人棋牌第一品牌",
+          "buttons"     : [
+           {
+            "content"     : "好友",
+            "tasks"       : [ ],
+            "type"        : "1"
+           },
+           {
+            "content"     : "朋友圈",
+            "tasks"       : [ ],
+            "type"        : "0"
+           }
+          ],
+          "url"         : "http://www.shediao.com/sqy/gamelist_sqy_gz.html"
+         }
+        }
+       ]
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 7,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "三缺一贵阳捉鸡",
+   "url"         : "${http_download}/hall/promote/imgs/share_icon.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 7113001,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "typeId"      : "todotask.showInfo",
+     "info"        : "买卡联系: sanqueyixj（微信）\n诚招代理:sanqueyixj（微信）"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "三缺一新疆麻将买房卡",
+   "url"         : "${http_download}/majiang/difang/act/icon_tgw_mfk.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 7113002,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "tasks"       : [
+        {
+         "action"      : "wechat_share",
+         "params"      : {
+          "content"     : "独乐乐不如众乐乐\n快快邀请好友来一起游戏吧",
+          "title"       : "三缺一新疆麻将",
+          "desc"        : "最好玩的自建桌麻将，和亲朋好友一起游戏的地方麻将游戏",
+          "buttons"     : [
+           {
+            "content"     : "好友",
+            "tasks"       : [ ],
+            "type"        : "1"
+           },
+           {
+            "content"     : "朋友圈",
+            "tasks"       : [ ],
+            "type"        : "0"
+           }
+          ],
+          "url"         : "http://www.shediao.com/sqy/gamelist_sqy_xj.html"
+         }
+        }
+       ]
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 7,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "三缺一新疆麻将分享",
+   "url"         : "${http_download}/hall/promote/imgs/share_icon.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 7123001,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "tasks"       : [
+        {
+         "action"      : "wechat_share",
+         "params"      : {
+          "content"     : "终于发现正宗江西麻将\n快快邀请好友来一起游戏吧",
+          "title"       : "优乐江西麻将",
+          "desc"        : "最正宗、最地道的江西麻将。玩法多样，规则可配,稳定安全！和亲朋好友一起游戏吧",
+          "buttons"     : [
+           {
+            "content"     : "好友",
+            "tasks"       : [ ],
+            "type"        : "1"
+           },
+           {
+            "content"     : "朋友圈",
+            "tasks"       : [ ],
+            "type"        : "0"
+           }
+          ],
+          "url"         : "http://www.shediao.com/landing/nanchang.html"
+         }
+        }
+       ]
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 7,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "优乐江西麻将",
+   "url"         : "${http_download}/hall/promote/imgs/share_icon.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 7010901,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "tasks"       : [
+        {
+         "action"      : "wechat_share",
+         "params"      : {
+          "content"     : "终于发现正宗抚州麻将\n快快邀请好友来一起游戏吧",
+          "title"       : "优乐抚州麻将",
+          "desc"        : "最符合抚州人口味，最地道的抚州麻将",
+          "buttons"     : [
+           {
+            "content"     : "好友",
+            "tasks"       : [ ],
+            "type"        : "1"
+           },
+           {
+            "content"     : "朋友圈",
+            "tasks"       : [ ],
+            "type"        : "0"
+           }
+          ],
+          "url"         : "http://www.shediao.com/landing/fuzhou.html"
+         }
+        }
+       ]
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 7,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "优乐抚州麻将",
+   "url"         : "${http_download}/hall/promote/imgs/share_icon.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 7011701,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "todotask.showInfo",
+     "info"        : "诚招代理: wanyiba100（微信）\n买卡请联系自己的群主"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "玩一把湖南棋牌买房卡",
+   "url"         : "${http_download}/majiang/difang/act/icon_tgw_mfk.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 7011702,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "typeId"      : "todotask.simple.invite"
+    }
+   ],
+   "redPoint"    : [
+    {
+     "typeId"      : "user.cond.HasFreeMark"
+    }
+   ],
+   "displayName" : "玩一把湖南棋牌邀请有礼",
+   "url"         : "${http_download}/hall/promote/imgs/icon_tgw_mffk.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 7012401,
+   "animate"     : 1,
+   "todotasks"   : [
+    {
+     "enter_param" : {
+      "pluginParams": {
+       "tasks"       : [
+        {
+         "action"      : "wechat_share",
+         "params"      : {
+          "content"     : "终于发现正宗鄱阳麻将\n快快邀请好友来一起游戏吧",
+          "title"       : "优乐鄱阳麻将",
+          "desc"        : "最正宗、最地道的鄱阳麻将。番型多样，规则可配,稳定安全！和亲朋好友一起游戏吧",
+          "buttons"     : [
+           {
+            "content"     : "好友",
+            "tasks"       : [ ],
+            "type"        : "1"
+           },
+           {
+            "content"     : "朋友圈",
+            "tasks"       : [ ],
+            "type"        : "0"
+           }
+          ],
+          "url"         : "http://www.shediao.com/landing/poyang.html"
+         }
+        }
+       ]
+      },
+      "type"        : "roomlist"
+     },
+     "gameId"      : 7,
+     "typeId"      : "hall.goto.enter.game"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "优乐鄱阳麻将",
+   "url"         : "${http_download}/hall/promote/imgs/share_icon.png",
+   "defaultRes"  : ""
+  },
+  {
+   "promotionId" : 7020901,
+   "animate"     : 0,
+   "todotasks"   : [
+    {
+     "typeId"      : "todotask.showInfo",
+     "info"        : "代理及买卡联系：\n微信：pymjlm\n官方公众号：YLE555888"
+    }
+   ],
+   "redPoint"    : [ ],
+   "displayName" : "优乐鄱阳麻将买房卡",
+   "url"         : "${http_download}/majiang/difang/act/icon_tgw_mfk.png",
+   "defaultRes"  : ""
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+CPU信息（未开启超线程）
+vendor_id   : GenuineIntel
+cpu family  : 6
+model       : 45
+model name  : Genuine Intel(R) CPU  @ 2.30GHz
+stepping    : 5
+cpu MHz     : 2300.100
+cache size  : 15360 KB
+
+1s处理8000个udp请求，每条请求做一个简单的redis set，服务进程cpu占用是35%
+1s处理30000个udp请求，每条请求执行一个pass语句空方法，cpu是16%
+
+redis的连接池，要配大一些(80)，如果连接池不够，很容易就把进程cpu吃上去，
+因为redis连接池满后，就会导致进程内tasklet数过多，调度这些tasklet耗cpu
+ftsvr.getConcurrentTaskCount方法，获取这个数值，同时在FTProtocolBase里
+加了_checkBusy方法，超过MAX_CONCURRENT，就不创建tasklet了,这样可以避免
+cpu全部吃满
